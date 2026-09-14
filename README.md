@@ -1,7 +1,9 @@
 # Berkshire Meetings
 
-Every public meeting across seven South County Berkshire towns, on one page —
-Great Barrington, Egremont, Sheffield, New Marlborough, Monterey, Sandisfield, and Lee.
+Every public meeting across the southern Berkshires, on one page —
+Great Barrington (incl. Housatonic), Sheffield, Egremont, New Marlborough,
+Monterey, Sandisfield, Stockbridge, West Stockbridge, Alford, Mount Washington,
+Richmond, and the Southern Berkshire Regional School District.
 
 **Live:** https://tylerherman19.github.io/berkshire-meetings/
 
@@ -18,9 +20,16 @@ Great Barrington, Egremont, Sheffield, New Marlborough, Monterey, Sandisfield, a
 | Town | Source |
 |---|---|
 | Sandisfield | `sandisfieldma.gov/calendar/ical/export.ics` |
-| Lee | `leema.gov/calendar.aspx` (site moved from lee.ma.us in 2026) |
 | Monterey | `montereyma.gov/calendar/ical/export.ics` |
 | Great Barrington | `townofgbma.gov/calendar.aspx?CID=23` |
 | Egremont | `egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all` |
 | New Marlborough | `newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all` |
 | Sheffield | `sheffieldma.gov/minutes-and-agendas` (per-board agenda pages) |
+| Stockbridge | _source research in progress_ |
+| West Stockbridge | _source research in progress_ |
+| Alford | _source research in progress_ |
+| Mount Washington | _source research in progress_ |
+| Richmond | _source research in progress_ |
+| SBRSD | _source research in progress_ |
+
+Pittsfield is covered editorially when a story crosses over (no automated scrape).
