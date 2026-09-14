@@ -22,7 +22,12 @@ from bs4 import BeautifulSoup
 
 ET = ZoneInfo("America/New_York")
 TODAY = datetime.now(ET).date()
-UA = {"User-Agent": "BerkshireMeetingsBot/1.0 (+https://tylerherman19.github.io/berkshire-meetings/)"}
+UA = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 MONTHS_FULL = ["January", "February", "March", "April", "May", "June",
                "July", "August", "September", "October", "November", "December"]
@@ -131,15 +136,15 @@ def scrape_ics(town, base):
     return n
 
 
-# ---------------- Great Barrington ----------------
+# ---------------- CivicPlus classic calendar list (Great Barrington, Lee) ----------------
 
-def scrape_great_barrington():
-    town = "Great Barrington"
-    base = "https://www.townofgbma.gov"
+def _civicplus_list(town, url):
+    """Parse a CivicPlus classic /calendar.aspx upcoming-meetings list. Returns count."""
+    base = re.match(r"https?://[^/]+", url).group(0)
     try:
-        soup = BeautifulSoup(get(base + "/calendar.aspx?CID=23").text, "html.parser")
+        soup = BeautifulSoup(get(url).text, "html.parser")
     except Exception as e:
-        print(f"[{town}] fetch failed: {e}", flush=True)
+        print(f"[{town}] fetch failed ({url}): {e}", flush=True)
         return 0
     n = 0
     for h3 in soup.find_all("h3"):
@@ -190,50 +195,74 @@ def scrape_great_barrington():
     return n
 
 
+def scrape_great_barrington():
+    return _civicplus_list("Great Barrington",
+                           "https://www.townofgbma.gov/calendar.aspx?CID=23")
+
+
+def scrape_lee():
+    town = "Lee"
+    # Site moved to leema.gov (CivicPlus) in 2026; try its calendar pages first.
+    for path in ["/calendar.aspx", "/Calendar.aspx"]:
+        try:
+            n = _civicplus_list(town, "https://leema.gov" + path)
+        except Exception as e:
+            print(f"[{town}] {path} error: {e}", flush=True)
+            n = 0
+        if n:
+            return n
+    print(f"[{town}] civicplus calendar empty, trying legacy ics", flush=True)
+    return scrape_ics(town, "https://www.lee.ma.us")
+
+
 # ---------------- Egremont / New Marlborough (CivicPlus AgendaCenter) ----------------
 
 def scrape_agenda_center(town, base):
     url = base.rstrip("/") + "/AgendaCenter/Search/?term=&CIDs=all"
     try:
-        soup = BeautifulSoup(get(url).text, "html.parser")
+        html = get(url).text
     except Exception as e:
         print(f"[{town}] fetch failed: {e}", flush=True)
         return 0
+    soup = BeautifulSoup(html, "html.parser")
+    tables = soup.find_all("table")
+    if not tables:
+        title = soup.title.get_text(strip=True) if soup.title else "?"
+        print(f"[{town}] no tables found (title={title!r}, len={len(html)})", flush=True)
+        return 0
     cutoff = TODAY - timedelta(days=30)
+    horizon = TODAY + timedelta(days=120)
     n = 0
-    for h2 in soup.find_all("h2"):
-        board = h2.get_text(" ", strip=True)
+    for tbl in tables:
+        h2 = tbl.find_previous("h2")
+        board = h2.get_text(" ", strip=True) if h2 else ""
         if not board or "search" in board.lower():
             continue
-        sib = h2.find_next_sibling()
-        while sib is not None and sib.name != "h2":
-            if sib.name == "table":
-                for tr in sib.find_all("tr"):
-                    tds = tr.find_all("td")
-                    if len(tds) < 2:
-                        continue
-                    cell = tds[0].get_text(" ", strip=True)
-                    m = re.search(r"([A-Za-z]{3})\s+\([A-Za-z]+\)\s+(\d{1,2}),\s+(\d{4})", cell)
-                    if not m:
-                        continue
-                    mon = ABBR.get(m.group(1).lower())
-                    if not mon:
-                        continue
-                    try:
-                        d = date(int(m.group(3)), mon, int(m.group(2)))
-                    except ValueError:
-                        continue
-                    if d < cutoff or d > TODAY + timedelta(days=120):
-                        continue
-                    a = tds[0].find("a", href=True)
-                    agenda_url = urljoin(base, a["href"]) if a else None
-                    title = a.get_text(" ", strip=True) if a else f"{board} Meeting"
-                    ma = tds[1].find("a", href=True)
-                    minutes_url = urljoin(base, ma["href"]) if ma else None
-                    add(town, board, title, d, agenda_url=agenda_url,
-                        minutes_url=minutes_url, source_url=url)
-                    n += 1
-            sib = sib.find_next_sibling()
+        for tr in tbl.find_all("tr"):
+            tds = tr.find_all("td")
+            if len(tds) < 2:
+                continue
+            cell = tds[0].get_text(" ", strip=True)
+            m = re.search(r"([A-Za-z]{3,9})\s*(?:\([A-Za-z]+\))?\s*(\d{1,2}),\s*(\d{4})", cell)
+            if not m:
+                continue
+            mon = ABBR.get(m.group(1)[:3].lower()) or MON.get(m.group(1).capitalize())
+            if not mon:
+                continue
+            try:
+                d = date(int(m.group(3)), mon, int(m.group(2)))
+            except ValueError:
+                continue
+            if d < cutoff or d > horizon:
+                continue
+            a = tds[0].find("a", href=True)
+            agenda_url = urljoin(base, a["href"]) if a else None
+            title = a.get_text(" ", strip=True) if a else f"{board} Meeting"
+            ma = tds[1].find("a", href=True)
+            minutes_url = urljoin(base, ma["href"]) if ma else None
+            add(town, board, title, d, agenda_url=agenda_url,
+                minutes_url=minutes_url, source_url=url)
+            n += 1
     return n
 
 
@@ -364,7 +393,7 @@ def scrape_monterey():
 def main():
     jobs = [
         ("Sandisfield", lambda: scrape_ics("Sandisfield", "https://www.sandisfieldma.gov")),
-        ("Lee", lambda: scrape_ics("Lee", "https://www.lee.ma.us")),
+        ("Lee", scrape_lee),
         ("Monterey", scrape_monterey),
         ("Great Barrington", scrape_great_barrington),
         ("Egremont", lambda: scrape_agenda_center("Egremont", "https://www.egremont-ma.gov")),
