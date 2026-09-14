@@ -190,6 +190,15 @@ footer .credit{font-family:var(--serif);font-style:italic}
   .stats{margin-top:18px}
   .stat .num{font-size:28px}
   .cell{min-height:52px}
+  /* town filter becomes a single scrollable strip instead of a wall of pills */
+  .towns{
+    flex-wrap:nowrap;overflow-x:auto;
+    margin-left:-20px;margin-right:-20px;padding:0 20px 6px;
+    scrollbar-width:none;-ms-overflow-style:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .towns::-webkit-scrollbar{display:none}
+  .towns .chip{flex:none}
 }
 
 /* ---------- archive ---------- */
