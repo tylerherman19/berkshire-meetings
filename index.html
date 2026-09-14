@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Berkshire Meetings — South County town meetings</title>
+<meta name="description" content="Every public meeting across seven South County Berkshire towns, in one place. Refreshed daily.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <p class="kicker">South County &middot; Massachusetts</p>
+  <h1>Berkshire Meetings</h1>
+  <p class="sub">Every public meeting in seven towns, on one page. Refreshed daily.</p>
+  <p class="updated" id="updated"></p>
+</header>
+
+<section class="stats" aria-label="This week at a glance">
+  <div class="stat"><span class="num" id="stat-week">0</span><span class="lbl">meetings in the next 7 days</span></div>
+  <div class="stat"><span class="num" id="stat-boards">0</span><span class="lbl">boards meeting</span></div>
+  <div class="stat"><span class="num">7</span><span class="lbl">towns covered</span></div>
+</section>
+
+<nav class="towns" id="towns" aria-label="Filter by town"></nav>
+
+<nav class="views" role="tablist" aria-label="Calendar views">
+  <button data-view="week" class="active" role="tab" aria-selected="true">Week</button>
+  <button data-view="day" role="tab" aria-selected="false">Day</button>
+  <button data-view="month" role="tab" aria-selected="false">Month</button>
+</nav>
+
+<main id="view" aria-live="polite"></main>
+
+<footer>
+  <p>Sources: the town websites of Great Barrington, Egremont, Sheffield, New Marlborough, Monterey, Sandisfield &amp; Lee. Scraped daily &mdash; always confirm time and place with the official posting.</p>
+  <p class="credit">Built for keeping up with South County town government.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
