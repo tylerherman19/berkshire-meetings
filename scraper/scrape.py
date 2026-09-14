@@ -957,6 +957,67 @@ def extract_document_text(meetings_out):
     return combined
 
 
+def change_summary(m):
+    return {"town": m.get("town") or "", "board": m.get("board") or "",
+            "title": m.get("title") or "", "date": m.get("date") or "",
+            "start": m.get("start") or ""}
+
+
+def detect_changes(old, new, checked_at):
+    """Diff the previous meetings.json against this run's. Returns change
+    dicts, newest first, capped at 80. Only upcoming meetings (date >= today)
+    are compared so yesterday's meetings aging out don't count as removed."""
+    today = checked_at[:10]
+    old_m = {meeting_key(m): m for m in old if (m.get("date") or "") >= today}
+    new_m = {meeting_key(m): m for m in new if (m.get("date") or "") >= today}
+    changes = []
+    for k, m in new_m.items():
+        if k not in old_m:
+            changes.append({"type": "added", "at": checked_at,
+                            **change_summary(m)})
+            continue
+        o = old_m[k]
+        fields = []
+        if (o.get("start") or "") != (m.get("start") or ""):
+            fields.append("time")
+        if (o.get("location") or "") != (m.get("location") or ""):
+            fields.append("location")
+        if bool(o.get("agenda_url")) != bool(m.get("agenda_url")):
+            fields.append("agenda")
+        if bool(o.get("minutes_url")) != bool(m.get("minutes_url")):
+            fields.append("minutes")
+        if fields:
+            changes.append({"type": "changed", "at": checked_at,
+                            "fields": fields, **change_summary(m)})
+    for k, m in old_m.items():
+        if k not in new_m:
+            changes.append({"type": "removed", "at": checked_at,
+                            **change_summary(m)})
+    # A rescheduled meeting looks like a removed+added pair (the key holds
+    # the start time). Coalesce those into a single "time changed" entry.
+    removed = [c for c in changes if c["type"] == "removed"]
+    added = [c for c in changes if c["type"] == "added"]
+    paired = set()
+    merged = []
+    for r in removed:
+        sig = (r["town"], r["board"], r["title"], r["date"])
+        match = next((a for a in added
+                      if (a["town"], a["board"], a["title"], a["date"]) == sig
+                      and id(a) not in paired), None)
+        if match:
+            paired.add(id(match))
+            merged.append({"type": "changed", "at": checked_at,
+                           "fields": ["time"],
+                           **{k: match[k] for k in
+                              ("town", "board", "title", "date", "start")}})
+        else:
+            merged.append(r)
+    merged.extend(a for a in added if id(a) not in paired)
+    merged.extend(c for c in changes
+                  if c["type"] not in ("removed", "added"))
+    return merged[:80]
+
+
 def main():
     jobs = [
         ("Sandisfield", scrape_sandisfield),
@@ -1039,6 +1100,20 @@ def main():
     root = Path(__file__).resolve().parent.parent
     target = root / "data" / "meetings.json"
     target.parent.mkdir(parents=True, exist_ok=True)
+
+    # Diff against the previous run so the site can show "what changed".
+    old_meetings = []
+    if target.exists():
+        try:
+            old_meetings = json.loads(target.read_text()).get("meetings") or []
+        except Exception as e:
+            print(f"could not read previous meetings.json for diff: {e}", flush=True)
+    changes = detect_changes(old_meetings, out, checked_at)
+    changes_target = root / "data" / "changes.json"
+    changes_target.write_text(json.dumps({"updated": checked_at,
+                                          "changes": changes}, indent=1))
+    print(f"{len(changes)} changes -> {changes_target}", flush=True)
+
     target.write_text(json.dumps(payload, indent=1))
     print(f"TOTAL {len(out)} meetings -> {target}", flush=True)
 
