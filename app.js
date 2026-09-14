@@ -1,7 +1,22 @@
 (function(){
 "use strict";
 
-var TOWNS = ["Great Barrington","Sheffield","Egremont","New Marlborough","Monterey","Sandisfield","Stockbridge","West Stockbridge","Alford","Mount Washington","Richmond","SBRSD"];
+var TOWN_ORDER = ["Great Barrington","Sheffield","Egremont","New Marlborough","Monterey","Sandisfield","Stockbridge","West Stockbridge","Alford","Mount Washington","Richmond","SBRSD"];
+
+// Town list is data-driven: any jurisdiction present in the JSON shows up,
+// even if this JS file is cached. TOWN_ORDER only controls display order.
+function townList(){
+  var seen={}, list=[];
+  DATA.meetings.forEach(function(m){ if(m.town && !seen[m.town]){ seen[m.town]=1; list.push(m.town); } });
+  list.sort(function(a,b){
+    var ia=TOWN_ORDER.indexOf(a), ib=TOWN_ORDER.indexOf(b);
+    if(ia<0 && ib<0) return a< b?-1:1;
+    if(ia<0) return 1;
+    if(ib<0) return -1;
+    return ia-ib;
+  });
+  return list;
+}
 var ET = "America/New_York";
 var DOW = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var MONS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -68,12 +83,13 @@ function meetingRow(m,i){
 
 function renderTowns(){
   var t=etToday(), e=addDays(t,7), counts={};
-  TOWNS.forEach(function(x){ counts[x]=0; });
+  var towns=townList();
+  towns.forEach(function(x){ counts[x]=0; });
   DATA.meetings.forEach(function(m){
     if(m.date>=t && m.date<e && counts[m.town]!=null) counts[m.town]++;
   });
   var h='<button class="chip'+(state.town==="All"?" active":"")+'" data-town="All">All towns</button>';
-  TOWNS.forEach(function(x){
+  towns.forEach(function(x){
     h+='<button class="chip'+(state.town===x?" active":"")+'" data-town="'+esc(x)+'">'+esc(x)+'<span class="n">'+counts[x]+'</span></button>';
   });
   $("#towns").innerHTML=h;
@@ -165,6 +181,7 @@ function renderStats(){
   wk.forEach(function(m){ if(m.board) boards[m.board]=1; });
   countUp($("#stat-week"),wk.length);
   countUp($("#stat-boards"),Object.keys(boards).length);
+  countUp($("#stat-towns"),townList().length);
 }
 
 function renderView(){
