@@ -191,3 +191,47 @@ footer .credit{font-family:var(--serif);font-style:italic}
   .stat .num{font-size:28px}
   .cell{min-height:52px}
 }
+
+/* ---------- archive ---------- */
+.archivebar{
+  max-width:760px;margin:26px auto 0;padding:0 20px;
+  display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+}
+#aq{
+  flex:1;min-width:200px;appearance:none;background:var(--card);
+  border:1px solid var(--line);border-radius:0;
+  font:400 15px var(--sans);color:var(--ink);padding:10px 12px;
+}
+#aq:focus{outline:2px solid var(--accent);outline-offset:-1px}
+#aq::-webkit-search-cancel-button{cursor:pointer}
+.minonly{
+  display:flex;align-items:center;gap:7px;white-space:nowrap;
+  font-size:13.5px;color:var(--muted);cursor:pointer;user-select:none;
+}
+.minonly input{accent-color:var(--accent);width:16px;height:16px;cursor:pointer}
+.archcount{
+  max-width:760px;margin:12px auto 0;padding:0 20px;
+  font-family:var(--mono);font-size:12px;color:var(--muted);
+}
+.hit{
+  display:inline-block;font:600 11px var(--sans);color:var(--accent);
+  background:var(--accent-soft);padding:2px 7px;margin-left:6px;vertical-align:1px;
+}
+
+/* ---------- sources ---------- */
+.srchead{max-width:760px;margin:26px auto 0;padding:0 20px}
+.srchead h2{font-family:var(--serif);font-size:26px;margin:0 0 8px;letter-spacing:-.01em}
+.srcsub{color:var(--muted);font-size:14.5px;margin:0;max-width:36em;line-height:1.55}
+.srcgrid{
+  max-width:760px;margin:18px auto 0;padding:0 20px;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);
+}
+.srccard{background:var(--card);padding:14px;display:flex;gap:11px;align-items:flex-start}
+.sdot{width:9px;height:9px;border-radius:50%;flex:none;margin-top:5px;background:var(--muted)}
+.sdot.ok{background:var(--accent)}
+.sdot.bad{background:#a33327}
+.sdot.na{background:transparent;border:1.5px solid var(--muted);width:7px;height:7px}
+.srcname{font-weight:700;font-size:14.5px}
+.srcstatus{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:3px}
+.srcdetail{font-size:13px;color:var(--muted);margin-top:5px;line-height:1.45}
