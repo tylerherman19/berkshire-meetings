@@ -1,0 +1,28 @@
+name: Scrape town meetings
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # 6:00 AM ET daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+      - name: Scrape meetings
+        run: python scraper/scrape.py
+      - name: Commit updated data
+        run: |
+          git config user.name "meetings-bot"
+          git config user.email "meetings-bot@users.noreply.github.com"
+          git add data/meetings.json
+          git diff --cached --quiet || (git commit -m "Update meetings data" && git push)
