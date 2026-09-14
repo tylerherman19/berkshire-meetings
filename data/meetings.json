@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-14T11:57:07-04:00",
+ "updated": "2026-09-14T12:18:33-04:00",
  "meetings": [
+  {
+   "town": "Otis",
+   "board": "CANCELED Cultural Council",
+   "title": "CANCELED Cultural Council Meeting",
+   "date": "2026-03-18",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
   {
    "town": "Egremont",
    "board": "Planning Board",
@@ -13,6 +26,45 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_03182026-1819",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_03182026-1819",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-03-19",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": "https://townofotisma.com/boards_commissions/select_board/Documents/Boards Commissions/Select Board/Agendas/2026/Selectboard Agenda 03-19-2026.pdf?t=202603110926460",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2026-03-19",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation Commission",
+   "title": "Recreation Commission Meeting",
+   "date": "2026-03-19",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -54,6 +106,45 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Council on Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-03-23",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Assessors",
+   "title": "Assessors Meeting",
+   "date": "2026-03-23",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Selectboard / Finance Board",
+   "title": "Selectboard / Finance Board Meeting",
+   "date": "2026-03-24",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Budget Meeting (PDF)",
@@ -80,6 +171,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Library Informational Session",
+   "title": "Library Informational Session",
+   "date": "2026-03-25",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
@@ -91,6 +195,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_03262026-1813",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_03262026-1813",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Joint Budget",
+   "title": "Joint Budget Meeting",
+   "date": "2026-03-27",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -132,6 +249,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "High School Scholarship Applications Due Date",
+   "title": "High School Scholarship Applications Due Date",
+   "date": "2026-04-01",
+   "start": "00:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -158,6 +288,45 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Caucus Ballot Deadline",
+   "title": "Caucus Ballot Deadline",
+   "date": "2026-04-07",
+   "start": "08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Local Elections Nomination Papers Deadline",
+   "title": "Local Elections Nomination Papers Deadline",
+   "date": "2026-04-07",
+   "start": "08:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Citizen's Petition Deadline",
+   "title": "Citizen's Petition Deadline",
+   "date": "2026-04-07",
+   "start": "08:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Budget Meeting (PDF)",
@@ -171,6 +340,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Library Informational Session",
+   "title": "Library Informational Session",
+   "date": "2026-04-08",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "ZOOM",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Informational Session on STR General Bylaw (PDF)",
@@ -182,6 +364,32 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_04082026-1828",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_04082026-1828",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-04-09",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "Monterey Fire Station",
+   "agenda_url": "https://townofotisma.com/boards_commissions/select_board/Documents/Boards Commissions/Select Board/Agendas/2026/Agenda 04-09-2026 EMS.pdf?t=202603301043480",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation",
+   "title": "Recreation Meeting",
+   "date": "2026-04-09",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -275,6 +483,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Scholarship Committee",
+   "title": "Scholarship Committee Meeting",
+   "date": "2026-04-13",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": "https://townofotisma.com/boards_commissions/scholarship_committee/Documents/Boards Commissions/Scholarship Committee/Agendas/Scholarship Meeting Agenda 04-13-2026.pdf?t=202604150912220",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board and Finance Committee Joint Meeting",
@@ -286,6 +507,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_04132026-376",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_04132026-376",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Caucus",
+   "title": "Caucus",
+   "date": "2026-04-14",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -340,6 +574,45 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-04-15",
+   "start": "06:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Library Building Committee",
+   "title": "Library Building Committee Meeting",
+   "date": "2026-04-15",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": "48 North Main Rd, Otis MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Select Board - Finance Board",
+   "title": "Select Board - Finance Board Meeting",
+   "date": "2026-04-16",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
@@ -390,6 +663,32 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_04172026-386",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_04172026-386",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Friends of The Otis Library Spring Book Sale",
+   "title": "Friends of The Otis Library Spring Book Sale",
+   "date": "2026-04-18",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "Otis Ridge",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Library Informational Session",
+   "title": "Library Informational Session",
+   "date": "2026-04-18",
+   "start": "11:30",
+   "end": null,
+   "all_day": false,
+   "location": "48 North Main Rd, Otis MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -444,6 +743,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Library Informational Session",
+   "title": "Library Informational Session",
+   "date": "2026-04-27",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting Agenda",
@@ -496,6 +808,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Revitalization Committee",
+   "title": "Revitalization Committee Meeting",
+   "date": "2026-04-30",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Municipal Housing Trust Regular Meeting (PDF)",
@@ -537,19 +862,6 @@
   {
    "town": "Egremont",
    "board": "Select Board",
-   "title": "Select Board Regular Meeting (PDF)",
-   "date": "2026-05-05",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1881",
-   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1881",
-   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Egremont",
-   "board": "Select Board",
    "title": "Select Board Meeting Concurrent with Annual Town Meeting (PDF)",
    "date": "2026-05-05",
    "start": null,
@@ -558,6 +870,19 @@
    "location": null,
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1882",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1882",
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Egremont",
+   "board": "Select Board",
+   "title": "Select Board Regular Meeting (PDF)",
+   "date": "2026-05-05",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1881",
+   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1881",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
@@ -600,6 +925,32 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Voter Registration Session",
+   "title": "Voter Registration Session",
+   "date": "2026-05-09",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Voter Registration Session",
+   "title": "Voter Registration Session",
+   "date": "2026-05-09",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -611,6 +962,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_05112026-402",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_05112026-402",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Ballot Test",
+   "title": "Ballot Test",
+   "date": "2026-05-12",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -652,6 +1016,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Library Building Committee",
+   "title": "Library Building Committee Meeting",
+   "date": "2026-05-13",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -663,6 +1040,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_05132026-404",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_05132026-404",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2026-05-14",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -691,6 +1081,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Deadline to apply for a mailed ballot for the annual town election",
+   "title": "Deadline to apply for a mailed ballot for the annual town election",
+   "date": "2026-05-18",
+   "start": "08:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Planning Board",
    "title": "Planning Board Regular Meeting (PDF)",
@@ -715,6 +1118,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_05182026-411",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_05182026-411",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Annual Town",
+   "title": "Annual Town Meeting",
+   "date": "2026-05-19",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": "555 North Main Rd, Otis MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -756,6 +1172,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Library Building Committee",
+   "title": "Library Building Committee Meeting",
+   "date": "2026-05-20",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": "48 North Main Rd, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-05-20",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Board of Health",
    "title": "Board of Health Regular Meeting (PDF)",
@@ -780,6 +1222,58 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_05212026-412",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_05212026-412",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "In- Person Absentee Ballot Deadline",
+   "title": "In- Person Absentee Ballot Deadline",
+   "date": "2026-05-22",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Annual Town Election",
+   "title": "Annual Town Election",
+   "date": "2026-05-26",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-05-26",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-05-27",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -808,6 +1302,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Revitalization Committee",
+   "title": "Revitalization Committee Meeting",
+   "date": "2026-06-01",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Zoning Board",
+   "title": "Zoning Board Meeting",
+   "date": "2026-06-01",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Planning Board",
    "title": "Planning Board Public Hearing Meeting Agenda",
@@ -832,6 +1352,58 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_06012026-422",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_06012026-422",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Revitalization",
+   "title": "Revitalization",
+   "date": "2026-06-03",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": "48 North Main Road",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Board of Registrars",
+   "title": "Board of Registrars Meeting",
+   "date": "2026-06-04",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation",
+   "title": "Recreation Meeting",
+   "date": "2026-06-04",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "ZBA",
+   "title": "ZBA",
+   "date": "2026-06-04",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -871,6 +1443,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_06042026-423",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_06042026-423",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Recount",
+   "title": "Recount",
+   "date": "2026-06-08",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "Otis Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -938,6 +1523,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Historical Commission",
+   "title": "Historical Commission Meeting",
+   "date": "2026-06-10",
+   "start": "16:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": "https://townofotisma.com/boards_commissions/historical_commission/Documents/Boards Commissions/Historical Commission/Agendas/2026/OHC agenda for June 10 2026.pdf?t=202605131149060",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2026-06-11",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Site Visit Meeting Agenda",
@@ -977,6 +1588,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Council on Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-06-15",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -988,6 +1612,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_06162026-1917",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_06162026-1917",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-06-17",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -1159,6 +1796,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Council on Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-07-06",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "French Park Dog Park Committee",
    "title": "French Park Dog Park Committee (PDF)",
@@ -1170,6 +1820,32 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_07072026-1935",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_07072026-1935",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2026-07-09",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation Commission",
+   "title": "Recreation Commission Meeting",
+   "date": "2026-07-09",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -1198,6 +1874,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-07-13",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": "Farmington River Regional School",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Green Committee",
    "title": "Green Committee Regular Meeting (PDF)",
@@ -1224,6 +1913,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-07-15",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": "https://townofotisma.com/boards_commissions/cultural_council/Documents/Boards Commissions/Cultural Council/Minutes/2026/July 15 2026 Minutes.pdf?t=202608221552240",
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting Agenda",
@@ -1235,6 +1937,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_07162026-455",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_07162026-455",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-07-20",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "555 North Main Rd, Otis MA 01253",
+   "agenda_url": "https://townofotisma.com/boards_commissions/school_board/Documents/Boards Commissions/School Committee/agendas/2026/482 Agenda 7-20-26.pdf?t=202607151018170",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -1289,6 +2004,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-07-22",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": "15 South Main Rd",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Planning Board",
    "title": "Planning Board Regular Meeting (PDF)",
@@ -1300,6 +2028,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_07222026-1952",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_07222026-1952",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-07-23",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "23, 2026 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
    "town": "Egremont",
@@ -1326,6 +2067,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_07272026-459",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_07272026-459",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Revitalization Committee",
+   "title": "Revitalization Committee Meeting",
+   "date": "2026-07-29",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -1380,6 +2134,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Historical Commission",
+   "title": "Historical Commission Meeting",
+   "date": "2026-08-04",
+   "start": "16:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": "https://townofotisma.com/boards_commissions/historical_commission/Documents/Boards Commissions/Historical Commission/Agendas/2026/AGENDA FOR August 4 2026.pdf?t=202607301058270",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Agricultural Commission",
    "title": "Agricultural Commission Meeting Agenda",
@@ -1419,6 +2186,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-08-10",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "Farmington River Regional School",
+   "agenda_url": "https://townofotisma.com/boards_commissions/school_board/Documents/Boards Commissions/School Committee/agendas/483 Agenda_ 8-10-26 .pdf?t=202608051223260",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
@@ -1445,6 +2225,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Master Plan Steering Committee",
+   "title": "Master Plan Steering Committee",
+   "date": "2026-08-12",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Water Commission",
    "title": "Water Commissioner Regular Meeting (PDF)",
@@ -1458,6 +2251,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2026-08-13",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Site Visit Meeting Agenda",
@@ -1469,6 +2275,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08132026-471",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_08132026-471",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Assessors",
+   "title": "Assessors Meeting",
+   "date": "2026-08-17",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "New Marlborough",
@@ -1508,6 +2327,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08182026-477",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-08-19",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -1562,6 +2394,45 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Otis",
+   "board": "Voter Registration Session",
+   "title": "Voter Registration Session",
+   "date": "2026-08-22",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall, 1 North Main Rd, Otis MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Voter Registration Session",
+   "title": "Voter Registration Session",
+   "date": "2026-08-22",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-08-24",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board special meeting with closed session (PDF)",
@@ -1601,6 +2472,45 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Tyringham",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting 8.26.2026\r\nTown Hall  5:00 PM",
+   "date": "2026-08-26",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_08262026-87",
+   "minutes_url": null,
+   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation Commission",
+   "title": "Recreation Commission Meeting",
+   "date": "2026-08-27",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-08-27",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "27, 2026 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
    "town": "Egremont",
    "board": "Conservation Commission",
    "title": "Conservation Commission Regular Meeting (PDF)",
@@ -1638,6 +2548,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08312026-482",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Otis",
+   "board": "State Primary",
+   "title": "State Primary",
+   "date": "2026-09-01",
+   "start": "07:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -1744,6 +2667,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Tyringham",
+   "board": "Planning Board",
+   "title": "Planning Board Hearing 9.2.2026",
+   "date": "2026-09-02",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09022026-88",
+   "minutes_url": null,
+   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Tyringham",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting 9.2.2026",
+   "date": "2026-09-02",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09022026-89",
+   "minutes_url": null,
+   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
    "town": "Egremont",
    "board": "Berkshire Regional Planning Commission",
    "title": "Berkshire Regional Planning Commission Executive Committee Meeting (PDF)",
@@ -1822,6 +2771,19 @@
    "source_url": "https://www.montereyma.gov/select-board/events/45861"
   },
   {
+   "town": "Otis",
+   "board": "Revitalization Committee",
+   "title": "Revitalization Committee Meeting",
+   "date": "2026-09-08",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Sandisfield",
    "board": "Planning Zoning Board",
    "title": "Planning Board Meeting",
@@ -1887,6 +2849,32 @@
    "source_url": "https://www.sandisfieldma.gov/board-health/events/35096"
   },
   {
+   "town": "Otis",
+   "board": "Master Plan Steering Committee",
+   "title": "Master Plan Steering Committee",
+   "date": "2026-09-09",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Planning Board Meeting with Master Plan Steering Committee",
+   "title": "Planning Board Meeting with Master Plan Steering Committee",
+   "date": "2026-09-09",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Egremont",
    "board": "Water Commission",
    "title": "Water Commissioners regular meeting (PDF)",
@@ -1924,6 +2912,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/monterey-community-center/events/45871"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-09-10",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "10, 2026 In-Person / Virtual",
+   "agenda_url": "https://docs.google.com/document/d/1gFY9sWiM7cYfYTHajpc7xEofD9HTPF90/edit?usp=sharing&ouid=113656411395168769248&rtpof=true&sd=true",
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
    "town": "Monterey",
@@ -2002,6 +3003,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_09102026-1989",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Tyringham",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting 9.10.2026",
+   "date": "2026-09-10",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09102026-90",
+   "minutes_url": null,
+   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Sandisfield",
@@ -2093,6 +3107,19 @@
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_09142026-2557",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1134&month=9&year=2026&day=14&calType=0"
+  },
+  {
+   "town": "Otis",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-09-14",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "Farmington River Regional School",
+   "agenda_url": "https://townofotisma.com/boards_commissions/school_board/Documents/Boards Commissions/School Committee/agendas/2026/484 Agenda 9-14-26.pdf?t=202609091026580",
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Monterey",
@@ -2290,6 +3317,19 @@
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1918&month=9&year=2026&day=14&calType=0"
   },
   {
+   "town": "Tyringham",
+   "board": "Schoolhouse Restoration Committee Meeting (9.16.2026)",
+   "title": "Schoolhouse Restoration Committee Meeting (9.16.2026)",
+   "date": "2026-09-16",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.tyringham-ma.gov/agendacenter",
+   "minutes_url": null,
+   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=459&month=9&year=2026&day=14&calType=0"
+  },
+  {
    "town": "Great Barrington",
    "board": "Berkshire Hills Regional School District Building Committee Meeting",
    "title": "Berkshire Hills Regional School District Building Committee Meeting",
@@ -2366,6 +3406,19 @@
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-91626",
    "minutes_url": null,
    "source_url": "https://www.sheffieldma.gov/node/27/agenda"
+  },
+  {
+   "town": "Tyringham",
+   "board": "Schoolhouse Restoration Committee",
+   "title": "Schoolhouse Restoration Committee Meeting (9.16.2026)",
+   "date": "2026-09-16",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09162026-91",
+   "minutes_url": null,
+   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Great Barrington",
@@ -2576,6 +3629,19 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/46036"
   },
   {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-09-24",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "24, 2026 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
    "town": "Alford",
    "board": "Highway",
    "title": "Transfer Station",
@@ -2639,6 +3705,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.townofalford.org/Calendar.aspx?EID=553&month=9&year=2026&day=14&calType=0"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation Commission",
+   "title": "Recreation Commission Meeting",
+   "date": "2026-09-29",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -2719,6 +3798,45 @@
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
   },
   {
+   "town": "Otis",
+   "board": "Zoning Board",
+   "title": "Zoning Board Meeting",
+   "date": "2026-10-05",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2026-10-08",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-10-08",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "8, 2026 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "SBPHC Monthly Meeting",
@@ -2797,6 +3915,45 @@
    "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
+   "town": "Otis",
+   "board": "In-Person Early Voting",
+   "title": "In-Person Early Voting",
+   "date": "2026-10-17",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "In-Person Early Voting",
+   "title": "In-Person Early Voting",
+   "date": "2026-10-17",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "In-Person Early Voting",
+   "title": "In-Person Early Voting",
+   "date": "2026-10-20",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Sandisfield",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -2810,6 +3967,32 @@
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
+   "town": "Otis",
+   "board": "Ballot Test",
+   "title": "Ballot Test",
+   "date": "2026-10-22",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Voter Registration Session",
+   "title": "Voter Registration Session",
+   "date": "2026-10-24",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Monterey",
    "board": "Town Administrator",
    "title": "Fall Household Hazardous Waste Collection",
@@ -2821,6 +4004,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/town-administrator/events/45671"
+  },
+  {
+   "town": "Otis",
+   "board": "Voter Registration Session",
+   "title": "Voter Registration Session",
+   "date": "2026-10-24",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Sandisfield",
@@ -2862,6 +4058,19 @@
    "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-10-29",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "29, 2026 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
    "town": "Sandisfield",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -2873,6 +4082,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
+  },
+  {
+   "town": "Otis",
+   "board": "State Election",
+   "title": "State Election",
+   "date": "2026-11-03",
+   "start": "07:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-11-04",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Monterey",
@@ -2966,6 +4201,19 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/43086"
   },
   {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-11-12",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "12, 2026 (Re-organization) In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "SBPHC Monthly Meeting",
@@ -2990,6 +4238,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
+  },
+  {
+   "town": "Otis",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-11-18",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Sandisfield",
@@ -3083,6 +4344,19 @@
    "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
   },
   {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-12-03",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "Board of Health",
@@ -3133,6 +4407,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-12-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
    "town": "Monterey",
@@ -3237,12 +4524,80 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/board-health/events/39666"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2027-01-14",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "14, 2027 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2027-01-28",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "28, 2027 In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2027-02-11",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "11, 2027 (Proposed Budget presentation to SC) In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2027-02-25",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "25, 2027 (Proposed Public Hearing / Potential Vote ) In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2027-03-11",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "11, 2027 Regular Mtg ( PotentialVote/additional discussion if needed ) In-Person / Virtual",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   }
  ],
  "towns": {
+  "Otis": 84,
   "Egremont": 82,
   "New Marlborough": 74,
+  "BHRSD": 14,
   "SBRSD": 3,
+  "Tyringham": 6,
   "Monterey": 34,
   "Sandisfield": 34,
   "Great Barrington": 14,
@@ -3253,49 +4608,74 @@
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 82,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 74,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 7,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null
+  },
+  "Otis": {
+   "ok": true,
+   "meetings": 84,
+   "checked_at": "2026-09-14T12:18:33-04:00",
+   "error": null
+  },
+  "Tyringham": {
+   "ok": true,
+   "meetings": 6,
+   "checked_at": "2026-09-14T12:18:33-04:00",
+   "error": null
+  },
+  "Becket": {
+   "ok": true,
+   "meetings": 0,
+   "checked_at": "2026-09-14T12:18:33-04:00",
+   "error": null
+  },
+  "BHRSD": {
+   "ok": true,
+   "meetings": 14,
+   "checked_at": "2026-09-14T12:18:33-04:00",
+   "error": null,
+   "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-14T11:57:07-04:00",
+   "checked_at": "2026-09-14T12:18:33-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
