@@ -650,44 +650,57 @@ def meeting_key(m):
 PDF_HINTS = ("AgendaCenter/ViewFile/", ".pdf", "/media/")
 
 
-def extract_agenda_text(meetings_out):
-    """Download agenda PDFs and extract searchable text.
+def extract_document_text(meetings_out):
+    """Download agenda + minutes PDFs and extract searchable text.
 
-    Writes data/agenda_text.json keyed by meeting_key(). Failures are
-    silent per-document; the archive simply won't have text for those.
+    Writes data/agenda_text.json keyed by meeting_key(). Agenda and minutes
+    text are combined per meeting. Failures are silent per-document; the
+    archive simply won't have text for those.
     """
     try:
         import pdfplumber
     except ImportError:
-        print("[agenda-text] pdfplumber not installed, skipping", flush=True)
+        print("[doc-text] pdfplumber not installed, skipping", flush=True)
         return {}
-    texts = {}
-    targets = [m for m in meetings_out
-               if m.get("agenda_url") and any(h in m["agenda_url"] for h in PDF_HINTS)]
-    print(f"[agenda-text] extracting text from {len(targets)} agendas", flush=True)
-    for m in targets:
-        url = m["agenda_url"]
+    import io
+    jobs = []
+    for m in meetings_out:
+        if m.get("agenda_url") and any(h in m["agenda_url"] for h in PDF_HINTS):
+            jobs.append((m, m["agenda_url"], "agenda"))
+        if m.get("minutes_url") and any(h in m["minutes_url"] for h in PDF_HINTS):
+            jobs.append((m, m["minutes_url"], "minutes"))
+    print(f"[doc-text] extracting text from {len(jobs)} documents", flush=True)
+
+    def fetch_text(url):
+        r = requests.get(url, headers=UA, timeout=45)
+        r.raise_for_status()
+        if len(r.content) > 15_000_000:  # skip monster files
+            return ""
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            parts = []
+            for p in pdf.pages[:12]:
+                parts.append(p.extract_text() or "")
+                if sum(len(x) for x in parts) > 8000:
+                    break
+        txt = "\n".join(parts)
+        txt = re.sub(r"[ \t]+", " ", txt)
+        return re.sub(r"\n{3,}", "\n\n", txt).strip()[:8000]
+
+    combined = {}
+    for m, url, kind in jobs:
+        key = meeting_key(m)
         try:
-            r = requests.get(url, headers=UA, timeout=45)
-            r.raise_for_status()
-            if len(r.content) > 15_000_000:  # skip monster files
-                continue
-            import io
-            with pdfplumber.open(io.BytesIO(r.content)) as pdf:
-                parts = []
-                for p in pdf.pages[:12]:
-                    parts.append(p.extract_text() or "")
-                    if sum(len(x) for x in parts) > 8000:
-                        break
-            txt = "\n".join(parts)
-            txt = re.sub(r"[ \t]+", " ", txt)
-            txt = re.sub(r"\n{3,}", "\n\n", txt).strip()[:8000]
-            if len(txt) > 120:
-                texts[meeting_key(m)] = txt
+            txt = fetch_text(url)
         except Exception as e:
-            print(f"[agenda-text] skip {url}: {type(e).__name__}", flush=True)
-    print(f"[agenda-text] extracted {len(texts)} documents", flush=True)
-    return texts
+            print(f"[doc-text] skip {url}: {type(e).__name__}", flush=True)
+            continue
+        if len(txt) < 120:
+            continue
+        prev = combined.get(key, "")
+        tag = "\n\n--- MINUTES ---\n\n" if kind == "minutes" else ""
+        combined[key] = (prev + tag + txt)[:16000] if prev else txt
+    print(f"[doc-text] extracted {len(combined)} documents", flush=True)
+    return combined
 
 
 def main():
@@ -764,9 +777,9 @@ def main():
     target.write_text(json.dumps(payload, indent=1))
     print(f"TOTAL {len(out)} meetings -> {target}", flush=True)
 
-    # Searchable agenda text lives in a separate lazy-loaded file so the
-    # main JSON stays small.
-    texts = extract_agenda_text(out)
+    # Searchable agenda/minutes text lives in a separate lazy-loaded file so
+    # the main JSON stays small.
+    texts = extract_document_text(out)
     atext_target = root / "data" / "agenda_text.json"
     atext_target.write_text(json.dumps({"updated": checked_at, "texts": texts}))
     print(f"agenda text -> {atext_target}", flush=True)
