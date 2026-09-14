@@ -251,6 +251,7 @@ def scrape_agenda_center(town, base):
         return 0
     cutoff = TODAY - timedelta(days=30)
     horizon = TODAY + timedelta(days=120)
+    minutes_cutoff = TODAY - timedelta(days=180)
     n = 0
     for tbl in tables:
         h2 = tbl.find_previous("h2")
@@ -272,13 +273,17 @@ def scrape_agenda_center(town, base):
                 d = date(int(m.group(3)), mon, int(m.group(2)))
             except ValueError:
                 continue
-            if d < cutoff or d > horizon:
-                continue
             a = tds[0].find("a", href=True)
             agenda_url = urljoin(base, a["href"]) if a else None
             title = a.get_text(" ", strip=True) if a else f"{board} Meeting"
             ma = tds[1].find("a", href=True)
             minutes_url = urljoin(base, ma["href"]) if ma else None
+            # Minutes get posted weeks after the meeting, so keep older rows
+            # that have minutes links (feeds the minutes archive).
+            if d > horizon:
+                continue
+            if d < cutoff and not (minutes_url and d >= minutes_cutoff):
+                continue
             add(town, board, title, d, agenda_url=agenda_url,
                 minutes_url=minutes_url, source_url=url)
             n += 1
@@ -636,6 +641,55 @@ def attribute_sbrsd():
 
 # ---------------- main ----------------
 
+def meeting_key(m):
+    return "|".join([m.get("town") or "", m.get("board") or "",
+                     m.get("title") or "", m.get("date") or "",
+                     m.get("start") or ""])
+
+
+PDF_HINTS = ("AgendaCenter/ViewFile/", ".pdf", "/media/")
+
+
+def extract_agenda_text(meetings_out):
+    """Download agenda PDFs and extract searchable text.
+
+    Writes data/agenda_text.json keyed by meeting_key(). Failures are
+    silent per-document; the archive simply won't have text for those.
+    """
+    try:
+        import pdfplumber
+    except ImportError:
+        print("[agenda-text] pdfplumber not installed, skipping", flush=True)
+        return {}
+    texts = {}
+    targets = [m for m in meetings_out
+               if m.get("agenda_url") and any(h in m["agenda_url"] for h in PDF_HINTS)]
+    print(f"[agenda-text] extracting text from {len(targets)} agendas", flush=True)
+    for m in targets:
+        url = m["agenda_url"]
+        try:
+            r = requests.get(url, headers=UA, timeout=45)
+            r.raise_for_status()
+            if len(r.content) > 15_000_000:  # skip monster files
+                continue
+            import io
+            with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+                parts = []
+                for p in pdf.pages[:12]:
+                    parts.append(p.extract_text() or "")
+                    if sum(len(x) for x in parts) > 8000:
+                        break
+            txt = "\n".join(parts)
+            txt = re.sub(r"[ \t]+", " ", txt)
+            txt = re.sub(r"\n{3,}", "\n\n", txt).strip()[:8000]
+            if len(txt) > 120:
+                texts[meeting_key(m)] = txt
+        except Exception as e:
+            print(f"[agenda-text] skip {url}: {type(e).__name__}", flush=True)
+    print(f"[agenda-text] extracted {len(texts)} documents", flush=True)
+    return texts
+
+
 def main():
     jobs = [
         ("Sandisfield", scrape_sandisfield),
@@ -650,12 +704,16 @@ def main():
         ("Mount Washington", scrape_mount_washington),
     ]
     total = 0
+    errors = {}
     for name, fn in jobs:
         try:
             c = fn()
+            ok = True
         except Exception as e:  # never let one town kill the run
             print(f"[{name}] ERROR: {e}", flush=True)
             c = 0
+            ok = False
+            errors[name] = f"{type(e).__name__}: {e}"[:200]
         stats[name] = c
         total += c
         print(f"[{name}] {c} meetings", flush=True)
@@ -677,16 +735,41 @@ def main():
     for m in out:
         town_counts[m["town"]] = town_counts.get(m["town"], 0) + 1
 
+    checked_at = datetime.now(ET).isoformat(timespec="seconds")
+    sources = {}
+    for name in stats:
+        sources[name] = {
+            "ok": name not in errors,
+            "meetings": town_counts.get(name, 0),
+            "checked_at": checked_at,
+            "error": errors.get(name),
+        }
+    sources["SBRSD"] = {
+        "ok": True,
+        "meetings": town_counts.get("SBRSD", 0),
+        "checked_at": checked_at,
+        "error": None,
+        "note": "District notices reposted by member towns",
+    }
+
     payload = {
-        "updated": datetime.now(ET).isoformat(timespec="seconds"),
+        "updated": checked_at,
         "meetings": out,
         "towns": town_counts,
+        "sources": sources,
     }
     root = Path(__file__).resolve().parent.parent
     target = root / "data" / "meetings.json"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(payload, indent=1))
     print(f"TOTAL {len(out)} meetings -> {target}", flush=True)
+
+    # Searchable agenda text lives in a separate lazy-loaded file so the
+    # main JSON stays small.
+    texts = extract_agenda_text(out)
+    atext_target = root / "data" / "agenda_text.json"
+    atext_target.write_text(json.dumps({"updated": checked_at, "texts": texts}))
+    print(f"agenda text -> {atext_target}", flush=True)
 
 
 if __name__ == "__main__":
