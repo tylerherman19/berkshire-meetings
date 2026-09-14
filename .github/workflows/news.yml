@@ -1,0 +1,46 @@
+name: Scrape town news
+
+# Hourly, 6:00 AM to midnight Eastern.
+#
+# Cron is UTC and has no idea about daylight saving, so the schedule below is
+# the union of both offsets — 6:00 AM ET is 10:00 UTC in summer and 11:00 UTC
+# in winter, midnight ET is 04:00 UTC in summer and 05:00 UTC in winter. The
+# scraper itself checks the Eastern clock and exits without writing when it is
+# woken outside the window, which is what actually holds the edges year-round.
+on:
+  schedule:
+    - cron: "0 10-23,0-4 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even outside the 6am-midnight ET window"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Same reasoning as the meetings scraper: data/news.json is rewritten whole
+# each run, so two concurrent runs would race on the file and on git.
+concurrency:
+  group: scrape-news
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+      - name: Scrape news
+        run: python scraper/news.py ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '--force' || '' }}
+      - name: Commit updated data
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add data/news.json
+          git diff --cached --quiet || (git commit -m "Update town news" && git pull --rebase && git push)
