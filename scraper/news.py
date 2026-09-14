@@ -57,12 +57,16 @@ errors = {}         # source name -> error string
 
 # --------------------------------------------------------------- fetching
 
-def get(url, timeout=40):
-    """GET with the meetings scraper's browser-TLS fallback for 403s.
+# Four of these towns sit behind Cloudflare, which serves a JS challenge to
+# anything whose TLS fingerprint it doesn't like. Which fingerprint passes
+# varies by town and changes over time, so try a few rather than one: as of
+# this writing Chrome is refused everywhere the challenge is on, Safari 17
+# clears Monterey, Sandisfield and Becket, and Sheffield wants Safari 15.
+IMPERSONATE = ["chrome", "safari17_0", "safari15_5"]
 
-    Several of these towns sit behind Cloudflare and refuse plain requests
-    from datacenter IPs; curl_cffi's Chrome impersonation gets through.
-    """
+
+def get(url, timeout=40):
+    """GET, falling back to browser-TLS impersonation when a host refuses us."""
     try:
         r = requests.get(url, headers=UA, timeout=timeout)
         r.raise_for_status()
@@ -76,15 +80,19 @@ def get(url, timeout=40):
         except ImportError:
             print("[retry-tls] curl_cffi not installed", flush=True)
             raise
-        for attempt in (1, 2, 3):
-            print(f"[retry-tls] {code} for {url}; browser-TLS attempt {attempt}/3",
-                  flush=True)
-            r2 = tls_requests.get(url, headers=UA, timeout=timeout, impersonate="chrome")
+        for i, profile in enumerate(IMPERSONATE):
+            print(f"[retry-tls] {code} for {url}; trying {profile}", flush=True)
+            try:
+                r2 = tls_requests.get(url, headers=UA, timeout=timeout,
+                                      impersonate=profile)
+            except Exception as err:
+                print(f"[retry-tls] {profile} errored: {err}", flush=True)
+                continue
             if r2.status_code < 400:
-                print(f"[retry-tls] success for {url}", flush=True)
+                print(f"[retry-tls] {profile} got through to {url}", flush=True)
                 return r2
-            print(f"[retry-tls] still failing: {r2.status_code}", flush=True)
-            time.sleep(5 * attempt)
+            print(f"[retry-tls] {profile} still {r2.status_code}", flush=True)
+            time.sleep(2 * (i + 1))
         raise
 
 
@@ -406,6 +414,52 @@ def _drupal_title_link(row, page_url):
     return None, None
 
 
+# A row cell holding nothing but a posting date — Drupal 7 renders these in the
+# same .field-content wrapper as the body, so they have to be told apart.
+STAMP_ONLY = re.compile(
+    rf"^\s*(\w+day,?\s+)?({MONTHS_RE}|{'|'.join(m[:3] for m in MONTHS_FULL)})\.?\s+"
+    r"\d{1,2},?\s+\d{4}\s*[-–—]?\s*(\d{1,2}:\d{2}\s*(am|pm)?)?\s*$", re.I)
+# Drupal teaser furniture: "Read more", "… more ››", a bare chevron.
+TEASER_TAIL = re.compile(r"(\.{3}|…)?\s*(read\s+)?more\s*[»›]{0,2}\s*$", re.I)
+
+
+def _drupal_summary(row, headline):
+    """The row's body text, avoiding the date cell and teaser furniture."""
+    for sel in (".views-field-body", ".field-name-body",
+                ".field-type-text-with-summary", ".node-content",
+                ".views-field-field-summary"):
+        el = row.select_one(sel)
+        if el:
+            text = squash(el.get_text(" ", strip=True))
+            if text and text != headline and not STAMP_ONLY.match(text):
+                return _clean_teaser(text, headline)
+
+    # No named body field: take the longest candidate that isn't the headline,
+    # a bare date, or teaser furniture.
+    best = ""
+    for el in row.select("p, .field-content, .teaser, .node-teaser"):
+        text = squash(el.get_text(" ", strip=True))
+        if not text or text == headline or STAMP_ONLY.match(text):
+            continue
+        if len(text) > len(best):
+            best = text
+    if not best:
+        best = squash(row.get_text(" ", strip=True)).replace(headline, " ", 1)
+    return _clean_teaser(best, headline)
+
+
+def _clean_teaser(text, headline):
+    # Squash the headline too: get_text(" ") can leave double spaces in it that
+    # the row's own squashed text doesn't have, and the replace would miss.
+    text = squash(text).replace(squash(headline), " ", 1)
+    text = TEASER_TAIL.sub("", squash(text)).strip(" .·–—-")
+    # What's left of a link-only teaser ("Click here to… more ››") says nothing;
+    # a card carried by its headline alone reads better than a stub.
+    if len(text) < 30 or STAMP_ONLY.match(text):
+        return None
+    return text
+
+
 def scrape_drupal_news(town, urls):
     """Generic Drupal news listing.
 
@@ -455,15 +509,7 @@ def scrape_drupal_news(town, urls):
                     d = date_from_text(row.get_text(" ", strip=True))
             posted = iso_posted(d, dt)
 
-            body = row.select_one(
-                ".views-field-body, .field-name-body, .node-content, "
-                ".views-field-field-summary, .field-content, p")
-            summary = body.get_text(" ", strip=True) if body else None
-            if summary and squash(summary) == headline:
-                summary = None
-            if summary is None:
-                # Fall back to the row's own text with the headline removed.
-                summary = row.get_text(" ", strip=True).replace(headline, " ", 1)
+            summary = _drupal_summary(row, headline)
 
             if add(town, headline, link, posted=posted, summary=summary,
                    date_only=dt is None):

@@ -1179,10 +1179,14 @@ function newsSourcesSection(){
     'Nothing is rewritten — headlines and summaries are the towns&rsquo; own words, and every '+
     'card links back to the original posting.</p><div class="nsrclist">';
   srcs.forEach(function(s){
-    var cls = s.ok ? "ok" : (s.items ? "stale" : "bad");
-    var note = s.ok ? plural(s.items,"item")+" on file"
+    /* A town that scrapes cleanly but posts rarely is not a broken source, and
+       saying so beats a bare "0 items". */
+    var cls = s.ok ? (s.items ? "ok" : "quiet") : (s.items ? "stale" : "bad");
+    var note = s.ok
+             ? (s.items ? plural(s.items,"item")+" on file"
+                        : "Nothing posted in the last 90 days")
              : s.items ? plural(s.items,"item")+" on file · last check failed"
-             : "No items yet · "+(s.error ? "last check failed" : "nothing posted");
+                       : "No items yet · "+(s.error ? "last check failed" : "nothing posted");
     h+='<div class="nsrc">'+
        '<span class="sdot '+cls+'"></span>'+
        '<span class="nsrc-main">'+

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T15:18:29-04:00",
+ "updated": "2026-09-14T15:25:03-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -17,7 +17,7 @@
    "posted": "2026-09-14T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/217",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -28,7 +28,7 @@
    "posted": "2026-09-14T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/789",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -39,7 +39,18 @@
    "posted": "2026-09-14T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R105.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Reminder: Please join us for the Special Town Meeting on Saturday, September 19, at 2:00 PM. We hope to see you there!",
+   "summary": null,
+   "posted": "2026-09-13T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/reminder-please-join-us-special-town-meeting-saturday-september-19-200-pm-we-hope-see-you",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -50,7 +61,7 @@
    "posted": "2026-09-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/788",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -61,7 +72,7 @@
    "posted": "2026-09-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/787",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -72,7 +83,7 @@
    "posted": "2026-09-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/786",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -83,7 +94,7 @@
    "posted": "2026-09-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/785",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -94,7 +105,7 @@
    "posted": "2026-09-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/122",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -105,7 +116,29 @@
    "posted": "2026-09-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/123",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Dodd Road Update and Timeline",
+   "summary": "The Town of Sandisfield is pleased to announce that work on the Dodd Road Culvert Project will begin Monday, September 21, 2026.The project",
+   "posted": "2026-09-11T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/dodd-road-update-and-timeline",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Save the Date: SHINE Medicare Information Session \u2014 Wednesday, Oct. 28, 10:30\u201311:30 AM",
+   "summary": "Those who are new to Medicare or already enrolled are invited to join Steven Rosenthal, Becket resident and SHINE program representative,",
+   "posted": "2026-09-11T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/save-date-shine-medicare-information-session-%E2%80%94-wednesday-oct-28-1030%E2%80%931130-am",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -116,7 +149,18 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/784",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Special Permit Hearing",
+   "summary": "In accordance with the requirements of Massachusetts General Law Chapter 40A and the Sandisfield Zoning Bylaws, the Sandisfield Select",
+   "posted": "2026-09-09T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/special-permit-hearing",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -127,7 +171,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R79.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -138,7 +182,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R99.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -149,7 +193,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R102.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -160,7 +204,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R103.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -171,7 +215,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R104.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Tyringham",
@@ -182,7 +226,29 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/37",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Household Hazardous Waste Day / D\u00eda Para Deshacerse De Los Residuos Peligrosos Del Hogar - 10/24/2026, 9am till 1pm",
+   "summary": null,
+   "posted": "2026-09-09T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/household-hazardous-waste-day-d%C3%ADa-para-deshacerse-de-los-residuos-peligrosos-del-hogar-0",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Household Hazardous Waste Day / D\u00eda Para Deshacerse De Los Residuos Peligrosos Del Hogar - 10/24/2026, 9am till 1pm",
+   "summary": null,
+   "posted": "2026-09-09T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/household-hazardous-waste-day-d%C3%ADa-para-deshacerse-de-los-residuos-peligrosos-del-hogar",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Alford",
@@ -193,7 +259,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofalford.org/m/newsflash/Home/Detail/20",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -204,7 +270,7 @@
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=86692986",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -215,7 +281,29 @@
    "posted": "2026-09-08T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/216",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Hall Closed 9/11/26-9/18/26",
+   "summary": "Please be advised that Town Hall will be closed from Friday, September 11, 2026, through Friday, September 18, 2026, due to parking lot",
+   "posted": "2026-09-08T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-hall-closed-91126-91826",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "North Becket Cemetery will be CLOSED on Thursday, 10 September 2026 due to tree work along the front / entry driveway. We apologize for any inconvenience.",
+   "summary": null,
+   "posted": "2026-09-08T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/north-becket-cemetery-will-be-closed-thursday-10-september-2026-due-tree-work-along-front",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Alford",
@@ -226,7 +314,7 @@
    "posted": "2026-09-08T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofalford.org/DocumentCenter/View/896/FY-2027-pending-preliminary-values-for-Real-Estate-and-Personal-Property",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -237,7 +325,7 @@
    "posted": "2026-09-05T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/783",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -248,7 +336,7 @@
    "posted": "2026-09-05T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/782",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -259,7 +347,7 @@
    "posted": "2026-09-05T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/779",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -270,7 +358,7 @@
    "posted": "2026-09-05T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/781",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -281,7 +369,7 @@
    "posted": "2026-09-05T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/780",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -292,7 +380,7 @@
    "posted": "2026-09-04T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/215",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -303,7 +391,7 @@
    "posted": "2026-09-04T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=87018821",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -314,7 +402,7 @@
    "posted": "2026-09-04T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=86962968",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -325,7 +413,7 @@
    "posted": "2026-09-04T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=87006405",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -336,7 +424,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/213",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -347,7 +435,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/212",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -358,7 +446,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R100.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -369,7 +457,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=86815433",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -380,7 +468,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=86797455",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -391,7 +479,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=86785187",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "BHRSD",
@@ -402,7 +490,7 @@
    "posted": "2026-09-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=86784154",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -413,7 +501,40 @@
    "posted": "2026-09-02T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/211",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "State Primary Results September 1,2026",
+   "summary": "Please see the attached election results for the state primaries held on September 1, 2026",
+   "posted": "2026-09-02T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/state-primary-results-september-12026",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Senior and Veteran Tax Workoff Program",
+   "summary": "Senior & Veteran Tax Work-Off Program The Town of Sandisfield\u2019s Senior & Veteran Tax Work-Off Program provides",
+   "posted": "2026-09-02T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/senior-and-veteran-tax-workoff-program-1",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Town Clerk & Assistant Town Clerk Vacancies",
+   "summary": "The Town of Sandisfield is seeking an experienced Town Clerk to serve until the local election in May 2027 and a local resident interested",
+   "posted": "2026-09-02T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-clerk-assistant-town-clerk-vacancies",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -424,7 +545,7 @@
    "posted": "2026-09-01T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/210",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Egremont",
@@ -435,7 +556,18 @@
    "posted": "2026-09-01T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/778",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "The Becket Swap Shop is closed today due to inclement weather. PLEASE DO NOT LEAVE ANY ITEMS OUTSIDE AT THE SWAP SHOP AREA. We will be open again on Saturday, September 5th. See you then!",
+   "summary": null,
+   "posted": "2026-09-01T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-swap-shop-closed-today-due-inclement-weather-please-do-not-leave-any-items-outside",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -446,7 +578,7 @@
    "posted": "2026-08-31T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/120",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Tyringham",
@@ -457,7 +589,18 @@
    "posted": "2026-08-31T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/35",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Buckley Dunton boat ramp will be closed today (Aug. 31) through Sept. 4 for construction.",
+   "summary": null,
+   "posted": "2026-08-31T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/buckley-dunton-boat-ramp-will-be-closed-today-aug-31-through-sept-4-construction",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -468,7 +611,7 @@
    "posted": "2026-08-27T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/209",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -479,7 +622,7 @@
    "posted": "2026-08-27T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/208",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -490,7 +633,7 @@
    "posted": "2026-08-27T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/116",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -501,7 +644,18 @@
    "posted": "2026-08-27T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/117",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Exercise Your Right to Vote in the State Primary \u2014 Tuesday, September 1. Polls Open 7:00 AM\u20138:00 PM",
+   "summary": null,
+   "posted": "2026-08-27T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/exercise-your-right-vote-state-primary-%E2%80%94-tuesday-september-1-polls-open-700-am%E2%80%93800-pm",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -512,7 +666,18 @@
    "posted": "2026-08-26T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/207",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Tree ID Walk with Chelsey Simmons - Saturday, Sept 12, 10AM",
+   "summary": "https://www.becketathenaeum.org/events/tree",
+   "posted": "2026-08-25T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/tree-id-walk-chelsey-simmons-saturday-sept-12-10am",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -523,7 +688,29 @@
    "posted": "2026-08-22T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/205",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Free Weed Watchers Indoor Workshop - Aug 26 from 2pm till 4pm",
+   "summary": null,
+   "posted": "2026-08-21T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/free-weed-watchers-indoor-workshop-aug-26-2pm-till-4pm",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Massachusetts State Primary Election \u2013 September 1, 2026",
+   "summary": "The Massachusetts State Primary Election will be held on Tuesday, September 1, 2026 . Election Day Voting",
+   "posted": "2026-08-18T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/massachusetts-state-primary-election-%E2%80%93-september-1-2026",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -534,7 +721,18 @@
    "posted": "2026-08-17T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/200",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Berkshire County Farmers Forum - Agriculture and the Wetlands Protection Act",
+   "summary": null,
+   "posted": "2026-08-17T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/berkshire-county-farmers-forum-agriculture-and-wetlands-protection-act",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -545,7 +743,18 @@
    "posted": "2026-08-14T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/198",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Aging in Place Workshop - Wednesday, August 19, 2026 - 10:30am to 11:30am",
+   "summary": "To view the flyer (includes Zoom), click here",
+   "posted": "2026-08-14T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/aging-place-workshop-wednesday-august-19-2026-%C2%A01030am%C2%A0%C2%A01130am",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -556,7 +765,7 @@
    "posted": "2026-08-12T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/197",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -567,7 +776,51 @@
    "posted": "2026-08-11T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/196",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Take the Open Space & Recreation Survey!",
+   "summary": "The Town of Sandisfield is creating an Open Space and Recreation Plan to determine the future of its recreational assets and open spaces",
+   "posted": "2026-08-07T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/take-open-space-recreation-survey",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "PRESS RELEASE - Transition in Fire Department Leadership",
+   "summary": null,
+   "posted": "2026-08-06T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/press-release-transition-fire-department-leadership",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "UPDATE Free Digital Skills Classes - August [Changes are reflected in the class schedule in the Town of Lee and in the contact extension.]",
+   "summary": null,
+   "posted": "2026-08-03T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/update-free-digital-skills-classes-august-changes-are-reflected-class-schedule-town-lee",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "The Becket Tax Collectors' Office will be closed August 11\u201313, 2026, due to staff attendance at the annual Tax Collectors' School. Please plan accordingly. Thank you.",
+   "summary": null,
+   "posted": "2026-08-03T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-tax-collectors-office-will-be-closed-august-11%E2%80%9313-2026-due-staff-attendance-annual",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Alford",
@@ -578,7 +831,7 @@
    "posted": "2026-08-03T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofalford.org/m/newsflash/Home/Detail/16",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -589,7 +842,7 @@
    "posted": "2026-07-31T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/192",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -600,7 +853,40 @@
    "posted": "2026-07-30T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/191",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Becket - Washington Community Yard Sale - August 22 (rain date August 29), 10am till 1pm",
+   "summary": null,
+   "posted": "2026-07-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-washington-community-yard-sale-august-22-rain-date-august-29-10am-till-1pm",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "The Becket Swap Shop opens Saturday, Aug. 1, from 10:00 AM to 4:00 PM at the Becket Transfer Station, 238 Washington Street, Becket!",
+   "summary": "The Becket Swap Shop opens Saturday, Aug. 1, from 10:00 AM to 4:00 PM at the Becket Transfer",
+   "posted": "2026-07-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-swap-shop-opens-saturday-aug-1-1000-am-400-pm-becket-transfer-station-238",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Free Senior Fitness Class \u2013 Location Change: This week's class (Friday, July 31, 9:00 a.m.) will be held in the Community Room at the Becket Washington School.",
+   "summary": null,
+   "posted": "2026-07-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/free-senior-fitness-class-%E2%80%93-location-change-weeks-class-friday-july-31-900-am-will-be-held",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Otis",
@@ -611,7 +897,7 @@
    "posted": "2026-07-28T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R93.php",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -622,7 +908,7 @@
    "posted": "2026-07-27T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/188",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -633,7 +919,7 @@
    "posted": "2026-07-27T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/112",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Tyringham",
@@ -644,7 +930,7 @@
    "posted": "2026-07-25T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/29",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -655,7 +941,18 @@
    "posted": "2026-07-23T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/186",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Appointment Opportunities - School Committee & Board of Assessors",
+   "summary": "The Town of Sandisfield is seeking interested residents to fill vacancies on the School Committee and on the Board of Assessors",
+   "posted": "2026-07-21T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/appointment-opportunities-school-committee-board-assessors",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -666,7 +963,40 @@
    "posted": "2026-07-20T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/185",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Town of Sandisfield - Annual Appointments",
+   "summary": "The Town of Sandisfield is accepting letters of interest from residents who would like to serve on one of the Town's boards, committees, or",
+   "posted": "2026-07-14T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-sandisfield-annual-appointments",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "School Supply Drive",
+   "summary": "The Town of Sandisfield and the Sandisfield Library are pairing with the Otis Police Department to host a school supply drive for the",
+   "posted": "2026-07-13T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/school-supply-drive",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Farmers Market vouchers for eligible seniors",
+   "summary": "The Council on Aging has vouchers for seniors who are income eligible. These vouchers are good for use at the various farmers markets in",
+   "posted": "2026-07-13T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/farmers-market-vouchers-eligible-seniors",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -677,7 +1007,7 @@
    "posted": "2026-07-07T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/108",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -688,7 +1018,7 @@
    "posted": "2026-07-02T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/178",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -699,7 +1029,29 @@
    "posted": "2026-07-02T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/105",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Wetland Deliniation work on Town Hill Road",
+   "summary": "Wetland Deliniation engineering work will be being completed on Town Hill Road for several spaced out days beginning July 9, 2027",
+   "posted": "2026-07-02T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/wetland-deliniation-work-town-hill-road",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Volunteers Needed for Becket's New Swap Shop \u2013 Opening This Summer at the Transfer Station",
+   "summary": null,
+   "posted": "2026-07-01T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/volunteers-needed-beckets-new-swap-shop-%E2%80%93-opening-summer-transfer-station",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -710,7 +1062,29 @@
    "posted": "2026-06-30T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/103",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Monterey",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "TRANSFER STATION CLOSED FOR FOURTH OF JULY",
+   "summary": "Transfer Station Holiday Closure \u2013 Independence Day The Monterey Transfer Station will be closed on Saturday, July 4, 2026",
+   "posted": "2026-06-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/transfer-station-closed-fourth-july",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "The Becket Transfer Station will be CLOSED on Saturday, July 4, in observance of the Fourth of July holiday. The Transfer Station will reopen on Tuesday, July 7. Have a safe and enjoyable holiday weekend!",
+   "summary": null,
+   "posted": "2026-06-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-transfer-station-will-be-closed-saturday-july-4-observance-fourth-july-holiday",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -721,7 +1095,29 @@
    "posted": "2026-06-29T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/101",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Transfer Station CLOSED - 4th of July",
+   "summary": "Please be advised that the Transfer Station is CLOSED, Saturday, 7/4 for the 4th of July holidayThe Transfer Station will be open as normal",
+   "posted": "2026-06-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/transfer-station-closed-4th-july",
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Remember to purchase your Transfer Station permits. Current permits expire June 30. Can purchase on-line or at Town Hall Mon. through Fri. 8:30am till 4:30pm",
+   "summary": "For additional info, please click here",
+   "posted": "2026-06-25T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/remember-purchase-your-transfer-station-permits-current-permits-expire-june-30-can",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "Great Barrington",
@@ -732,7 +1128,18 @@
    "posted": "2026-06-23T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/171",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Appointment Opportunity - Conservation Commission",
+   "summary": "The Town of Sandisfield is seeking interested residents to serve on the Conservation Commission",
+   "posted": "2026-06-23T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/appointment-opportunity-conservation-commission",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   },
   {
    "town": "New Marlborough",
@@ -743,17 +1150,31 @@
    "posted": "2026-06-18T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/99",
-   "first_seen": "2026-09-14T15:16:02-04:00"
+   "first_seen": "2026-09-14T15:25:03-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Assessors' Inspector will be conducting house visits beginning Monday June 22, 2026",
+   "summary": "To all Sandisfield Town ResidencesPlease note : Beginning Monday June 22, 2026, the Sandisfield Assessors' Office will be conducting site (",
+   "posted": "2026-06-17T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/assessors-inspector-will-be-conducting-house-visits-beginning-monday-june-22-2026",
+   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
   "Great Barrington": 22,
   "Egremont": 12,
   "Otis": 8,
+  "Becket": 20,
   "New Marlborough": 11,
+  "Sandisfield": 17,
   "Tyringham": 3,
   "Alford": 3,
-  "BHRSD": 8
+  "BHRSD": 8,
+  "Monterey": 1
  },
  "sources": [
   {
@@ -763,18 +1184,18 @@
    "ok": true,
    "scraped": 31,
    "items": 22,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-14T15:18:29-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-09-14T15:25:03-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -783,7 +1204,7 @@
    "ok": true,
    "scraped": 12,
    "items": 12,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   },
   {
@@ -793,28 +1214,28 @@
    "ok": true,
    "scraped": 88,
    "items": 11,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 0,
-   "checked_at": "2026-09-14T15:18:29-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 12,
+   "items": 1,
+   "checked_at": "2026-09-14T15:25:03-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 0,
-   "checked_at": "2026-09-14T15:18:29-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 17,
+   "checked_at": "2026-09-14T15:25:03-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -823,7 +1244,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   },
   {
@@ -833,18 +1254,18 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 0,
-   "checked_at": "2026-09-14T15:18:29-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 20,
+   "checked_at": "2026-09-14T15:25:03-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -853,7 +1274,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   },
   {
@@ -863,7 +1284,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-14T15:18:29-04:00",
+   "checked_at": "2026-09-14T15:25:03-04:00",
    "error": null
   }
  ]

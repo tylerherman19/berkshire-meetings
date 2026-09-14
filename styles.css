@@ -679,7 +679,8 @@ button.chev:hover{color:var(--ink)}
   padding:11px 0;border-top:1px solid var(--line);
 }
 .nsrc .sdot{margin-top:1px}
-.nsrc.sdot.stale,.sdot.stale{background:var(--gold)}
+.sdot.stale{background:var(--gold)}
+.sdot.quiet{background:var(--line-2)}
 .nsrc-main{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
 .nsrc-main a{font-size:14px;font-weight:600;color:var(--ink);text-decoration:none}
 .nsrc-main a:hover{color:var(--accent);text-decoration:underline}
