@@ -53,19 +53,21 @@ def get(url, timeout=40):
         code = e.response.status_code if e.response is not None else None
         server = (e.response.headers.get("Server") if e.response is not None else None)
         if code == 403:
-            print(f"[retry-tls] 403 (server={server}) for {url}; "
-                  "retrying with browser TLS impersonation", flush=True)
             try:
                 from curl_cffi import requests as tls_requests
             except ImportError:
                 print("[retry-tls] curl_cffi not installed", flush=True)
                 raise
-            r2 = tls_requests.get(url, headers=UA, timeout=timeout, impersonate="chrome")
-            if r2.status_code >= 400:
+            for attempt in (1, 2, 3):
+                print(f"[retry-tls] 403 (server={server}) for {url}; "
+                      f"browser-TLS attempt {attempt}/3", flush=True)
+                r2 = tls_requests.get(url, headers=UA, timeout=timeout, impersonate="chrome")
+                if r2.status_code < 400:
+                    print(f"[retry-tls] success for {url}", flush=True)
+                    return r2
                 print(f"[retry-tls] still failing: {r2.status_code}", flush=True)
-                raise
-            print(f"[retry-tls] success for {url}", flush=True)
-            return r2
+                time.sleep(10 * attempt)
+            raise
         raise
 
 
@@ -714,8 +716,9 @@ def scrape_becket():
         soup = BeautifulSoup(get(BECKET_BASE + "/minutes-and-agendas", timeout=40).text,
                              "html.parser")
     except Exception as e:
-        print(f"[{town}] board index fetch failed: {e}", flush=True)
-        return 0
+        # The board index is the whole source; failing here means we know
+        # nothing, so raise and let the Sources tab report the failure.
+        raise RuntimeError(f"board index fetch failed: {e}")
     boards = []
     seen = set()
     for a in soup.find_all("a", href=True):
