@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T11:53:29-04:00",
+ "updated": "2026-09-14T11:57:07-04:00",
  "meetings": [
   {
    "town": "Egremont",
@@ -91,19 +91,6 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_03262026-1813",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_03262026-1813",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Community Preservation Committee",
-   "title": "Community Preservation Committee  Regular Meeting Agenda",
-   "date": "2026-03-26",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_03262026-57",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_03262026-57",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -353,19 +340,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Vision Committee",
-   "title": "Vision Committee",
-   "date": "2026-04-14",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_04142026-346",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_04142026-346",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
@@ -444,19 +418,6 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board",
-   "date": "2026-04-21",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_04212026-321",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_04212026-321",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Site Visit",
@@ -507,19 +468,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_04272026-393",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_04272026-393",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Regular Meeting Agenda",
-   "date": "2026-04-27",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_04272026-294",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_04272026-294",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -587,17 +535,17 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Town Clerk",
-   "title": "Annual Town Meeting",
-   "date": "2026-05-04",
+   "town": "Egremont",
+   "board": "Select Board",
+   "title": "Select Board Regular Meeting (PDF)",
+   "date": "2026-05-05",
    "start": null,
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_05042026-332",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_05042026-332",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1881",
+   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1881",
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -610,19 +558,6 @@
    "location": null,
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1882",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1882",
-   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Egremont",
-   "board": "Select Board",
-   "title": "Select Board Regular Meeting (PDF)",
-   "date": "2026-05-05",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1881",
-   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1881",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
@@ -715,19 +650,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_05122026-403",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_05122026-403",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Vision Committee",
-   "title": "Vision Committee",
-   "date": "2026-05-12",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_05122026-347",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_05122026-347",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "New Marlborough",
@@ -912,32 +834,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Regular Meeting (pdf)",
-   "date": "2026-06-01",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06012026-296",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06012026-296",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board Agenda (pdf)",
-   "date": "2026-06-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06022026-297",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06022026-297",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -988,19 +884,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_06082026-430",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_06082026-430",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Special Meeting - Public Safety Feasibility Study Presentation (PDF)",
-   "date": "2026-06-08",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06082026-292",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06082026-292",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -1055,19 +938,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Vision Committee",
-   "title": "Vision Committee Agenda (pdf)",
-   "date": "2026-06-09",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06092026-299",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06092026-299",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Site Visit Meeting Agenda",
@@ -1120,19 +990,6 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board  6.16.26",
-   "date": "2026-06-16",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06162026-303",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06162026-303",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting Agenda",
@@ -1170,19 +1027,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_06222026-442",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_06222026-442",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Regular Meeting",
-   "date": "2026-06-22",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06222026-307",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06222026-307",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -1237,19 +1081,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Board of Assessors",
-   "title": "Board of Assessors Agenda 6.23.26",
-   "date": "2026-06-23",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06232026-306",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06232026-306",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "Board of Health",
    "title": "Board of Health Regular Meeting (PDF)",
@@ -1302,19 +1133,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Town Clerk",
-   "title": "Special Town Meeting",
-   "date": "2026-06-29",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_06292026-333",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_06292026-333",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "Planning Board",
    "title": "Planning Board Special Permit Hearing (PDF)",
@@ -1341,19 +1159,6 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Agenda",
-   "date": "2026-07-06",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_07062026-310",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_07062026-310",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "French Park Dog Park Committee",
    "title": "French Park Dog Park Committee (PDF)",
@@ -1365,32 +1170,6 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_07072026-1935",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_07072026-1935",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board Agenda",
-   "date": "2026-07-07",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_07072026-311",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_07072026-311",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board & Finance Committee Joint Meeting",
-   "date": "2026-07-08",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_07082026-314",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_07082026-314",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "New Marlborough",
@@ -1443,19 +1222,6 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_07142026-1942",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_07142026-1942",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Vision Committee",
-   "title": "Vision Committee Agenda",
-   "date": "2026-07-14",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_07142026-315",
-   "minutes_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Minutes/_07142026-315",
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "New Marlborough",
@@ -1718,32 +1484,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board",
-   "date": "2026-08-17",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_08172026-348",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-08-17",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_08172026-350",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Amended Agenda (PDF)",
@@ -1768,19 +1508,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08182026-477",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board Agenda (8/18)",
-   "date": "2026-08-18",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_08182026-352",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -1833,19 +1560,6 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_08202026-1975",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Community Preservation Committee",
-   "title": "Community Preservation Committee Agenda",
-   "date": "2026-08-20",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_08202026-353",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -1924,19 +1638,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08312026-482",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting Agenda",
-   "date": "2026-08-31",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_08312026-355",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -2043,19 +1744,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "West Stockbridge",
-   "board": "Affordable Housing Trust",
-   "title": "Affordable Housing Trust Agenda (9/2/26)",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_09022026-356",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
    "town": "Egremont",
    "board": "Berkshire Regional Planning Commission",
    "title": "Berkshire Regional Planning Commission Executive Committee Meeting (PDF)",
@@ -2106,19 +1794,6 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_09042026-1985",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting Agenda (9/4/26)",
-   "date": "2026-09-04",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_09042026-357",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Monterey",
@@ -2184,19 +1859,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09082026-487",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Vision Committee",
-   "title": "Vision Committee Meeting Agenda (9/8/26)",
-   "date": "2026-09-08",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_09082026-358",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Sandisfield",
@@ -2433,19 +2095,6 @@
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1134&month=9&year=2026&day=14&calType=0"
   },
   {
-   "town": "Mount Washington",
-   "board": "Planning Board Meeting",
-   "title": "Planning Board Meeting",
-   "date": "2026-09-14",
-   "start": "17:30",
-   "end": "18:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/planning-board-meeting-56/"
-  },
-  {
    "town": "Monterey",
    "board": "Monterey Library",
    "title": "Monterey Library Board of Trustees Meeting",
@@ -2457,19 +2106,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/monterey-library/events/45716"
-  },
-  {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-09-14",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-130/"
   },
   {
    "town": "Egremont",
@@ -2496,32 +2132,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09142026-491",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Affordable Housing Trust",
-   "title": "Affordable Housing Trust Meeting",
-   "date": "2026-09-14",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.stockbridge-ma.gov/media/21821",
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/affordable-housing-trust-committee/meeting/affordable-housing-trust-40"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting Agenda (9/14/26)",
-   "date": "2026-09-14",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_09142026-359",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Alford",
@@ -2615,19 +2225,6 @@
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1921&month=9&year=2026&day=14&calType=0"
   },
   {
-   "town": "Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board Meeting",
-   "date": "2026-09-15",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.stockbridge-ma.gov/media/21816",
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/planning-board/meeting/planning-board-153"
-  },
-  {
    "town": "Sandisfield",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -2665,32 +2262,6 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09152026-492",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Board of Assessors",
-   "title": "Board of Assessors Meeting",
-   "date": "2026-09-15",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.stockbridge-ma.gov/media/21756",
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-assessors/meeting/board-assessors-129"
-  },
-  {
-   "town": "West Stockbridge",
-   "board": "Planning Board",
-   "title": "Planning Board Agenda (9/15/26)",
-   "date": "2026-09-15",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.weststockbridge-ma.gov/AgendaCenter/ViewFile/Agenda/_09152026-360",
-   "minutes_url": null,
-   "source_url": "https://www.weststockbridge-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Great Barrington",
@@ -2797,19 +2368,6 @@
    "source_url": "https://www.sheffieldma.gov/node/27/agenda"
   },
   {
-   "town": "Stockbridge",
-   "board": "Board of Health",
-   "title": "Board of Health Meeting",
-   "date": "2026-09-16",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.stockbridge-ma.gov/media/21741",
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-health/meeting/board-health-34"
-  },
-  {
    "town": "Great Barrington",
    "board": "Historic District Commission",
    "title": "Historic District Commission",
@@ -2847,19 +2405,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/conservation-commission/events/46046"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-09-17",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-59"
   },
   {
    "town": "Great Barrington",
@@ -2966,19 +2511,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "Stockbridge",
-   "board": "Conservation Commission-Site Visit",
-   "title": "Conservation Commission-Site Visit Meeting",
-   "date": "2026-09-18",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.stockbridge-ma.gov/media/21866",
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/conservation-commission/meeting/conservation-commission-site-visit-35"
-  },
-  {
    "town": "Alford",
    "board": "Highway",
    "title": "Transfer Station",
@@ -3044,45 +2576,6 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/46036"
   },
   {
-   "town": "Mount Washington",
-   "board": "Conservation Commission Meeting",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-09-24",
-   "start": "19:00",
-   "end": "20:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/conservation-commission-meeting-38/"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Stockbridge Bowl Stewardship Commission",
-   "title": "Stockbridge Bowl Stewardship Commission Meeting",
-   "date": "2026-09-24",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/stockbridge-bowl-stewardship-committee/meeting/stockbridge-bowl-stewardship-commission-43"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-09-25",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.stockbridge-ma.gov/media/21851",
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/conservation-commission/meeting/conservation-commission-187"
-  },
-  {
    "town": "Alford",
    "board": "Highway",
    "title": "Transfer Station",
@@ -3133,19 +2626,6 @@
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1135&month=9&year=2026&day=14&calType=0"
-  },
-  {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-09-28",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-131/"
   },
   {
    "town": "Alford",
@@ -3226,19 +2706,6 @@
    "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
   },
   {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-10-01",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-60"
-  },
-  {
    "town": "Sandisfield",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -3250,19 +2717,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Stockbridge Bowl Stewardship Commission",
-   "title": "Stockbridge Bowl Stewardship Commission Meeting",
-   "date": "2026-10-08",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/stockbridge-bowl-stewardship-committee/meeting/stockbridge-bowl-stewardship-commission-39"
   },
   {
    "town": "Sandisfield",
@@ -3304,32 +2758,6 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/43081"
   },
   {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-10-13",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-132/"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Green Communities Committee",
-   "title": "Green Communities Committee Meeting",
-   "date": "2026-10-14",
-   "start": "09:30",
-   "end": "10:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/green-communities-committee/meeting/green-communities-committee-37"
-  },
-  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "Board of Health",
@@ -3369,19 +2797,6 @@
    "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-10-15",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-61"
-  },
-  {
    "town": "Sandisfield",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -3393,19 +2808,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Stockbridge Bowl Stewardship Commission",
-   "title": "Stockbridge Bowl Stewardship Commission Meeting",
-   "date": "2026-10-22",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/stockbridge-bowl-stewardship-committee/meeting/stockbridge-bowl-stewardship-commission-40"
   },
   {
    "town": "Monterey",
@@ -3447,19 +2849,6 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/45846"
   },
   {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-10-26",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-133/"
-  },
-  {
    "town": "Monterey",
    "board": "Housing Committee",
    "title": "Housing Committee Meeting",
@@ -3484,19 +2873,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Green Communities Committee",
-   "title": "Green Communities Committee Meeting",
-   "date": "2026-11-04",
-   "start": "09:30",
-   "end": "10:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/green-communities-committee/meeting/green-communities-committee-38"
   },
   {
    "town": "Monterey",
@@ -3536,32 +2912,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-05",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-62"
-  },
-  {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-11-09",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-134/"
   },
   {
    "town": "Sandisfield",
@@ -3616,19 +2966,6 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/43086"
   },
   {
-   "town": "Stockbridge",
-   "board": "Stockbridge Bowl Stewardship Commission",
-   "title": "Stockbridge Bowl Stewardship Commission Meeting",
-   "date": "2026-11-12",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/stockbridge-bowl-stewardship-committee/meeting/stockbridge-bowl-stewardship-commission-41"
-  },
-  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "SBPHC Monthly Meeting",
@@ -3655,19 +2992,6 @@
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-19",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-63"
-  },
-  {
    "town": "Sandisfield",
    "board": "Library",
    "title": "Library Board of Trustees Meeting",
@@ -3679,19 +3003,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/library/events/38636"
-  },
-  {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-11-23",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-135/"
   },
   {
    "town": "Monterey",
@@ -3772,32 +3083,6 @@
    "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
   },
   {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-12-03",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-64"
-  },
-  {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-12-07",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-136/"
-  },
-  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "Board of Health",
@@ -3824,19 +3109,6 @@
    "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
-   "town": "Stockbridge",
-   "board": "Stockbridge Bowl Stewardship Commission",
-   "title": "Stockbridge Bowl Stewardship Commission Meeting",
-   "date": "2026-12-10",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/stockbridge-bowl-stewardship-committee/meeting/stockbridge-bowl-stewardship-commission-44"
-  },
-  {
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "SBPHC Monthly Meeting",
@@ -3861,32 +3133,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
-  },
-  {
-   "town": "Stockbridge",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-12-17",
-   "start": "18:30",
-   "end": "19:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.stockbridge-ma.gov/board-selectmen/meeting/select-board-65"
-  },
-  {
-   "town": "Mount Washington",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-12-21",
-   "start": "19:00",
-   "end": "21:00",
-   "all_day": false,
-   "location": "Town Hall/Teams",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://mountwashington-ma.gov/events/select-board-meeting-137/"
   },
   {
    "town": "Monterey",
@@ -3996,13 +3242,10 @@
  "towns": {
   "Egremont": 82,
   "New Marlborough": 74,
-  "West Stockbridge": 28,
   "SBRSD": 3,
   "Monterey": 34,
   "Sandisfield": 34,
   "Great Barrington": 14,
-  "Mount Washington": 10,
-  "Stockbridge": 20,
   "Alford": 7,
   "Sheffield": 1
  },
@@ -4010,67 +3253,49 @@
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 82,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 74,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-14T11:53:29-04:00",
-   "error": null
-  },
-  "Stockbridge": {
-   "ok": true,
-   "meetings": 20,
-   "checked_at": "2026-09-14T11:53:29-04:00",
-   "error": null
-  },
-  "West Stockbridge": {
-   "ok": true,
-   "meetings": 28,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 7,
-   "checked_at": "2026-09-14T11:53:29-04:00",
-   "error": null
-  },
-  "Mount Washington": {
-   "ok": true,
-   "meetings": 10,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null
   },
   "SBRSD": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-14T11:53:29-04:00",
+   "checked_at": "2026-09-14T11:57:07-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
