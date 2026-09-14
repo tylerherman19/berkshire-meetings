@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "meetings-bot"
           git config user.email "meetings-bot@users.noreply.github.com"
-          git add data/meetings.json
+          git add data/meetings.json data/agenda_text.json
           # NOTE: do NOT add -X theirs here. The data file is fully regenerated
           # each run; auto-resolving hunks once merged two runs' outputs into an
           # inconsistent file. Concurrency above prevents the race; if a rebase
