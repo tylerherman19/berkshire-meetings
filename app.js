@@ -181,12 +181,9 @@ function renderView(){
   });
 }
 
-function init(){
+function loadData(){
   $("#view").innerHTML='<p class="loading">Gathering the week&rsquo;s meetings&hellip;</p>';
-  Array.prototype.forEach.call(document.querySelectorAll(".views button"),function(b){
-    b.addEventListener("click",function(){ state.view=b.dataset.view; renderView(); });
-  });
-  fetch("data/meetings.json",{cache:"no-store"})
+  fetch("data/meetings.json?ts="+Date.now(),{cache:"no-store"})
     .then(function(r){ if(!r.ok) throw new Error("no data"); return r.json(); })
     .then(function(j){
       DATA=j;
@@ -200,6 +197,15 @@ function init(){
     .catch(function(){
       $("#view").innerHTML='<p class="none" style="margin-top:30px">Couldn&rsquo;t load the calendar just yet &mdash; the first scrape is probably still running. Check back in a few minutes.</p>';
     });
+}
+
+function init(){
+  Array.prototype.forEach.call(document.querySelectorAll(".views button"),function(b){
+    b.addEventListener("click",function(){ state.view=b.dataset.view; renderView(); });
+  });
+  var rb=$("#refresh");
+  if(rb) rb.addEventListener("click",function(){ loadData(); });
+  loadData();
 }
 
 document.addEventListener("DOMContentLoaded",init);
