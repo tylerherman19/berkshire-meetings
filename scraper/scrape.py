@@ -352,6 +352,7 @@ def scrape_sheffield():
             uniq.append((name, url))
     n = 0
     seen_urls = {}
+    print(f"[{town}] {len(uniq)} board pages", flush=True)
     for name, burl in uniq:
         try:
             bsoup = BeautifulSoup(get(burl, timeout=20).text, "html.parser")
@@ -366,6 +367,7 @@ def scrape_sheffield():
                     get(urljoin(base, year_a["href"]), timeout=20).text, "html.parser"))
             except Exception:
                 pass
+        new_here = 0
         for pg in pages:
             for a in pg.find_all("a", href=True):
                 href = a["href"]
@@ -389,6 +391,9 @@ def scrape_sheffield():
                     continue
                 seen_urls[furl] = {"board": board, "page_board": name, "title": text,
                                    "date": d, "agenda_url": furl, "source_url": burl}
+                new_here += 1
+        if new_here:
+            print(f"[{town}] {name}: {new_here} new file(s)", flush=True)
     for rec in seen_urls.values():
         add(town, rec["board"], rec["title"], rec["date"],
             agenda_url=rec["agenda_url"], source_url=rec["source_url"])
@@ -480,6 +485,11 @@ def main():
         seen.add(key)
         out.append(m)
     out.sort(key=lambda m: (m["date"], m["start"] or "99:99", m["town"] or ""))
+
+    # per-town counts after dedupe, so the JSON reflects what's actually published
+    stats = {}
+    for m in out:
+        stats[m["town"]] = stats.get(m["town"], 0) + 1
 
     payload = {
         "updated": datetime.now(ET).isoformat(timespec="seconds"),
