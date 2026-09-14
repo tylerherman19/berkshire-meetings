@@ -19,11 +19,13 @@ Three ways into the same data, all in one static page:
 - **Towns** — a dashboard per town: next meeting, this week's count, recent
   changes, every board, and recent minutes.
 
-- **News** — a reverse-chronological feed of what the towns themselves are
-  announcing: road closures, special meeting notices, public notices, transfer
-  station hours. Filter by town and category, search headlines and summaries,
-  and see what's arrived since your last visit. Every card links back to the
-  original town posting, and the tab lists its own sources.
+- **News** — one feed of everything the towns themselves are announcing, newest
+  first: road closures, special meeting notices, public notices, transfer station
+  hours. Tap any card's town pill to narrow the feed to that town and tap it
+  again to come back, or use the town and category pills at the top. Search runs
+  across headlines and summaries, and anything posted since your last visit is
+  marked. Every card carries a **Read full post** button to the original town
+  posting, and the tab lists its own sources.
 
 Plus **Archive** (full-text search across posted agendas and minutes) and
 **Sources** (which scrapers succeeded in the last run).
