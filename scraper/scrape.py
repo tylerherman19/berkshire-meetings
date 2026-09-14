@@ -487,14 +487,14 @@ def main():
     out.sort(key=lambda m: (m["date"], m["start"] or "99:99", m["town"] or ""))
 
     # per-town counts after dedupe, so the JSON reflects what's actually published
-    stats = {}
+    town_counts = {}
     for m in out:
-        stats[m["town"]] = stats.get(m["town"], 0) + 1
+        town_counts[m["town"]] = town_counts.get(m["town"], 0) + 1
 
     payload = {
         "updated": datetime.now(ET).isoformat(timespec="seconds"),
         "meetings": out,
-        "towns": stats,
+        "towns": town_counts,
     }
     root = Path(__file__).resolve().parent.parent
     target = root / "data" / "meetings.json"
