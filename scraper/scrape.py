@@ -96,14 +96,14 @@ def board_from_path(url):
     return m.group(1).replace("-", " ").title()
 
 
-# ---------------- ICS towns: Sandisfield, Lee, Monterey ----------------
+# ---------------- ICS towns: Sandisfield, Monterey, Mount Washington ----------------
 
-def scrape_ics(town, base):
-    """Drupal date_ical feed. Returns event count."""
+def scrape_ics(town, base, feed_path="/calendar/ical/export.ics"):
+    """Drupal date_ical feed (or any explicit feed path). Returns event count."""
     from icalendar import Calendar
     import recurring_ical_events
 
-    url = base.rstrip("/") + "/calendar/ical/export.ics"
+    url = base.rstrip("/") + feed_path
     try:
         raw = get(url).content
     except Exception as e:
@@ -419,6 +419,9 @@ def scrape_drupal_day_pages(town, base, days=45):
             title = a.get_text(" ", strip=True)
             if not title or len(title) < 3:
                 continue
+            low = title.lower()
+            if "postponed" in low or "cancel" in low or "reschedul" in low:
+                continue  # not an upcoming meeting; towns re-post with the new date
             start = None
             for depth, parent in enumerate(a.parents):
                 if depth > 3 or parent.name in ("body", "html"):
@@ -454,17 +457,197 @@ def scrape_sandisfield():
     return scrape_drupal_day_pages(town, base)
 
 
+# ---------------- Stockbridge (static meetings table) ----------------
+
+def scrape_stockbridge():
+    town = "Stockbridge"
+    base = "https://www.stockbridge-ma.gov"
+    url = base + "/meetings"
+    try:
+        soup = BeautifulSoup(get(url).text, "html.parser")
+    except Exception as e:
+        print(f"[{town}] fetch failed: {e}", flush=True)
+        return 0
+    n = 0
+    cutoff = TODAY - timedelta(days=30)
+    horizon = TODAY + timedelta(days=120)
+    for tbl in soup.find_all("table"):
+        for tr in tbl.find_all("tr"):
+            tds = tr.find_all("td")
+            if len(tds) < 2:
+                continue
+            when = tds[0].get_text(" ", strip=True)
+            m = re.search(
+                r"([A-Za-z]{3,9})\s+(\d{1,2}),\s*(\d{4})"
+                r"(?:\s*\|\s*(\d{1,2}):(\d{2})\s*(am|pm)\s*-\s*(\d{1,2}):(\d{2})\s*(am|pm))?",
+                when, re.I)
+            if not m:
+                continue
+            mon = ABBR.get(m.group(1)[:3].lower()) or MON.get(m.group(1).capitalize())
+            if not mon:
+                continue
+            try:
+                d = date(int(m.group(3)), mon, int(m.group(2)))
+            except ValueError:
+                continue
+            if d < cutoff or d > horizon:
+                continue
+            start = end = None
+            if m.group(4):
+                sh, sm, sap = int(m.group(4)), m.group(5), m.group(6).lower()
+                eh, em, eap = int(m.group(7)), m.group(8), m.group(9).lower()
+                start = f"{sh % 12 + (12 if sap == 'pm' else 0):02d}:{sm}"
+                end = f"{eh % 12 + (12 if eap == 'pm' else 0):02d}:{em}"
+            board = tds[1].get_text(" ", strip=True) or "Meeting"
+            agenda_url = minutes_url = detail_url = None
+            for i, key in ((2, "agenda"), (3, "agenda"), (4, "detail")):
+                if i < len(tds):
+                    a = tds[i].find("a", href=True)
+                    if a:
+                        href = urljoin(base, a["href"])
+                        if key == "agenda" and not agenda_url:
+                            agenda_url = href
+                        elif key == "detail":
+                            detail_url = href
+            add(town, board, f"{board} Meeting", d, start=start, end=end,
+                agenda_url=agenda_url, source_url=detail_url or url)
+            n += 1
+    return n
+
+
+# ---------------- Alford (CivicEngage calendar, category sections) ----------------
+
+def scrape_alford():
+    town = "Alford"
+    base = "https://www.townofalford.org"
+    url = base + "/calendar.aspx?CID=26,29,30,14,23,25,31,27,24,22,28"
+    try:
+        soup = BeautifulSoup(get(url).text, "html.parser")
+    except Exception as e:
+        print(f"[{town}] fetch failed: {e}", flush=True)
+        return 0
+    n = 0
+    cutoff = TODAY - timedelta(days=30)
+    horizon = TODAY + timedelta(days=120)
+    for h2 in soup.find_all("h2", class_="title"):
+        board = h2.get_text(" ", strip=True)
+        if not board or "search" in board.lower():
+            continue
+        ol = h2.find_next("ol")
+        if not ol:
+            continue
+        for li in ol.find_all("li", recursive=False):
+            h3 = li.find("h3")
+            a = h3.find("a", href=True) if h3 else None
+            if not a:
+                continue
+            title = a.get_text(" ", strip=True)
+            if not title or len(title) < 3:
+                continue
+            lowt = title.lower()
+            if "postponed" in lowt or "cancel" in lowt or "reschedul" in lowt:
+                continue  # not an upcoming meeting; towns re-post with the new date
+            detail = urljoin(base, a["href"])
+            dd = li.find("div", class_="date")
+            when = dd.get_text(" ", strip=True) if dd else ""
+            m = re.search(
+                r"([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4}),\s*(\d{1,2}):(\d{2})\s*(AM|PM)",
+                when, re.I)
+            if not m:
+                # fall back to the date embedded in the detail URL
+                m2 = re.search(r"day=(\d{1,2})&month=(\d{1,2})&year=(\d{4})", detail)
+                if not m2:
+                    continue
+                try:
+                    d = date(int(m2.group(3)), int(m2.group(2)), int(m2.group(1)))
+                except ValueError:
+                    continue
+                start = None
+            else:
+                mon = MON.get(m.group(1).capitalize()) or ABBR.get(m.group(1)[:3].lower())
+                if not mon:
+                    continue
+                try:
+                    d = date(int(m.group(3)), mon, int(m.group(2)))
+                except ValueError:
+                    continue
+                hh, ap = int(m.group(4)), m.group(6).upper()
+                start = f"{hh % 12 + (12 if ap == 'PM' else 0):02d}:{m.group(5)}"
+            if d < cutoff or d > horizon:
+                continue
+            loc_el = li.find("div", class_=re.compile(r"eventLocation"))
+            loc = clean_location(loc_el.get_text(" ", strip=True)) if loc_el else None
+            add(town, board, title, d, start=start, location=loc, source_url=detail)
+            n += 1
+    return n
+
+
+def scrape_mount_washington():
+    # Modern Events Calendar iCal feed; event pages carry agenda text (v2)
+    return scrape_ics("Mount Washington", "https://mountwashington-ma.gov",
+                      feed_path="/?mec-ical-feed=1")
+
+
+SBRSD_RE = re.compile(r"southern berkshire regional school|\bsbrsd\b", re.I)
+
+SBRSD_COMMITTEES = [
+    ("finance", "Finance Subcommittee"),
+    ("personnel", "Personnel & Negotiations Subcommittee"),
+    ("negotiat", "Personnel & Negotiations Subcommittee"),
+    ("bargaining", "Personnel & Negotiations Subcommittee"),
+    ("policy", "Policy Subcommittee"),
+    ("superintendent evaluation", "Superintendent Evaluation Subcommittee"),
+    ("community relations", "Community Relations Subcommittee"),
+    ("handbook", "Handbook Review Subcommittee"),
+    ("executive minutes", "Executive Minutes Review Subcommittee"),
+]
+
+
+def sbrsd_committee(text):
+    t = text.lower()
+    for kw, name in SBRSD_COMMITTEES:
+        if kw in t:
+            return name
+    return "School Committee"
+
+
+def attribute_sbrsd():
+    """SBRSD posts 'PLEASE POST' notices into member-town AgendaCenters; those
+    scrapes already collect them. Reattribute to the district, canonicalize the
+    committee name, and drop cross-posted duplicates."""
+    n = 0
+    seen, rest = set(), []
+    for m in meetings:
+        text = f"{m.get('board') or ''} {m.get('title') or ''}"
+        if not SBRSD_RE.search(text):
+            rest.append(m)
+            continue
+        m["town"] = "SBRSD"
+        m["board"] = sbrsd_committee(text)
+        key = (m["board"], m["date"], m["start"])
+        if key in seen:
+            continue
+        seen.add(key)
+        rest.append(m)
+        n += 1
+    meetings[:] = rest
+    return n
+
+
 # ---------------- main ----------------
 
 def main():
     jobs = [
         ("Sandisfield", scrape_sandisfield),
-        ("Lee", scrape_lee),
         ("Monterey", scrape_monterey),
         ("Great Barrington", scrape_great_barrington),
         ("Egremont", lambda: scrape_agenda_center("Egremont", "https://www.egremont-ma.gov")),
         ("New Marlborough", lambda: scrape_agenda_center("New Marlborough", "https://www.newmarlboroughma.gov")),
         ("Sheffield", scrape_sheffield),
+        ("Stockbridge", scrape_stockbridge),
+        ("West Stockbridge", lambda: scrape_agenda_center("West Stockbridge", "https://www.weststockbridge-ma.gov")),
+        ("Alford", scrape_alford),
+        ("Mount Washington", scrape_mount_washington),
     ]
     total = 0
     for name, fn in jobs:
@@ -476,6 +659,9 @@ def main():
         stats[name] = c
         total += c
         print(f"[{name}] {c} meetings", flush=True)
+
+    n_sbrsd = attribute_sbrsd()
+    print(f"[SBRSD] reattributed {n_sbrsd} notices from member towns", flush=True)
 
     seen, out = set(), []
     for m in meetings:
