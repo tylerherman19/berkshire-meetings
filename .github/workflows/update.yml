@@ -25,4 +25,4 @@ jobs:
           git config user.name "meetings-bot"
           git config user.email "meetings-bot@users.noreply.github.com"
           git add data/meetings.json
-          git diff --cached --quiet || (git commit -m "Update meetings data" && git push)
+          git diff --cached --quiet || (git commit -m "Update meetings data" && git pull --rebase && git push)
