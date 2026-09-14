@@ -3,3 +3,4 @@ beautifulsoup4
 icalendar
 recurring-ical-events
 curl_cffi
+pdfplumber
