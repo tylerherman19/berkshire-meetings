@@ -711,10 +711,7 @@ def main():
         ("Egremont", lambda: scrape_agenda_center("Egremont", "https://www.egremont-ma.gov")),
         ("New Marlborough", lambda: scrape_agenda_center("New Marlborough", "https://www.newmarlboroughma.gov")),
         ("Sheffield", scrape_sheffield),
-        ("Stockbridge", scrape_stockbridge),
-        ("West Stockbridge", lambda: scrape_agenda_center("West Stockbridge", "https://www.weststockbridge-ma.gov")),
         ("Alford", scrape_alford),
-        ("Mount Washington", scrape_mount_washington),
     ]
     total = 0
     errors = {}
