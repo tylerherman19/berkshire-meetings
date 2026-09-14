@@ -3,10 +3,12 @@
 
 var TOWN_ORDER = ["Great Barrington","Sheffield","Egremont","New Marlborough","Monterey","Sandisfield","Otis","Tyringham","Becket","Alford","Richmond","BHRSD","SBRSD"];
 
-// Town list is data-driven: any jurisdiction present in the JSON shows up,
-// even if this JS file is cached. TOWN_ORDER only controls display order.
+// Town list is the union of TOWN_ORDER and whatever the JSON holds, so a
+// jurisdiction with zero current meetings (Becket, Richmond) still shows up
+// in filters and source health instead of silently vanishing.
 function townList(){
   var seen={}, list=[];
+  TOWN_ORDER.forEach(function(t){ if(!seen[t]){ seen[t]=1; list.push(t); } });
   DATA.meetings.forEach(function(m){ if(m.town && !seen[m.town]){ seen[m.town]=1; list.push(m.town); } });
   list.sort(function(a,b){
     var ia=TOWN_ORDER.indexOf(a), ib=TOWN_ORDER.indexOf(b);
@@ -47,6 +49,11 @@ function esc(s){
     return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
   });
 }
+// Display-only trim: town calendars append ", United States" to every
+// address, which eats two lines on a phone. Data stays untouched.
+function shortLoc(loc){
+  return String(loc==null?"":loc).replace(/,?\s*United States\s*$/i,"").trim();
+}
 
 var state = { view:"week", town:"All", day:etToday(), month:etToday().slice(0,7), selDay:etToday(), archiveQ:"", minOnly:false };
 var DATA = { meetings:[], updated:null };
@@ -86,10 +93,11 @@ function countUp(el,to){
 
 function meetingRow(m,i){
   var time = m.all_day ? "All day" : (fmtTime(m.start) || "Time TBA");
-  var endBit = (m.end && !m.all_day && m.start) ? '<span class="end">&ndash; '+esc(fmtTime(m.end))+'</span>' : "";
+  var showEnd = m.end && !m.all_day && m.start && m.end !== m.start;
+  var endBit = showEnd ? '<span class="end">&ndash; '+esc(fmtTime(m.end))+'</span>' : "";
   var meta = [];
   if(m.board) meta.push(esc(m.board));
-  if(m.location) meta.push(esc(m.location));
+  if(m.location) meta.push(esc(shortLoc(m.location)));
   var links = "";
   if(m.agenda_url) links += '<a class="pill" href="'+esc(m.agenda_url)+'" target="_blank" rel="noopener">Agenda</a>';
   if(m.minutes_url) links += '<a class="pill dim" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">Minutes</a>';
