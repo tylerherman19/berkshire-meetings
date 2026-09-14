@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T11:42:03-04:00",
+ "updated": "2026-09-14T11:53:29-04:00",
  "meetings": [
   {
    "town": "Egremont",
@@ -2784,6 +2784,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Sheffield",
+   "board": "Open Space & Recreation Plan Committee",
+   "title": "Open Space & Recreation Plan Committee Agenda 9/16/26",
+   "date": "2026-09-16",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-91626",
+   "minutes_url": null,
+   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
+  },
+  {
    "town": "Stockbridge",
    "board": "Board of Health",
    "title": "Board of Health Meeting",
@@ -3990,73 +4003,74 @@
   "Great Barrington": 14,
   "Mount Washington": 10,
   "Stockbridge": 20,
-  "Alford": 7
+  "Alford": 7,
+  "Sheffield": 1
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 82,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 74,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
-   "meetings": 0,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "meetings": 1,
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Stockbridge": {
    "ok": true,
    "meetings": 20,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "West Stockbridge": {
    "ok": true,
    "meetings": 28,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 7,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "Mount Washington": {
    "ok": true,
    "meetings": 10,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null
   },
   "SBRSD": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-14T11:42:03-04:00",
+   "checked_at": "2026-09-14T11:53:29-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
