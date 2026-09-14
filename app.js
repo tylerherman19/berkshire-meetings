@@ -296,7 +296,10 @@ var state = {
   archiveQ:"",
   minOnly:false,
   showAllChanges:false,
-  pcLimit:60
+  pcLimit:60,
+  newsQ:"",               // news: independent of the meetings search
+  newsTown:"All",
+  newsCat:"All"
 };
 var DATA = {meetings:[],updated:null,sources:null};
 var CHANGES = {updated:null,changes:[]};
@@ -1049,6 +1052,250 @@ function renderTowns(){
 }
 
 /* ============================================================
+   NEWS — town announcements, newest first
+   Loaded lazily from data/news.json the first time the tab opens.
+   ============================================================ */
+var NEWS = null, NEWS_LOADING = false, NEWS_FAILED = false;
+
+/* Timestamp of the reader's previous visit to this tab. Read once at load so
+   the "New" markers hold still while they read, and only advanced on the way
+   out — otherwise everything stops being new the moment you arrive. */
+var NEWS_SEEN_KEY = "bm-news-seen-v1";
+var NEWS_SEEN_AT = lsGet(NEWS_SEEN_KEY, null);
+
+function ensureNews(cb){
+  if(NEWS!==null){ if(cb) cb(); return; }
+  if(NEWS_LOADING) return;
+  NEWS_LOADING = true;
+  fetch("data/news.json?ts="+Date.now(),{cache:"no-store"})
+    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(j){
+      NEWS = j || {items:[],sources:[]};
+      NEWS_LOADING = false;
+      if(cb) cb();
+    })
+    .catch(function(){
+      NEWS = {items:[],sources:[]};
+      NEWS_FAILED = true;
+      NEWS_LOADING = false;
+      if(cb) cb();
+    });
+}
+/* Called when the reader leaves the tab, so the next visit can mark what
+   arrived in between. */
+function markNewsSeen(){
+  lsSet(NEWS_SEEN_KEY, new Date().toISOString());
+}
+function newsIsNew(it){
+  if(!NEWS_SEEN_AT) return false;   /* first visit: nothing is "new" yet */
+  /* Compare instants, not strings: the stored stamp is UTC ("…Z") while
+     first_seen carries the scraper's Eastern offset, so the two sort
+     differently as text than they do in time. */
+  var seen = Date.parse(NEWS_SEEN_AT), at = Date.parse(it.first_seen||"");
+  if(isNaN(seen) || isNaN(at)) return false;
+  return at > seen;
+}
+function newsUnseenCount(){
+  if(!NEWS || !NEWS.items) return 0;
+  return NEWS.items.filter(newsIsNew).length;
+}
+
+/* "2h ago". Date-only postings say Today/Yesterday rather than invent an hour. */
+function relTime(it){
+  var iso = it.posted || it.first_seen;
+  if(!iso) return "";
+  var then = new Date(iso);
+  if(isNaN(then)) return "";
+  var mins = Math.round((Date.now()-then.getTime())/60000);
+  var day = iso.slice(0,10), t = etToday();
+  if(it.date_only){
+    if(day===t) return "Today";
+    if(day===addDays(t,-1)) return "Yesterday";
+  }else{
+    if(mins < 2)   return "just now";
+    if(mins < 60)  return mins+"m ago";
+    if(mins < 1440) return Math.round(mins/60)+"h ago";
+  }
+  var days = Math.round((parseD(t)-parseD(day))/86400000);
+  if(days <= 0) return "Today";
+  if(days === 1) return "Yesterday";
+  if(days < 7)  return days+"d ago";
+  if(days < 35) return Math.round(days/7)+"w ago";
+  return fmtShort(day);
+}
+function newsTownLabel(t){ return DISTRICT_NAMES[t] || t; }
+
+function newsTowns(){
+  var seen={}, list=[];
+  (NEWS && NEWS.items || []).forEach(function(it){
+    if(it.town && !seen[it.town]){ seen[it.town]=1; list.push(it.town); }
+  });
+  /* Keep the site's canonical town order; anything unexpected goes last. */
+  var ordered = TOWN_ORDER.concat(DISTRICTS).filter(function(t){ return seen[t]; });
+  list.forEach(function(t){ if(ordered.indexOf(t)<0) ordered.push(t); });
+  return ordered;
+}
+var NEWS_CATS = ["Road closures","Meeting notices","Public notices","General"];
+
+function newsList(){
+  var q = state.newsQ.trim().toLowerCase();
+  return (NEWS && NEWS.items || []).filter(function(it){
+    if(state.newsTown!=="All" && it.town!==state.newsTown) return false;
+    if(state.newsCat!=="All" && it.category!==state.newsCat) return false;
+    if(q){
+      var hay = (it.headline+" "+(it.summary||"")+" "+(it.topic||"")+" "+
+                 newsTownLabel(it.town)).toLowerCase();
+      if(hay.indexOf(q)<0) return false;
+    }
+    return true;
+  });
+}
+
+function newsCard(it,i){
+  var fresh = newsIsNew(it);
+  var cat = NEWS_CATS.indexOf(it.category)>=0 ? it.category : "General";
+  var slug = cat.toLowerCase().replace(/[^a-z]+/g,"-");
+  return '<article class="ncard rise'+(fresh?" fresh":"")+'" style="--i:'+Math.min(i,14)+'">'+
+    '<div class="nc-top">'+
+      '<span class="npill">'+esc(newsTownLabel(it.town))+'</span>'+
+      '<span class="tag ncat '+slug+'">'+esc(cat)+'</span>'+
+      (it.topic?'<span class="tag ntopic">'+esc(it.topic)+'</span>':"")+
+      (fresh?'<span class="tag new">New</span>':"")+
+      '<span class="nc-when">'+esc(relTime(it))+'</span>'+
+    '</div>'+
+    '<h3 class="nc-head"><a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
+      esc(it.headline)+'</a></h3>'+
+    (it.summary?'<p class="nc-sum">'+esc(it.summary)+'</p>':"")+
+    '<div class="nc-foot"><a class="nc-src" href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
+      'Read the original posting ↗</a></div>'+
+  '</article>';
+}
+
+function newsSourcesSection(){
+  var srcs = (NEWS && NEWS.sources) || [];
+  if(!srcs.length) return "";
+  var h='<section class="nsources"><div class="cardhead"><h3>Where this comes from</h3></div>'+
+    '<p class="cardsub">Every item above is scraped from one of these pages, hourly. '+
+    'Nothing is rewritten — headlines and summaries are the towns&rsquo; own words, and every '+
+    'card links back to the original posting.</p><div class="nsrclist">';
+  srcs.forEach(function(s){
+    /* A town that scrapes cleanly but posts rarely is not a broken source, and
+       saying so beats a bare "0 items". */
+    var cls = s.ok ? (s.items ? "ok" : "quiet") : (s.items ? "stale" : "bad");
+    var note = s.ok
+             ? (s.items ? plural(s.items,"item")+" on file"
+                        : "Nothing posted in the last 90 days")
+             : s.items ? plural(s.items,"item")+" on file · last check failed"
+                       : "No items yet · "+(s.error ? "last check failed" : "nothing posted");
+    h+='<div class="nsrc">'+
+       '<span class="sdot '+cls+'"></span>'+
+       '<span class="nsrc-main">'+
+         '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a>'+
+         '<span class="nsrc-url">'+esc(s.url)+'</span>'+
+       '</span>'+
+       '<span class="nsrc-n">'+esc(note)+'</span>'+
+       '</div>';
+  });
+  return h+'</div></section>';
+}
+
+function renderNews(){
+  if(NEWS===null){
+    $("#view").innerHTML='<p class="loading">Gathering town announcements…</p>';
+    ensureNews(function(){ if(state.view==="news") renderNews(); });
+    return;
+  }
+  var all = (NEWS.items||[]);
+  var list = newsList();
+  var updated = NEWS.updated
+    ? "Refreshed "+new Date(NEWS.updated).toLocaleString("en-US",
+        {timeZone:ET,month:"long",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET"
+    : "";
+  var unseen = newsUnseenCount();
+
+  var h='<section class="newshero">'+
+    '<p class="kicker">South County &middot; Massachusetts</p>'+
+    '<h2>Town news, all of it</h2>'+
+    '<p class="nsub">Road closures, special meeting notices, public notices and transfer '+
+      'station hours &mdash; gathered from every town website we cover, newest first, so you '+
+      'never have to visit ten of them.'+
+      (updated?'<span class="upd">'+esc(updated)+
+        (unseen?' · '+plural(unseen,"new item")+' since your last visit':"")+'</span>':"")+
+    '</p></section>';
+
+  h+='<div class="newsbar">'+
+    '<div class="nsearch">'+
+      '<input id="newsq" type="search" value="'+esc(state.newsQ)+'" '+
+        'placeholder="Search announcements…" autocomplete="off" '+
+        'aria-label="Search town announcements">'+
+    '</div>'+
+    '<div class="npills" role="group" aria-label="Filter by town">'+
+      '<button class="fchip'+(state.newsTown==="All"?" on":"")+'" data-action="news-town" '+
+        'data-town="All" aria-pressed="'+(state.newsTown==="All")+'" type="button">All towns</button>';
+  newsTowns().forEach(function(t){
+    var on = state.newsTown===t;
+    h+='<button class="fchip'+(on?" on":"")+'" data-action="news-town" data-town="'+esc(t)+'" '+
+       'aria-pressed="'+on+'" type="button">'+esc(newsTownLabel(t))+'</button>';
+  });
+  h+='</div>'+
+    '<div class="npills cats" role="group" aria-label="Filter by category">'+
+      '<button class="fchip'+(state.newsCat==="All"?" on":"")+'" data-action="news-cat" '+
+        'data-cat="All" aria-pressed="'+(state.newsCat==="All")+'" type="button">All categories</button>';
+  NEWS_CATS.forEach(function(c){
+    var on = state.newsCat===c;
+    var n = all.filter(function(it){ return it.category===c; }).length;
+    if(!n && !on) return;
+    h+='<button class="fchip'+(on?" on":"")+'" data-action="news-cat" data-cat="'+esc(c)+'" '+
+       'aria-pressed="'+on+'" type="button">'+esc(c)+' <span class="n">'+n+'</span></button>';
+  });
+  h+='</div></div>';
+
+  h+='<div class="secthead"><h2>Latest</h2>'+
+     '<span class="right"><span class="count" id="newscount">'+
+       plural(list.length,"announcement")+'</span>'+
+     '<button class="linkall" id="newsclear" data-action="news-clear" type="button"'+
+       (newsFiltered()?"":" hidden")+'>Clear filters</button>'+
+     '</span></div>';
+
+  h+='<div id="newsfeed">'+newsFeedHTML(list)+'</div>';
+  h+=newsSourcesSection();
+
+  $("#view").innerHTML=h;
+  var box=$("#newsq");
+  if(box){
+    /* Search repaints only the feed and its counter — re-rendering the whole
+       view would tear the input out from under the reader's cursor. */
+    box.addEventListener("input",function(){
+      state.newsQ=box.value;
+      var hits=newsList();
+      var feed=document.getElementById("newsfeed");
+      if(feed) feed.innerHTML=newsFeedHTML(hits);
+      var c=document.getElementById("newscount");
+      if(c) c.textContent=plural(hits.length,"announcement");
+      var clear=document.getElementById("newsclear");
+      if(clear) clear.hidden=!newsFiltered();
+    });
+  }
+}
+function newsFiltered(){
+  return !!(state.newsQ.trim() || state.newsTown!=="All" || state.newsCat!=="All");
+}
+function newsFeedHTML(list){
+  if(!list.length){
+    if(NEWS_FAILED){
+      return '<p class="none">Couldn&rsquo;t load the news feed &mdash; the first scrape is '+
+             'probably still running. Check back shortly.</p>';
+    }
+    if(!(NEWS.items||[]).length){
+      return '<p class="none">No announcements on file yet. The scraper runs hourly from '+
+             '6:00 AM to midnight Eastern.</p>';
+    }
+    return '<p class="none">Nothing matches those filters.</p>';
+  }
+  return '<div class="newsfeed">'+list.map(newsCard).join("")+'</div>';
+}
+
+/* ============================================================
    Archive + sources
    ============================================================ */
 var ATEXT=null, ATEXT_LOADING=false;
@@ -1149,6 +1396,9 @@ function renderSources(){
    View switching + events
    ============================================================ */
 function setView(v){
+  /* Leaving the news tab is what banks "you have seen up to here" — doing it
+     on arrival would clear the New markers before they could be read. */
+  if(state.view==="news" && v!=="news") markNewsSeen();
   state.view=v;
   if(v==="calendar") state.pcLimit=60;
   renderHero();
@@ -1159,6 +1409,7 @@ function renderView(){
   var v=$("#view");
   v.classList.remove("fade"); void v.offsetWidth; v.classList.add("fade");
   if(state.view==="briefing")      renderBriefing();
+  else if(state.view==="news")     renderNews();
   else if(state.view==="calendar") renderCalendar();
   else if(state.view==="towns")    renderTowns();
   else if(state.view==="starred")  renderStarred();
@@ -1202,6 +1453,13 @@ document.addEventListener("click",function(e){
       var d=document.querySelector(".pcdetail");
       if(d) d.scrollIntoView({block:"nearest"});
     }
+    return;
+  }
+  if(a==="news-town"){ state.newsTown=el.dataset.town; renderNews(); return; }
+  if(a==="news-cat"){ state.newsCat=el.dataset.cat; renderNews(); return; }
+  if(a==="news-clear"){
+    state.newsTown="All"; state.newsCat="All"; state.newsQ="";
+    renderNews();
     return;
   }
   if(a==="mode"){ state.mode=el.dataset.mode; renderHero(); renderView(); return; }
@@ -1259,6 +1517,11 @@ document.addEventListener("DOMContentLoaded",function(){
     state.town="All"; state.q=""; state.mode="week"; setView("briefing");
   });
   $("#starjump").addEventListener("click",function(){ setView("starred"); });
+  /* Closing the tab from the news view counts as having read it, same as
+     navigating away would. */
+  window.addEventListener("pagehide",function(){
+    if(state.view==="news") markNewsSeen();
+  });
   loadData();
 });
 

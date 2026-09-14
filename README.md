@@ -19,6 +19,12 @@ Three ways into the same data, all in one static page:
 - **Towns** — a dashboard per town: next meeting, this week's count, recent
   changes, every board, and recent minutes.
 
+- **News** — a reverse-chronological feed of what the towns themselves are
+  announcing: road closures, special meeting notices, public notices, transfer
+  station hours. Filter by town and category, search headlines and summaries,
+  and see what's arrived since your last visit. Every card links back to the
+  original town posting, and the tab lists its own sources.
+
 Plus **Archive** (full-text search across posted agendas and minutes) and
 **Sources** (which scrapers succeeded in the last run).
 
@@ -47,6 +53,12 @@ server to host a per-person feed, and this site is deliberately static.
   run into `data/changes.json`.
 - `.github/workflows/update.yml` runs the scraper daily at 6:00 AM ET and commits
   fresh data. GitHub Pages rebuilds automatically.
+- `scraper/news.py` pulls each town's news/announcements page into `data/news.json`,
+  keyed by source URL so re-runs never duplicate anything, keeping 90 days of
+  history even after a town drops a post off its own page.
+- `.github/workflows/news.yml` runs that one hourly from 6:00 AM to midnight ET.
+  Cron is UTC and DST-blind, so the schedule covers both offsets and the scraper
+  checks the Eastern clock itself, exiting without writing outside the window.
 - The site is static (`index.html` + `styles.css` + `app.js` + `assets/`) — no
   build step, no dependencies, no server.
 
@@ -68,6 +80,26 @@ server to host a per-person feed, and this site is deliberately static.
 | Richmond | _no reliable central listing found yet — in progress_ |
 
 Pittsfield is covered editorially when a story crosses over (no automated scrape).
+
+### News sources
+
+None of these towns publish a working RSS feed, so the news feed is HTML parsing
+against three CMS families. The News tab lists these in the page itself, with a
+live status dot per source.
+
+| Town | News source |
+|---|---|
+| Great Barrington | `townofgbma.gov/m/newsflash?cat=1` |
+| Sheffield | `sheffieldma.gov/news` |
+| Egremont | `egremont-ma.gov/m/newsflash` (all published categories) |
+| New Marlborough | `newmarlboroughma.gov/m/newsflash?cat=1` |
+| Monterey | `montereyma.gov/node/1/news` |
+| Sandisfield | `sandisfieldma.gov/node/1/news` |
+| Otis | `townofotisma.com/newslist.php` |
+| Tyringham | `tyringham-ma.gov/m/newsflash?cat=1,7,17,19` |
+| Becket | `townofbecket.org/node/1/news` |
+| Alford | `townofalford.org/m/newsflash` (all published categories) |
+| BHRSD | `bhrsd.org` homepage feed (ParentSquare-driven, limited) |
 
 ## Photographs
 
