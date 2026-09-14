@@ -2,16 +2,21 @@
 """Scrape South County (Berkshire) town meeting calendars into data/meetings.json.
 
 Sources:
-  - Sandisfield / Lee / Monterey : Drupal date_ical feeds (/calendar/ical/export.ics)
-  - Great Barrington             : CivicPlus calendar.aspx?CID=23 (upcoming meetings list)
-  - Egremont / New Marlborough   : CivicPlus AgendaCenter search (agenda/minutes postings)
-  - Sheffield                    : per-board agenda pages (/node/N/agenda)
+  - Sandisfield / Monterey : Drupal date_ical feeds (/calendar/ical/export.ics)
+  - Great Barrington        : CivicPlus calendar.aspx?CID=23 (upcoming meetings list)
+  - Egremont / New Marlborough / Tyringham : CivicPlus AgendaCenter (+Tyringham calendar)
+  - Sheffield               : per-board agenda pages (/node/N/agenda)
+  - Otis                    : Revize calendar JSON + per-board agenda pages
+  - Becket                  : Drupal 7 per-board agenda/minutes indexes
+  - Berkshire Hills RSD     : district meeting calendar + Google Doc agendas
+  - SBRSD                   : reattributed from member-town cross-posts
 
 Run daily from GitHub Actions. Failures are per-town and never abort the run.
 """
 import json
 import re
 import sys
+import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
@@ -593,6 +598,249 @@ def scrape_mount_washington():
                       feed_path="/?mec-ical-feed=1")
 
 
+# ---------------- Otis (Revize calendar JSON + per-board agenda pages) ----------------
+
+OTIS_CAL = ("https://townofotisma.com/_assets_/plugins/revizeCalendar/calendar_data_handler.php"
+            "?webspace=otismassachusetts&relative_revize_url=//cms2.revize.com&protocol=https:")
+OTIS_BASE = "https://townofotisma.com"
+OTIS_DOCS = OTIS_BASE + "/transparency/agendas_minutes.php"
+
+
+def scrape_otis():
+    town = "Otis"
+    try:
+        events = get(OTIS_CAL, timeout=40).json()
+    except Exception as e:
+        print(f"[{town}] calendar fetch failed: {e}", flush=True)
+        return 0
+    if isinstance(events, dict):
+        print(f"[{town}] calendar API error: {events}", flush=True)
+        return 0
+    # Board landing -> (board name, agendas/minutes page)
+    boards = []
+    try:
+        soup = BeautifulSoup(get(OTIS_DOCS, timeout=40).text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if "agendas_minutes.php" not in href:
+                continue
+            if href.rstrip("/").endswith("transparency/agendas_minutes.php"):
+                continue
+            name = a.get_text(" ", strip=True)
+            if name:
+                boards.append((name, urljoin(OTIS_BASE + "/", href)))
+    except Exception as e:
+        print(f"[{town}] board index failed: {e}", flush=True)
+    docs = {}  # (board.lower(), date) -> {"agenda": url, "minutes": url}
+    for name, page in boards:
+        try:
+            psoup = BeautifulSoup(get(page, timeout=30).text, "html.parser")
+        except Exception as e:
+            print(f"[{town}] board page failed: {e}", flush=True)
+            continue
+        for a in psoup.find_all("a", href=True):
+            href = a["href"]
+            low = href.lower()
+            if ".pdf" not in low:
+                continue
+            fname = low.rsplit("/", 1)[-1]
+            if "/agendas/" in low or "agenda" in fname:
+                kind = "agenda"
+            elif "/minutes/" in low or "minutes" in fname:
+                kind = "minutes"
+            else:
+                continue
+            d = date_from_text(a.get_text(" ", strip=True)) or date_from_text(href)
+            if not d:
+                continue
+            docs.setdefault((name.lower(), d), {})[kind] = urljoin(page, href)
+    n = 0
+    cutoff = TODAY - timedelta(days=180)
+    horizon = TODAY + timedelta(days=120)
+    for ev in events:
+        if not isinstance(ev, dict):
+            continue
+        if ev.get("primary_calendar_name") != "Public Meetings":
+            continue
+        title = (ev.get("title") or "").strip()
+        m = re.match(r"(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})", ev.get("start") or "")
+        if not title or not m:
+            continue
+        try:
+            d = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            continue
+        if d < cutoff or d > horizon:
+            continue
+        board = re.sub(r"\s+Meeting$", "", title, flags=re.I).strip() or title
+        doc = docs.get((board.lower(), d), {})
+        add(town, board, title, d, start=f"{m.group(4)}:{m.group(5)}",
+            location=clean_location(ev.get("location")),
+            agenda_url=doc.get("agenda"), minutes_url=doc.get("minutes"),
+            source_url=OTIS_DOCS)
+        n += 1
+    return n
+
+
+# ---------------- Tyringham (CivicPlus, same as Egremont/Alford) ----------------
+
+def scrape_tyringham():
+    n = _civicplus_list("Tyringham", "https://www.tyringham-ma.gov/calendar.aspx?CID=26")
+    n += scrape_agenda_center("Tyringham", "https://www.tyringham-ma.gov")
+    return n
+
+
+# ---------------- Becket (Drupal 7 board indexes) ----------------
+
+BECKET_BASE = "https://www.townofbecket.org"
+
+
+def _becket_pdf(doc_url):
+    """Fetch a Becket agenda/minutes doc page and return its PDF href."""
+    try:
+        soup = BeautifulSoup(get(doc_url, timeout=30).text, "html.parser")
+    except Exception:
+        return None
+    for a in soup.find_all("a", href=True):
+        low = a["href"].lower()
+        if low.endswith(".pdf") and ("/agendas/" in low or "/minutes/" in low):
+            return urljoin(BECKET_BASE, a["href"])
+    return None
+
+
+def scrape_becket():
+    town = "Becket"
+    try:
+        soup = BeautifulSoup(get(BECKET_BASE + "/minutes-and-agendas", timeout=40).text,
+                             "html.parser")
+    except Exception as e:
+        print(f"[{town}] board index fetch failed: {e}", flush=True)
+        return 0
+    boards = []
+    seen = set()
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"/node/(\d+)(?:/|$|\?)", a["href"] or "")
+        if not m or m.group(1) in seen:
+            continue
+        seen.add(m.group(1))
+        name = a.get_text(" ", strip=True)
+        if name:
+            boards.append((name, m.group(1)))
+    cutoff = TODAY - timedelta(days=180)
+    horizon = TODAY + timedelta(days=120)
+    recent_cutoff = TODAY - timedelta(days=45)
+    recs = {}  # (board, date) -> dict(title, start, agenda, minutes, source)
+    fetches = 0
+    for name, nid in boards:
+        for kind, path in (("agenda", f"/node/{nid}/agenda/2026"),
+                           ("minutes", f"/node/{nid}/minutes/2026")):
+            try:
+                isoup = BeautifulSoup(get(BECKET_BASE + path, timeout=40).text,
+                                      "html.parser")
+            except Exception as e:
+                print(f"[{town}] {name} {kind} index failed: {e}", flush=True)
+                continue
+            for a in isoup.find_all("a", href=True):
+                href = a["href"]
+                if f"/{kind}/" not in href.lower():
+                    continue
+                doc_url = urljoin(BECKET_BASE, href)
+                box = a.find_parent(["li", "div", "article", "tr"]) or a.parent
+                text = box.get_text(" ", strip=True) if box else a.get_text(" ", strip=True)
+                d = date_from_text(text)
+                if not d or d < cutoff or d > horizon:
+                    continue
+                tm = re.search(r"(\d{1,2}):(\d{2})\s*(am|pm)", text, re.I)
+                start = None
+                if tm:
+                    hh = int(tm.group(1)) % 12 + (12 if tm.group(3).lower() == "pm" else 0)
+                    start = f"{hh:02d}:{tm.group(2)}"
+                # Fetch the doc page for the direct PDF only for recent or
+                # upcoming entries; older ones link to the doc page itself.
+                pdf = None
+                if d >= recent_cutoff and fetches < 400:
+                    pdf = _becket_pdf(doc_url)
+                    fetches += 1
+                    time.sleep(0.4)  # polite: Cloudflare watches this host
+                rec = recs.setdefault((name, d), {
+                    "title": a.get_text(" ", strip=True) or f"{name} Meeting",
+                    "start": start, "agenda": None, "minutes": None, "source": doc_url})
+                rec[kind] = pdf or doc_url
+                if start and not rec["start"]:
+                    rec["start"] = start
+    n = 0
+    for (board, d), r in recs.items():
+        add(town, board, r["title"], d, start=r["start"],
+            agenda_url=r["agenda"], minutes_url=r["minutes"], source_url=r["source"])
+        n += 1
+    return n
+
+
+# ---------------- Berkshire Hills RSD (district calendar + Google Doc agendas) ----------------
+
+BHRSD_CAL = "https://www.bhrsd.org/sc-meeting-calendar"
+BHRSD_AGENDA_PAGE = "https://www.bhrsd.org/upcoming-meeting-agenda"
+
+
+def scrape_bhrsd():
+    town = "BHRSD"
+    try:
+        soup = BeautifulSoup(get(BHRSD_CAL, timeout=40).text, "html.parser")
+    except Exception as e:
+        print(f"[{town}] calendar fetch failed: {e}", flush=True)
+        return 0
+    dates = []
+    for tag in soup.find_all("strong"):
+        d = date_from_text(tag.get_text(" ", strip=True))
+        if not d:
+            continue
+        row = tag.find_parent("tr") or tag.parent
+        loc = row.get_text(" ", strip=True) if row else ""
+        # drop the date text itself from the location
+        loc = re.sub(r"(?i)" + "|".join(MONTHS_FULL) + r"\s+\d{1,2},?\s+\d{4}", "", loc)
+        dates.append((d, clean_location(loc)))
+    # The upcoming agenda is a public Google Doc; export it as text for the
+    # search index and pull the meeting time from it (calendar has no times).
+    agenda_url, agenda_date, agenda_text, start = None, None, None, None
+    try:
+        asoup = BeautifulSoup(get(BHRSD_AGENDA_PAGE, timeout=40).text, "html.parser")
+        link_text = ""
+        for a in asoup.find_all("a", href=True):
+            if "docs.google.com/document/d/" in a["href"]:
+                agenda_url = a["href"]
+                link_text = a.get_text(" ", strip=True)
+                break
+        if agenda_url:
+            agenda_date = date_from_text(link_text)
+            m = re.search(r"/document/d/([A-Za-z0-9_-]+)", agenda_url)
+            if m:
+                txt = get(f"https://docs.google.com/document/d/{m.group(1)}/export?format=txt",
+                          timeout=40).text
+                agenda_text = txt.strip()[:8000]
+                if not agenda_date:
+                    agenda_date = date_from_text(txt[:500])
+                tm = re.search(r"(\d{1,2}):(\d{2})\s*(am|pm)", txt[:500], re.I)
+                if tm:
+                    hh = int(tm.group(1)) % 12 + (12 if tm.group(3).lower() == "pm" else 0)
+                    start = f"{hh:02d}:{tm.group(2)}"
+    except Exception as e:
+        print(f"[{town}] agenda doc failed: {e}", flush=True)
+    n = 0
+    for d, loc in dates:
+        if d < TODAY - timedelta(days=180) or d > TODAY + timedelta(days=180):
+            continue
+        is_agenda_mtg = agenda_date is not None and d == agenda_date
+        add(town, "School Committee", "School Committee Meeting", d,
+            start=start if is_agenda_mtg else None,
+            location=loc or "Berkshire Hills Regional School District",
+            agenda_url=agenda_url if is_agenda_mtg else None,
+            source_url=BHRSD_CAL)
+        if is_agenda_mtg and agenda_text and len(agenda_text) > 120:
+            meetings[-1]["_doc_text"] = agenda_text
+        n += 1
+    return n
+
+
 SBRSD_RE = re.compile(r"southern berkshire regional school|\bsbrsd\b", re.I)
 
 SBRSD_COMMITTEES = [
@@ -663,13 +911,7 @@ def extract_document_text(meetings_out):
         print("[doc-text] pdfplumber not installed, skipping", flush=True)
         return {}
     import io
-    jobs = []
-    for m in meetings_out:
-        if m.get("agenda_url") and any(h in m["agenda_url"] for h in PDF_HINTS):
-            jobs.append((m, m["agenda_url"], "agenda"))
-        if m.get("minutes_url") and any(h in m["minutes_url"] for h in PDF_HINTS):
-            jobs.append((m, m["minutes_url"], "minutes"))
-    print(f"[doc-text] extracting text from {len(jobs)} documents", flush=True)
+    print(f"[doc-text] extracting text for {len(meetings_out)} meetings", flush=True)
 
     def fetch_text(url):
         r = requests.get(url, headers=UA, timeout=45)
@@ -687,18 +929,27 @@ def extract_document_text(meetings_out):
         return re.sub(r"\n{3,}", "\n\n", txt).strip()[:8000]
 
     combined = {}
-    for m, url, kind in jobs:
+    for m in meetings_out:
         key = meeting_key(m)
-        try:
-            txt = fetch_text(url)
-        except Exception as e:
-            print(f"[doc-text] skip {url}: {type(e).__name__}", flush=True)
+        if m.get("_doc_text"):
+            # Pre-extracted text (e.g. BHRSD's Google Doc agenda export).
+            combined[key] = m["_doc_text"][:16000]
             continue
-        if len(txt) < 120:
+        if not m.get("agenda_url") and not m.get("minutes_url"):
             continue
-        prev = combined.get(key, "")
-        tag = "\n\n--- MINUTES ---\n\n" if kind == "minutes" else ""
-        combined[key] = (prev + tag + txt)[:16000] if prev else txt
+        for url, kind in ((m.get("agenda_url"), "agenda"), (m.get("minutes_url"), "minutes")):
+            if not url or not any(h in url for h in PDF_HINTS):
+                continue
+            try:
+                txt = fetch_text(url)
+            except Exception as e:
+                print(f"[doc-text] skip {url}: {type(e).__name__}", flush=True)
+                continue
+            if len(txt) < 120:
+                continue
+            prev = combined.get(key, "")
+            tag = "\n\n--- MINUTES ---\n\n" if kind == "minutes" else ""
+            combined[key] = (prev + tag + txt)[:16000] if prev else txt
     print(f"[doc-text] extracted {len(combined)} documents", flush=True)
     return combined
 
@@ -712,6 +963,10 @@ def main():
         ("New Marlborough", lambda: scrape_agenda_center("New Marlborough", "https://www.newmarlboroughma.gov")),
         ("Sheffield", scrape_sheffield),
         ("Alford", scrape_alford),
+        ("Otis", scrape_otis),
+        ("Tyringham", scrape_tyringham),
+        ("Becket", scrape_becket),
+        ("BHRSD", scrape_bhrsd),
     ]
     total = 0
     errors = {}
@@ -761,6 +1016,16 @@ def main():
         "error": None,
         "note": "District notices reposted by member towns",
     }
+    sources["BHRSD"] = {
+        "ok": "BHRSD" not in errors,
+        "meetings": town_counts.get("BHRSD", 0),
+        "checked_at": checked_at,
+        "error": errors.get("BHRSD"),
+        "note": "Berkshire Hills Regional School District",
+    }
+
+    for m in out:
+        m.pop("_doc_text", None)
 
     payload = {
         "updated": checked_at,
