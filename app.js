@@ -48,8 +48,28 @@ function esc(s){
   });
 }
 
-var state = { view:"week", town:"All", day:etToday(), month:etToday().slice(0,7), selDay:etToday() };
+var state = { view:"week", town:"All", day:etToday(), month:etToday().slice(0,7), selDay:etToday(), archiveQ:"", minOnly:false };
 var DATA = { meetings:[], updated:null };
+var ATEXT = null, ATEXT_LOADING = false;
+
+function meetingKey(m){
+  return [m.town||"", m.board||"", m.title||"", m.date||"", m.start||""].join("|");
+}
+// Agenda text is lazy-loaded: the search index only downloads when the
+// Archive tab is opened, keeping the first paint fast.
+function ensureAtext(cb){
+  if(ATEXT !== null){ if(cb) cb(); return; }
+  if(ATEXT_LOADING) return;
+  ATEXT_LOADING = true;
+  fetch("data/agenda_text.json?ts="+Date.now(),{cache:"no-store"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(j){
+      ATEXT = (j && j.texts) || {};
+      ATEXT_LOADING = false;
+      if(cb) cb();
+    })
+    .catch(function(){ ATEXT = {}; ATEXT_LOADING = false; if(cb) cb(); });
+}
 
 function inTown(m){ return state.town==="All" || m.town===state.town; }
 function byTime(a,b){ return (a.start||"99:99").localeCompare(b.start||"99:99"); }
@@ -189,13 +209,117 @@ function renderView(){
   v.classList.remove("fade"); void v.offsetWidth; v.classList.add("fade");
   if(state.view==="week") renderWeek();
   else if(state.view==="day") renderDay();
-  else renderMonth();
+  else if(state.view==="month") renderMonth();
+  else if(state.view==="archive") renderArchive();
+  else if(state.view==="sources") renderSources();
   renderStats();
   Array.prototype.forEach.call(document.querySelectorAll(".views button"),function(b){
     var on=b.dataset.view===state.view;
     b.classList.toggle("active",on);
     b.setAttribute("aria-selected",on?"true":"false");
   });
+}
+
+function archiveRow(m,i,inAgenda){
+  var d=parseD(m.date);
+  var datestr=MONS[d.getMonth()]+" "+d.getDate()+", "+d.getFullYear();
+  var links="";
+  if(m.minutes_url) links+='<a class="pill" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">Minutes</a>';
+  if(m.agenda_url) links+='<a class="pill dim" href="'+esc(m.agenda_url)+'" target="_blank" rel="noopener">Agenda</a>';
+  return '<div class="meeting rise" style="--i:'+Math.min(i,12)+'">'+
+    '<div class="time">'+esc(datestr)+'</div>'+
+    '<div class="m-body"><div class="m-title">'+esc(m.title)+'</div>'+
+    '<div class="m-meta"><span class="town-tag">'+esc(m.town)+'</span>'+(m.board?esc(m.board):"")+
+    (inAgenda?' <span class="hit">match in agenda text</span>':"")+'</div></div>'+
+    (links ? '<div class="m-links">'+links+'</div>' : '')+
+  '</div>';
+}
+
+function archiveMatches(){
+  var t=etToday(), q=state.archiveQ.trim().toLowerCase();
+  var out=[];
+  DATA.meetings.forEach(function(m){
+    if(m.date>=t || !inTown(m)) return;
+    if(state.minOnly && !m.minutes_url) return;
+    var inAgenda=false;
+    if(q){
+      var hay=(m.title+" "+(m.board||"")+" "+m.town).toLowerCase();
+      if(hay.indexOf(q)<0){
+        var txt=ATEXT ? (ATEXT[meetingKey(m)]||"") : "";
+        inAgenda=txt && txt.toLowerCase().indexOf(q)>=0;
+        if(!inAgenda) return;
+      }
+    }
+    out.push({m:m,inAgenda:inAgenda});
+  });
+  out.sort(function(a,b){
+    return b.m.date.localeCompare(a.m.date) || (b.m.start||"").localeCompare(a.m.start||"");
+  });
+  return out;
+}
+
+function renderArchiveResults(){
+  var box=$("#archresults");
+  if(!box) return;
+  var rows=archiveMatches();
+  if(!rows.length){
+    box.innerHTML='<p class="none" style="margin-top:24px">No past meetings match.</p>';
+    return;
+  }
+  box.innerHTML=rows.map(function(r,i){ return archiveRow(r.m,i,r.inAgenda); }).join("");
+}
+
+function renderArchive(){
+  var t=etToday();
+  var past=DATA.meetings.filter(function(m){ return m.date<t && inTown(m); });
+  var withMin=past.filter(function(m){ return m.minutes_url; }).length;
+  var h='<div class="archivebar fade">'+
+    '<input id="aq" type="search" placeholder="Search past meetings, boards, agenda text\u2026" value="'+esc(state.archiveQ)+'" aria-label="Search the minutes archive" autocomplete="off">'+
+    '<label class="minonly"><input type="checkbox" id="amin"'+(state.minOnly?" checked":"")+'> Minutes only</label>'+
+    '</div>'+
+    '<p class="archcount">'+past.length+' past meetings'+(withMin?' \u00b7 '+withMin+' with minutes posted':"")+'</p>'+
+    '<div id="archresults"></div>';
+  $("#view").innerHTML=h;
+  renderArchiveResults();
+  // If agenda text isn't loaded yet, fetch it and re-run the search so
+  // agenda-text matches appear without the user retyping.
+  ensureAtext(function(){ if(state.view==="archive") renderArchiveResults(); });
+  var aq=$("#aq");
+  aq.addEventListener("input",function(){ state.archiveQ=aq.value; renderArchiveResults(); });
+  var am=$("#amin");
+  am.addEventListener("change",function(){ state.minOnly=am.checked; renderArchiveResults(); });
+}
+
+function fmtChecked(iso){
+  return new Date(iso).toLocaleString("en-US",{timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+}
+
+function renderSources(){
+  var src=DATA.sources;
+  var h='<div class="srchead fade"><h2>Source health</h2>'+
+    '<p class="srcsub">Every town calendar is scraped daily at 6:00 AM ET. '+
+    'If a source fails, its meetings may be missing \u2014 this page says so instead of pretending nothing was posted.</p></div>';
+  if(!src){
+    h+='<p class="none">Source health arrives with the next scheduled scrape.</p>';
+  }else{
+    h+='<div class="srcgrid fade">';
+    townList().forEach(function(tn,i){
+      var s=src[tn], dot, status, detail;
+      if(!s){ dot="na"; status="Not scraped"; detail="No automated source yet \u2014 coverage is manual."; }
+      else if(s.ok){ dot="ok"; status="OK"; detail=s.meetings+" meetings in the feed"; }
+      else { dot="bad"; status="Scrape failed"; detail=s.error || "The source could not be reached."; }
+      h+='<div class="srccard rise" style="--i:'+Math.min(i,12)+'">'+
+        '<span class="sdot '+dot+'"></span>'+
+        '<div class="srcbody"><div class="srcname">'+esc(tn)+'</div>'+
+        '<div class="srcstatus">'+esc(status)+
+          (s && s.checked_at ? ' \u00b7 checked '+esc(fmtChecked(s.checked_at))+" ET" : "")+'</div>'+
+        '<div class="srcdetail">'+esc(detail)+'</div>'+
+        (s && s.note ? '<div class="srcdetail">'+esc(s.note)+'</div>' : "")+
+        '</div></div>';
+    });
+    h+='</div>';
+  }
+  $("#view").innerHTML=h;
 }
 
 function loadData(){
