@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T10:56:39-04:00",
+ "updated": "2026-09-14T11:05:36-04:00",
  "meetings": [
   {
    "town": "New Marlborough",
@@ -974,7 +974,7 @@
    "location": null,
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-91626",
    "minutes_url": null,
-   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
+   "source_url": "https://www.sheffieldma.gov/node/28/agenda"
   },
   {
    "town": "Lee",
@@ -1823,12 +1823,12 @@
   }
  ],
  "towns": {
-  "Sandisfield": 239,
-  "Lee": 10,
-  "Monterey": 165,
-  "Great Barrington": 14,
-  "Egremont": 25,
   "New Marlborough": 22,
+  "Egremont": 25,
+  "Monterey": 34,
+  "Sandisfield": 34,
+  "Great Barrington": 14,
+  "Lee": 10,
   "Sheffield": 1
  }
 }
