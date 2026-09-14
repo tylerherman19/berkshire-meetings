@@ -5,38 +5,51 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Berkshire Meetings — South County town meetings</title>
 <meta name="description" content="Every public meeting across the southern Berkshires, in one place. Refreshed daily.">
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="styles.css?v=1">
 </head>
 <body>
-<header class="masthead">
-  <p class="kicker">South County &middot; Massachusetts</p>
-  <h1>Berkshire Meetings</h1>
-  <p class="sub">Every public meeting across the southern Berkshires, on one page. Refreshed daily.</p>
-  <p class="updated"><span id="updated"></span> <button id="refresh" class="refresh" type="button">Refresh</button></p>
+<header class="topbar">
+  <div class="topbar-in">
+    <button class="brand" id="brand" type="button">Berkshire Meetings</button>
+    <nav class="views" id="views" aria-label="Calendar views">
+      <button data-view="week" class="active" type="button">Week</button>
+      <button data-view="day" type="button">Day</button>
+      <button data-view="month" type="button">Month</button>
+      <button data-view="towns" type="button">Towns</button>
+      <button data-view="archive" type="button">Archive</button>
+      <button data-view="sources" type="button">Sources</button>
+    </nav>
+    <button class="starjump" id="starjump" type="button" title="Your starred meetings">
+      <span class="sj-star" aria-hidden="true">&#9733;</span>
+      <span id="starcount">0</span>
+    </button>
+  </div>
 </header>
 
-<section class="stats" aria-label="This week at a glance">
-  <div class="stat"><span class="num" id="stat-week">0</span><span class="lbl">meetings in the next 7 days</span></div>
-  <div class="stat"><span class="num" id="stat-boards">0</span><span class="lbl">boards meeting</span></div>
-  <div class="stat"><span class="num" id="stat-towns">0</span><span class="lbl">towns &amp; districts</span></div>
+<section class="hero" id="hero">
+  <div class="hero-in">
+    <p class="kicker">South County &middot; Massachusetts</p>
+    <h1>Upcoming in South County</h1>
+    <p class="sub">Every public meeting. One place. <span id="updated"></span></p>
+    <div class="herosearch">
+      <input id="q" type="search" placeholder="Search meetings, boards, towns&hellip;" autocomplete="off" aria-label="Search upcoming meetings">
+    </div>
+    <div class="chips" id="modechips">
+      <button class="chip active" data-action="mode" data-mode="week" type="button">This week</button>
+      <button class="chip" data-action="mode" data-mode="starred" type="button"><span aria-hidden="true">&#9733;</span> Starred <span class="n" id="starchip-n">0</span></button>
+    </div>
+    <div class="townstrip" id="towns" aria-label="Filter by town"></div>
+  </div>
 </section>
-
-<nav class="towns" id="towns" aria-label="Filter by town"></nav>
-
-<nav class="views" role="tablist" aria-label="Calendar views">
-  <button data-view="week" class="active" role="tab" aria-selected="true">Week</button>
-  <button data-view="day" role="tab" aria-selected="false">Day</button>
-  <button data-view="month" role="tab" aria-selected="false">Month</button>
-  <button data-view="archive" role="tab" aria-selected="false">Archive</button>
-  <button data-view="sources" role="tab" aria-selected="false">Sources</button>
-</nav>
 
 <main id="view" aria-live="polite"></main>
 
 <footer>
+  <div class="fin">
   <p>Sources: the town websites of Great Barrington, Sheffield, Egremont, New Marlborough, Monterey, Sandisfield, Otis, Tyringham, Becket, Alford and Richmond, plus the Berkshire Hills and Southern Berkshire regional school districts. Scraped daily &mdash; always confirm time and place with the official posting.</p>
   <p class="credit">Built for keeping up with South County town government.</p>
+  </div>
 </footer>
-<script src="app.js?v=8"></script>
+<script src="app.js?v=1"></script>
 </body>
 </html>
