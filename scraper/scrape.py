@@ -40,9 +40,28 @@ stats = {}
 
 
 def get(url, timeout=40):
-    r = requests.get(url, headers=UA, timeout=timeout)
-    r.raise_for_status()
-    return r
+    try:
+        r = requests.get(url, headers=UA, timeout=timeout)
+        r.raise_for_status()
+        return r
+    except requests.HTTPError as e:
+        code = e.response.status_code if e.response is not None else None
+        server = (e.response.headers.get("Server") if e.response is not None else None)
+        if code == 403:
+            print(f"[retry-tls] 403 (server={server}) for {url}; "
+                  "retrying with browser TLS impersonation", flush=True)
+            try:
+                from curl_cffi import requests as tls_requests
+            except ImportError:
+                print("[retry-tls] curl_cffi not installed", flush=True)
+                raise
+            r2 = tls_requests.get(url, headers=UA, timeout=timeout, impersonate="chrome")
+            if r2.status_code >= 400:
+                print(f"[retry-tls] still failing: {r2.status_code}", flush=True)
+                raise
+            print(f"[retry-tls] success for {url}", flush=True)
+            return r2
+        raise
 
 
 def add(town, board, title, d, start=None, end=None, all_day=False,
