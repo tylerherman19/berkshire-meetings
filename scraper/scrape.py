@@ -318,6 +318,16 @@ def date_from_text(s):
     return None
 
 
+def board_from_agenda_title(title):
+    """Sheffield agenda links usually name the board: 'X Committee Agenda 9/16/26'."""
+    t = DATE_RE.sub("", title or "")
+    t = DATE_RE2.sub("", t)
+    t = DATE_RE3.sub("", t)
+    t = re.sub(r"(?i)\b(agendas?|minutes|meetings?|special|regular|draft)\b", "", t)
+    t = re.sub(r"\s+", " ", t).strip(" -–—")
+    return t if len(t) >= 4 else None
+
+
 def scrape_sheffield():
     town = "Sheffield"
     base = "https://www.sheffieldma.gov"
@@ -341,6 +351,7 @@ def scrape_sheffield():
             seen_b.add(url)
             uniq.append((name, url))
     n = 0
+    seen_urls = {}
     for name, burl in uniq:
         try:
             bsoup = BeautifulSoup(get(burl, timeout=20).text, "html.parser")
@@ -366,22 +377,30 @@ def scrape_sheffield():
                 d = date_from_text(text) or date_from_text(href)
                 if not d or d < TODAY - timedelta(days=30) or d > TODAY + timedelta(days=120):
                     continue
-                add(town, name, text, d, agenda_url=urljoin(base, href), source_url=burl)
-                n += 1
-    return n
+                furl = urljoin(base, href)
+                # Each board page repeats the same "recent agendas" sidebar, so the
+                # same file shows up under many boards: keep one record per file and
+                # prefer the board name parsed from the agenda title itself.
+                board = board_from_agenda_title(text) or name
+                if furl in seen_urls:
+                    prev = seen_urls[furl]
+                    if prev["board"] == prev["page_board"] and board != name:
+                        prev["board"] = board
+                    continue
+                seen_urls[furl] = {"board": board, "page_board": name, "title": text,
+                                   "date": d, "agenda_url": furl, "source_url": burl}
+    for rec in seen_urls.values():
+        add(town, rec["board"], rec["title"], rec["date"],
+            agenda_url=rec["agenda_url"], source_url=rec["source_url"])
+    return len(seen_urls)
 
 
-# ---------------- Monterey ----------------
+# ---------------- Drupal day-page crawl (Monterey, Sandisfield fallback) ----------------
 
-def scrape_monterey():
-    town = "Monterey"
-    base = "https://www.montereyma.gov"
-    n = scrape_ics(town, base)
-    if n:
-        return n
-    print(f"[{town}] ics empty, falling back to day pages", flush=True)
+def scrape_drupal_day_pages(town, base, days=45):
+    """Crawl /calendar/day/YYYY-MM-DD pages (Drupal date module). Returns count."""
     count = 0
-    for i in range(45):
+    for i in range(days):
         d = TODAY + timedelta(days=i)
         try:
             soup = BeautifulSoup(
@@ -395,23 +414,46 @@ def scrape_monterey():
             title = a.get_text(" ", strip=True)
             if not title or len(title) < 3:
                 continue
-            parent = a.find_parent(["div", "li", "td"]) or a.parent
-            ttext = parent.get_text(" ", strip=True) if parent else ""
-            tm = re.search(r"(\d{1,2}):(\d{2})\s*(am|pm)", ttext, re.I)
             start = None
-            if tm:
-                hh = int(tm.group(1)) % 12 + (12 if tm.group(3).lower() == "pm" else 0)
-                start = f"{hh:02d}:{tm.group(2)}"
+            for depth, parent in enumerate(a.parents):
+                if depth > 3 or parent.name in ("body", "html"):
+                    break
+                ttext = parent.get_text(" ", strip=True) if hasattr(parent, "get_text") else ""
+                tm = re.search(r"(\d{1,2}):(\d{2})\s*(am|pm)", ttext, re.I)
+                if tm:
+                    hh = int(tm.group(1)) % 12 + (12 if tm.group(3).lower() == "pm" else 0)
+                    start = f"{hh:02d}:{tm.group(2)}"
+                    break
             add(town, title, title, d, start=start, source_url=urljoin(base, href))
             count += 1
     return count
+
+
+def scrape_monterey():
+    town = "Monterey"
+    base = "https://www.montereyma.gov"
+    n = scrape_ics(town, base)
+    if n:
+        return n
+    print(f"[{town}] ics unavailable, falling back to day pages", flush=True)
+    return scrape_drupal_day_pages(town, base)
+
+
+def scrape_sandisfield():
+    town = "Sandisfield"
+    base = "https://www.sandisfieldma.gov"
+    n = scrape_ics(town, base)
+    if n:
+        return n
+    print(f"[{town}] ics blocked, falling back to day pages", flush=True)
+    return scrape_drupal_day_pages(town, base)
 
 
 # ---------------- main ----------------
 
 def main():
     jobs = [
-        ("Sandisfield", lambda: scrape_ics("Sandisfield", "https://www.sandisfieldma.gov")),
+        ("Sandisfield", scrape_sandisfield),
         ("Lee", scrape_lee),
         ("Monterey", scrape_monterey),
         ("Great Barrington", scrape_great_barrington),
