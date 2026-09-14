@@ -230,7 +230,7 @@ function archiveRow(m,i,inAgenda){
     '<div class="time">'+esc(datestr)+'</div>'+
     '<div class="m-body"><div class="m-title">'+esc(m.title)+'</div>'+
     '<div class="m-meta"><span class="town-tag">'+esc(m.town)+'</span>'+(m.board?esc(m.board):"")+
-    (inAgenda?' <span class="hit">match in agenda text</span>':"")+'</div></div>'+
+    (inAgenda?' <span class="hit">match in document text</span>':"")+'</div></div>'+
     (links ? '<div class="m-links">'+links+'</div>' : '')+
   '</div>';
 }
@@ -274,7 +274,7 @@ function renderArchive(){
   var past=DATA.meetings.filter(function(m){ return m.date<t && inTown(m); });
   var withMin=past.filter(function(m){ return m.minutes_url; }).length;
   var h='<div class="archivebar fade">'+
-    '<input id="aq" type="search" placeholder="Search past meetings, boards, agenda text\u2026" value="'+esc(state.archiveQ)+'" aria-label="Search the minutes archive" autocomplete="off">'+
+    '<input id="aq" type="search" placeholder="Search past meetings, boards, agendas, minutes\u2026" value="'+esc(state.archiveQ)+'" aria-label="Search the minutes archive" autocomplete="off">'+
     '<label class="minonly"><input type="checkbox" id="amin"'+(state.minOnly?" checked":"")+'> Minutes only</label>'+
     '</div>'+
     '<p class="archcount">'+past.length+' past meetings'+(withMin?' \u00b7 '+withMin+' with minutes posted':"")+'</p>'+
