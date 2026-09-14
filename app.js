@@ -1,7 +1,7 @@
 (function(){
 "use strict";
 
-var TOWNS = ["Great Barrington","Egremont","Sheffield","New Marlborough","Monterey","Sandisfield","Lee"];
+var TOWNS = ["Great Barrington","Sheffield","Egremont","New Marlborough","Monterey","Sandisfield","Stockbridge","West Stockbridge","Alford","Mount Washington","Richmond","SBRSD"];
 var ET = "America/New_York";
 var DOW = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var MONS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
