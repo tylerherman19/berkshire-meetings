@@ -1155,9 +1155,15 @@ function newsCard(it,i){
   var fresh = newsIsNew(it);
   var cat = NEWS_CATS.indexOf(it.category)>=0 ? it.category : "General";
   var slug = cat.toLowerCase().replace(/[^a-z]+/g,"-");
+  var town = newsTownLabel(it.town);
+  var on = state.newsTown===it.town;
   return '<article class="ncard rise'+(fresh?" fresh":"")+'" style="--i:'+Math.min(i,14)+'">'+
     '<div class="nc-top">'+
-      '<span class="npill">'+esc(newsTownLabel(it.town))+'</span>'+
+      /* The pill is the filter: tap a town on any card to narrow the feed to
+         it, tap it again to come back to everything. */
+      '<button class="npill" data-action="news-town" data-town="'+esc(it.town)+'" '+
+        'aria-pressed="'+on+'" type="button" title="'+
+        (on?"Show every town again":"Show only "+esc(town))+'">'+esc(town)+'</button>'+
       '<span class="tag ncat '+slug+'">'+esc(cat)+'</span>'+
       (it.topic?'<span class="tag ntopic">'+esc(it.topic)+'</span>':"")+
       (fresh?'<span class="tag new">New</span>':"")+
@@ -1166,8 +1172,9 @@ function newsCard(it,i){
     '<h3 class="nc-head"><a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
       esc(it.headline)+'</a></h3>'+
     (it.summary?'<p class="nc-sum">'+esc(it.summary)+'</p>':"")+
-    '<div class="nc-foot"><a class="nc-src" href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
-      'Read the original posting ↗</a></div>'+
+    '<div class="nc-foot">'+
+      '<a class="btn ghost sm" href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
+      'Read full post ↗</a></div>'+
   '</article>';
 }
 
@@ -1250,11 +1257,16 @@ function renderNews(){
   });
   h+='</div></div>';
 
-  h+='<div class="secthead"><h2>Latest</h2>'+
+  /* The feed is every town by default; the heading says so, and says what
+     you're looking at instead once you've narrowed it. */
+  h+='<div class="secthead"><h2>'+
+       (state.newsTown==="All" ? "Everything, newest first"
+                               : esc(newsTownLabel(state.newsTown)))+'</h2>'+
+     (state.newsCat!=="All"?'<span class="range">'+esc(state.newsCat)+'</span>':"")+
      '<span class="right"><span class="count" id="newscount">'+
        plural(list.length,"announcement")+'</span>'+
      '<button class="linkall" id="newsclear" data-action="news-clear" type="button"'+
-       (newsFiltered()?"":" hidden")+'>Clear filters</button>'+
+       (newsFiltered()?"":" hidden")+'>Show all towns</button>'+
      '</span></div>';
 
   h+='<div id="newsfeed">'+newsFeedHTML(list)+'</div>';
@@ -1455,8 +1467,18 @@ document.addEventListener("click",function(e){
     }
     return;
   }
-  if(a==="news-town"){ state.newsTown=el.dataset.town; renderNews(); return; }
-  if(a==="news-cat"){ state.newsCat=el.dataset.cat; renderNews(); return; }
+  if(a==="news-town" || a==="news-cat"){
+    var key = a==="news-town" ? "newsTown" : "newsCat";
+    var val = a==="news-town" ? el.dataset.town : el.dataset.cat;
+    /* Pressing the active filter again clears it, so a card's town pill is a
+       way back to the whole feed as well as a way into one town. */
+    state[key] = (state[key]===val && val!=="All") ? "All" : val;
+    renderNews();
+    /* The list under the reader just changed length; start them at the top of
+       it rather than wherever the old list had them scrolled to. */
+    window.scrollTo({top:0,behavior:"auto"});
+    return;
+  }
   if(a==="news-clear"){
     state.newsTown="All"; state.newsCat="All"; state.newsQ="";
     renderNews();
