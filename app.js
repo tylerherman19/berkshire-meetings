@@ -1,7 +1,7 @@
 (function(){
 "use strict";
 
-var TOWN_ORDER = ["Great Barrington","Sheffield","Egremont","New Marlborough","Monterey","Sandisfield","Stockbridge","West Stockbridge","Alford","Mount Washington","Richmond","SBRSD"];
+var TOWN_ORDER = ["Great Barrington","Sheffield","Egremont","New Marlborough","Monterey","Sandisfield","Alford","Richmond","SBRSD"];
 
 // Town list is data-driven: any jurisdiction present in the JSON shows up,
 // even if this JS file is cached. TOWN_ORDER only controls display order.
