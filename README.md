@@ -18,7 +18,7 @@ Great Barrington, Egremont, Sheffield, New Marlborough, Monterey, Sandisfield, a
 | Town | Source |
 |---|---|
 | Sandisfield | `sandisfieldma.gov/calendar/ical/export.ics` |
-| Lee | `lee.ma.us/calendar/ical/export.ics` |
+| Lee | `leema.gov/calendar.aspx` (site moved from lee.ma.us in 2026) |
 | Monterey | `montereyma.gov/calendar/ical/export.ics` |
 | Great Barrington | `townofgbma.gov/calendar.aspx?CID=23` |
 | Egremont | `egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all` |
