@@ -25,11 +25,11 @@ Richmond, and the Southern Berkshire Regional School District.
 | Egremont | `egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all` |
 | New Marlborough | `newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all` |
 | Sheffield | `sheffieldma.gov/minutes-and-agendas` (per-board agenda pages) |
-| Stockbridge | _source research in progress_ |
-| West Stockbridge | _source research in progress_ |
-| Alford | _source research in progress_ |
-| Mount Washington | _source research in progress_ |
-| Richmond | _source research in progress_ |
-| SBRSD | _source research in progress_ |
+| Stockbridge | `stockbridge-ma.gov/meetings` (static table) |
+| West Stockbridge | `weststockbridge-ma.gov/AgendaCenter/` |
+| Alford | `townofalford.org/calendar.aspx` (CivicEngage) |
+| Mount Washington | `mountwashington-ma.gov/?mec-ical-feed=1` (iCal) |
+| SBRSD | reattributed from member-town AgendaCenter "PLEASE POST" notices |
+| Richmond | _no reliable central listing found yet — in progress_ |
 
 Pittsfield is covered editorially when a story crosses over (no automated scrape).
