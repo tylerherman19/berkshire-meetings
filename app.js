@@ -49,10 +49,26 @@ function esc(s){
     return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
   });
 }
-// Display-only trim: town calendars append ", United States" to every
-// address, which eats two lines on a phone. Data stays untouched.
-function shortLoc(loc){
-  return String(loc==null?"":loc).replace(/,?\s*United States\s*$/i,"").trim();
+// Display-only cleanup: CivicPlus location fields arrive as a mashed
+// "<place> <board> <ISO timestamp> <place>..." repeat stuffed with Zoom
+// boilerplate. The raw data stays untouched; this just reads better.
+function escRe(s){ return String(s).replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); }
+function cleanLoc(loc, board){
+  var s = String(loc==null?"":loc);
+  s = s.split(/\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/)[0];      // drop the repeated second copy
+  var viaZoom = /via zoom|remote meeting/i.test(s);
+  var phys = s.split(/via zoom|remote meeting/i)[0];
+  phys = phys.replace(/https?:\/\/\S+/g," ");
+  phys = phys.replace(/\bDial[-\s]?in\s*:?[^;]*/gi," ");
+  phys = phys.replace(/\b(Webinar ID|Meeting ID|Passcode)\s*:?[^;]*/gi," ");
+  phys = phys.replace(/\+\d[\d\s().-]{6,}/g," ");
+  phys = phys.replace(/BarringtonTown/g,"Barrington Town");
+  if(board) phys = phys.replace(new RegExp("\\s*"+escRe(board)+"\\s*$","i"),"");
+  phys = phys.replace(/^(in-person|hybrid meeting)(\s+in person)?(\s+at)?\s+/i,"");
+  phys = phys.replace(/,?\s*United States\s*$/i,"");
+  phys = phys.replace(/\s{2,}/g," ").replace(/[\s\u00b7:;,.\-]+$/,"").replace(/\s+and$/i,"").trim();
+  if(!phys) return viaZoom ? "Remote via Zoom" : "";
+  return viaZoom ? phys + " \u00b7 via Zoom" : phys;
 }
 
 var state = { view:"week", town:"All", day:etToday(), month:etToday().slice(0,7), selDay:etToday(), archiveQ:"", minOnly:false };
@@ -97,7 +113,7 @@ function meetingRow(m,i){
   var endBit = showEnd ? '<span class="end">&ndash; '+esc(fmtTime(m.end))+'</span>' : "";
   var meta = [];
   if(m.board) meta.push(esc(m.board));
-  if(m.location) meta.push(esc(shortLoc(m.location)));
+  if(m.location) meta.push(esc(cleanLoc(m.location, m.board)));
   var links = "";
   if(m.agenda_url) links += '<a class="pill" href="'+esc(m.agenda_url)+'" target="_blank" rel="noopener">Agenda</a>';
   if(m.minutes_url) links += '<a class="pill dim" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">Minutes</a>';
