@@ -376,35 +376,47 @@ function statusTags(m){
                    : '<span class="tag inperson">In-person</span>';
   return h;
 }
+/* The single most newsworthy status for a list row, most urgent first. The
+   full set still shows in the calendar detail pane. */
+function primaryTag(m){
+  var k=mkey(m);
+  if(isCancelled(m))   return '<span class="tag cancelled">Cancelled</span>';
+  if(NEW_KEYS[k])      return '<span class="tag new">New</span>';
+  if(UPD_KEYS[k])      return '<span class="tag updated">Changed</span>';
+  if(m.agenda_url)     return '<span class="tag agenda">Agenda posted</span>';
+  if(m.minutes_url)    return '<span class="tag minutes">Minutes available</span>';
+  if(isRemote(m))      return '<span class="tag remote">Remote</span>';
+  return '<span class="tag inperson">In-person</span>';
+}
 function starBtn(m){
   var k=mkey(m), on=!!STARS[k];
   return '<button class="star" data-action="star" data-key="'+esc(k)+'" '+
     'aria-pressed="'+on+'" title="'+(on?"Remove from your starred meetings":"Star this meeting")+'" '+
     'aria-label="'+(on?"Unstar":"Star")+' '+esc(m.title)+'" type="button">'+(on?"★":"☆")+'</button>';
 }
-/* The briefing row: day gutter | what & when | actions. */
+/* A meeting row. Inside a day card the date lives in the card's gutter; the
+   archive uses flat rows, which print their own date instead. */
 function meetingRow(m,i,opts){
   opts = opts||{};
-  var k=mkey(m), d=parseD(m.date), loc=cleanLoc(m.location,m.board);
+  var k=mkey(m), loc=cleanLoc(m.location,m.board);
   var act = "";
   if(m.agenda_url)       act += '<a class="btn ghost sm" href="'+esc(m.agenda_url)+'" target="_blank" rel="noopener">View agenda</a>';
   else if(m.minutes_url) act += '<a class="btn ghost sm" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">Minutes</a>';
-  if(opts.sync){
-    act += '<a class="btn ghost sm" href="'+esc(gcalURL(m))+'" target="_blank" rel="noopener">Add to Google</a>';
-    act += '<button class="btn ghost sm" data-action="ics-one" data-key="'+esc(k)+'" type="button">.ics</button>';
-  }
-  return '<article class="mrow rise'+(STARS[k]?" starred":"")+'" style="--i:'+Math.min(i,14)+'">'+
-    '<div class="mr-date"><span class="mr-dow">'+DOW[d.getDay()].slice(0,3)+'</span>'+
-      '<span class="mr-dnum">'+MONS[d.getMonth()].toUpperCase()+" "+d.getDate()+'</span></div>'+
+  if(opts.sync) act += '<a class="btn ghost sm" href="'+esc(gcalURL(m))+'" target="_blank" rel="noopener">Add to Google</a>';
+  var date = opts.showDate
+    ? '<span class="mr-date-inline">'+esc(fmtShort(m.date))+", "+parseD(m.date).getFullYear()+'</span>'
+    : "";
+  return '<article class="mrow'+(opts.sync?" sync":"")+(opts.flat?" flat rise":"")+(STARS[k]?" starred":"")+'"'+
+    (opts.flat?' style="--i:'+Math.min(i,14)+'"':"")+'>'+
     '<div class="mr-body">'+
       '<div class="mr-title">'+esc(m.title)+'</div>'+
-      '<div class="mr-meta">'+esc(townLabel(m.town))+(m.board?' · '+esc(m.board):"")+'</div>'+
-      '<div class="mr-when"><span class="t">'+esc(fmtRange(m))+'</span>'+
-        (loc?'<span class="loc">'+esc(loc)+'</span>':"")+'</div>'+
-      '<div class="mr-tags">'+statusTags(m)+'</div>'+
+      '<div class="mr-meta">'+date+esc(townLabel(m.town))+(m.board?' \u00b7 '+esc(m.board):"")+'</div>'+
     '</div>'+
+    '<div class="mr-when"><span class="t">'+esc(fmtRange(m))+'</span>'+
+      (loc?'<span class="loc">'+esc(loc)+'</span>':"")+'</div>'+
+    '<div class="mr-tags">'+primaryTag(m)+(opts.hit?'<span class="hit" title="Your search matched the text of the posted agenda or minutes">Text match</span>':"")+'</div>'+
     '<div class="mr-act">'+starBtn(m)+act+
-      '<button class="chev" data-action="open" data-key="'+esc(k)+'" aria-label="Open meeting details" type="button">›</button>'+
+      '<button class="chev" data-action="open" data-key="'+esc(k)+'" aria-label="Open meeting details" type="button">\u203A</button>'+
     '</div></article>';
 }
 function groupByDay(list){
@@ -418,10 +430,17 @@ function groupByDay(list){
 }
 function dayGroupsHTML(groups,opts){
   var i=0;
-  return groups.map(function(g){
-    return '<div class="daygroup"><h3>'+esc(dayLabel(g.date))+
-      ' <span class="dc">'+plural(g.ms.length,"meeting")+'</span></h3>'+
-      g.ms.map(function(m){ return meetingRow(m,i++,opts); }).join("")+'</div>';
+  return groups.map(function(g,gi){
+    var d=parseD(g.date), rel=dayLabel(g.date);
+    var showRel = rel==="Today"||rel==="Tomorrow"||rel==="Yesterday";
+    return '<div class="daycard rise" style="--i:'+Math.min(gi,12)+'">'+
+      '<div class="dc-gutter">'+
+        '<span class="dc-dow">'+DOW[d.getDay()].slice(0,3)+'</span>'+
+        '<span class="dc-date">'+MONS[d.getMonth()].toUpperCase()+" "+d.getDate()+'</span>'+
+        (showRel?'<span class="dc-rel">'+rel+'</span>':"")+
+      '</div>'+
+      '<div class="dc-rows">'+g.ms.map(function(m){ return meetingRow(m,i++,opts); }).join("")+'</div>'+
+    '</div>';
   }).join("");
 }
 
@@ -760,6 +779,8 @@ function pcDetail(){
     (loc?'<p class="pd-loc">'+esc(loc)+'</p>':"")+
     '<div class="pd-acts">';
   if(m.agenda_url)  h+='<a class="btn" href="'+esc(m.agenda_url)+'" target="_blank" rel="noopener">View agenda</a>';
+  else h+='<button class="btn" data-action="star" data-key="'+esc(mkey(m))+'" type="button">'+
+          (isStarred(m)?"\u2605 Starred":"\u2606 Star this meeting")+'</button>';
   if(m.minutes_url) h+='<a class="btn ghost" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">Minutes</a>';
   h+='<a class="btn ghost" href="'+esc(gcalURL(m))+'" target="_blank" rel="noopener">Add to Google Calendar</a>';
   h+='<button class="btn ghost" data-action="ics-one" data-key="'+esc(mkey(m))+'" type="button">Download .ics</button>';
@@ -1110,10 +1131,7 @@ function renderArchiveResults(){
   var rows=archiveMatches();
   if(!rows.length){ box.innerHTML='<p class="none">No past meetings match.</p>'; return; }
   box.innerHTML=rows.slice(0,150).map(function(r,i){
-    var html=meetingRow(r.m,i,{});
-    if(r.inDoc) html=html.replace('<div class="mr-tags">',
-      '<div class="mr-tags"><span class="hit">match in document text</span>');
-    return html;
+    return meetingRow(r.m,i,{flat:true,showDate:true,hit:r.inDoc});
   }).join("") + (rows.length>150
     ? '<p class="archcount">Showing the 150 most recent of '+rows.length+' matches. Narrow the search to see more.</p>'
     : "");
