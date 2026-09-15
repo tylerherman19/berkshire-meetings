@@ -9,7 +9,7 @@ name: Scrape town news
 # woken outside the window, which is what actually holds the edges year-round.
 on:
   schedule:
-    - cron: "0 10-23,0-4 * * *"
+    - cron: "7 10-23,0-4 * * *" # hourly off the congested :00 minute
   workflow_dispatch:
     inputs:
       force:
