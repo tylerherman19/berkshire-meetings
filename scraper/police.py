@@ -99,7 +99,8 @@ LOC_RE = re.compile(
 DATE_RE = re.compile(r"For Date:\s+(\d{2})/(\d{2})/(\d{4})")
 
 def title(s):
-    return s.strip().title().replace("Mv", "MV").replace("Ltc", "LTC")
+    return (s.strip().title().replace("Mv", "MV").replace("Ltc", "LTC")
+            .replace("(S)", "(s)").replace("Ems", "EMS"))
 
 def clean_location(raw):
     """Reduce a raw location line to street level. Returns (display, sector)."""
