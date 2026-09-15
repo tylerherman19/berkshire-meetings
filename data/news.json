@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T19:03:10-04:00",
+ "updated": "2026-09-15T08:27:14-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1151,17 +1151,6 @@
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/99",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "General",
-   "topic": null,
-   "headline": "Assessors' Inspector will be conducting house visits beginning Monday June 22, 2026",
-   "summary": "To all Sandisfield Town ResidencesPlease note : Beginning Monday June 22, 2026, the Sandisfield Assessors' Office will be conducting site (",
-   "posted": "2026-06-17T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/assessors-inspector-will-be-conducting-house-visits-beginning-monday-june-22-2026",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -1170,7 +1159,7 @@
   "Otis": 8,
   "Becket": 20,
   "New Marlborough": 11,
-  "Sandisfield": 17,
+  "Sandisfield": 16,
   "Tyringham": 3,
   "Alford": 3,
   "BHRSD": 8,
@@ -1184,7 +1173,7 @@
    "ok": true,
    "scraped": 31,
    "items": 22,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1194,7 +1183,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1202,9 +1191,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 12,
+   "scraped": 11,
    "items": 12,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1214,7 +1203,7 @@
    "ok": true,
    "scraped": 88,
    "items": 11,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1224,7 +1213,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1233,8 +1222,8 @@
    "url": "https://www.sandisfieldma.gov/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 17,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "items": 16,
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1244,7 +1233,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1254,7 +1243,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1264,7 +1253,7 @@
    "ok": true,
    "scraped": 20,
    "items": 20,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1274,7 +1263,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   },
   {
@@ -1284,7 +1273,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-14T19:03:10-04:00",
+   "checked_at": "2026-09-15T08:27:14-04:00",
    "error": null
   }
  ]
