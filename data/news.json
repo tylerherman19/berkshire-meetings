@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T14:07:19-04:00",
+ "updated": "2026-09-15T14:29:09-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Becket Fall Family Fun Festival \u2014 Saturday, September 26, 2026 \u2014 Parade at 11 AM; Festival 12\u20135 PM",
+   "summary": null,
+   "posted": "2026-09-15T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-fall-family-fun-festival-%E2%80%94-saturday-september-26-2026-%E2%80%94-parade-11-am-festival-12%E2%80%935",
+   "first_seen": "2026-09-15T14:29:09-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Save the Date: Vaccine Clinic at Becket Town Hall \u2014 October 20, 4:00\u20136:00 PM",
+   "summary": null,
+   "posted": "2026-09-15T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/save-date-vaccine-clinic-becket-town-hall-%E2%80%94-october-20-400%E2%80%93600-pm",
+   "first_seen": "2026-09-15T14:29:09-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -1154,10 +1176,10 @@
   }
  ],
  "towns": {
+  "Becket": 22,
   "Great Barrington": 22,
   "Egremont": 12,
   "Otis": 8,
-  "Becket": 20,
   "New Marlborough": 11,
   "Sandisfield": 16,
   "Tyringham": 3,
@@ -1173,7 +1195,7 @@
    "ok": true,
    "scraped": 31,
    "items": 22,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1183,7 +1205,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1193,7 +1215,7 @@
    "ok": true,
    "scraped": 11,
    "items": 12,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1203,7 +1225,7 @@
    "ok": true,
    "scraped": 88,
    "items": 11,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1213,18 +1235,18 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-15T14:07:19-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-09-15T14:29:09-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1233,7 +1255,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1243,7 +1265,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1252,8 +1274,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 20,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "items": 22,
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1263,7 +1285,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   },
   {
@@ -1273,7 +1295,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-15T14:07:19-04:00",
+   "checked_at": "2026-09-15T14:29:09-04:00",
    "error": null
   }
  ]
