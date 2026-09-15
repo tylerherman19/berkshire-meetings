@@ -780,3 +780,9 @@ footer a{color:var(--muted)}
   .tdhero .followbtn{margin-left:0}
   .tdhero-veil{background:linear-gradient(to top,rgba(16,22,17,.92) 0%,rgba(16,22,17,.72) 58%,rgba(16,22,17,.38) 100%)}
 }
+
+/* Manual refresh row on the Sources view */
+.srcfresh{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.srcfresh .btn{margin:0}
+.rerun{font-size:13px;color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.rerun:hover{color:var(--ink)}
