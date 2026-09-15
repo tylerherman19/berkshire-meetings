@@ -1379,9 +1379,14 @@ function renderArchiveResults(){
 }
 function renderSources(){
   var src=DATA.sources;
+  var upd=DATA.updated?new Date(DATA.updated).toLocaleString("en-US",
+    {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET":"not yet";
   var h='<div class="viewhead"><h2>Source health</h2>'+
-    '<p class="vsub">Every town calendar is scraped daily at 6:00 AM ET. If a source fails, its meetings may be '+
-    'missing — this page says so plainly instead of pretending nothing was posted.</p></div>';
+    '<p class="vsub">Every town calendar is scraped daily at 6:02 AM ET. If a source fails, its meetings may be '+
+    'missing — this page says so plainly instead of pretending nothing was posted.</p>'+
+    '<p class="vsub srcfresh"><span>Data updated '+esc(upd)+'</span>'+
+    '<button class="btn ghost sm" id="refreshdata" type="button">Refresh data</button>'+
+    '<a class="rerun" href="https://github.com/tylerherman19/berkshire-meetings/actions/workflows/update.yml" target="_blank" rel="noopener">Re-run the scraper</a></p></div>';
   if(!src){
     h+='<p class="none">Source health arrives with the next scheduled scrape.</p>';
   }else{
@@ -1402,6 +1407,8 @@ function renderSources(){
     h+='</div>';
   }
   $("#view").innerHTML=h;
+  var rb=document.getElementById("refreshdata");
+  if(rb) rb.addEventListener("click",function(){ loadData(); });
 }
 
 /* ============================================================
