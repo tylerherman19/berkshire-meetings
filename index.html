@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Berkshire Meetings — South County town meetings</title>
+<title>Berkshire Meetings â South County town meetings</title>
 <meta name="description" content="Every public meeting across the southern Berkshires, in one place. Star the ones you want to attend and sync them to Google Calendar or iCal. Refreshed daily.">
 <meta name="theme-color" content="#f6f2e9">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f5d3f'/%3E%3Cpath d='M16 6l3.1 6.3 6.9 1-5 4.9 1.2 6.9-6.2-3.3-6.2 3.3 1.2-6.9-5-4.9 6.9-1z' fill='%23f6f2e9'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=4">
+<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="blotter.css?v=1">
 </head>
 <body>
 
@@ -23,6 +25,7 @@
       <button data-view="news" type="button">News</button>
       <button data-view="calendar" type="button">Calendar</button>
       <button data-view="towns" type="button">Towns</button>
+      <button data-view="blotter" type="button">Police Blotter</button>
       <button data-view="archive" type="button">Archive</button>
       <button data-view="sources" type="button">Sources</button>
     </nav>
@@ -47,6 +50,8 @@
   </div>
 </footer>
 
-<script src="app.js?v=4"></script>
+<script src="app.js?v=5"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+<script src="blotter.js?v=1" defer></script>
 </body>
 </html>
