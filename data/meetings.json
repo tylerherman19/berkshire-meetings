@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T07:37:47-04:00",
+ "updated": "2026-09-15T07:54:46-04:00",
  "meetings": [
   {
    "town": "Otis",
@@ -6039,74 +6039,74 @@
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 13,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 81,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 74,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 8,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 83,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 6,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
    "meetings": 112,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-15T07:37:47-04:00",
+   "checked_at": "2026-09-15T07:54:46-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
