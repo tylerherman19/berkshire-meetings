@@ -1,4 +1,32 @@
 {
- "updated": "2026-09-15T07:54:46-04:00",
- "changes": []
+ "updated": "2026-09-15T14:57:45-04:00",
+ "changes": [
+  {
+   "type": "added",
+   "at": "2026-09-15T14:57:45-04:00",
+   "town": "Alford",
+   "board": "Assessors",
+   "title": "Assessors - Classification Hearing",
+   "date": "2026-09-17",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-15T14:57:45-04:00",
+   "town": "Great Barrington",
+   "board": "SEWER COMMISSIONERS MEETING",
+   "title": "SEWER COMMISSIONERS MEETING",
+   "date": "2026-09-17",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-15T14:57:45-04:00",
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-09-22",
+   "start": "18:00"
+  }
+ ]
 }

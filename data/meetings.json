@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T07:54:46-04:00",
+ "updated": "2026-09-15T14:57:45-04:00",
  "meetings": [
   {
    "town": "Otis",
@@ -4813,6 +4813,19 @@
   },
   {
    "town": "Alford",
+   "board": "Assessors",
+   "title": "Assessors - Classification Hearing",
+   "date": "2026-09-17",
+   "start": "08:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=634&month=9&year=2026&day=15&calType=0"
+  },
+  {
+   "town": "Alford",
    "board": "Select Board",
    "title": "Select Board Meeting",
    "date": "2026-09-17",
@@ -4846,7 +4859,7 @@
    "end": null,
    "all_day": false,
    "location": "Hybrid Meeting: Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84776235535 Dial in, audio only: +1 929 205 6099 Webinar ID: 847 7623 5535 Historic District Commission 2026-09-17T17:00:00 Hybrid Meeting: Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84776235535 Dial in, audio only: +1 929 205 6099 Webinar ID: 847 7623 5535 Town Hall Great Barrington MA 01230",
-   "agenda_url": "https://www.townofgbma.gov/agendacenter",
+   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Historic-District-Commission-34/#_09172026-2563",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1256&month=9&year=2026&day=15&calType=0"
   },
@@ -4862,6 +4875,19 @@
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Historic-District-Commission-34/#_09172026-2551",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1915&month=9&year=2026&day=15&calType=0"
+  },
+  {
+   "town": "Great Barrington",
+   "board": "SEWER COMMISSIONERS MEETING",
+   "title": "SEWER COMMISSIONERS MEETING",
+   "date": "2026-09-17",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": "Remote meeting via Zoom at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 SEWER COMMISSIONERS MEETING 2026-09-17T17:00:00 Remote meeting via Zoom at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Great Barrington MA 01230",
+   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_09172026-2564",
+   "minutes_url": null,
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1925&month=9&year=2026&day=15&calType=0"
   },
   {
    "town": "Monterey",
@@ -5005,6 +5031,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.townofalford.org/Calendar.aspx?EID=552&month=9&year=2026&day=15&calType=0"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-09-22",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026-09-22_bcc_agenda_revised.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-109"
   },
   {
    "town": "Sandisfield",
@@ -6025,88 +6064,88 @@
   "Otis": 83,
   "New Marlborough": 74,
   "Egremont": 81,
-  "Becket": 112,
+  "Becket": 113,
   "BHRSD": 14,
   "SBRSD": 3,
   "Tyringham": 6,
   "Monterey": 34,
   "Sandisfield": 34,
-  "Alford": 8,
-  "Great Barrington": 13,
+  "Alford": 9,
+  "Great Barrington": 14,
   "Sheffield": 1
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
-   "meetings": 13,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "meetings": 14,
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 81,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 74,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
-   "meetings": 8,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "meetings": 9,
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 83,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 6,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
-   "meetings": 112,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "meetings": 113,
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-15T07:54:46-04:00",
+   "checked_at": "2026-09-15T14:57:45-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
