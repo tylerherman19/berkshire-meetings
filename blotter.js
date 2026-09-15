@@ -42,7 +42,7 @@ var NICE = {
   "Assist Other Agency":"Assist Other Agency",
   "Found/Lost Property":"Found/Lost Property",
   "Lock Out":"Lockout",
-  "Disabled Mv":"Disabled Vehicle",
+  "Disabled MV":"Disabled Vehicle",
   "Trespass Complaint":"Trespass Complaint",
   "Mal Damage":"Vandalism",
   "Burglary":"Burglary",
@@ -81,7 +81,7 @@ var LEAD = {
   "Assist Citizen":"Officer assisted a resident.",
   "Found/Lost Property":"Found or lost property report.",
   "Lock Out":"Lockout assist.",
-  "Disabled Mv":"Disabled vehicle.",
+  "Disabled MV":"Disabled vehicle.",
   "Trespass Complaint":"Trespass complaint.",
   "Mal Damage":"Report of vandalism.",
   "Burglary":"Report of a burglary.",
@@ -396,7 +396,7 @@ function renderMap(list){
     bounds.push([i.lat,i.lon]);
   });
   var mc=document.getElementById("blotmapcount");
-  if(mc) mc.textContent=plural(mapped,"mapped incident")+(list.length>mapped?" Â· "+plural(list.length-mapped,"unmapped"):"");
+  if(mc) mc.textContent=plural(mapped,"mapped incident")+(list.length>mapped? "\u00B7 "+plural(list.length-mapped,"unmapped"):"");
   if(bounds.length>1) map.fitBounds(bounds,{padding:[30,30]});
   else if(bounds.length===1) map.setView(bounds[0],15);
   setTimeout(function(){ map.invalidateSize(); },60);
