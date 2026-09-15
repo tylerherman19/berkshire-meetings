@@ -2,7 +2,7 @@ name: Scrape town meetings
 
 on:
   schedule:
-    - cron: "0 10 * * *" # 6:00 AM ET daily
+    - cron: "2 10 * * *" # 6:02 AM ET daily (off the congested :00 minute)
   workflow_dispatch:
 
 permissions:
