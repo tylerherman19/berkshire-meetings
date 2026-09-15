@@ -1,0 +1,42 @@
+name: Scrape police blotter
+
+# Daily, 6:33 AM Eastern. Cron is UTC and has no idea about daylight saving,
+# so like the meetings scraper this simply runs at 10:33 UTC year-round -
+# 6:33 AM ET in summer, 5:33 AM in winter. The GB PD posts its weekly log PDF
+# a week or two after the week closes, so most runs find nothing new and exit
+# without committing.
+on:
+  schedule:
+    - cron: "33 10 * * *" # 6:33 AM ET (off the congested :00 minute)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Same reasoning as the meetings scraper: data/police.json is rewritten whole
+# each run, so two concurrent runs would race on the file and on git.
+concurrency:
+  group: scrape-police
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+      - name: Scrape police blotter
+        run: python scraper/police.py
+      - name: Commit updated data
+        run: |
+          git config user.name "blotter-bot"
+          git config user.email "blotter-bot@users.noreply.github.com"
+          git add data/police.json
+          # NOTE: do NOT add -X theirs here, matching the meetings workflow:
+          # the data file is fully regenerated each run. If a rebase ever
+          # conflicts, fail loudly instead of publishing a chimera.
+          git diff --cached --quiet || (git commit -m "Update police blotter" && git pull --rebase && git push)
