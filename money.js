@@ -30,9 +30,9 @@ var state = {
   data: null
 };
 
-function fmtM(n){ if(n==null) return "â"; var a=Math.abs(n); if(a>=1e6) return "$"+(n/1e6).toFixed(1)+"M"; if(a>=1e3) return "$"+(n/1e3).toFixed(0)+"K"; return "$"+n; }
-function fmt$(n){ return n==null ? "â" : "$"+Number(n).toLocaleString("en-US"); }
-function fmtN(n){ return n==null ? "â" : Number(n).toLocaleString("en-US"); }
+function fmtM(n){ if(n==null) return "—"; var a=Math.abs(n); if(a>=1e6) return "$"+(n/1e6).toFixed(1)+"M"; if(a>=1e3) return "$"+(n/1e3).toFixed(0)+"K"; return "$"+n; }
+function fmt$(n){ return n==null ? "—" : "$"+Number(n).toLocaleString("en-US"); }
+function fmtN(n){ return n==null ? "—" : Number(n).toLocaleString("en-US"); }
 function pct(n,dp){ return (n>=0?"+":"")+n.toFixed(dp==null?1:dp)+"%"; }
 function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
 
@@ -49,7 +49,7 @@ function metricVal(t){
   return expTotal(t,state.year);
 }
 function metricFmt(v){
-  if(state.metric==="taxrate") return v==null?"â":"$"+v.toFixed(2);
+  if(state.metric==="taxrate") return v==null?"—":"$"+v.toFixed(2);
   if(state.metric==="total") return fmtM(v);
   return fmt$(v);
 }
@@ -57,7 +57,7 @@ function metricFmt(v){
 /* ---------- shell ---------- */
 function render(){
   var host=document.getElementById("view");
-  if(!state.data){ host.innerHTML='<div class="mny"><p style="padding:40px 16px;color:var(--muted)">Loading town finance dataâ¦</p></div>'; load(); return; }
+  if(!state.data){ host.innerHTML='<div class="mny"><p style="padding:40px 16px;color:var(--muted)">Loading town finance data…</p></div>'; load(); return; }
   var h='<div class="mny">';
   h+='<div class="mny-hero"><h1>Money</h1><p>Budgets. Appropriations. Town finances across South County.</p></div>';
   h+=tabs();
@@ -69,7 +69,7 @@ function render(){
   else if(state.tab==="compare") h+=compare();
   else if(state.tab==="approp") h+=approp();
   else if(state.tab==="docs") h+=docs();
-  h+='<p class="mny-foot">Data: Massachusetts Division of Local Services Municipal Databank â Schedule A general fund actuals (FY2023âFY2025) and FY2025 tax data, pulled Sep 15, 2026. Figures are actual reported general fund expenditures, not adopted budgets. <a href="https://www.mass.gov/lists/schedule-a-reports-revenues-expenditures-and-more" target="_blank" rel="noopener">About Schedule A â</a></p>';
+  h+='<p class="mny-foot">Data: Massachusetts Division of Local Services Municipal Databank — Schedule A general fund actuals (FY2023–FY2025) and FY2025 tax data, pulled Sep 15, 2026. Figures are actual reported general fund expenditures, not adopted budgets. <a href="https://www.mass.gov/lists/schedule-a-reports-revenues-expenditures-and-more" target="_blank" rel="noopener">About Schedule A →</a></p>';
   h+='</div></div></div>';
   host.innerHTML=h;
 }
@@ -103,7 +103,7 @@ function rail(){
   for(var k=0;k<m.length;k++) h+='<option value="'+m[k][0]+'"'+(state.metric===m[k][0]?" selected":"")+'>'+m[k][1]+'</option>';
   h+='</select></div>';
   h+='<button class="mny-apply" data-mny="apply" type="button">Apply filters</button>';
-  h+='<p class="mny-srcnote">Data comes from the Massachusetts DLS Municipal Databank (Schedule A actuals). Budget documents and warrants are being added. <a href="https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=CommunityPage" target="_blank" rel="noopener">Source â</a></p>';
+  h+='<p class="mny-srcnote">Data comes from the Massachusetts DLS Municipal Databank (Schedule A actuals). Budget documents and warrants are being added. <a href="https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=CommunityPage" target="_blank" rel="noopener">Source →</a></p>';
   h+='</details></aside>';
   return h;
 }
@@ -122,7 +122,7 @@ function overview(){
   h+=tile(ts.length,"Towns","in South County");
   h+=tile(fmtM(tot),"Total expenditures","FY"+yr.slice(2)+" GF actuals, selected towns");
   h+=tile(fmt$(medBill),"Median tax bill","FY25 avg single-family");
-  h+=tile(chg==null?"â":pct(chg),"Avg. spending change",prev?("FY"+prev.slice(2)+" â FY"+yr.slice(2)):"",chg!=null&&chg>0);
+  h+=tile(chg==null?"—":pct(chg),"Avg. spending change",prev?("FY"+prev.slice(2)+" → FY"+yr.slice(2)):"",chg!=null&&chg>0);
   h+='</div>';
 
   h+='<div class="mny-grid2">';
@@ -135,35 +135,35 @@ function overview(){
   h+='</div>';
   h+='<div class="mny-card">'+docsCard(true)+'</div>';
   h+='<div class="mny-navcards">';
-  h+=navcard("budgets","Explore Town Budgets","Revenue and spending detail for each town","ð");
-  h+=navcard("compare","Compare Towns","Side-by-side spending, tax rates, and more","ð");
-  h+=navcard("approp","Appropriations Tracker","Where the money goes, by function","â");
+  h+=navcard("budgets","Explore Town Budgets","Revenue and spending detail for each town","📄");
+  h+=navcard("compare","Compare Towns","Side-by-side spending, tax rates, and more","📊");
+  h+=navcard("approp","Appropriations Tracker","Where the money goes, by function","⚖");
   h+='</div>';
   return h;
 }
 function tile(v,l,s,up){ return '<div class="mny-tile"><div class="v'+(up?" up":"")+'">'+v+'</div><div class="l">'+l+'</div><div class="s">'+s+'</div></div>'; }
-function navcard(tab,t,s,ic){ return '<button class="mny-navcard" data-mny="tab" data-v="'+tab+'" type="button"><span class="ic" aria-hidden="true">'+ic+'</span><span><span class="t">'+t+'</span><br><span class="s">'+s+'</span></span><span class="ar">â</span></button>'; }
+function navcard(tab,t,s,ic){ return '<button class="mny-navcard" data-mny="tab" data-v="'+tab+'" type="button"><span class="ic" aria-hidden="true">'+ic+'</span><span><span class="t">'+t+'</span><br><span class="s">'+s+'</span></span><span class="ar">→</span></button>'; }
 
 function barCard(){
   var ts=sel().slice().sort(function(a,b){return (metricVal(b)||0)-(metricVal(a)||0);});
   var max=0,i; for(i=0;i<ts.length;i++){ var v=metricVal(ts[i]); if(v!=null&&v>max)max=v; }
   var title={total:"Total Expenditures by Town",percapita:"Per Capita Spending by Town",taxrate:"FY25 Residential Tax Rate by Town",taxbill:"FY25 Avg Single-Family Tax Bill"}[state.metric];
-  var h='<h3>'+title+'</h3><p class="sub">FY'+state.year.slice(2)+' actual Â· Massachusetts DLS Schedule A</p><div class="mny-bars">';
+  var h='<h3>'+title+'</h3><p class="sub">FY'+state.year.slice(2)+' actual · Massachusetts DLS Schedule A</p><div class="mny-bars">';
   for(i=0;i<ts.length;i++){ var t=ts[i],v=metricVal(t); var w=max?Math.max(1.5,(v/max)*100):0;
     h+='<div class="mny-bar-row"><span class="nm">'+esc(t)+'</span><span class="mny-bar-track"><span class="mny-bar-fill" style="width:'+w.toFixed(1)+'%"></span></span><span class="val">'+metricFmt(v)+'</span></div>'; }
   return h+'</div>';
 }
 
 function metricsCard(){
-  var h='<h3>Key Metrics (FY'+state.year.slice(2)+')</h3><p class="sub">General fund actuals Â· tax figures FY25</p><div class="mny-scroll"><table class="mny-table"><thead><tr><th>Town</th><th>Total spending</th><th>Per capita</th><th>Tax rate</th><th>Avg SF bill</th></tr></thead><tbody>';
+  var h='<h3>Key Metrics (FY'+state.year.slice(2)+')</h3><p class="sub">General fund actuals · tax figures FY25</p><div class="mny-scroll"><table class="mny-table"><thead><tr><th>Town</th><th>Total spending</th><th>Per capita</th><th>Tax rate</th><th>Avg SF bill</th></tr></thead><tbody>';
   var ts=sel().slice().sort(function(a,b){return (expTotal(b,state.year)||0)-(expTotal(a,state.year)||0);});
   for(var i=0;i<ts.length;i++){ var t=ts[i];
-    h+='<tr><td>'+esc(t)+'</td><td>'+fmtM(expTotal(t,state.year))+'</td><td>'+fmt$(expPC(t,state.year))+'</td><td>'+(td(t).tax_rate_fy2025!=null?"$"+td(t).tax_rate_fy2025.toFixed(2):"â")+'</td><td>'+fmt$(td(t).avg_sf_bill_fy2025)+'</td></tr>'; }
+    h+='<tr><td>'+esc(t)+'</td><td>'+fmtM(expTotal(t,state.year))+'</td><td>'+fmt$(expPC(t,state.year))+'</td><td>'+(td(t).tax_rate_fy2025!=null?"$"+td(t).tax_rate_fy2025.toFixed(2):"—")+'</td><td>'+fmt$(td(t).avg_sf_bill_fy2025)+'</td></tr>'; }
   return h+'</tbody></table></div>';
 }
 
 function yoyCard(){
-  var h='<h3>Year-over-Year Change in Total Spending</h3><p class="sub">FY24 â FY25 Â· DLS Schedule A</p>';
+  var h='<h3>Year-over-Year Change in Total Spending</h3><p class="sub">FY24 → FY25 · DLS Schedule A</p>';
   var ts=sel(),rows=[];
   for(var i=0;i<ts.length;i++){ var c=yoy(ts[i]); if(c!=null) rows.push([ts[i],c]); }
   rows.sort(function(a,b){return b[1]-a[1];});
@@ -191,7 +191,7 @@ function donutCard(){
     var xi1=cx+ir*Math.cos(a1),yi1=cy+ir*Math.sin(a1),xi0=cx+ir*Math.cos(a0),yi0=cy+ir*Math.sin(a0);
     paths+='<path d="M'+x0.toFixed(1)+' '+y0.toFixed(1)+' A'+r+' '+r+' 0 '+large+' 1 '+x1.toFixed(1)+' '+y1.toFixed(1)+' L'+xi1.toFixed(1)+' '+yi1.toFixed(1)+' A'+ir+' '+ir+' 0 '+large+' 0 '+xi0.toFixed(1)+' '+yi0.toFixed(1)+' Z" fill="'+cats[i][2]+'"/>';
     a0=a1; }
-  var h='<h3>Spending by Function ('+(ts.length===11?"All Towns":ts.length+" Town"+(ts.length>1?"s":""))+')</h3><p class="sub">FY'+yr.slice(2)+' actual Â· DLS Schedule A</p>';
+  var h='<h3>Spending by Function ('+(ts.length===11?"All Towns":ts.length+" Town"+(ts.length>1?"s":""))+')</h3><p class="sub">FY'+yr.slice(2)+' actual · DLS Schedule A</p>';
   h+='<div class="mny-donut-wrap"><svg width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="Spending by function donut chart">'+paths+
      '<text x="90" y="86" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="700" fill="#24492f">'+fmtM(tot)+'</text>'+
      '<text x="90" y="102" text-anchor="middle" font-size="9.5" fill="#7a7263">total expenditures</text></svg>';
@@ -203,26 +203,26 @@ function donutCard(){
 
 function docsCard(compact){
   var docs=(state.data.documents||[]);
-  var h='<h3>Recent Finance Documents'+(compact?'':'')+'</h3><p class="sub">Verified official town sources Â· more being added</p>';
+  var h='<h3>Recent Finance Documents'+(compact?'':'')+'</h3><p class="sub">Verified official town sources · more being added</p>';
   if(!docs.length){ return h+'<p class="sub">Documents are being collected from town websites. The figures above are complete and official.</p>'; }
   for(var i=0;i<docs.length;i++){ var d=docs[i];
-    h+='<a class="mny-doc" href="'+esc(d.url)+'" target="_blank" rel="noopener"><span class="ic">PDF</span><span><span class="t">'+esc(d.title)+'</span><span class="m">'+esc(d.town)+' Â· '+esc(d.date)+'</span></span></a>'; }
+    h+='<a class="mny-doc" href="'+esc(d.url)+'" target="_blank" rel="noopener"><span class="ic">PDF</span><span><span class="t">'+esc(d.title)+'</span><span class="m">'+esc(d.town)+' · '+esc(d.date)+'</span></span></a>'; }
   return h;
 }
 
 /* ---------- town budgets ---------- */
 function budgets(){
-  var h='<div class="mny-card"><h3>Town Budgets</h3><p class="sub">FY'+state.year.slice(2)+' general fund actuals with FY25 revenue and tax detail Â· DLS</p></div>';
+  var h='<div class="mny-card"><h3>Town Budgets</h3><p class="sub">FY'+state.year.slice(2)+' general fund actuals with FY25 revenue and tax detail · DLS</p></div>';
   var ts=sel();
   for(var i=0;i<ts.length;i++){ var t=ts[i],d=td(t),e=d.expenditures[state.year],r=d.revenues_fy2025;
-    h+='<div class="mny-card"><h3>'+esc(t)+'</h3><p class="sub">Population '+fmtN(d.population)+' (2023) Â· FY25 tax rate '+(d.tax_rate_fy2025!=null?"$"+d.tax_rate_fy2025.toFixed(2):"â")+' Â· avg SF bill '+fmt$(d.avg_sf_bill_fy2025)+(d.bond_ratings&&d.bond_ratings.length?' Â· bond rating '+esc(d.bond_ratings.join(" / ")):'')+'</p>';
+    h+='<div class="mny-card"><h3>'+esc(t)+'</h3><p class="sub">Population '+fmtN(d.population)+' (2023) · FY25 tax rate '+(d.tax_rate_fy2025!=null?"$"+d.tax_rate_fy2025.toFixed(2):"—")+' · avg SF bill '+fmt$(d.avg_sf_bill_fy2025)+(d.bond_ratings&&d.bond_ratings.length?' · bond rating '+esc(d.bond_ratings.join(" / ")):'')+'</p>';
     h+='<div class="mny-scroll"><table class="mny-table"><thead><tr><th>Function</th><th>FY24</th><th>FY'+state.year.slice(2)+'</th><th>Per capita</th><th>Share</th></tr></thead><tbody>';
     if(e){ for(var f=0;f<FUNCS.length;f++){ var k=FUNCS[f][0]; var prev=d.expenditures["2024"];
-      h+='<tr><td>'+FUNCS[f][1]+'</td><td>'+fmtM(prev?prev[k]:null)+'</td><td>'+fmtM(e[k])+'</td><td>'+fmt$(e[k]&&d.population?Math.round(e[k]/d.population):null)+'</td><td>'+(e.total?(e[k]/e.total*100).toFixed(1)+'%':"â")+'</td></tr>'; }
+      h+='<tr><td>'+FUNCS[f][1]+'</td><td>'+fmtM(prev?prev[k]:null)+'</td><td>'+fmtM(e[k])+'</td><td>'+fmt$(e[k]&&d.population?Math.round(e[k]/d.population):null)+'</td><td>'+(e.total?(e[k]/e.total*100).toFixed(1)+'%':"—")+'</td></tr>'; }
       h+='<tr><td><strong>Total</strong></td><td><strong>'+fmtM(d.expenditures["2024"]?d.expenditures["2024"].total:null)+'</strong></td><td><strong>'+fmtM(e.total)+'</strong></td><td><strong>'+fmt$(expPC(t,state.year))+'</strong></td><td></td></tr>'; }
     h+='</tbody></table></div>';
-    if(r){ h+='<p class="sub" style="margin-top:12px">FY25 actual revenues: taxes '+fmtM(r.taxes)+' Â· state aid '+fmtM(r.state)+' Â· local & other '+fmtM((r.service_charges||0)+(r.licenses_permits||0)+(r.miscellaneous||0)+(r.fines||0)+(r.transfers||0)+(r.other_govts||0))+' Â· total '+fmtM(r.total)+'</p>'; }
-    if(d.free_cash_2024_07_01!=null){ h+='<p class="sub">Free cash (7/1/2024): '+fmtM(d.free_cash_2024_07_01)+(d.stabilization_fy2024?' Â· stabilization fund FY24: '+fmtM(d.stabilization_fy2024):'')+'</p>'; }
+    if(r){ h+='<p class="sub" style="margin-top:12px">FY25 actual revenues: taxes '+fmtM(r.taxes)+' · state aid '+fmtM(r.state)+' · local & other '+fmtM((r.service_charges||0)+(r.licenses_permits||0)+(r.miscellaneous||0)+(r.fines||0)+(r.transfers||0)+(r.other_govts||0))+' · total '+fmtM(r.total)+'</p>'; }
+    if(d.free_cash_2024_07_01!=null){ h+='<p class="sub">Free cash (7/1/2024): '+fmtM(d.free_cash_2024_07_01)+(d.stabilization_fy2024?' · stabilization fund FY24: '+fmtM(d.stabilization_fy2024):'')+'</p>'; }
     h+='</div>'; }
   return h;
 }
@@ -231,7 +231,7 @@ function budgets(){
 function compare(){
   var metrics=[["expenditures","Total GF spending (FY"+state.year.slice(2)+")",function(t){return expTotal(t,state.year);},fmtM],
                ["percapita","Per capita spending (FY"+state.year.slice(2)+")",function(t){return expPC(t,state.year);},fmt$],
-               ["taxrate","Residential tax rate (FY25)",function(t){return td(t).tax_rate_fy2025;},function(v){return v==null?"â":"$"+v.toFixed(2);}],
+               ["taxrate","Residential tax rate (FY25)",function(t){return td(t).tax_rate_fy2025;},function(v){return v==null?"—":"$"+v.toFixed(2);}],
                ["taxbill","Avg single-family tax bill (FY25)",function(t){return td(t).avg_sf_bill_fy2025;},fmt$],
                ["sfvalue","Avg single-family home value (FY25)",function(t){return td(t).avg_sf_value_fy2025;},fmt$],
                ["income","DOR income per capita (2022)",function(t){return td(t).income_per_capita_2022;},fmt$]];
@@ -248,7 +248,7 @@ function compare(){
 
 /* ---------- appropriations ---------- */
 function approp(){
-  var h='<div class="mny-card"><h3>Appropriations by Function</h3><p class="sub">FY'+state.year.slice(2)+' general fund expenditures, Schedule A actuals Â· select towns in the filter rail</p>';
+  var h='<div class="mny-card"><h3>Appropriations by Function</h3><p class="sub">FY'+state.year.slice(2)+' general fund expenditures, Schedule A actuals · select towns in the filter rail</p>';
   h+='<div class="mny-scroll"><table class="mny-table"><thead><tr><th>Function</th>';
   var ts=sel(); for(var i=0;i<ts.length;i++) h+='<th>'+esc(ts[i])+'</th>';
   h+='<th>Total</th></tr></thead><tbody>';
@@ -298,4 +298,3 @@ function load(){
 
 window.BMMoney={ render:render };
 })();
-
