@@ -1,0 +1,420 @@
+{
+ "generated": "2026-09-15",
+ "scope": "11 South County towns covered by berkshire-meetings",
+ "towns": [
+  {
+   "name": "Great Barrington",
+   "population": 7194,
+   "fy23_total": 32477931,
+   "fy24_total": 35524275,
+   "fy25_total": 37611519,
+   "spend_per_capita": 5228.178899082569,
+   "levy": 30006723,
+   "levy_per_capita": 4171.076313594662,
+   "avg_sf_bill": 8294,
+   "tax_rate_res": 13.79,
+   "headroom_pct": 0.06,
+   "excess_capacity": 18144.0,
+   "max_levy": 30024867.0,
+   "free_cash": 12357371,
+   "stabilization": 751912,
+   "bond_rating": "AAA",
+   "change_pct": 5.87554285062819,
+   "mix": {
+    "general_government": 2971604,
+    "public_safety": 3773493,
+    "education": 21108828,
+    "public_works": 2149631,
+    "community": 1250821,
+    "fixed_costs": 3276964,
+    "other": 77329,
+    "debt_service": 3002849
+   }
+  },
+  {
+   "name": "Sheffield",
+   "population": 3317,
+   "fy23_total": 11578073,
+   "fy24_total": 13989250,
+   "fy25_total": 12929760,
+   "spend_per_capita": 3898.028338860416,
+   "levy": 10838240,
+   "levy_per_capita": 3267.482665058788,
+   "avg_sf_bill": 5556,
+   "tax_rate_res": 12.11,
+   "headroom_pct": 17.78,
+   "excess_capacity": 2343194.0,
+   "max_levy": 13181434.0,
+   "free_cash": 2052626,
+   "stabilization": 1047295,
+   "bond_rating": null,
+   "change_pct": -7.573601158032062,
+   "mix": {
+    "general_government": 818888,
+    "public_safety": 1045794,
+    "education": 8277999,
+    "public_works": 1358576,
+    "community": 541078,
+    "fixed_costs": 848481,
+    "other": 38944,
+    "debt_service": 0
+   }
+  },
+  {
+   "name": "Egremont",
+   "population": 1371,
+   "fy23_total": 6626069,
+   "fy24_total": 5795576,
+   "fy25_total": 7635602,
+   "spend_per_capita": 5569.3668854850475,
+   "levy": 5299008,
+   "levy_per_capita": 3865.0678336980304,
+   "avg_sf_bill": 5077,
+   "tax_rate_res": 6.26,
+   "headroom_pct": 5.5,
+   "excess_capacity": 308425.0,
+   "max_levy": 5607433.0,
+   "free_cash": 541871,
+   "stabilization": 436066,
+   "bond_rating": null,
+   "change_pct": 31.748802879989846,
+   "mix": {
+    "general_government": 1976559,
+    "public_safety": 975349,
+    "education": 2134500,
+    "public_works": 1336932,
+    "community": 261645,
+    "fixed_costs": 674966,
+    "other": 28134,
+    "debt_service": 247517
+   }
+  },
+  {
+   "name": "New Marlborough",
+   "population": 1503,
+   "fy23_total": 6124657,
+   "fy24_total": 7388806,
+   "fy25_total": 6285447,
+   "spend_per_capita": 4181.934131736527,
+   "levy": 5932429,
+   "levy_per_capita": 3947.058549567532,
+   "avg_sf_bill": 4840,
+   "tax_rate_res": 6.94,
+   "headroom_pct": 8.06,
+   "excess_capacity": 519850.0,
+   "max_levy": 6452279.0,
+   "free_cash": 1462341,
+   "stabilization": 592949,
+   "bond_rating": null,
+   "change_pct": -14.932845712825593,
+   "mix": {
+    "general_government": 481181,
+    "public_safety": 664350,
+    "education": 2774708,
+    "public_works": 1434788,
+    "community": 213305,
+    "fixed_costs": 486425,
+    "other": 35076,
+    "debt_service": 195614
+   }
+  },
+  {
+   "name": "Monterey",
+   "population": 1080,
+   "fy23_total": 4904995,
+   "fy24_total": 5181250,
+   "fy25_total": 5569578,
+   "spend_per_capita": 5157.016666666666,
+   "levy": 4650962,
+   "levy_per_capita": 4306.446296296296,
+   "avg_sf_bill": 5042,
+   "tax_rate_res": 6.44,
+   "headroom_pct": 9.9,
+   "excess_capacity": 510773.0,
+   "max_levy": 5161735.0,
+   "free_cash": 327704,
+   "stabilization": 681950,
+   "bond_rating": null,
+   "change_pct": 7.494870928829922,
+   "mix": {
+    "general_government": 516040,
+    "public_safety": 1002084,
+    "education": 1999665,
+    "public_works": 1080656,
+    "community": 306834,
+    "fixed_costs": 454318,
+    "other": 1332,
+    "debt_service": 208649
+   }
+  },
+  {
+   "name": "Sandisfield",
+   "population": 981,
+   "fy23_total": 4737691,
+   "fy24_total": 3985913,
+   "fy25_total": 3826051,
+   "spend_per_capita": 3900.1539245667686,
+   "levy": 3403552,
+   "levy_per_capita": 3469.471967380224,
+   "avg_sf_bill": 3629,
+   "tax_rate_res": 9.02,
+   "headroom_pct": 10.38,
+   "excess_capacity": 394062.0,
+   "max_levy": 3797614.0,
+   "free_cash": 816809,
+   "stabilization": 962322,
+   "bond_rating": null,
+   "change_pct": -4.010674593248775,
+   "mix": {
+    "general_government": 533436,
+    "public_safety": 285381,
+    "education": 1608096,
+    "public_works": 1026491,
+    "community": 90464,
+    "fixed_costs": 282183,
+    "other": 0,
+    "debt_service": 0
+   }
+  },
+  {
+   "name": "Otis",
+   "population": 1619,
+   "fy23_total": 7258272,
+   "fy24_total": 7813676,
+   "fy25_total": 7512361,
+   "spend_per_capita": 4640.124150710315,
+   "levy": 6089027,
+   "levy_per_capita": 3760.9802347127857,
+   "avg_sf_bill": 3261,
+   "tax_rate_res": 6.46,
+   "headroom_pct": 2.72,
+   "excess_capacity": 170386.0,
+   "max_levy": 6259413.0,
+   "free_cash": 1228498,
+   "stabilization": 819128,
+   "bond_rating": "AA",
+   "change_pct": -3.8562515261702734,
+   "mix": {
+    "general_government": 1245173,
+    "public_safety": 708874,
+    "education": 2508058,
+    "public_works": 1336203,
+    "community": 230216,
+    "fixed_costs": 592179,
+    "other": 59491,
+    "debt_service": 832167
+   }
+  },
+  {
+   "name": "Tyringham",
+   "population": 420,
+   "fy23_total": 1558093,
+   "fy24_total": 2031648,
+   "fy25_total": 1785486,
+   "spend_per_capita": 4251.157142857143,
+   "levy": 1542443,
+   "levy_per_capita": 3672.483333333333,
+   "avg_sf_bill": 3988,
+   "tax_rate_res": 6.12,
+   "headroom_pct": 16.24,
+   "excess_capacity": 299023.0,
+   "max_levy": 1841467.0,
+   "free_cash": 176435,
+   "stabilization": 404436,
+   "bond_rating": null,
+   "change_pct": -12.116370552379152,
+   "mix": {
+    "general_government": 376177,
+    "public_safety": 223654,
+    "education": 332513,
+    "public_works": 502364,
+    "community": 19737,
+    "fixed_costs": 254640,
+    "other": 76401,
+    "debt_service": 0
+   }
+  },
+  {
+   "name": "Becket",
+   "population": 1921,
+   "fy23_total": 6876815,
+   "fy24_total": 8238053,
+   "fy25_total": 9031797,
+   "spend_per_capita": 4701.612181155648,
+   "levy": 6681839,
+   "levy_per_capita": 3478.3128578865176,
+   "avg_sf_bill": 3231,
+   "tax_rate_res": 8.76,
+   "headroom_pct": 14.38,
+   "excess_capacity": 1121828.0,
+   "max_levy": 7803667.0,
+   "free_cash": 887593,
+   "stabilization": 1098985,
+   "bond_rating": null,
+   "change_pct": 9.635092175299187,
+   "mix": {
+    "general_government": 1031090,
+    "public_safety": 1166076,
+    "education": 3263457,
+    "public_works": 1872040,
+    "community": 193544,
+    "fixed_costs": 1004040,
+    "other": 29148,
+    "debt_service": 472402
+   }
+  },
+  {
+   "name": "Alford",
+   "population": 481,
+   "fy23_total": 1715756,
+   "fy24_total": 2202680,
+   "fy25_total": 2008018,
+   "spend_per_capita": 4174.673596673597,
+   "levy": 1863455,
+   "levy_per_capita": 3874.126819126819,
+   "avg_sf_bill": 4971,
+   "tax_rate_res": 4.95,
+   "headroom_pct": 11.93,
+   "excess_capacity": 252501.0,
+   "max_levy": 2115956.0,
+   "free_cash": 422742,
+   "stabilization": 225283,
+   "bond_rating": null,
+   "change_pct": -8.837507036882341,
+   "mix": {
+    "general_government": 337529,
+    "public_safety": 99415,
+    "education": 479118,
+    "public_works": 699744,
+    "community": 76186,
+    "fixed_costs": 195752,
+    "other": 1224,
+    "debt_service": 119050
+   }
+  },
+  {
+   "name": "Richmond",
+   "population": 1401,
+   "fy23_total": 7403663,
+   "fy24_total": 7676840,
+   "fy25_total": 7941471,
+   "spend_per_capita": 5668.430406852249,
+   "levy": 6440009,
+   "levy_per_capita": 4596.723054960742,
+   "avg_sf_bill": 6362,
+   "tax_rate_res": 9.88,
+   "headroom_pct": 2.44,
+   "excess_capacity": 161036.0,
+   "max_levy": 6601045.0,
+   "free_cash": 649900,
+   "stabilization": 435767,
+   "bond_rating": "AA+",
+   "change_pct": 3.447134498048676,
+   "mix": {
+    "general_government": 650918,
+    "public_safety": 340149,
+    "education": 4427348,
+    "public_works": 1206748,
+    "community": 118298,
+    "fixed_costs": 569140,
+    "other": 202659,
+    "debt_service": 426211
+   }
+  }
+ ],
+ "agg": {
+  "fy23_total": 91262015,
+  "fy24_total": 99827967,
+  "fy25_total": 102137090,
+  "change_pct": 2.3131022992785244,
+  "median_bill": 4971,
+  "median_spend_pc": 4640.124150710315,
+  "median_levy_pc": 3865.0678336980304,
+  "waterfall": [
+   {
+    "key": "public_works",
+    "label": "Public Works",
+    "delta": -1805776
+   },
+   {
+    "key": "general_government",
+    "label": "General Gov't",
+    "delta": 1621419
+   },
+   {
+    "key": "education",
+    "label": "Education",
+    "delta": 1498897
+   },
+   {
+    "key": "debt_service",
+    "label": "Debt Service",
+    "delta": 826781
+   },
+   {
+    "key": "human_services",
+    "label": "Human Services",
+    "delta": -250214
+   },
+   {
+    "key": "culture_recreation",
+    "label": "Culture & Rec",
+    "delta": 245983
+   },
+   {
+    "key": "public_safety",
+    "label": "Public Safety",
+    "delta": 146606
+   },
+   {
+    "key": "intergov",
+    "label": "Intergov't",
+    "delta": 65779
+   },
+   {
+    "key": "other",
+    "label": "Other",
+    "delta": -30195
+   },
+   {
+    "key": "fixed_costs",
+    "label": "Fixed Costs",
+    "delta": -10157
+   }
+  ],
+  "bands": [
+   {
+    "key": "education",
+    "label": "Education"
+   },
+   {
+    "key": "public_safety",
+    "label": "Public Safety"
+   },
+   {
+    "key": "public_works",
+    "label": "Public Works"
+   },
+   {
+    "key": "general_government",
+    "label": "General Government"
+   },
+   {
+    "key": "fixed_costs",
+    "label": "Fixed Costs"
+   },
+   {
+    "key": "debt_service",
+    "label": "Debt Service"
+   },
+   {
+    "key": "community",
+    "label": "Community & Human Services"
+   },
+   {
+    "key": "other",
+    "label": "Other"
+   }
+  ]
+ }
+}
