@@ -326,7 +326,7 @@ function weekUrl(file){
 }
 function weekLabel(file){
   var w=(POL.weeks||[]).filter(function(x){return x.file===file;})[0];
-  return w&&w.from?fmtDay(w.from)+" &ndash; "+fmtDay(w.to):file;
+  return w&&w.from?fmtDay(w.from)+" \u2013 "+fmtDay(w.to):file;
 }
 
 function statsHTML(list){
