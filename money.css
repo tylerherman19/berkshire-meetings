@@ -64,7 +64,7 @@
 .mny-bar-row{display:grid;grid-template-columns:110px 1fr 64px;gap:10px;align-items:center;font-size:12.5px}
 .mny-bar-row .nm{color:var(--ink-2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mny-bar-track{height:18px;background:var(--paper-2);border-radius:4px;overflow:hidden}
-.mny-bar-fill{height:100%;background:var(--accent);border-radius:4px;min-width:2px}
+.mny-bar-fill{display:block;height:100%;background:var(--accent);border-radius:4px;min-width:2px}
 .mny-bar-row .val{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
 
 /* yoy diverging bars */
@@ -72,7 +72,7 @@
 .mny-yoy-row .nm{text-align:right;padding-right:8px;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mny-yoy-l{height:14px;display:flex;justify-content:flex-end}
 .mny-yoy-r{height:14px}
-.mny-yoy-fill{height:100%;border-radius:3px}
+.mny-yoy-fill{display:block;height:100%;border-radius:3px}
 .mny-yoy-fill.neg{background:var(--accent)}
 .mny-yoy-fill.pos{background:var(--rust)}
 .mny-yoy-row .val{font-family:var(--mono);font-size:12px;padding-left:8px;color:var(--ink-2)}
