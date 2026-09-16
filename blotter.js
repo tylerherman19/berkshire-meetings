@@ -234,17 +234,17 @@ function render(){
   var lagDays=Math.max(0,Math.round(
     (parseD(etToday())-parseD(through))/86400000));
 
-  var h='<div class="blot-head">'+
+  var h='<div class="blot-mast"><div class="blot-mast-img" aria-hidden="true"></div><div class="blot-mast-veil" aria-hidden="true"></div><div class="blot-head">'+
     '<section class="newshero">'+
-      '<h2>Great Barrington Police Blotter</h2>'+
-      '<p class="nsub">Privacy-filtered entries from the Great Barrington Police '+
-        'Department&rsquo;s weekly public logs.</p>'+
+      '<p class="kicker">Great Barrington public record</p>'+
+      '<h2>Police blotter</h2>'+
+      '<p class="nsub">Search and map privacy-filtered entries from the department&rsquo;s weekly public logs.</p>'+
     '</section>'+
     '<div class="blot-shield">'+
       '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 3v6c0 5-3.5 9.5-8 11-4.5-1.5-8-6-8-11V5l8-3z"/></svg>'+
       '<span>Names, exact residential addresses, and sensitive '+
         'victim/medical/domestic/juvenile details are removed or generalized.</span>'+
-    '</div></div>';
+    '</div></div></div>';
 
   h+='<div class="blot-badges">'+
     '<span class="blot-badge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>Official public logs</span>'+

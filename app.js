@@ -463,10 +463,10 @@ function renderHero(){
     '<div class="hero-veil" aria-hidden="true"></div>'+
     '<div class="hero-in">'+
       '<div class="hero-copy">'+
-        '<p class="kicker">South County &middot; Massachusetts</p>'+
-        '<h1>Upcoming in South County</h1>'+
-        '<p class="sub">Every public meeting. One place. Star the ones you plan to attend and take them '+
-          'with you to your own calendar.<span class="upd">'+esc(updated)+'</span></p>'+
+        '<p class="kicker">The South County public record</p>'+
+        '<h1>What your town is doing next.</h1>'+
+        '<p class="sub">Meeting times, agendas and changes from eleven Berkshire towns. No account. No algorithm.'+
+          '<span class="upd">'+esc(updated)+'</span></p>'+
       '</div>'+
       '<div class="hero-side"><div class="herosearch">'+
         '<input id="q" type="search" value="'+esc(state.q)+'" placeholder="Search meetings, boards, keywords…" '+
@@ -511,7 +511,7 @@ function briefingList(){
 }
 function changesCard(){
   var ch = CHANGES.changes||[];
-  var h='<div class="card"><div class="cardhead"><h3>What changed?</h3>'+
+  var h='<section class="card brief-card change-log"><div class="cardhead"><h3>Posting log</h3>'+
     (ch.length>5 && !state.showAllChanges
       ? '<button class="linkall" data-action="more-changes" type="button">View all '+ch.length+' →</button>' : "")+
     '</div>';
@@ -538,13 +538,12 @@ function changesCard(){
          ' · '+esc(fmtShort(c.date))+'</span></div></div>';
     });
   }
-  return h+'</div>';
+  return h+'</section>';
 }
 function followCard(){
   var fq=state.followQ.trim().toLowerCase();
-  var h='<div class="card"><div class="cardhead"><h3>Follow your town or board</h3></div>'+
-    '<p class="cardsub">Pick the ones you care about, then use the '+
-    '&ldquo;My followed boards&rdquo; filter above to see only those.</p>'+
+  var h='<section class="card brief-card follow-card"><div class="cardhead"><h3>Build a watchlist</h3></div>'+
+    '<p class="cardsub">Choose towns or boards. The followed filter above becomes your private briefing.</p>'+
     '<div class="followsearch"><input id="followq" type="search" value="'+esc(state.followQ)+'" '+
       'placeholder="Search towns and boards…" autocomplete="off" aria-label="Search towns and boards"></div>'+
     '<div class="followchips">';
@@ -582,7 +581,7 @@ function followCard(){
   });
   h+='</div>';
   if(!fq) h+='<p class="followempty">Search above to follow an individual board, not just a whole town.</p>';
-  return h+'</div>';
+  return h+'</section>';
 }
 var BOARD_TOWN=null;
 function boardTown(b){
@@ -1170,25 +1169,23 @@ function newsCard(it,i){
   var slug = cat.toLowerCase().replace(/[^a-z]+/g,"-");
   var town = newsTownLabel(it.town);
   var on = state.newsTown===it.town;
-  return '<article class="ncard rise'+(fresh?" fresh":"")+'" style="--i:'+Math.min(i,14)+'">'+
-    '<div class="nc-top">'+
-      /* The pill is the filter: tap a town on any card to narrow the feed to
-         it, tap it again to come back to everything. */
-      '<button class="npill" data-action="news-town" data-town="'+esc(it.town)+'" '+
-        'aria-pressed="'+on+'" type="button" title="'+
-        (on?"Show every town again":"Show only "+esc(town))+'">'+esc(town)+'</button>'+
-      '<span class="tag ncat '+slug+'">'+esc(cat)+'</span>'+
-      (it.topic?'<span class="tag ntopic">'+esc(it.topic)+'</span>':"")+
-      (fresh?'<span class="tag new">New</span>':"")+
-      '<span class="nc-when">'+esc(relTime(it))+'</span>'+
-    '</div>'+
-    '<h3 class="nc-head"><a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
-      esc(it.headline)+'</a></h3>'+
-    (it.summary?'<p class="nc-sum">'+esc(it.summary)+'</p>':"")+
-    '<div class="nc-foot">'+
-      '<a class="btn ghost sm" href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
-      'Read full post ↗</a></div>'+
-  '</article>';
+  var initials=town.split(/\s+/).map(function(w){return w.charAt(0);}).join("").slice(0,2);
+  var handle="@"+town.toLowerCase().replace(/[^a-z0-9]+/g,"");
+  return '<article class="ncard'+(fresh?" fresh":"")+'">'+
+    '<button class="navatar" data-action="news-town" data-town="'+esc(it.town)+'" '+
+      'aria-pressed="'+on+'" type="button" title="'+
+      (on?"Show every town again":"Show only "+esc(town))+'">'+esc(initials)+'</button>'+
+    '<div class="npost">'+
+      '<div class="nc-top"><button class="npill" data-action="news-town" data-town="'+esc(it.town)+'" '+
+        'aria-pressed="'+on+'" type="button">'+esc(town)+'</button>'+
+        '<span class="nhandle">'+esc(handle)+'</span><span class="nsep">&middot;</span>'+
+        '<span class="nc-when">'+esc(relTime(it))+'</span>'+(fresh?'<span class="nfresh">NEW</span>':"")+'</div>'+
+      '<h3 class="nc-head"><a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.headline)+'</a></h3>'+
+      (it.summary?'<p class="nc-sum">'+esc(it.summary)+'</p>':"")+
+      '<div class="nc-foot"><span class="tag ncat '+slug+'">'+esc(cat)+'</span>'+
+        (it.topic?'<span class="tag ntopic">'+esc(it.topic)+'</span>':"")+
+        '<a href="'+esc(it.url)+'" target="_blank" rel="noopener">Open town post <span aria-hidden="true">↗</span></a></div>'+
+    '</div></article>';
 }
 
 function newsSourcesSection(){
@@ -1234,11 +1231,9 @@ function renderNews(){
   var unseen = newsUnseenCount();
 
   var h='<section class="newshero">'+
-    '<p class="kicker">South County &middot; Massachusetts</p>'+
-    '<h2>Town news, all of it</h2>'+
-    '<p class="nsub">Road closures, special meeting notices, public notices and transfer '+
-      'station hours &mdash; gathered from every town website we cover, newest first, so you '+
-      'never have to visit ten of them.'+
+    '<p class="kicker">Live from town hall</p>'+
+    '<h2>The Berkshire town wire.</h2>'+
+    '<p class="nsub">A chronological feed of what South County towns publish: closures, notices, jobs and meeting changes.'+
       (updated?'<span class="upd">'+esc(updated)+
         (unseen?' · '+plural(unseen,"new item")+' since your last visit':"")+'</span>':"")+
     '</p></section>';
@@ -1277,7 +1272,7 @@ function renderNews(){
                                : esc(newsTownLabel(state.newsTown)))+'</h2>'+
      (state.newsCat!=="All"?'<span class="range">'+esc(state.newsCat)+'</span>':"")+
      '<span class="right"><span class="count" id="newscount">'+
-       plural(list.length,"announcement")+'</span>'+
+       plural(list.length,"post")+'</span>'+
      '<button class="linkall" id="newsclear" data-action="news-clear" type="button"'+
        (newsFiltered()?"":" hidden")+'>Show all towns</button>'+
      '</span></div>';

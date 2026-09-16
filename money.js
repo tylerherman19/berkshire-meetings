@@ -102,7 +102,18 @@ function chartMix(){
 
 function chartWaterfall(){
   var h=chartHost("Category contribution to spending change"),items=state.data.agg.waterfall.slice().sort(function(a,b){return Math.abs(b.delta)-Math.abs(a.delta);}),W=610,H=420,L=150,R=74,T=22,row=35,max=Math.max.apply(null,items.map(function(d){return Math.abs(d.delta);})),X=scale(-max,max,L,W-R),zero=X(0),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h);svgEl("line",{x1:zero,y1:T-7,x2:zero,y2:H-32,stroke:C.ink,"stroke-width":1},s);
-  items.forEach(function(d,i){var y=T+i*row,x=Math.min(zero,X(d.delta)),w=Math.abs(X(d.delta)-zero),color=d.delta>=0?C.blue:C.red;svgText(s,L-12,y+20,d.label,{fill:C.ink,"font-size":11.5,"text-anchor":"end"});var r=svgEl("rect",{x:x,y:y+5,width:Math.max(w,2),height:21,fill:color},s);mark(r,d.label+": "+(d.delta>=0?"added ":"reduced ")+compact(Math.abs(d.delta)));svgText(s,d.delta>=0?X(d.delta)+7:X(d.delta)-7,y+20,(d.delta>=0?"+":"−")+compact(Math.abs(d.delta)).slice(1),{fill:color,"font-size":11,"font-weight":700,"text-anchor":d.delta>=0?"start":"end"});});
+  items.forEach(function(d,i){
+    var y=T+i*row,x=Math.min(zero,X(d.delta)),w=Math.abs(X(d.delta)-zero),color=d.delta>=0?C.blue:C.red;
+    svgText(s,L-12,y+20,d.label,{fill:C.ink,"font-size":11.5,"text-anchor":"end"});
+    var r=svgEl("rect",{x:x,y:y+5,width:Math.max(w,2),height:21,fill:color},s);
+    mark(r,d.label+": "+(d.delta>=0?"added ":"reduced ")+compact(Math.abs(d.delta)));
+    var inside=w>62;
+    var tx=inside?(d.delta>=0?X(d.delta)-7:X(d.delta)+7):(d.delta>=0?X(d.delta)+7:X(d.delta)-7);
+    svgText(s,tx,y+20,(d.delta>=0?"+":"−")+compact(Math.abs(d.delta)).slice(1),{
+      fill:inside?"#fff":color,"font-size":11,"font-weight":700,
+      "text-anchor":inside?(d.delta>=0?"end":"start"):(d.delta>=0?"start":"end")
+    });
+  });
   svgText(s,zero,H-8,"← reduced spending   |   increased spending →",{fill:C.muted,"font-size":10.5,"text-anchor":"middle"});return h;
 }
 
