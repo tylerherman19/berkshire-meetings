@@ -156,7 +156,7 @@ function barCard(){
 }
 
 function metricsCard(){
-  var h='<h3>Key Metrics (FY'+state.year.slice(2)+')</h3><p class="sub">General fund actuals · tax figures FY25</p><div class="mny-scroll"><table class="mny-table"><thead><tr><th>Town</th><th>Total spending</th><th>Per capita</th><th>Tax rate</th><th>Avg SF bill</th></tr></thead><tbody>';
+  var h='<h3>Key Metrics (FY'+state.year.slice(2)+')</h3><p class="sub">General fund actuals · tax figures FY25</p><div class="mny-table-fitwrap"><table class="mny-table mny-table-fit"><thead><tr><th>Town</th><th>Total</th><th>Per cap.</th><th>Rate</th><th>Avg bill</th></tr></thead><tbody>';
   var ts=sel().slice().sort(function(a,b){return (expTotal(b,state.year)||0)-(expTotal(a,state.year)||0);});
   for(var i=0;i<ts.length;i++){ var t=ts[i];
     h+='<tr><td>'+esc(t)+'</td><td>'+fmtM(expTotal(t,state.year))+'</td><td>'+fmt$(expPC(t,state.year))+'</td><td>'+(td(t).tax_rate_fy2025!=null?"$"+td(t).tax_rate_fy2025.toFixed(2):"—")+'</td><td>'+fmt$(td(t).avg_sf_bill_fy2025)+'</td></tr>'; }
