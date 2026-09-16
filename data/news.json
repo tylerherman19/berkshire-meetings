@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T23:29:15-04:00",
+ "updated": "2026-09-16T06:29:11-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1162,17 +1162,6 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/appointment-opportunity-conservation-commission",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "New Marlborough",
-   "category": "General",
-   "topic": null,
-   "headline": "Town Hall Closed 6/19/26",
-   "summary": "Town Hall will be closed on Friday June 19th.",
-   "posted": "2026-06-18T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/99",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -1180,7 +1169,7 @@
   "Great Barrington": 22,
   "Egremont": 12,
   "Otis": 8,
-  "New Marlborough": 11,
+  "New Marlborough": 10,
   "Sandisfield": 16,
   "Tyringham": 3,
   "Alford": 3,
@@ -1195,18 +1184,18 @@
    "ok": true,
    "scraped": 31,
    "items": 22,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-15T23:29:15-04:00",
-   "error": null
+   "checked_at": "2026-09-16T06:29:11-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -1215,7 +1204,7 @@
    "ok": true,
    "scraped": 11,
    "items": 12,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
@@ -1224,19 +1213,19 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 88,
-   "items": 11,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "items": 10,
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-15T23:29:15-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-09-16T06:29:11-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -1245,7 +1234,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
@@ -1255,7 +1244,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
@@ -1263,9 +1252,9 @@
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
    "ok": true,
-   "scraped": 3,
+   "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
@@ -1275,7 +1264,7 @@
    "ok": true,
    "scraped": 20,
    "items": 22,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
@@ -1285,7 +1274,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   },
   {
@@ -1295,7 +1284,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-15T23:29:15-04:00",
+   "checked_at": "2026-09-16T06:29:11-04:00",
    "error": null
   }
  ]
