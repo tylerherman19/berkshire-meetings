@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T22:29:49-04:00",
+ "updated": "2026-09-15T23:29:15-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1195,7 +1195,7 @@
    "ok": true,
    "scraped": 31,
    "items": 22,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1205,7 +1205,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1215,7 +1215,7 @@
    "ok": true,
    "scraped": 11,
    "items": 12,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1225,7 +1225,7 @@
    "ok": true,
    "scraped": 88,
    "items": 11,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1235,7 +1235,7 @@
    "ok": false,
    "scraped": 0,
    "items": 1,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -1245,7 +1245,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1255,7 +1255,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1265,7 +1265,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1275,7 +1275,7 @@
    "ok": true,
    "scraped": 20,
    "items": 22,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1285,7 +1285,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   },
   {
@@ -1295,7 +1295,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-15T22:29:49-04:00",
+   "checked_at": "2026-09-15T23:29:15-04:00",
    "error": null
   }
  ]
