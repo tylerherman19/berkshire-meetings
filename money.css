@@ -39,8 +39,8 @@
   .mny-layout{grid-template-columns:1fr}
   .mny-rail details summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-family:var(--serif);font-size:16px;font-weight:700}
   .mny-rail details summary::-webkit-details-marker{display:none}
-  .mny-rail details summary::after{content:"â¸";color:var(--faint);font-size:13px}
-  .mny-rail details[open] summary::after{content:"â¾"}
+  .mny-rail details summary::after{content:"▸";color:var(--faint);font-size:13px}
+  .mny-rail details[open] summary::after{content:"▾"}
 }
 
 /* tiles */
