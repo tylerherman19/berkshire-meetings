@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T10:51:14-04:00",
+ "updated": "2026-09-16T12:28:57-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "BHRSD District Newsletter 09.16.2026",
+   "summary": "BHRSD News + Notes September 16, 2026 Dear BHRSD Community, Our School Committee members devote countless hours behind the scenes helping shape the future of Berkshire Hills Regional School Distric...",
+   "posted": "2026-09-16T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=87554546",
+   "first_seen": "2026-09-16T12:28:57-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -1176,6 +1187,7 @@
   }
  ],
  "towns": {
+  "BHRSD": 9,
   "Great Barrington": 23,
   "Becket": 22,
   "Egremont": 12,
@@ -1184,7 +1196,6 @@
   "Sandisfield": 16,
   "Tyringham": 3,
   "Alford": 3,
-  "BHRSD": 8,
   "Monterey": 1
  },
  "sources": [
@@ -1195,18 +1206,18 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-16T10:51:14-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-09-16T12:28:57-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1215,7 +1226,7 @@
    "ok": true,
    "scraped": 11,
    "items": 12,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1225,7 +1236,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1235,7 +1246,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1245,7 +1256,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1255,7 +1266,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1265,7 +1276,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1275,7 +1286,7 @@
    "ok": true,
    "scraped": 20,
    "items": 22,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1285,7 +1296,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   },
   {
@@ -1294,8 +1305,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 8,
-   "checked_at": "2026-09-16T10:51:14-04:00",
+   "items": 9,
+   "checked_at": "2026-09-16T12:28:57-04:00",
    "error": null
   }
  ]
