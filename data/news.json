@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T08:29:05-04:00",
+ "updated": "2026-09-16T09:35:30-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "PUBLIC SERVICE ANNOUNCEMENT - TEMPORARY SERVICE DISRUPTION",
+   "summary": "The Town is currently experiencing fiber connectivity issues that are impacting some municipal technology systems. As a result, certain Town services that rely on internet or network connectivity are temporarily unavailable. This disruption does not impact public safety communications or emergency response services\u2026",
+   "posted": "2026-09-16T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/218",
+   "first_seen": "2026-09-16T09:35:30-04:00"
+  },
   {
    "town": "Becket",
    "category": "General",
@@ -1165,8 +1176,8 @@
   }
  ],
  "towns": {
+  "Great Barrington": 23,
   "Becket": 22,
-  "Great Barrington": 22,
   "Egremont": 12,
   "Otis": 8,
   "New Marlborough": 10,
@@ -1182,9 +1193,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
-   "items": 22,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "scraped": 32,
+   "items": 23,
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1194,7 +1205,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1204,7 +1215,7 @@
    "ok": true,
    "scraped": 11,
    "items": 12,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1214,7 +1225,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1224,18 +1235,18 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-16T08:29:05-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-09-16T09:35:30-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1244,7 +1255,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1254,7 +1265,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1264,7 +1275,7 @@
    "ok": true,
    "scraped": 20,
    "items": 22,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1274,7 +1285,7 @@
    "ok": true,
    "scraped": 3,
    "items": 3,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   },
   {
@@ -1284,7 +1295,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-16T08:29:05-04:00",
+   "checked_at": "2026-09-16T09:35:30-04:00",
    "error": null
   }
  ]
