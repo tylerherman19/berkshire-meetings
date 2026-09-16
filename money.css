@@ -1,0 +1,60 @@
+/* Money tab v2 - "Find a story" front page. Chart-forward, newsprint. */
+.mny{max-width:var(--wrap);margin:0 auto;padding:0 16px 48px}
+
+.mny-hero{padding:22px 0 4px;border-bottom:3px double var(--line);margin-bottom:14px}
+.mny-eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+.mny-hero h1{font-family:var(--serif);font-size:clamp(30px,6.4vw,46px);font-weight:700;letter-spacing:-.01em;margin:0 0 6px;color:var(--ink)}
+.mny-hero p{margin:0 0 14px;color:var(--muted);font-size:14.5px;line-height:1.5;max-width:56ch}
+
+.mny-pills{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 22px}
+.mny-pill{appearance:none;background:var(--card);border:1px solid var(--line-2);border-radius:99px;padding:6px 13px;font:inherit;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;white-space:nowrap}
+.mny-pill.on{background:var(--ink);border-color:var(--ink);color:#f7f4ec}
+.mny-pill:hover{color:var(--ink)}
+.mny-pill.on:hover{color:#f7f4ec}
+.mny-pill-link{display:inline-flex;align-items:center;text-decoration:none;color:var(--blue)}
+.mny-pill-link:hover{color:var(--blue);text-decoration:underline}
+
+.story{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 18px 16px;box-shadow:var(--shadow);margin-bottom:20px}
+.story-head-row{display:flex;gap:12px;align-items:baseline;margin-bottom:14px}
+.story-num{font-family:var(--serif);font-size:15px;font-weight:700;color:#f7f4ec;background:var(--ink);border-radius:50%;width:26px;height:26px;min-width:26px;display:inline-flex;align-items:center;justify-content:center;transform:translateY(3px)}
+.story-head{font-family:var(--serif);font-size:clamp(19px,4.6vw,25px);font-weight:700;line-height:1.22;letter-spacing:-.005em;color:var(--ink);margin:0}
+.story-chart{width:100%;overflow-x:hidden}
+.story-chart svg{width:100%;height:auto;display:block}
+.story-subhead{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--faint);margin:16px 0 6px;font-weight:700}
+.story-cap{font-size:13px;color:var(--muted);line-height:1.5;margin:12px 0 0}
+.story-src{font-size:10.5px;letter-spacing:.06em;color:var(--faint);margin:8px 0 0;text-transform:uppercase}
+.story-callout{border-left:3px solid var(--rust);background:#faf3ee;border-radius:0 var(--r-sm) var(--r-sm) 0;padding:12px 14px;margin:14px 0 0;font-size:14px;line-height:1.5;color:var(--ink)}
+.story-callout strong{color:var(--rust)}
+
+.mny-profiles{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:640px){.mny-profiles{grid-template-columns:1fr 1fr}}
+@media(min-width:960px){.mny-profiles{grid-template-columns:1fr 1fr 1fr}}
+.mny-profile{border:1px solid var(--line-2);border-radius:var(--r-sm);padding:14px 14px 10px;background:#fff}
+.mny-profile h3{font-family:var(--serif);font-size:17px;font-weight:700;margin:0 0 4px;color:var(--ink)}
+.mny-spark{margin:2px 0 8px}
+.mny-spark svg{width:100%;height:auto;display:block}
+.mny-profile dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}
+.mny-profile dl>div{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding:4px 0}
+.mny-profile dt{font-size:11.5px;color:var(--faint)}
+.mny-profile dd{margin:0;font-size:12px;font-weight:600;color:var(--ink);text-align:right}
+
+.mny-method{margin-top:28px;border-top:3px double var(--line);padding-top:16px}
+.mny-method h2{font-family:var(--serif);font-size:21px;font-weight:700;margin:0 0 10px;color:var(--ink)}
+.mny-method ul{margin:0;padding-left:18px}
+.mny-method li{font-size:13.5px;line-height:1.55;color:var(--muted);margin-bottom:8px}
+.mny-method a{color:var(--blue)}
+
+@media(max-width:560px){
+  .mny{padding:0 12px 40px}
+  .story{padding:16px 13px 13px}
+  .mny-pills{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px}
+}
+
+/* desktop-first: two-column story grid, wide cards span full row */
+@media(min-width:900px){
+  #mny-stories{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .story{margin-bottom:0;display:flex;flex-direction:column}
+  .story .story-src{margin-top:auto}
+  .story[data-topic=change],.story[data-topic=profiles]{grid-column:1/-1}
+  .mny-hero h1{font-size:52px}
+}
