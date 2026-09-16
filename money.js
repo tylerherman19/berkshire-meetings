@@ -82,7 +82,8 @@ function tabs(){
 }
 
 function rail(){
-  var h='<aside class="mny-rail"><details open><summary>Filters</summary>';
+  var openOnLoad = !window.matchMedia || window.matchMedia("(min-width:900px)").matches;
+  var h='<aside class="mny-rail"><details'+(openOnLoad?' open':'')+'><summary>Filters</summary>';
   h+='<div class="mny-fgroup"><h4>Towns</h4>';
   h+='<label class="mny-check"><input type="checkbox" data-mny="alltowns"'+(state.towns.length===TOWNS.length?" checked":"")+'> All towns (11)</label>';
   for(var i=0;i<TOWNS.length;i++){
