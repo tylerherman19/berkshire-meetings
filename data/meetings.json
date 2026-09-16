@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T07:36:17-04:00",
+ "updated": "2026-09-16T10:41:49-04:00",
  "meetings": [
   {
    "town": "Egremont",
@@ -557,7 +557,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-96",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-185",
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-96"
   },
   {
@@ -1096,19 +1096,6 @@
   {
    "town": "Egremont",
    "board": "Select Board",
-   "title": "Select Board Meeting Concurrent with Annual Town Meeting (PDF)",
-   "date": "2026-05-05",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1882",
-   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1882",
-   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Egremont",
-   "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
    "date": "2026-05-05",
    "start": null,
@@ -1117,6 +1104,19 @@
    "location": null,
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1881",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1881",
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Egremont",
+   "board": "Select Board",
+   "title": "Select Board Meeting Concurrent with Annual Town Meeting (PDF)",
+   "date": "2026-05-05",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05052026-1882",
+   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05052026-1882",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
@@ -1233,7 +1233,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-97",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-186",
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-97"
   },
   {
@@ -1822,6 +1822,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Becket Cultural Council",
+   "title": "Cultural Council Agenda",
+   "date": "2026-06-04",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-30",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-30"
+  },
+  {
    "town": "Otis",
    "board": "Recreation",
    "title": "Recreation Meeting",
@@ -2221,7 +2234,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-187",
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98"
   },
   {
@@ -2981,15 +2994,15 @@
   {
    "town": "Becket",
    "board": "Becket Cultural Council",
-   "title": "Becket Cultural Council Minutes",
+   "title": "Cultural Council Agenda",
    "date": "2026-07-28",
-   "start": null,
+   "start": "18:30",
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": null,
+   "agenda_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-updated-1",
    "minutes_url": "https://www.townofbecket.org/becket-cultural-council/minutes/becket-cultural-council-minutes",
-   "source_url": "https://www.townofbecket.org/becket-cultural-council/minutes/becket-cultural-council-minutes"
+   "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-31"
   },
   {
    "town": "Otis",
@@ -3130,7 +3143,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-53",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/zba_agenda_8-4-26.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-public-hearing-%E2%80%93-special-permit-application-8-south"
   },
@@ -3273,7 +3286,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-97",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/planning_board_8-12-26_public_meeting.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-97"
   },
@@ -3575,6 +3588,19 @@
    "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/260824_boa_meeting_agenda_-_august_24_2026_at_1030_am.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-100"
+  },
+  {
+   "town": "Becket",
+   "board": "Becket Cultural Council",
+   "title": "Cultural Council Agenda",
+   "date": "2026-08-24",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/aug_24_2026_becket_cultural_council_meeting_agenda.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-32"
   },
   {
    "town": "Otis",
@@ -4627,7 +4653,7 @@
    "location": null,
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-91626",
    "minutes_url": null,
-   "source_url": "https://www.sheffieldma.gov/node/28/agenda"
+   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
   },
   {
    "town": "Tyringham",
@@ -5908,7 +5934,7 @@
   "Egremont": 81,
   "New Marlborough": 73,
   "Otis": 80,
-  "Becket": 111,
+  "Becket": 113,
   "BHRSD": 14,
   "SBRSD": 3,
   "Tyringham": 6,
@@ -5922,74 +5948,74 @@
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 33,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 10,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 81,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 73,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 8,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 80,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 6,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
-   "meetings": 111,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "meetings": 113,
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-16T07:36:17-04:00",
+   "checked_at": "2026-09-16T10:41:49-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
