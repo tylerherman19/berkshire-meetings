@@ -10,7 +10,8 @@
 window.BMBlotter = (function(){
 "use strict";
 
-var POL=null, LOADING=false, FAILED=false;
+var POL=null, LOADING=false, FAILED=false, STALE=false;
+var WAITING=[];
 var map=null, dots=null, dotById={}, GEO=null;
 var bstate = {days:28, custom:false, from:"", to:"", group:"All", q:"",
               sort:"new", sel:null};
@@ -136,29 +137,58 @@ function desc(i){
 }
 
 /* ------------------------------------------------------------ data */
+/* Every caller that asks for data gets its callback back, even if a fetch was
+   already in flight when it asked. The old version dropped the callback in
+   that case, which left the tab stuck on "Gathering the blotter" whenever a
+   reader switched away and back, or hit Refresh mid-load. */
 function ensure(cb, bust){
   if(POL!==null && !bust){ if(cb) cb(); return; }
+  if(cb) WAITING.push(cb);
   if(LOADING) return;
   LOADING=true;
   fetch("data/police.json?ts="+Date.now(),{cache:"no-store"})
-    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
     .then(function(j){
       POL=j||{incidents:[],weeks:[]};
       GEO=POL.geo||{};
-      LOADING=false; FAILED=false;
-      if(cb) cb();
+      FAILED=false; STALE=false;
+      done();
     })
     .catch(function(){
-      LOADING=false; FAILED=true;
-      if(cb) cb();
+      /* A failed refresh must not throw away data we already have: keep the
+         view on screen and flag it as stale instead of blanking the tab. */
+      if(POL!==null) STALE=true; else FAILED=true;
+      done();
     });
+  function done(){
+    LOADING=false;
+    var q=WAITING; WAITING=[];
+    q.forEach(function(fn){ try{ fn(); }catch(e){} });
+  }
+}
+
+/* The logs are published a couple of weeks in arrears, so "the last 7 days"
+   measured from today is routinely empty. Everything ranges off the newest
+   entry we actually hold, and the header says so out loud. */
+function anchorDate(){
+  var d="";
+  if(POL) (POL.incidents||[]).forEach(function(i){ if(i.d>d) d=i.d; });
+  return d || etToday();
+}
+function publishedThrough(){
+  if(POL && POL.published_through) return POL.published_through;
+  var d=anchorDate();
+  if(POL) (POL.weeks||[]).forEach(function(w){ if(w.to && w.to>d) d=w.to; });
+  return d;
 }
 
 function rangeBounds(){
   if(bstate.custom && (bstate.from || bstate.to)){
     return [bstate.from||"0000-01-01", bstate.to||"9999-12-31"];
   }
-  return [addDays(etToday(),-(bstate.days-1)), "9999-12-31"];
+  if(!bstate.days) return ["0000-01-01","9999-12-31"];
+  var a=anchorDate();
+  return [addDays(a,-(bstate.days-1)), a];
 }
 function filtered(){
   if(!POL) return [];
@@ -200,6 +230,9 @@ function render(){
     ? new Date(POL.updated).toLocaleString("en-US",
         {timeZone:ET,hour:"numeric",minute:"2-digit"})+" ET"
     : "";
+  var through=publishedThrough();
+  var lagDays=Math.max(0,Math.round(
+    (parseD(etToday())-parseD(through))/86400000));
 
   var h='<div class="blot-head">'+
     '<section class="newshero">'+
@@ -216,15 +249,31 @@ function render(){
   h+='<div class="blot-badges">'+
     '<span class="blot-badge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>Official public logs</span>'+
     '<span class="blot-badge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 3v6c0 5-3.5 9.5-8 11-4.5-1.5-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>Privacy filtered</span>'+
-    '<span class="blot-badge"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>Updated daily</span>'+
-    '<span class="blot-badge mono"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Last checked: '+esc(updated)+'</span>'+
+    '<span class="blot-badge mono"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>Logs published through '+esc(fmtDay(through))+'</span>'+
+    '<span class="blot-badge mono"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Site last checked '+esc(updated)+'</span>'+
   '</div>';
+
+  /* The single most confusing thing about this tab is that "today" and "the
+     newest entry" are two to three weeks apart. Say it, with the numbers. */
+  h+='<p class="blot-lag">The department publishes each week&rsquo;s log as a PDF '+
+    'roughly two to three weeks after the week ends. The newest one available is '+
+    'for the week ending <b>'+esc(fmtDay(through))+'</b>'+
+    (lagDays>0?', about '+plural(lagDays,"day")+' ago':"")+', so the date ranges '+
+    'below count back from there rather than from today. '+
+    'The daily check still runs &mdash; it just has nothing newer to fetch yet.</p>';
+
+  if(STALE){
+    h+='<p class="blot-stale" role="status">Couldn&rsquo;t reach the data file on that '+
+      'last refresh, so this is still the previously loaded copy. Try again in a moment.</p>';
+  }
 
   /* ---- filter bar ---- */
   h+='<div class="blot-bar">'+
-    '<div class="blot-field"><label>Date range</label>'+
+    '<div class="blot-field"><label>Date range <span class="blot-hint">ending '+
+      esc(fmtDay(through))+'</span></label>'+
       '<div class="blot-daterange" role="group" aria-label="Date range">'+
         drChip(7,"7 days")+drChip(14,"14 days")+drChip(28,"28 days")+
+        drChip(0,"All")+
         '<button class="fchip'+(bstate.custom?" on":"")+'" data-blot="custom" type="button">Custom</button>'+
       '</div></div>'+
     (bstate.custom?
@@ -295,8 +344,17 @@ function drChip(n,label){
 
 function rowsHTML(list){
   if(!list.length){
-    return '<p class="blot-none">Nothing in the logs matches those filters. '+
-      'Quiet is good news.</p>';
+    /* An empty result usually means the chosen dates are newer than anything
+       the department has published, not that the town was quiet. Don't claim
+       quiet when what we really have is no log yet. */
+    var b=rangeBounds(), through=publishedThrough();
+    if(b[0]>through){
+      return '<p class="blot-none">No log covers those dates yet. The most recent '+
+        'week the Great Barrington Police Department has published ends '+
+        esc(fmtDay(through))+'.</p>';
+    }
+    return '<p class="blot-none">Nothing in the published logs matches those '+
+      'filters.</p>';
   }
   return list.map(function(i){
     var sel=bstate.sel===i.id;
@@ -337,7 +395,9 @@ function statsHTML(list){
     if(!maxDay||i.d>maxDay) maxDay=i.d;
   });
   var topType=topEntry(byType), topDay=topEntry(byDay);
-  var rangeLab=bstate.custom?"the selected dates":"the past "+bstate.days+" days";
+  var rangeLab=bstate.custom ? "the selected dates"
+    : !bstate.days ? "every published log on file"
+    : "the "+bstate.days+" days to "+fmtDay(anchorDate());
   return '<div class="blot-stats">'+
     '<div class="blot-stat"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>'+
       '<div><div class="bs-num">'+list.length+'</div><div class="bs-lab">public-log entries in '+rangeLab+'</div></div></div>'+
@@ -349,7 +409,7 @@ function statsHTML(list){
       '<div class="bs-lab">busiest day'+(topDay?" ("+topDay[1]+" entries)":"")+'</div></div></div>'+
     '<div class="blot-stat"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>'+
       '<div><div class="bs-num">'+(maxDay?esc(fmtDay(maxDay)):"&mdash;")+'</div>'+
-      '<div class="bs-lab">latest log date</div></div></div>'+
+      '<div class="bs-lab">latest incident in this range</div></div></div>'+
   '</div>';
 }
 function topEntry(o){
@@ -362,8 +422,18 @@ function topEntry(o){
 function renderMap(list){
   var el=document.getElementById("blotmap");
   if(!el||typeof L==="undefined") return;
+  /* render() rebuilds #view wholesale, so by the time we get here the element
+     Leaflet was bound to has been thrown away and replaced by a fresh, empty
+     one. Reusing the old map instance drew every dot into a detached node and
+     left a blank square on screen - which is what made Refresh, and any
+     filter change, look like it broke the tab. Tear it down and rebuild on
+     the container that is actually in the document. */
+  if(map && map.getContainer()!==el){
+    try{ map.remove(); }catch(e){}
+    map=null; dots=null; dotById={};
+  }
   if(!map){
-    map=L.map("blotmap",{scrollWheelZoom:true}).setView([42.196,-73.362],13);
+    map=L.map(el,{scrollWheelZoom:true}).setView([42.196,-73.362],13);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{
       maxZoom:19,
       attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -396,10 +466,18 @@ function renderMap(list){
     bounds.push([i.lat,i.lon]);
   });
   var mc=document.getElementById("blotmapcount");
-  if(mc) mc.textContent=plural(mapped,"mapped incident")+(list.length>mapped? "\u00B7 "+plural(list.length-mapped,"unmapped"):"");
-  if(bounds.length>1) map.fitBounds(bounds,{padding:[30,30]});
-  else if(bounds.length===1) map.setView(bounds[0],15);
-  setTimeout(function(){ map.invalidateSize(); },60);
+  if(mc) mc.textContent=plural(mapped,"mapped incident")+
+    (list.length>mapped? " \u00B7 "+(list.length-mapped)+" unmapped":"");
+  /* Size the map before fitting: a container that has not been laid out yet
+     measures 0x0, and fitting to that lands the view at world zoom. */
+  var mine=map;
+  setTimeout(function(){
+    if(map!==mine) return;
+    map.invalidateSize();
+    if(bounds.length>1) map.fitBounds(bounds,{padding:[30,30]});
+    else if(bounds.length===1) map.setView(bounds[0],15);
+    else map.setView([42.196,-73.362],13);
+  },60);
 }
 
 function repaintRows(){
@@ -429,9 +507,17 @@ function bindBar(){
   if(tt) tt.addEventListener("change",function(){ bstate.to=tt.value; render(); });
   var r=$("#blotrefresh");
   if(r) r.addEventListener("click",function(){
+    if(LOADING) return;
     r.classList.add("spin");
-    POL=null;
-    ensure(function(){ r.classList.remove("spin"); render(); }, true);
+    r.disabled=true;
+    /* Keep the current data in place while the new copy is on the wire. The
+       old handler blanked POL first, so a slow or failed request wiped the
+       whole tab out from under the reader. */
+    var y=window.pageYOffset;
+    ensure(function(){
+      render();
+      window.scrollTo(0,y);
+    }, true);
   });
 }
 

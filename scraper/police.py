@@ -150,8 +150,30 @@ def parse_pdf(path):
                 out.append(entry)
     return out
 
+# Filenames are "8.23.26-8.29.26.pdf", but a handful use dashes where the rest
+# use dots ("1.19-26-1.25-26.pdf"), so both separators are accepted.
+WEEK_RE = re.compile(r"^(\d{1,2})[.\-](\d{1,2})[.\-](\d{2,4})"
+                     r"[.\-]+(\d{1,2})[.\-](\d{1,2})[.\-](\d{2,4})")
+
+def week_dates(filename):
+    """(from, to) as ISO dates for a weekly log filename, or (None, None)."""
+    m = WEEK_RE.match(filename)
+    if not m:
+        return None, None
+    def iso(mo, da, yr):
+        yr = "20" + yr if len(yr) == 2 else yr
+        return f"{yr}-{int(mo):02d}-{int(da):02d}"
+    return (iso(m.group(1), m.group(2), m.group(3)),
+            iso(m.group(4), m.group(5), m.group(6)))
+
 def index_pdfs():
-    """Weekly PDF links from the logs index page, newest first."""
+    """Weekly PDF links from the logs index page, newest week first.
+
+    The page lists three-plus years of logs grouped by upload month, and the
+    groups are not in date order - so slicing the raw document order kept an
+    arbitrary eight weeks and could silently miss the newest one. Sort by the
+    week encoded in the filename and the newest really is first.
+    """
     r = requests.get(INDEX_URL, headers=UA, timeout=40)
     r.raise_for_status()
     found = {}
@@ -161,7 +183,17 @@ def index_pdfs():
         name = url.rsplit("/", 1)[-1]
         if name not in found:
             found[name] = url
-    return [{"file": n, "url": u} for n, u in found.items()]
+    out = []
+    for n, u in found.items():
+        start, end = week_dates(n)
+        if not start:
+            # Not a weekly log (or a filename shape we do not understand);
+            # skipping beats guessing at its date.
+            print(f"  note: skipping unrecognised filename {n}")
+            continue
+        out.append({"file": n, "url": u, "from": start, "to": end})
+    out.sort(key=lambda p: p["from"], reverse=True)
+    return out
 
 def geocode(street, sector, cache):
     key = street.upper()
@@ -267,17 +299,12 @@ def main():
 
     weeks = []
     for p in pdfs:
-        m = re.match(r"(\d+)\.(\d+)\.(\d+)-(\d+)\.(\d+)\.(\d+)", p["file"])
-        w = {"file": p["file"], "url": p["url"]}
+        w = {"file": p["file"], "url": p["url"],
+             "from": p["from"], "to": p["to"]}
         if p["file"] in stats.get("unreadable", []):
             w["note"] = "No text layer in this PDF (scanned); skipped."
-        if m:
-            y1, y2 = m.group(3), m.group(6)
-            y1 = "20" + y1 if len(y1) == 2 else y1
-            y2 = "20" + y2 if len(y2) == 2 else y2
-            w["from"] = f"{y1}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
-            w["to"] = f"{y2}-{int(m.group(4)):02d}-{int(m.group(5)):02d}"
         weeks.append(w)
+    weeks.sort(key=lambda w: w["from"], reverse=True)
 
     payload = {
         "updated": datetime.now(ET).isoformat(timespec="seconds"),
@@ -286,6 +313,9 @@ def main():
             "url": INDEX_URL,
         },
         "weeks": weeks,
+        # The newest week the department has posted, which is typically two to
+        # three weeks behind today. The blotter tab ranges dates off this.
+        "published_through": max((w["to"] for w in weeks), default=None),
         "groups": GROUPS,
         "geo": geo,
         "incidents": sorted(incidents.values(),

@@ -1,6 +1,6 @@
 /* ============================================================
    Berkshire Meetings
-   Briefing (A) Â· Power Calendar (B) Â· Town Dashboard (C)
+   Briefing (A) · Power Calendar (B) · Town Dashboard (C)
    Static, no build step, no dependencies.
    ============================================================ */
 (function(){
@@ -50,7 +50,7 @@ function fmtTime(t){
 function fmtRange(m){
   if(m.all_day) return "All day";
   var s = fmtTime(m.start) || "Time TBA";
-  if(m.end && m.end!==m.start && m.start) s += " â "+fmtTime(m.end);
+  if(m.end && m.end!==m.start && m.start) s += " – "+fmtTime(m.end);
   return s;
 }
 function dayLabel(iso){
@@ -78,9 +78,9 @@ function cleanLoc(loc, board){
   if(board) phys = phys.replace(new RegExp("\\s*"+escRe(board)+"\\s*$","i"),"");
   phys = phys.replace(/^(in-person|hybrid meeting)(\s+in person)?(\s+at)?\s+/i,"");
   phys = phys.replace(/,?\s*United States\s*$/i,"");
-  phys = phys.replace(/\s{2,}/g," ").replace(/[\sÂ·:;,.\-]+$/,"").replace(/\s+and$/i,"").trim();
+  phys = phys.replace(/\s{2,}/g," ").replace(/[\s·:;,.\-]+$/,"").replace(/\s+and$/i,"").trim();
   if(!phys) return viaZoom ? "Remote via Zoom" : "";
-  return viaZoom ? phys+" Â· via Zoom" : phys;
+  return viaZoom ? phys+" · via Zoom" : phys;
 }
 function isRemote(m){ return /via zoom|remote meeting/i.test(String(m.location||"")); }
 function isCancelled(m){ return /\bcancell?ed\b/i.test(String(m.title||"")+" "+String(m.board||"")); }
@@ -99,6 +99,19 @@ function lsSet(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){}
 var STARS   = lsGet(STAR_KEY,{});
 var FOLLOWS = lsGet(FOLLOW_KEY,{});
 var SAVED   = lsGet(SEARCH_KEY,[]);
+
+/* Follow keys used to be written with a mangled separator (the unit-separator
+   glyph run through a bad encode). Rewrite any of those on load so boards a
+   reader already followed do not silently disappear. */
+(function migrateFollowKeys(){
+  var bad = "\u00e2\u0090\u009f", changed = false, out = {};
+  Object.keys(FOLLOWS).forEach(function(k){
+    var fixed = k.indexOf(bad) >= 0 ? k.split(bad).join("\u241f") : k;
+    if(fixed !== k) changed = true;
+    out[fixed] = FOLLOWS[k];
+  });
+  if(changed){ FOLLOWS = out; lsSet(FOLLOW_KEY,FOLLOWS); }
+})();
 
 /* A meeting's identity: stable across scrapes as long as it isn't rescheduled. */
 function mkey(m){
@@ -125,7 +138,7 @@ function paintStars(){
   Array.prototype.forEach.call(document.querySelectorAll(".star[data-key]"),function(b){
     var on = !!STARS[b.dataset.key];
     b.setAttribute("aria-pressed", on?"true":"false");
-    b.textContent = on ? "â" : "â";
+    b.textContent = on ? "★" : "☆";
     b.title = on ? "Remove from your starred meetings" : "Star this meeting";
     var row = b.closest(".mrow");
     if(row) row.classList.toggle("starred", on);
@@ -138,7 +151,7 @@ function starredMeetings(){
 }
 
 /* ---------------------------------------------- follows (towns + boards) */
-function followKey(town,board){ return board ? town+"â"+board : town; }
+function followKey(town,board){ return board ? town+"␟"+board : town; }
 function isFollowed(town,board){ return !!FOLLOWS[followKey(town,board)]; }
 function toggleFollow(key){
   if(FOLLOWS[key]) delete FOLLOWS[key];
@@ -152,7 +165,7 @@ function matchesFollow(m){
 }
 
 /* ============================================================
-   Calendar sync â .ics export and Google Calendar links.
+   Calendar sync — .ics export and Google Calendar links.
    Starred meetings only; nothing leaves the browser.
    ============================================================ */
 function icsEsc(s){
@@ -170,7 +183,7 @@ function addHour(timeStr){
 }
 function eventEnd(m){ return (m.end && m.end!==m.start) ? m.end : addHour(m.start||"00:00"); }
 /* True when the title already says what the board is, so an event doesn't end
-   up titled "Council Aging â Council on Aging Meeting". */
+   up titled "Council Aging — Council on Aging Meeting". */
 function titleCoversBoard(board,title){
   if(!board) return true;
   var t=String(title||"").toLowerCase();
@@ -179,11 +192,11 @@ function titleCoversBoard(board,title){
   });
 }
 function eventTitle(m){
-  var name = titleCoversBoard(m.board,m.title) ? m.title : m.board+" â "+m.title;
+  var name = titleCoversBoard(m.board,m.title) ? m.title : m.board+" — "+m.title;
   return townLabel(m.town)+": "+name;
 }
 function eventDesc(m,nl){
-  var d = (m.board ? m.board+" Â· " : "")+townLabel(m.town||"");
+  var d = (m.board ? m.board+" · " : "")+townLabel(m.town||"");
   if(m.agenda_url)  d += nl+"Agenda: "+m.agenda_url;
   if(m.minutes_url) d += nl+"Minutes: "+m.minutes_url;
   if(m.source_url && m.source_url!==m.agenda_url) d += nl+"Official posting: "+m.source_url;
@@ -213,7 +226,7 @@ function buildICS(list){
   var L=["BEGIN:VCALENDAR","VERSION:2.0",
          "PRODID:-//Berkshire Meetings//Starred meetings//EN",
          "CALSCALE:GREGORIAN","METHOD:PUBLISH",
-         "X-WR-CALNAME:Berkshire Meetings â starred",
+         "X-WR-CALNAME:Berkshire Meetings — starred",
          "X-WR-TIMEZONE:"+ET].concat(VTIMEZONE);
   list.forEach(function(m){
     var uid = mkey(m).replace(/[^A-Za-z0-9]+/g,"-").replace(/^-|-$/g,"")+"@berkshire-meetings";
@@ -272,7 +285,7 @@ function howtoBlurb(){
     '<p><b>Apple Calendar, Outlook, Fantastical, anything else.</b> Download the file and open it. '+
     'Your calendar app will ask which calendar to add the meetings to and then add all of them at once. '+
     'On an iPhone, tapping the downloaded file does the same thing.</p>'+
-    '<p class="note">This is a one-time export, not a live subscription â star more meetings later and download again. '+
+    '<p class="note">This is a one-time export, not a live subscription — star more meetings later and download again. '+
     'Re-importing is safe: each meeting carries a stable ID, so most calendars update the existing entry instead of '+
     'creating a duplicate. Town clerks move and cancel meetings, so confirm against the official posting before you go.</p>'+
     '</div></details>';
@@ -383,7 +396,7 @@ function starBtn(m){
   var k=mkey(m), on=!!STARS[k];
   return '<button class="star" data-action="star" data-key="'+esc(k)+'" '+
     'aria-pressed="'+on+'" title="'+(on?"Remove from your starred meetings":"Star this meeting")+'" '+
-    'aria-label="'+(on?"Unstar":"Star")+' '+esc(m.title)+'" type="button">'+(on?"â":"â")+'</button>';
+    'aria-label="'+(on?"Unstar":"Star")+' '+esc(m.title)+'" type="button">'+(on?"★":"☆")+'</button>';
 }
 /* The briefing row: day gutter | what & when | actions. */
 function meetingRow(m,i,opts){
@@ -401,13 +414,13 @@ function meetingRow(m,i,opts){
       '<span class="mr-dnum">'+MONS[d.getMonth()].toUpperCase()+" "+d.getDate()+'</span></div>'+
     '<div class="mr-body">'+
       '<div class="mr-title">'+esc(m.title)+'</div>'+
-      '<div class="mr-meta">'+esc(townLabel(m.town))+(m.board?' Â· '+esc(m.board):"")+'</div>'+
+      '<div class="mr-meta">'+esc(townLabel(m.town))+(m.board?' · '+esc(m.board):"")+'</div>'+
       '<div class="mr-when"><span class="t">'+esc(fmtRange(m))+'</span>'+
         (loc?'<span class="loc">'+esc(loc)+'</span>':"")+'</div>'+
       '<div class="mr-tags">'+statusTags(m)+'</div>'+
     '</div>'+
     '<div class="mr-act">'+starBtn(m)+act+
-      '<button class="chev" data-action="open" data-key="'+esc(k)+'" aria-label="Open meeting details" type="button">âº</button>'+
+      '<button class="chev" data-action="open" data-key="'+esc(k)+'" aria-label="Open meeting details" type="button">›</button>'+
     '</div></article>';
 }
 function groupByDay(list){
@@ -429,7 +442,7 @@ function dayGroupsHTML(groups,opts){
 }
 
 /* ============================================================
-   A â CIVIC BRIEFING
+   A — CIVIC BRIEFING
    ============================================================ */
 function renderHero(){
   var host=$("#herohost");
@@ -456,15 +469,15 @@ function renderHero(){
           'with you to your own calendar.<span class="upd">'+esc(updated)+'</span></p>'+
       '</div>'+
       '<div class="hero-side"><div class="herosearch">'+
-        '<input id="q" type="search" value="'+esc(state.q)+'" placeholder="Search meetings, boards, keywordsâ¦" '+
+        '<input id="q" type="search" value="'+esc(state.q)+'" placeholder="Search meetings, boards, keywords…" '+
           'autocomplete="off" aria-label="Search upcoming meetings">'+
-        '<button class="go" data-action="tosearch" type="button" aria-label="Search">â</button>'+
+        '<button class="go" data-action="tosearch" type="button" aria-label="Search">→</button>'+
       '</div></div>'+
     '</div>'+
     '<div class="hero-controls">'+
       '<button class="chip'+(state.mode==="week"?" active":"")+'" data-action="mode" data-mode="week" type="button">This week</button>'+
       '<button class="chip'+(state.mode==="starred"?" active":"")+'" data-action="mode" data-mode="starred" type="button">'+
-        '<span aria-hidden="true">â</span> My starred <span class="n" id="starchip-n">'+starCount()+'</span></button>'+
+        '<span aria-hidden="true">★</span> My starred <span class="n" id="starchip-n">'+starCount()+'</span></button>'+
       '<button class="chip'+(state.mode==="followed"?" active":"")+'" data-action="mode" data-mode="followed" type="button">'+
         'My followed boards <span class="n">'+followCount()+'</span></button>'+
       '<span class="selwrap"><select id="townsel" aria-label="Filter by town">'+opts+'</select></span>'+
@@ -500,7 +513,7 @@ function changesCard(){
   var ch = CHANGES.changes||[];
   var h='<div class="card"><div class="cardhead"><h3>What changed?</h3>'+
     (ch.length>5 && !state.showAllChanges
-      ? '<button class="linkall" data-action="more-changes" type="button">View all '+ch.length+' â</button>' : "")+
+      ? '<button class="linkall" data-action="more-changes" type="button">View all '+ch.length+' →</button>' : "")+
     '</div>';
   if(!ch.length){
     h+='<p class="cardsub">The daily scrape flags newly posted, rescheduled and withdrawn meetings here. '+
@@ -512,7 +525,7 @@ function changesCard(){
     h+='<p class="cardsub">'+plural(ch.length,"update")+' from the '+esc(when)+' scrape</p>';
     (state.showAllChanges ? ch : ch.slice(0,5)).forEach(function(c){
       var kind = c.type==="added" ? "added" : c.type==="removed" ? "removed" : "changed";
-      var mark = kind==="added" ? "+" : kind==="removed" ? "Ã" : "â¼";
+      var mark = kind==="added" ? "+" : kind==="removed" ? "×" : "∼";
       var label = c.type==="added" ? "New meeting posted"
         : c.type==="removed" ? "No longer posted"
         : (c.fields||[]).map(function(f){
@@ -522,7 +535,7 @@ function changesCard(){
       h+='<div class="chg"><span class="ico '+kind+'" aria-hidden="true">'+mark+'</span><div>'+
          '<b>'+esc(label)+'</b> &mdash; '+esc(c.title)+
          '<span class="cm">'+esc(c.board||"")+(c.board?", ":"")+esc(townLabel(c.town||""))+
-         ' Â· '+esc(fmtShort(c.date))+'</span></div></div>';
+         ' · '+esc(fmtShort(c.date))+'</span></div></div>';
     });
   }
   return h+'</div>';
@@ -533,7 +546,7 @@ function followCard(){
     '<p class="cardsub">Pick the ones you care about, then use the '+
     '&ldquo;My followed boards&rdquo; filter above to see only those.</p>'+
     '<div class="followsearch"><input id="followq" type="search" value="'+esc(state.followQ)+'" '+
-      'placeholder="Search towns and boardsâ¦" autocomplete="off" aria-label="Search towns and boards"></div>'+
+      'placeholder="Search towns and boards…" autocomplete="off" aria-label="Search towns and boards"></div>'+
     '<div class="followchips">';
 
   var chips=[], added={};
@@ -551,20 +564,20 @@ function followCard(){
       var k=followKey(town,b);
       if(added[k]) return;
       added[k]=1;
-      chips.push({k:k,label:b+" Â· "+townLabel(town),on:!!FOLLOWS[k]});
+      chips.push({k:k,label:b+" · "+townLabel(town),on:!!FOLLOWS[k]});
     });
   }
   /* Whatever is already followed stays visible so it can be switched off. */
   Object.keys(FOLLOWS).forEach(function(k){
     if(added[k]) return;
-    var p=k.split("â");
-    chips.push({k:k,label:p[1]?p[1]+" Â· "+townLabel(p[0]):townLabel(p[0]),on:true});
+    var p=k.split("␟");
+    chips.push({k:k,label:p[1]?p[1]+" · "+townLabel(p[0]):townLabel(p[0]),on:true});
   });
 
   if(!chips.length) h+='<p class="followempty">Nothing matches that.</p>';
   chips.forEach(function(c){
     h+='<button class="fchip'+(c.on?" on":"")+'" data-action="follow" data-key="'+esc(c.k)+'" '+
-       'aria-pressed="'+c.on+'" type="button">'+(c.on?'<span class="tick" aria-hidden="true">â</span>':"")+
+       'aria-pressed="'+c.on+'" type="button">'+(c.on?'<span class="tick" aria-hidden="true">✓</span>':"")+
        esc(c.label)+'</button>';
   });
   h+='</div>';
@@ -610,17 +623,17 @@ function renderBriefingFeed(){
             : state.mode==="followed" ? "Meetings you follow"
             : "Meetings This Week";
   var range = state.mode==="week"
-    ? fmtShort(t)+" â "+fmtShort(addDays(t,6))+", "+parseD(t).getFullYear()
+    ? fmtShort(t)+" – "+fmtShort(addDays(t,6))+", "+parseD(t).getFullYear()
     : "Everything upcoming";
 
   var h='<div class="secthead"><h2>'+esc(title)+'</h2><span class="range">'+esc(range)+'</span>'+
     '<span class="right"><span class="count">'+plural(list.length,"meeting")+'</span>'+
-    '<button class="linkall" data-action="goto" data-view="calendar" type="button">View all â</button></span></div>';
+    '<button class="linkall" data-action="goto" data-view="calendar" type="button">View all →</button></span></div>';
 
   if(state.mode==="starred"){
     h += list.length ? syncPanel(list) :
       '<div class="syncbar"><div class="sb-top"><span class="sb-t">Nothing starred yet</span></div>'+
-      '<p class="sb-s">Tap the â on any meeting to save it here. Once you have a few, you can send the whole '+
+      '<p class="sb-s">Tap the ☆ on any meeting to save it here. Once you have a few, you can send the whole '+
       'set to Google Calendar or Apple Calendar in one go.</p>'+howtoBlurb()+'</div>';
   }
   if(state.mode==="followed" && !followCount()){
@@ -632,7 +645,7 @@ function renderBriefingFeed(){
     h += dayGroupsHTML(groupByDay(list), {sync: state.mode==="starred"});
   }else if(state.mode!=="starred" && !(state.mode==="followed" && !followCount())){
     h += '<p class="none">'+(state.q.trim()
-      ? "No meetings match â"+esc(state.q.trim())+"â."
+      ? "No meetings match “"+esc(state.q.trim())+"”."
       : state.mode==="week" ? "Nothing posted for the coming week."
       : "Nothing posted yet.")+'</p>';
   }
@@ -644,10 +657,10 @@ function syncPanel(list){
   return '<div class="syncbar">'+
     '<div class="sb-top"><span class="sb-t">'+plural(list.length,"starred meeting")+'</span>'+
     '<span class="sb-acts">'+
-      '<button class="btn dark" data-action="ics-all" type="button">â Download .ics</button>'+
+      '<button class="btn dark" data-action="ics-all" type="button">↓ Download .ics</button>'+
       (list.length===1?'<a class="btn ghost" href="'+esc(gcalURL(list[0]))+'" target="_blank" rel="noopener">Add to Google</a>':"")+
     '</span></div>'+
-    '<p class="sb-s">One file with just your starred meetings â import it into Google Calendar, or open it '+
+    '<p class="sb-s">One file with just your starred meetings — import it into Google Calendar, or open it '+
     'to drop them straight into Apple Calendar or Outlook. Single meetings have their own '+
     '&ldquo;Add to Google&rdquo; button below.</p>'+
     howtoBlurb()+'</div>';
@@ -658,13 +671,13 @@ function renderStarred(){
   var past=list.filter(function(m){ return m.date<t; });
   var soon=list.filter(function(m){ return m.date>=t; });
   var h='<div class="viewhead"><h2>Your starred meetings</h2>'+
-    '<p class="vsub">Stars live in this browser only â nothing is uploaded and no account is needed. '+
+    '<p class="vsub">Stars live in this browser only — nothing is uploaded and no account is needed. '+
     'Clearing your browser data clears them.</p></div>';
   if(!list.length){
     h+='<div class="syncbar"><div class="sb-top"><span class="sb-t">Nothing starred yet</span></div>'+
-      '<p class="sb-s">Tap the â on any meeting â in the briefing, the calendar, or a town page â to save '+
+      '<p class="sb-s">Tap the ☆ on any meeting — in the briefing, the calendar, or a town page — to save '+
       'it here. Then export the whole set to your calendar in one file.</p>'+howtoBlurb()+'</div>'+
-      '<p class="none">Start with <button class="linkall" data-action="goto" data-view="briefing" type="button">this weekâs briefing â</button></p>';
+      '<p class="none">Start with <button class="linkall" data-action="goto" data-view="briefing" type="button">this week’s briefing →</button></p>';
     $("#view").innerHTML=h;
     return;
   }
@@ -680,7 +693,7 @@ function renderStarred(){
 }
 
 /* ============================================================
-   B â POWER CALENDAR
+   B — POWER CALENDAR
    ============================================================ */
 function pcFilter(m){
   var t=etToday(), q=state.q.trim().toLowerCase();
@@ -716,8 +729,8 @@ function miniCal(matching){
 
   var h='<div class="pccal"><div class="pccal-head">'+
     '<h3>'+MONS_L[mo-1]+' '+y+'</h3>'+
-    '<button class="navbtn" data-action="month-prev" aria-label="Previous month" type="button">â¹</button>'+
-    '<button class="navbtn" data-action="month-next" aria-label="Next month" type="button">âº</button>'+
+    '<button class="navbtn" data-action="month-prev" aria-label="Previous month" type="button">‹</button>'+
+    '<button class="navbtn" data-action="month-next" aria-label="Next month" type="button">›</button>'+
     '</div><div class="grid">';
   DOW.forEach(function(d){ h+='<div class="dow">'+d.slice(0,2)+'</div>'; });
   for(var i=0;i<startDay;i++) h+='<div class="cell blank"></div>';
@@ -747,7 +760,7 @@ function pcRow(m){
       '<span class="p-board">'+esc(m.board||m.title)+'</span></span>'+
     '<span class="p-loc">'+esc(loc||"")+'</span>'+
     '<span class="mr-tags">'+statusTags(m)+'</span>'+
-    '<span class="chev" aria-hidden="true">âº</span>'+
+    '<span class="chev" aria-hidden="true">›</span>'+
     '</button>';
 }
 function pcDetail(){
@@ -758,17 +771,17 @@ function pcDetail(){
   var h='<div class="pcdetail fade"><div class="pd-top">'+
     '<h3 class="pd-title">'+esc(m.title)+'</h3>'+
     '<div class="pd-tags">'+statusTags(m)+starBtn(m)+'</div></div>'+
-    '<p class="pd-when">'+esc(townLabel(m.town))+(m.board?' Â· '+esc(m.board):"")+'<br>'+
-      '<span class="t">'+esc(fmtLong(m.date))+' Â· '+esc(fmtRange(m))+'</span></p>'+
+    '<p class="pd-when">'+esc(townLabel(m.town))+(m.board?' · '+esc(m.board):"")+'<br>'+
+      '<span class="t">'+esc(fmtLong(m.date))+' · '+esc(fmtRange(m))+'</span></p>'+
     (loc?'<p class="pd-loc">'+esc(loc)+'</p>':"")+
     '<div class="pd-acts">';
   if(m.agenda_url)  h+='<a class="btn" href="'+esc(m.agenda_url)+'" target="_blank" rel="noopener">View agenda</a>';
   if(m.minutes_url) h+='<a class="btn ghost" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">Minutes</a>';
   h+='<a class="btn ghost" href="'+esc(gcalURL(m))+'" target="_blank" rel="noopener">Add to Google Calendar</a>';
   h+='<button class="btn ghost" data-action="ics-one" data-key="'+esc(mkey(m))+'" type="button">Download .ics</button>';
-  if(m.source_url) h+='<a class="btn ghost" href="'+esc(m.source_url)+'" target="_blank" rel="noopener">Official posting â</a>';
+  if(m.source_url) h+='<a class="btn ghost" href="'+esc(m.source_url)+'" target="_blank" rel="noopener">Official posting ↗</a>';
   h+='<button class="btn ghost" data-action="follow" data-key="'+esc(followKey(m.town,m.board))+'" type="button">'+
-     (isFollowed(m.town,m.board)?"â Following board":"Follow board")+'</button>';
+     (isFollowed(m.town,m.board)?"✓ Following board":"Follow board")+'</button>';
   return h+'</div></div>';
 }
 function renderCalendar(){
@@ -801,14 +814,14 @@ function renderCalendar(){
   function sOpt(v,l){ return '<option value="'+v+'"'+(state.sort===v?" selected":"")+'>'+l+'</option>'; }
 
   var h='<div class="viewhead"><h2>Power calendar</h2>'+
-    '<p class="vsub">Filter, search and scan every meeting we know about â built for reporters, '+
+    '<p class="vsub">Filter, search and scan every meeting we know about — built for reporters, '+
     'researchers and anyone tracking a particular board.</p></div>';
 
   h+='<div class="pcbar">'+
     '<div class="pcsearch">'+
-      '<input id="pcq" type="search" value="'+esc(state.q)+'" placeholder="Search meetings, boards, or keywordsâ¦" '+
+      '<input id="pcq" type="search" value="'+esc(state.q)+'" placeholder="Search meetings, boards, or keywords…" '+
         'autocomplete="off" aria-label="Search all meetings">'+
-      '<button class="btn ghost" data-action="save-search" type="button">â Save search</button>'+
+      '<button class="btn ghost" data-action="save-search" type="button">⊕ Save search</button>'+
     '</div>'+
     '<div class="pcfilters">'+
       '<span class="fsel"><select id="pctown" aria-label="Town">'+townOpts+'</select></span>'+
@@ -827,7 +840,7 @@ function renderCalendar(){
     SAVED.forEach(function(s,i){
       h+='<button class="fchip" data-action="load-search" data-i="'+i+'" type="button">'+esc(s.name)+
          ' <span data-action="del-search" data-i="'+i+'" role="button" tabindex="0" aria-label="Delete saved search" '+
-         'style="color:var(--faint);font-weight:400">Ã</span></button>';
+         'style="color:var(--faint);font-weight:400">×</span></button>';
     });
     h+='</div>';
   }
@@ -890,7 +903,7 @@ function saveSearch(){
   if(state.dateFilter!=="day") bits.push({"7":"next 7 days","30":"next 30 days",
                                           month:"this month",past:"past"}[state.dateFilter]);
   if(!bits.length) return;
-  var name=bits.join(" Â· ");
+  var name=bits.join(" · ");
   if(SAVED.some(function(s){ return s.name===name; })) return;
   SAVED.unshift({name:name, q:state.q, town:state.town, board:state.board,
                  format:state.format, dateFilter:state.dateFilter, sort:state.sort});
@@ -900,11 +913,11 @@ function saveSearch(){
 }
 
 /* ============================================================
-   C â TOWN DASHBOARD
+   C — TOWN DASHBOARD
    ============================================================ */
 function townRail(){
   var h='<nav class="tdrail" aria-label="Towns">'+
-    '<button class="railback" data-action="town-pick" data-town="All" type="button">â All towns</button>';
+    '<button class="railback" data-action="town-pick" data-town="All" type="button">← All towns</button>';
   townList().forEach(function(t){
     h+='<button class="railitem'+(state.town===t?" on":"")+'" data-action="town-pick" data-town="'+esc(t)+'" '+
        'type="button"'+(state.town===t?' aria-current="true"':"")+'>'+esc(t)+
@@ -929,10 +942,10 @@ function townIndex(){
     h+='<button class="towncard rise" style="--i:'+Math.min(i,12)+'" data-action="town-pick" '+
       'data-town="'+esc(x)+'" type="button">'+
       '<div class="tc-top">'+dot+'<span class="tc-name">'+esc(townLabel(x))+'</span></div>'+
-      '<div class="tc-n">'+weekCount(x)+' in the next 7 days Â· '+up.length+' upcoming</div>'+
+      '<div class="tc-n">'+weekCount(x)+' in the next 7 days · '+up.length+' upcoming</div>'+
       (up.length
         ? '<div class="tc-next">Next: <b>'+esc(up[0].board||up[0].title)+'</b><br>'+
-          esc(fmtShort(up[0].date))+(up[0].start?' Â· '+esc(fmtTime(up[0].start)):"")+'</div>'
+          esc(fmtShort(up[0].date))+(up[0].start?' · '+esc(fmtTime(up[0].start)):"")+'</div>'
         : '<div class="tc-next">No upcoming meetings posted.</div>')+
       '</button>';
   });
@@ -945,9 +958,9 @@ function townDash(){
   var h='<div class="tdhero"><div class="tdhero-img" aria-hidden="true"></div>'+
     '<div class="tdhero-veil" aria-hidden="true"></div><div class="tdhero-in">'+
     '<div><h2>'+esc(townLabel(town))+'</h2>'+
-    '<p>Boards, meetings, agendas and minutes â everything we have for '+esc(townLabel(town))+'.</p></div>'+
+    '<p>Boards, meetings, agendas and minutes — everything we have for '+esc(townLabel(town))+'.</p></div>'+
     '<button class="followbtn'+(followed?" on":"")+'" data-action="follow" data-key="'+esc(followKey(town,null))+'" '+
-      'aria-pressed="'+followed+'" type="button">'+(followed?"â Following":"+ Follow town")+'</button>'+
+      'aria-pressed="'+followed+'" type="button">'+(followed?"✓ Following":"+ Follow town")+'</button>'+
     '</div></div>';
 
   h+='<div class="tdtabs" role="tablist">';
@@ -963,12 +976,12 @@ function townDash(){
       '<div class="stat"><span class="sl">Next meeting</span>'+
         (next
           ? '<span class="sname">'+esc(next.board||next.title)+'</span>'+
-            '<span class="swhen">'+esc(fmtDay(next.date))+(next.start?' Â· '+esc(fmtTime(next.start)):"")+'</span>'+
+            '<span class="swhen">'+esc(fmtDay(next.date))+(next.start?' · '+esc(fmtTime(next.start)):"")+'</span>'+
             '<span class="sloc">'+esc(cleanLoc(next.location,next.board)||"Location not posted")+'</span>'+
             '<span class="sfoot">'+(next.agenda_url
               ? '<a class="btn ghost sm" href="'+esc(next.agenda_url)+'" target="_blank" rel="noopener">View agenda</a>'
               : '<button class="btn ghost sm" data-action="star" data-key="'+esc(mkey(next))+'" type="button">'+
-                (isStarred(next)?"â Starred":"â Star it")+'</button>')+'</span>'
+                (isStarred(next)?"★ Starred":"☆ Star it")+'</button>')+'</span>'
           : '<span class="sname">Nothing posted</span><span class="sloc">No upcoming meetings in the feed.</span>')+
       '</div>'+
       '<div class="stat"><span class="sl">Upcoming this week</span>'+
@@ -994,7 +1007,7 @@ function townDash(){
       .sort(function(a,b){ return b.date.localeCompare(a.date); });
     h+='<div class="secthead"><h2>Recent minutes</h2>'+
        '<span class="right"><span class="count">'+plural(mins.length,"posting")+'</span>'+
-       '<button class="linkall" data-action="goto" data-view="archive" type="button">Search the archive â</button></span></div>';
+       '<button class="linkall" data-action="goto" data-view="archive" type="button">Search the archive →</button></span></div>';
     h+= mins.length ? '<div class="card">'+mins.slice(0,80).map(minRow).join("")+'</div>'
                     : '<p class="none">No minutes posted for '+esc(townLabel(town))+' yet.</p>';
   }
@@ -1015,7 +1028,7 @@ function boardsCardBody(town,limit){
     return boards[b].n-boards[a].n || a.localeCompare(b);
   }).slice(0,limit);
   var h='<div class="cardhead"><h3>Boards in '+esc(townLabel(town))+'</h3>'+
-    (limit<999?'<button class="linkall" data-action="tab" data-tab="boards" type="button">View all â</button>':"")+
+    (limit<999?'<button class="linkall" data-action="tab" data-tab="boards" type="button">View all →</button>':"")+
     '</div><p class="cardsub">'+plural(Object.keys(boards).length,"board")+' with meetings on record</p>';
   if(!names.length) return h+'<p class="none">No boards on record yet.</p>';
   names.forEach(function(b){
@@ -1023,9 +1036,9 @@ function boardsCardBody(town,limit){
     var on=isFollowed(town,b);
     h+='<div class="listrow"><span class="lr-main"><span class="lr-name">'+esc(b)+'</span>'+
       '<span class="lr-sub">'+(info.n?plural(info.n,"upcoming meeting"):"Nothing upcoming")+
-      (info.next?' Â· next '+esc(fmtShort(info.next.date)):"")+'</span></span>'+
+      (info.next?' · next '+esc(fmtShort(info.next.date)):"")+'</span></span>'+
       '<button class="fchip'+(on?" on":"")+'" data-action="follow" data-key="'+esc(followKey(town,b))+'" '+
-      'aria-pressed="'+on+'" type="button">'+(on?"â Following":"Follow")+'</button></div>';
+      'aria-pressed="'+on+'" type="button">'+(on?"✓ Following":"Follow")+'</button></div>';
   });
   return h;
 }
@@ -1034,14 +1047,14 @@ function minRow(m){
   return '<a class="listrow" href="'+esc(m.minutes_url)+'" target="_blank" rel="noopener">'+
     '<span class="lr-main"><span class="lr-name">'+esc(m.board||m.title)+'</span>'+
     '<span class="lr-sub">'+esc(fmtDay(m.date))+', '+parseD(m.date).getFullYear()+'</span></span>'+
-    '<span class="lr-doc">OPEN â</span></a>';
+    '<span class="lr-doc">OPEN ↗</span></a>';
 }
 function minutesCard(town,limit){
   var t=etToday();
   var mins=DATA.meetings.filter(function(m){ return m.town===town && m.minutes_url && m.date<t; })
     .sort(function(a,b){ return b.date.localeCompare(a.date); });
   var h='<div class="card"><div class="cardhead"><h3>Recent minutes</h3>'+
-    '<button class="linkall" data-action="tab" data-tab="minutes" type="button">View all â</button></div>'+
+    '<button class="linkall" data-action="tab" data-tab="minutes" type="button">View all →</button></div>'+
     '<p class="cardsub">'+plural(mins.length,"posting")+' on record</p>';
   if(!mins.length) return h+'<p class="none">No minutes posted yet.</p></div>';
   return h+mins.slice(0,limit).map(minRow).join("")+'</div>';
@@ -1052,14 +1065,14 @@ function renderTowns(){
 }
 
 /* ============================================================
-   NEWS â town announcements, newest first
+   NEWS — town announcements, newest first
    Loaded lazily from data/news.json the first time the tab opens.
    ============================================================ */
 var NEWS = null, NEWS_LOADING = false, NEWS_FAILED = false;
 
 /* Timestamp of the reader's previous visit to this tab. Read once at load so
    the "New" markers hold still while they read, and only advanced on the way
-   out â otherwise everything stops being new the moment you arrive. */
+   out — otherwise everything stops being new the moment you arrive. */
 var NEWS_SEEN_KEY = "bm-news-seen-v1";
 var NEWS_SEEN_AT = lsGet(NEWS_SEEN_KEY, null);
 
@@ -1088,7 +1101,7 @@ function markNewsSeen(){
 }
 function newsIsNew(it){
   if(!NEWS_SEEN_AT) return false;   /* first visit: nothing is "new" yet */
-  /* Compare instants, not strings: the stored stamp is UTC ("â¦Z") while
+  /* Compare instants, not strings: the stored stamp is UTC ("…Z") while
      first_seen carries the scraper's Eastern offset, so the two sort
      differently as text than they do in time. */
   var seen = Date.parse(NEWS_SEEN_AT), at = Date.parse(it.first_seen||"");
@@ -1174,7 +1187,7 @@ function newsCard(it,i){
     (it.summary?'<p class="nc-sum">'+esc(it.summary)+'</p>':"")+
     '<div class="nc-foot">'+
       '<a class="btn ghost sm" href="'+esc(it.url)+'" target="_blank" rel="noopener">'+
-      'Read full post â</a></div>'+
+      'Read full post ↗</a></div>'+
   '</article>';
 }
 
@@ -1183,7 +1196,7 @@ function newsSourcesSection(){
   if(!srcs.length) return "";
   var h='<section class="nsources"><div class="cardhead"><h3>Where this comes from</h3></div>'+
     '<p class="cardsub">Every item above is scraped from one of these pages, hourly. '+
-    'Nothing is rewritten â headlines and summaries are the towns&rsquo; own words, and every '+
+    'Nothing is rewritten — headlines and summaries are the towns&rsquo; own words, and every '+
     'card links back to the original posting.</p><div class="nsrclist">';
   srcs.forEach(function(s){
     /* A town that scrapes cleanly but posts rarely is not a broken source, and
@@ -1192,8 +1205,8 @@ function newsSourcesSection(){
     var note = s.ok
              ? (s.items ? plural(s.items,"item")+" on file"
                         : "Nothing posted in the last 90 days")
-             : s.items ? plural(s.items,"item")+" on file Â· last check failed"
-                       : "No items yet Â· "+(s.error ? "last check failed" : "nothing posted");
+             : s.items ? plural(s.items,"item")+" on file · last check failed"
+                       : "No items yet · "+(s.error ? "last check failed" : "nothing posted");
     h+='<div class="nsrc">'+
        '<span class="sdot '+cls+'"></span>'+
        '<span class="nsrc-main">'+
@@ -1208,7 +1221,7 @@ function newsSourcesSection(){
 
 function renderNews(){
   if(NEWS===null){
-    $("#view").innerHTML='<p class="loading">Gathering town announcementsâ¦</p>';
+    $("#view").innerHTML='<p class="loading">Gathering town announcements…</p>';
     ensureNews(function(){ if(state.view==="news") renderNews(); });
     return;
   }
@@ -1227,13 +1240,13 @@ function renderNews(){
       'station hours &mdash; gathered from every town website we cover, newest first, so you '+
       'never have to visit ten of them.'+
       (updated?'<span class="upd">'+esc(updated)+
-        (unseen?' Â· '+plural(unseen,"new item")+' since your last visit':"")+'</span>':"")+
+        (unseen?' · '+plural(unseen,"new item")+' since your last visit':"")+'</span>':"")+
     '</p></section>';
 
   h+='<div class="newsbar">'+
     '<div class="nsearch">'+
       '<input id="newsq" type="search" value="'+esc(state.newsQ)+'" '+
-        'placeholder="Search announcementsâ¦" autocomplete="off" '+
+        'placeholder="Search announcements…" autocomplete="off" '+
         'aria-label="Search town announcements">'+
     '</div>'+
     '<div class="npills" role="group" aria-label="Filter by town">'+
@@ -1275,7 +1288,7 @@ function renderNews(){
   $("#view").innerHTML=h;
   var box=$("#newsq");
   if(box){
-    /* Search repaints only the feed and its counter â re-rendering the whole
+    /* Search repaints only the feed and its counter — re-rendering the whole
        view would tear the input out from under the reader's cursor. */
     box.addEventListener("input",function(){
       state.newsQ=box.value;
@@ -1351,12 +1364,12 @@ function renderArchive(){
     '<p class="vsub">Search past meetings, boards, and the full text of posted agendas and minutes.</p></div>'+
     '<div class="archivebar">'+
       '<input id="aq" type="search" value="'+esc(state.archiveQ)+'" '+
-        'placeholder="Search past meetings, boards, agendas, minutesâ¦" '+
+        'placeholder="Search past meetings, boards, agendas, minutes…" '+
         'aria-label="Search the minutes archive" autocomplete="off">'+
       '<label class="minonly"><input type="checkbox" id="amin"'+(state.minOnly?" checked":"")+'> Minutes only</label>'+
     '</div>'+
     '<p class="archcount">'+plural(past.length,"past meeting")+
-      (withMin?' Â· '+withMin+' with minutes posted':"")+'</p>'+
+      (withMin?' · '+withMin+' with minutes posted':"")+'</p>'+
     '<div id="archresults"></div>';
   renderArchiveResults();
   ensureAtext(function(){ if(state.view==="archive") renderArchiveResults(); });
@@ -1383,7 +1396,7 @@ function renderSources(){
     {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET":"not yet";
   var h='<div class="viewhead"><h2>Source health</h2>'+
     '<p class="vsub">Every town calendar is scraped daily at 6:02 AM ET. If a source fails, its meetings may be '+
-    'missing â this page says so plainly instead of pretending nothing was posted.</p>'+
+    'missing — this page says so plainly instead of pretending nothing was posted.</p>'+
     '<p class="vsub srcfresh"><span>Data updated '+esc(upd)+'</span>'+
     '<button class="btn ghost sm" id="refreshdata" type="button">Refresh data</button>'+
     '<a class="rerun" href="https://github.com/tylerherman19/berkshire-meetings/actions/workflows/update.yml" target="_blank" rel="noopener">Re-run the scraper</a></p></div>';
@@ -1393,13 +1406,13 @@ function renderSources(){
     h+='<div class="srcgrid">';
     allPlaces().forEach(function(tn,i){
       var s=src[tn], dot, status, detail;
-      if(!s){ dot=""; status="Not scraped"; detail="No automated source yet â coverage is manual."; }
+      if(!s){ dot=""; status="Not scraped"; detail="No automated source yet — coverage is manual."; }
       else if(s.ok){ dot="ok"; status="OK"; detail=plural(s.meetings,"meeting")+" in the feed"; }
       else { dot="bad"; status="Scrape failed"; detail=s.error||"The source could not be reached."; }
       h+='<div class="srccard rise" style="--i:'+Math.min(i,12)+'">'+
         '<div class="srcname"><span class="sdot '+dot+'"></span>'+esc(townLabel(tn))+'</div>'+
         '<div class="srcstatus">'+esc(status)+
-          (s&&s.checked_at ? ' Â· checked '+esc(new Date(s.checked_at).toLocaleString("en-US",
+          (s&&s.checked_at ? ' · checked '+esc(new Date(s.checked_at).toLocaleString("en-US",
             {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}))+" ET" : "")+'</div>'+
         '<div class="srcdetail">'+esc(detail)+'</div>'+
         (s&&s.note?'<div class="srcdetail">'+esc(s.note)+'</div>':"")+'</div>';
@@ -1415,7 +1428,7 @@ function renderSources(){
    View switching + events
    ============================================================ */
 function setView(v){
-  /* Leaving the news tab is what banks "you have seen up to here" â doing it
+  /* Leaving the news tab is what banks "you have seen up to here" — doing it
      on arrival would clear the New markers before they could be read. */
   if(state.view==="news" && v!=="news") markNewsSeen();
   state.view=v;
@@ -1557,7 +1570,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
 /* ============================================================ data load */
 function loadData(){
-  $("#view").innerHTML='<p class="loading">Gathering the weekâs meetingsâ¦</p>';
+  $("#view").innerHTML='<p class="loading">Gathering the week’s meetings…</p>';
   var ts="?ts="+Date.now();
   Promise.all([
     fetch("data/meetings.json"+ts,{cache:"no-store"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
@@ -1573,8 +1586,8 @@ function loadData(){
     renderView();
   }).catch(function(){
     $("#herohost").innerHTML="";
-    $("#view").innerHTML='<p class="none" style="margin-top:30px">Couldnât load the calendar just yet '+
-      'â the first scrape is probably still running. Check back in a few minutes.</p>';
+    $("#view").innerHTML='<p class="none" style="margin-top:30px">Couldn’t load the calendar just yet '+
+      '— the first scrape is probably still running. Check back in a few minutes.</p>';
   });
 }
 })();
