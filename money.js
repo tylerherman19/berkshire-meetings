@@ -13,6 +13,15 @@ function compact(v){if(v==null)return "—";var a=Math.abs(v),s=v<0?"−":"";if(
 function pct(v,d){return (v>0?"+":v<0?"−":"")+Math.abs(v).toFixed(d==null?1:d)+"%";}
 function median(a){var b=a.slice().sort(function(x,y){return x-y;}),m=Math.floor(b.length/2);return b.length%2?b[m]:(b[m-1]+b[m])/2;}
 function sum(a,fn){return a.reduce(function(n,d){return n+fn(d);},0);}
+function correlation(a,b){var am=sum(a,function(v){return v;})/a.length,bm=sum(b,function(v){return v;})/b.length,n=0,da=0,db=0;a.forEach(function(v,i){var x=v-am,y=b[i]-bm;n+=x*y;da+=x*x;db+=y*y;});return n/Math.sqrt(da*db);}
+function spreadLabels(items,minY,maxY,gap){
+  var a=items.slice().sort(function(x,y){return x.y-y.y;});
+  a.forEach(function(d,i){d.ly=Math.max(d.y,i? a[i-1].ly+gap:minY);});
+  if(a.length&&a[a.length-1].ly>maxY){a[a.length-1].ly=maxY;for(var i=a.length-2;i>=0;i--)a[i].ly=Math.min(a[i].ly,a[i+1].ly-gap);}
+  if(a.length&&a[0].ly<minY){a[0].ly=minY;for(var j=1;j<a.length;j++)a[j].ly=Math.max(a[j].ly,a[j-1].ly+gap);}
+  return a;
+}
+function heat(v){var x=Math.max(0,Math.min(1,Math.abs(v-100)/100));var a=v<100?[229,234,232]:[232,234,228],b=v<100?[47,110,139]:[201,77,67];return "rgb("+a.map(function(n,i){return Math.round(n+(b[i]-n)*x);}).join(",")+")";}
 function byName(name){return state.data.towns.filter(function(d){return d.name===name;})[0]||null;}
 function scale(d0,d1,r0,r1){return function(v){return d0===d1?(r0+r1)/2:r0+(v-d0)/(d1-d0)*(r1-r0);};}
 function svgEl(tag,attrs,parent){var e=document.createElementNS("http://www.w3.org/2000/svg",tag);Object.keys(attrs||{}).forEach(function(k){e.setAttribute(k,attrs[k]);});if(parent)parent.appendChild(e);return e;}
@@ -47,10 +56,14 @@ function render(){
   story.appendChild(block("rank","Big budgets are not always expensive towns.",chartRankShift,"half"));
   story.appendChild(block("trend",trendHeadline(),chartTrends,"half"));
   story.appendChild(block("mix",mixHeadline(),chartMix,"wide"));
+  story.appendChild(block("outliers","Every town has a different spending fingerprint.",chartOutliers,"wide"));
   story.appendChild(block("change","A $2.3 million increase hid large offsets.",chartWaterfall,"half"));
   story.appendChild(block("tax",taxHeadline(),chartTaxSpend,"half"));
+  story.appendChild(block("taxbill",taxBillHeadline(),chartTaxBill,"half"));
+  story.appendChild(block("capacity",capacityHeadline(),chartCapacity,"half"));
   story.appendChild(block("headroom","Great Barrington has $18,144 left under its levy limit.",chartHeadroom,"half"));
   story.appendChild(block("reserves","Cash cushions vary more than tax bills do.",chartReserves,"half"));
+  story.appendChild(block("profile",profileHeadline(),chartProfile,"wide"));
   story.appendChild(block("compare","Put two towns on the same ledger.",chartCompare,"wide"));
   bind(document.getElementById("money-analysis"));
 }
@@ -87,7 +100,9 @@ function trendHeadline(){var t=state.data.towns.slice().sort(function(a,b){retur
 function chartTrends(){
   var h=chartHost("Spending per resident from FY2023 through FY2025"),t=state.data.towns.slice(),W=610,H=430,L=58,R=88,T=26,B=43,years=[2023,2024,2025],all=[];t.forEach(function(d){all.push(d.fy23_total/d.population,d.fy24_total/d.population,d.fy25_total/d.population);});var Y=scale(Math.min.apply(null,all)*.94,Math.max.apply(null,all)*1.05,H-B,T),X=scale(0,2,L,W-R),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h);
   [3000,4000,5000,6000].forEach(function(v){if(Y(v)>T&&Y(v)<H-B){svgEl("line",{x1:L,y1:Y(v),x2:W-R,y2:Y(v),stroke:C.grid},s);svgText(s,L-8,Y(v)+4,"$"+v/1000+"k",{fill:C.muted,"font-size":10,"text-anchor":"end"});}});years.forEach(function(y,i){svgText(s,X(i),H-16,"FY"+String(y).slice(2),{fill:C.muted,"font-size":11,"text-anchor":"middle"});});
-  t.sort(function(a,b){return a.fy25_total-b.fy25_total;}).forEach(function(d){var vals=[d.fy23_total/d.population,d.fy24_total/d.population,d.fy25_total/d.population],active=!state.activeTown||state.activeTown===d.name,color=state.activeTown===d.name?C.blue:(d.change_pct<0?C.red:C.ink),path="M"+vals.map(function(v,i){return X(i)+","+Y(v);}).join(" L");var p=svgEl("path",{d:path,fill:"none",stroke:color,"stroke-width":state.activeTown===d.name?4:1.8,opacity:active?.7:.1},s);mark(p,d.name+": "+money(vals[0])+" in FY2023 to "+money(vals[2])+" in FY2025 ("+pct((vals[2]/vals[0]-1)*100)+")",d.name);vals.forEach(function(v,i){var c=svgEl("circle",{cx:X(i),cy:Y(v),r:state.activeTown===d.name?5:3.3,fill:color,opacity:active?1:.15},s);mark(c,d.name+", FY"+String(years[i]).slice(2)+": "+money(v)+" per resident",d.name);});svgText(s,W-R+7,Y(vals[2])+4,d.name,{fill:active?color:C.other,"font-size":9.5,"font-weight":state.activeTown===d.name?700:500});});
+  var labels=[];
+  t.sort(function(a,b){return a.fy25_total-b.fy25_total;}).forEach(function(d){var vals=[d.fy23_total/d.population,d.fy24_total/d.population,d.fy25_total/d.population],active=!state.activeTown||state.activeTown===d.name,color=state.activeTown===d.name?C.blue:(d.change_pct<0?C.red:C.ink),path="M"+vals.map(function(v,i){return X(i)+","+Y(v);}).join(" L");var p=svgEl("path",{d:path,fill:"none",stroke:color,"stroke-width":state.activeTown===d.name?4:1.8,opacity:active?.7:.1},s);mark(p,d.name+": "+money(vals[0])+" in FY2023 to "+money(vals[2])+" in FY2025 ("+pct((vals[2]/vals[0]-1)*100)+")",d.name);vals.forEach(function(v,i){var c=svgEl("circle",{cx:X(i),cy:Y(v),r:state.activeTown===d.name?5:3.3,fill:color,opacity:active?1:.15},s);mark(c,d.name+", FY"+String(years[i]).slice(2)+": "+money(v)+" per resident",d.name);});labels.push({name:d.name,y:Y(vals[2]),color:active?color:C.other,active:active});});
+  spreadLabels(labels,T+4,H-B-4,12).forEach(function(d){if(Math.abs(d.ly-d.y)>2)svgEl("line",{x1:W-R+2,y1:d.y,x2:W-R+7,y2:d.ly,stroke:d.color,"stroke-width":.8,opacity:.7},s);svgText(s,W-R+9,d.ly+3,d.name,{fill:d.color,"font-size":9.2,"font-weight":state.activeTown===d.name?700:500});});
   return h;
 }
 
@@ -98,6 +113,16 @@ function chartMix(){
   var W=940,L=145,R=42,T=14,row=35,H=T+t.length*row+24,s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h);
   t.forEach(function(d,i){var y=T+i*row,x=L,active=!state.activeTown||state.activeTown===d.name;svgText(s,L-12,y+22,d.name,{fill:active?C.ink:C.other,"font-size":13,"font-weight":state.activeTown===d.name?700:500,"text-anchor":"end"});bands.forEach(function(b){var v=d.mix[b.key]||0,share=v/d.fy25_total,w=share*(W-L-R),chosen=!state.mixKey||state.mixKey===b.key;var r=svgEl("rect",{x:x,y:y+5,width:Math.max(w,.5),height:23,fill:MIX[b.key],opacity:active&&chosen?1:.15,stroke:C.paper,"stroke-width":.6},s);mark(r,d.name+" · "+b.label+": "+compact(v)+" ("+(share*100).toFixed(1)+"%)",d.name);x+=w;});});
   svgText(s,L,H-3,"0%",{fill:C.muted,"font-size":10});svgText(s,W-R,H-3,"100%",{fill:C.muted,"font-size":10,"text-anchor":"end"});return h;
+}
+
+function chartOutliers(){
+  var h=chartHost("Category spending per resident compared with the eleven-town median"),bands=state.data.agg.bands,t=state.data.towns.slice().sort(function(a,b){return b.spend_per_capita-a.spend_per_capita;}),W=940,L=145,R=12,T=58,row=31,H=T+t.length*row+40,cw=(W-L-R)/bands.length,s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h),med={};
+  bands.forEach(function(b){med[b.key]=median(t.map(function(d){return (d.mix[b.key]||0)/d.population;}));});
+  bands.forEach(function(b,i){var words=b.label.replace("Community & Human Services","Community services").split(" "),x=L+i*cw+cw/2;svgText(s,x,T-30,words.slice(0,Math.ceil(words.length/2)).join(" "),{fill:C.muted,"font-size":9.5,"text-anchor":"middle","font-weight":700});if(words.length>1)svgText(s,x,T-18,words.slice(Math.ceil(words.length/2)).join(" "),{fill:C.muted,"font-size":9.5,"text-anchor":"middle","font-weight":700});});
+  t.forEach(function(d,r){var y=T+r*row,active=!state.activeTown||state.activeTown===d.name;svgText(s,L-10,y+20,d.name,{fill:active?C.ink:C.other,"font-size":11,"text-anchor":"end","font-weight":state.activeTown===d.name?700:500});bands.forEach(function(b,i){var pc=(d.mix[b.key]||0)/d.population,idx=med[b.key]?pc/med[b.key]*100:0,x=L+i*cw,rect=svgEl("rect",{x:x+1,y:y+2,width:cw-2,height:26,rx:2,fill:heat(idx),opacity:active?1:.2,stroke:state.activeTown===d.name?C.ink:C.paper,"stroke-width":state.activeTown===d.name?1.2:.6},s);mark(rect,d.name+" · "+b.label+": "+money(pc)+" per resident ("+Math.round(idx)+"% of the local median)",d.name);svgText(s,x+cw/2,y+19,Math.round(idx),{fill:Math.abs(idx-100)>50?"#fff":C.ink,"font-size":9.5,"font-weight":700,"text-anchor":"middle",opacity:active?1:.3});});});
+  svgText(s,L,H-8,"Index: 100 = eleven-town median per resident",{fill:C.muted,"font-size":10});
+  [["lower",heat(45)],["near median",heat(100)],["higher",heat(170)]].forEach(function(k,i){var x=W-230+i*76;svgEl("rect",{x:x,y:H-20,width:10,height:10,fill:k[1]},s);svgText(s,x+14,H-11,k[0],{fill:C.muted,"font-size":9});});
+  return h;
 }
 
 function chartWaterfall(){
@@ -120,10 +145,34 @@ function chartWaterfall(){
 function regression(t){var n=t.length,sx=sum(t,function(d){return d.levy_per_capita;}),sy=sum(t,function(d){return d.spend_per_capita;}),sxx=sum(t,function(d){return d.levy_per_capita*d.levy_per_capita;}),sxy=sum(t,function(d){return d.levy_per_capita*d.spend_per_capita;}),m=(n*sxy-sx*sy)/(n*sxx-sx*sx),b=(sy-m*sx)/n,mean=sy/n,ssTot=sum(t,function(d){return Math.pow(d.spend_per_capita-mean,2);}),ssRes=sum(t,function(d){return Math.pow(d.spend_per_capita-(m*d.levy_per_capita+b),2);});return {m:m,b:b,r2:1-ssRes/ssTot};}
 function taxHeadline(){var r=regression(state.data.towns);return "Tax levy explains "+Math.round(r.r2*100)+"% of the variation in spending.";}
 function chartTaxSpend(){
-  var h=chartHost("Property tax levy and general fund spending per resident scatterplot"),t=state.data.towns,W=610,H=420,L=58,R=38,T=25,B=55,xv=t.map(function(d){return d.levy_per_capita;}),yv=t.map(function(d){return d.spend_per_capita;}),xmin=Math.min.apply(null,xv)*.94,xmax=Math.max.apply(null,xv)*1.04,ymin=Math.min.apply(null,yv)*.94,ymax=Math.max.apply(null,yv)*1.05,X=scale(xmin,xmax,L,W-R),Y=scale(ymin,ymax,H-B,T),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h),reg=regression(t);
+  var h=chartHost("Property tax levy and general fund spending per resident scatterplot"),t=state.data.towns,W=610,H=420,L=58,R=118,T=25,B=55,xv=t.map(function(d){return d.levy_per_capita;}),yv=t.map(function(d){return d.spend_per_capita;}),xmin=Math.min.apply(null,xv)*.94,xmax=Math.max.apply(null,xv)*1.04,ymin=Math.min.apply(null,yv)*.94,ymax=Math.max.apply(null,yv)*1.05,X=scale(xmin,xmax,L,W-R),Y=scale(ymin,ymax,H-B,T),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h),reg=regression(t);
   [3000,3500,4000,4500].forEach(function(v){if(X(v)>L&&X(v)<W-R){svgEl("line",{x1:X(v),y1:T,x2:X(v),y2:H-B,stroke:C.grid},s);svgText(s,X(v),H-B+17,"$"+(v/1000).toFixed(1)+"k",{fill:C.muted,"font-size":10,"text-anchor":"middle"});}});[4000,4500,5000,5500].forEach(function(v){if(Y(v)>T&&Y(v)<H-B){svgEl("line",{x1:L,y1:Y(v),x2:W-R,y2:Y(v),stroke:C.grid},s);svgText(s,L-8,Y(v)+4,"$"+(v/1000).toFixed(1)+"k",{fill:C.muted,"font-size":10,"text-anchor":"end"});}});
   svgEl("line",{x1:X(xmin),y1:Y(reg.m*xmin+reg.b),x2:X(xmax),y2:Y(reg.m*xmax+reg.b),stroke:C.red,"stroke-width":2,"stroke-dasharray":"5 4"},s);svgText(s,(L+W-R)/2,H-9,"Property-tax levy per resident →",{fill:C.muted,"font-size":11,"text-anchor":"middle"});var yl=svgText(s,13,(T+H-B)/2,"Spending per resident →",{fill:C.muted,"font-size":11,"text-anchor":"middle"});yl.setAttribute("transform","rotate(-90 13 "+((T+H-B)/2)+")");
-  t.forEach(function(d){var active=!state.activeTown||state.activeTown===d.name,color=state.activeTown===d.name?C.blue:C.ink,r=state.activeTown===d.name?8:5.5,c=svgEl("circle",{cx:X(d.levy_per_capita),cy:Y(d.spend_per_capita),r:r,fill:color,opacity:active?.85:.15,stroke:C.paper,"stroke-width":2},s);mark(c,d.name+": "+money(d.levy_per_capita)+" levy and "+money(d.spend_per_capita)+" spending per resident",d.name);svgText(s,X(d.levy_per_capita)+(d.name==="Richmond"?-8:8),Y(d.spend_per_capita)+(d.name==="Richmond"?-8:4),d.name,{fill:active?color:C.other,"font-size":9.5,"text-anchor":d.name==="Richmond"?"end":"start"});});return h;
+  var labels=[];
+  t.forEach(function(d){var px=X(d.levy_per_capita),py=Y(d.spend_per_capita),active=!state.activeTown||state.activeTown===d.name,color=state.activeTown===d.name?C.blue:C.ink,r=state.activeTown===d.name?8:5.5,c=svgEl("circle",{cx:px,cy:py,r:r,fill:color,opacity:active?.85:.15,stroke:C.paper,"stroke-width":2},s);mark(c,d.name+": "+money(d.levy_per_capita)+" levy and "+money(d.spend_per_capita)+" spending per resident",d.name);labels.push({name:d.name,x:px,y:py,color:active?color:C.other});});
+  spreadLabels(labels,T+5,H-B-5,12).forEach(function(d){svgEl("path",{d:"M"+d.x+","+d.y+" L"+(W-R+5)+","+d.ly,fill:"none",stroke:d.color,"stroke-width":.7,opacity:.5},s);svgText(s,W-R+9,d.ly+3,d.name,{fill:d.color,"font-size":9.2,"font-weight":state.activeTown===d.name?700:500});});return h;
+}
+
+function taxBillHeadline(){var t=state.data.towns,r=correlation(t.map(function(d){return d.tax_rate_res;}),t.map(function(d){return d.avg_sf_bill;}));return "The tax rate explains only "+Math.round(r*r*100)+"% of the difference in tax bills.";}
+function chartTaxBill(){
+  var h=chartHost("Residential tax rate compared with the average single-family tax bill"),t=state.data.towns,W=610,H=420,L=58,R=36,T=24,B=54,xv=t.map(function(d){return d.tax_rate_res;}),yv=t.map(function(d){return d.avg_sf_bill;}),X=scale(Math.min.apply(null,xv)*.92,Math.max.apply(null,xv)*1.04,L,W-R),Y=scale(Math.min.apply(null,yv)*.9,Math.max.apply(null,yv)*1.06,H-B,T),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h),xm=median(xv),ym=median(yv),left=[],right=[];
+  svgEl("line",{x1:X(xm),y1:T,x2:X(xm),y2:H-B,stroke:C.grid,"stroke-dasharray":"4 4"},s);svgEl("line",{x1:L,y1:Y(ym),x2:W-R,y2:Y(ym),stroke:C.grid,"stroke-dasharray":"4 4"},s);
+  svgText(s,X(xm)+5,T+10,"median rate",{fill:C.muted,"font-size":9});svgText(s,W-R-2,Y(ym)-6,"median bill",{fill:C.muted,"font-size":9,"text-anchor":"end"});
+  [5,7.5,10,12.5].forEach(function(v){if(X(v)>L&&X(v)<W-R)svgText(s,X(v),H-18,"$"+v.toFixed(v%1?1:0),{fill:C.muted,"font-size":10,"text-anchor":"middle"});});
+  [3000,5000,7000].forEach(function(v){if(Y(v)>T&&Y(v)<H-B)svgText(s,L-7,Y(v)+4,"$"+v/1000+"k",{fill:C.muted,"font-size":10,"text-anchor":"end"});});
+  t.forEach(function(d){var x=X(d.tax_rate_res),y=Y(d.avg_sf_bill),active=!state.activeTown||state.activeTown===d.name,color=state.activeTown===d.name?C.blue:C.ink,c=svgEl("circle",{cx:x,cy:y,r:state.activeTown===d.name?8:5.5,fill:color,opacity:active?.84:.14,stroke:C.paper,"stroke-width":2},s);mark(c,d.name+": $"+d.tax_rate_res.toFixed(2)+" residential rate, "+money(d.avg_sf_bill)+" average single-family bill",d.name);(x>(L+W-R)/2?left:right).push({name:d.name,x:x,y:y,color:active?color:C.other});});
+  [[left,"end",-9],[right,"start",9]].forEach(function(g){spreadLabels(g[0],T+5,H-B-5,12).forEach(function(d){var tx=d.x+g[2];if(Math.abs(d.ly-d.y)>2)svgEl("line",{x1:d.x,y1:d.y,x2:tx+(g[1]==="end"?3:-3),y2:d.ly,stroke:d.color,"stroke-width":.8,opacity:.65},s);svgText(s,tx,d.ly+3,d.name,{fill:d.color,"font-size":9.2,"text-anchor":g[1]});});});
+  svgText(s,(L+W-R)/2,H-4,"Residential tax rate per $1,000 of assessed value →",{fill:C.muted,"font-size":10.5,"text-anchor":"middle"});return h;
+}
+
+function capacityHeadline(){var t=state.data.towns,r=correlation(t.map(function(d){return d.headroom_pct;}),t.map(function(d){return (d.free_cash+d.stabilization)/d.fy25_total*100;}));return "Reserves and levy headroom barely move together (r = "+r.toFixed(2)+").";}
+function chartCapacity(){
+  var h=chartHost("Reserves as a share of spending compared with Proposition two and a half levy headroom"),t=state.data.towns,W=610,H=420,L=55,R=32,T=25,B=52,rx=t.map(function(d){return (d.free_cash+d.stabilization)/d.fy25_total*100;}),hy=t.map(function(d){return d.headroom_pct;}),X=scale(0,Math.max.apply(null,rx)*1.08,L,W-R),Y=scale(0,Math.max.apply(null,hy)*1.1,H-B,T),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h),xm=median(rx),ym=median(hy),left=[],right=[];
+  svgEl("line",{x1:X(xm),y1:T,x2:X(xm),y2:H-B,stroke:C.grid,"stroke-dasharray":"4 4"},s);svgEl("line",{x1:L,y1:Y(ym),x2:W-R,y2:Y(ym),stroke:C.grid,"stroke-dasharray":"4 4"},s);
+  [10,20,30,40].forEach(function(v){if(X(v)<W-R)svgText(s,X(v),H-18,v+"%",{fill:C.muted,"font-size":10,"text-anchor":"middle"});});[5,10,15].forEach(function(v){svgText(s,L-7,Y(v)+4,v+"%",{fill:C.muted,"font-size":10,"text-anchor":"end"});});
+  t.forEach(function(d){var rv=(d.free_cash+d.stabilization)/d.fy25_total*100,x=X(rv),y=Y(d.headroom_pct),active=!state.activeTown||state.activeTown===d.name,color=state.activeTown===d.name?C.blue:(d.headroom_pct<3?C.red:C.ink),c=svgEl("circle",{cx:x,cy:y,r:state.activeTown===d.name?8:5.5,fill:color,opacity:active?.82:.14,stroke:C.paper,"stroke-width":2},s);mark(c,d.name+": "+rv.toFixed(1)+"% reserves and "+d.headroom_pct.toFixed(2)+"% levy headroom",d.name);(x>(L+W-R)/2?left:right).push({name:d.name,x:x,y:y,color:active?color:C.other});});
+  [[left,"end",-9],[right,"start",9]].forEach(function(g){spreadLabels(g[0],T+5,H-B-5,12).forEach(function(d){var tx=d.x+g[2];if(Math.abs(d.ly-d.y)>2)svgEl("line",{x1:d.x,y1:d.y,x2:tx+(g[1]==="end"?3:-3),y2:d.ly,stroke:d.color,"stroke-width":.8,opacity:.65},s);svgText(s,tx,d.ly+3,d.name,{fill:d.color,"font-size":9.2,"text-anchor":g[1]});});});
+  svgText(s,(L+W-R)/2,H-4,"Free cash + stabilization as share of spending →",{fill:C.muted,"font-size":10.5,"text-anchor":"middle"});return h;
 }
 
 function chartHeadroom(){
@@ -134,6 +183,23 @@ function chartHeadroom(){
 function chartReserves(){
   var h=chartHost("Free cash and stabilization funds as a share of spending"),t=state.data.towns.slice();t.forEach(function(d){d._free=d.free_cash/d.fy25_total*100;d._stab=d.stabilization/d.fy25_total*100;d._reserve=d._free+d._stab;});t.sort(function(a,b){return b._reserve-a._reserve;});var W=610,H=420,L=135,R=62,T=14,row=33,max=Math.max.apply(null,t.map(function(d){return d._reserve;}))*1.08,X=scale(0,max,L,W-R),s=svgEl("svg",{viewBox:"0 0 "+W+" "+H},h);svgText(s,L,T-2,"■ Free cash",{fill:C.blue,"font-size":10.5});svgText(s,L+85,T-2,"■ Stabilization",{fill:C.gold,"font-size":10.5});
   t.forEach(function(d,i){var y=T+9+i*row,active=!state.activeTown||state.activeTown===d.name;svgText(s,L-10,y+21,d.name,{fill:active?C.ink:C.other,"font-size":11.5,"font-weight":state.activeTown===d.name?700:500,"text-anchor":"end"});var a=svgEl("rect",{x:L,y:y+6,width:X(d._free)-L,height:20,fill:C.blue,opacity:active?1:.15},s);mark(a,d.name+" free cash: "+compact(d.free_cash)+" ("+d._free.toFixed(1)+"% of spending)",d.name);var b=svgEl("rect",{x:X(d._free),y:y+6,width:X(d._reserve)-X(d._free),height:20,fill:C.gold,opacity:active?1:.15},s);mark(b,d.name+" stabilization: "+compact(d.stabilization)+" ("+d._stab.toFixed(1)+"% of spending)",d.name);svgText(s,X(d._reserve)+7,y+21,d._reserve.toFixed(1)+"%",{fill:active?C.ink:C.other,"font-size":10.5,"font-weight":700});});return h;
+}
+
+function profileTown(){return byName(state.activeTown)||byName("Great Barrington")||state.data.towns[0];}
+function profileHeadline(){var a=profileTown();return a.name+", measured against its neighbors.";}
+function chartProfile(){
+  var h=chartHost("Selected town fiscal profile compared with the eleven-town median"),a=profileTown(),t=state.data.towns;
+  var defs=[
+    {label:"Spending per resident",get:function(d){return d.spend_per_capita;},fmt:money},
+    {label:"Average single-family bill",get:function(d){return d.avg_sf_bill;},fmt:money},
+    {label:"Two-year spending change",get:function(d){return (d.fy25_total/d.fy23_total-1)*100;},fmt:function(v){return pct(v);}},
+    {label:"Reserves / spending",get:function(d){return (d.free_cash+d.stabilization)/d.fy25_total*100;},fmt:function(v){return v.toFixed(1)+"%";}},
+    {label:"Levy headroom",get:function(d){return d.headroom_pct;},fmt:function(v){return v.toFixed(2)+"%";}},
+    {label:"Debt service / spending",get:function(d){return (d.mix.debt_service||0)/d.fy25_total*100;},fmt:function(v){return v.toFixed(1)+"%";}}
+  ];
+  var html='<div class="m-profile-top"><div><strong>'+esc(a.name)+'</strong><span>'+(!state.activeTown?'Default profile · select or click a town anywhere above':'Selected across this page')+'</span></div><div class="m-profile-key"><i></i>'+esc(a.name)+'<b></b>11-town median</div></div><div class="m-profile-grid">';
+  defs.forEach(function(m){var vals=t.map(m.get),v=m.get(a),med=median(vals),max=Math.max.apply(null,vals)*1.08,delta=med?((v/med-1)*100):0;html+='<div class="m-profile-row"><div class="m-profile-label"><span>'+esc(m.label)+'</span><strong>'+esc(m.fmt(v))+'</strong><small>'+esc(m.fmt(med))+' median · '+(Math.abs(delta)<1?'near median':Math.round(Math.abs(delta))+'% '+(delta>0?'above':'below'))+'</small></div><div class="m-profile-track"><span style="left:'+(med/max*100)+'%"></span><i style="width:'+(v/max*100)+'%"></i></div></div>';});
+  h.innerHTML=html+'</div>';return h;
 }
 
 function chartCompare(){
@@ -165,7 +231,7 @@ function bind(root){
   root.addEventListener("pointerover",show);root.addEventListener("pointermove",function(e){if(tip.classList.contains("show"))position(e,e.target);});root.addEventListener("pointerout",function(e){if(e.target.closest("[data-tip]"))tip.classList.remove("show");});root.addEventListener("focusin",show);root.addEventListener("focusout",function(){tip.classList.remove("show");});
 }
 
-function methodology(){return '<details class="m-method" id="mny-method"><summary>Data, definitions and limitations</summary><div><p><strong>Scope:</strong> Great Barrington, Sheffield, Egremont, New Marlborough, Monterey, Sandisfield, Otis, Tyringham, Becket, Alford and Richmond.</p><p><strong>General fund:</strong> Schedule A actuals. Enterprise funds such as water, sewer and ambulance are excluded. Education includes regional-school assessments.</p><p><strong>Population:</strong> Per-resident measures use DLS 2023 estimates for every year. The average tax bill is the DLS average single-family bill, not the levy divided by population.</p><p><strong>Prop 2½:</strong> Headroom is excess levy capacity divided by the maximum levy limit. It is not a forecast of a town’s tax increase.</p><p><strong>Reserves:</strong> Free cash and stabilization are shown separately and compared with annual general-fund spending; they are not interchangeable in municipal accounting.</p><p><strong>Source:</strong> Massachusetts Division of Local Services Municipal Databank, Schedule A FY2023–25 and FY2025 Community Snapshots. Data retrieved September 15, 2026.</p></div></details>';}
+function methodology(){return '<details class="m-method" id="mny-method"><summary>Data, definitions and limitations</summary><div><p><strong>Scope:</strong> Great Barrington, Sheffield, Egremont, New Marlborough, Monterey, Sandisfield, Otis, Tyringham, Becket, Alford and Richmond.</p><p><strong>General fund:</strong> Schedule A actuals. Enterprise funds such as water, sewer and ambulance are excluded. Education includes regional-school assessments.</p><p><strong>Population:</strong> Per-resident measures use DLS 2023 estimates for every year. The average tax bill is the DLS average single-family bill, not the levy divided by population.</p><p><strong>Prop 2½:</strong> Headroom is excess levy capacity divided by the maximum levy limit. It is not a forecast of a town’s tax increase.</p><p><strong>Reserves:</strong> Free cash and stabilization are shown separately and compared with annual general-fund spending; they are not interchangeable in municipal accounting.</p><p><strong>Source:</strong> Massachusetts Division of Local Services Municipal Databank, Schedule A FY2023–25 and FY2025 Community Snapshots. Data retrieved September 15, 2026.</p></div></details><details class="m-method m-gaps"><summary>What is still missing from this dataset</summary><div><p><strong>Revenue:</strong> property tax, state aid, local receipts and reserve use by year. This would show how each town pays for the spending shown above.</p><p><strong>Property values:</strong> assessed value, new growth and tax classification. These explain why a low tax rate can still produce a high bill.</p><p><strong>Debt:</strong> outstanding and authorized debt, maturity schedules and debt exclusions. Debt service alone does not show the obligation ahead.</p><p><strong>Overrides:</strong> Proposition 2½ ballot history and levy-limit changes. Current headroom is only one frame of that story.</p><p><strong>Other obligations:</strong> enterprise funds, pensions and retiree health liabilities. The current general-fund view excludes them.</p><p>Massachusetts DLS publishes these series in its <a href="https://www.mass.gov/info-details/municipal-finance-trend-dashboard-reports" target="_blank" rel="noopener">Municipal Finance Trend Dashboard</a>. They can be added in a second data-ingestion pass without changing the page model.</p></div></details>';}
 function load(){fetch("data/money.json?v=20260915-3").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){state.data=d;render();}).catch(function(){document.getElementById("view").innerHTML='<div class="m-loading">The finance data could not be loaded.</div>';});}
 
 window.BMMoney={render:render};

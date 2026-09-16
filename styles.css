@@ -890,7 +890,7 @@ footer p,footer a{color:#9eaaa1}
   .hero{min-height:470px}.hero-in{grid-template-columns:minmax(0,1fr);padding-top:82px;gap:32px}.hero-side{max-width:520px}
 }
 @media (max-width:700px){
-  .topbar-in{padding-top:9px;padding-bottom:0}.brand{max-width:210px}.brand-sub{display:none}
+  .topbar-in{flex-wrap:wrap;height:auto;padding-top:9px;padding-bottom:0}.brand{max-width:210px}.brand-sub{display:none}
   .views{flex:1 0 100%;width:100%;border-top:1px solid rgba(255,255,255,.09);padding-top:0;padding-bottom:0}
   .views button{padding:10px 9px 9px}
   .hero{min-height:460px}.hero-in{padding-top:58px}.hero h1{font-size:45px}.hero .sub{font-size:14px}
