@@ -396,7 +396,7 @@ function renderMap(list){
     bounds.push([i.lat,i.lon]);
   });
   var mc=document.getElementById("blotmapcount");
-  if(mc) mc.textContent=plural(mapped,"mapped incident")+(list.length>mapped? "\u00B7 "+plural(list.length-mapped,"unmapped"):"");
+  if(mc) mc.textContent=plural(mapped,"mapped incident")+(list.length>mapped? " \u00B7 "+(list.length-mapped)+" unmapped":"");
   if(bounds.length>1) map.fitBounds(bounds,{padding:[30,30]});
   else if(bounds.length===1) map.setView(bounds[0],15);
   setTimeout(function(){ map.invalidateSize(); },60);
