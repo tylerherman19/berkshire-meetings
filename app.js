@@ -100,6 +100,19 @@ var STARS   = lsGet(STAR_KEY,{});
 var FOLLOWS = lsGet(FOLLOW_KEY,{});
 var SAVED   = lsGet(SEARCH_KEY,[]);
 
+/* Follow keys used to be written with a mangled separator (the unit-separator
+   glyph run through a bad encode). Rewrite any of those on load so boards a
+   reader already followed do not silently disappear. */
+(function migrateFollowKeys(){
+  var bad = "\u00e2\u0090\u009f", changed = false, out = {};
+  Object.keys(FOLLOWS).forEach(function(k){
+    var fixed = k.indexOf(bad) >= 0 ? k.split(bad).join("\u241f") : k;
+    if(fixed !== k) changed = true;
+    out[fixed] = FOLLOWS[k];
+  });
+  if(changed){ FOLLOWS = out; lsSet(FOLLOW_KEY,FOLLOWS); }
+})();
+
 /* A meeting's identity: stable across scrapes as long as it isn't rescheduled. */
 function mkey(m){
   return [m.town||"",m.board||"",m.title||"",m.date||"",m.start||""].join("|");
