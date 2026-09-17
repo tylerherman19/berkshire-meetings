@@ -1,44 +1,41 @@
 {
- "updated": "2026-09-17T07:25:21-04:00",
+ "updated": "2026-09-17T10:45:31-04:00",
  "changes": [
   {
-   "type": "added",
-   "at": "2026-09-17T07:25:21-04:00",
-   "town": "Great Barrington",
-   "board": "BOARD OF LIBRARY TRUSTEES MEETING",
-   "title": "BOARD OF LIBRARY TRUSTEES MEETING",
-   "date": "2026-09-18",
-   "start": "17:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-17T07:25:21-04:00",
-   "town": "Sandisfield",
-   "board": "Board Assessors",
-   "title": "Board of Assessors Meeting",
-   "date": "2026-09-21",
-   "start": "10:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-17T07:25:21-04:00",
-   "town": "Great Barrington",
-   "board": "Housatonic Improvement Committee",
-   "title": "Housatonic Improvement Committee",
+   "type": "removed",
+   "at": "2026-09-17T10:45:31-04:00",
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
    "date": "2026-09-22",
-   "start": "18:30"
+   "start": "18:00"
   },
   {
-   "type": "changed",
-   "at": "2026-09-17T07:25:21-04:00",
-   "fields": [
-    "location"
-   ],
-   "town": "Great Barrington",
-   "board": "SEWER COMMISSIONERS MEETING",
-   "title": "SEWER COMMISSIONERS MEETING",
-   "date": "2026-09-17",
-   "start": "17:00"
+   "type": "removed",
+   "at": "2026-09-17T10:45:31-04:00",
+   "town": "Becket",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Agenda",
+   "date": "2026-09-28",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-17T10:45:31-04:00",
+   "town": "New Marlborough",
+   "board": "Select Board",
+   "title": "Select Board Meeting Agenda",
+   "date": "2026-09-21",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-17T10:45:31-04:00",
+   "town": "SBRSD",
+   "board": "School Committee",
+   "title": "Mount Everett Regional School Council (PDF)",
+   "date": "2026-10-15",
+   "start": ""
   }
  ]
 }
