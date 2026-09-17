@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T10:53:41-04:00",
+ "updated": "2026-09-17T12:28:55-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Alford",
+   "category": "General",
+   "topic": null,
+   "headline": "Josh Billings Race Day",
+   "summary": "Please be aware the Josh Billings Race will take place on Sunday, September 20th the race begins at 8:30am in Great Barrington. Cyclists will be coming through town via Alford Road and continuing out East Road. Please plan accordingly for the safety of the riders.",
+   "posted": "2026-09-17T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofalford.org/m/newsflash/Home/Detail/21",
+   "first_seen": "2026-09-17T12:28:55-04:00"
+  },
   {
    "town": "Becket",
    "category": "General",
@@ -1198,6 +1209,7 @@
   }
  ],
  "towns": {
+  "Alford": 4,
   "Becket": 23,
   "BHRSD": 9,
   "Great Barrington": 23,
@@ -1206,7 +1218,6 @@
   "New Marlborough": 10,
   "Sandisfield": 16,
   "Tyringham": 3,
-  "Alford": 3,
   "Monterey": 1
  },
  "sources": [
@@ -1217,18 +1228,18 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-17T10:53:41-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-09-17T12:28:55-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1237,7 +1248,7 @@
    "ok": true,
    "scraped": 10,
    "items": 12,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
@@ -1247,7 +1258,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
@@ -1257,18 +1268,18 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-17T10:53:41-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-09-17T12:28:55-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1277,7 +1288,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
@@ -1287,7 +1298,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
@@ -1297,7 +1308,7 @@
    "ok": true,
    "scraped": 20,
    "items": 23,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
@@ -1305,9 +1316,9 @@
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
    "ok": true,
-   "scraped": 3,
-   "items": 3,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "scraped": 4,
+   "items": 4,
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   },
   {
@@ -1317,7 +1328,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-17T10:53:41-04:00",
+   "checked_at": "2026-09-17T12:28:55-04:00",
    "error": null
   }
  ]
