@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T07:31:33-04:00",
+ "updated": "2026-09-18T10:18:22-04:00",
  "meetings": [
   {
    "town": "Otis",
@@ -531,7 +531,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-96",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-185",
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-96"
   },
   {
@@ -1207,7 +1207,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-97",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-186",
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-97"
   },
   {
@@ -2195,7 +2195,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-187",
    "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98"
   },
   {
@@ -3611,7 +3611,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-98",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/8-26-26_working_meeting.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-98"
   },
@@ -4760,6 +4760,19 @@
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1916&month=9&year=2026&day=18&calType=0"
   },
   {
+   "town": "Great Barrington",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission",
+   "date": "2026-09-23",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "Great Barrington Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84578297811 Webinar ID: 845 7829 7811 Dial in to listen: 1+ 929 205 6099 Conservation Commission 2026-09-23T18:30:00 Great Barrington Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84578297811 Webinar ID: 845 7829 7811 Dial in to listen: 1+ 929 205 6099 Town Hall Great Barrington MA 01230",
+   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Conservation-Commission-23/#_09232026-2570",
+   "minutes_url": null,
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1931&month=9&year=2026&day=18&calType=0"
+  },
+  {
    "town": "New Marlborough",
    "board": "Planning Board",
    "title": "Planning Board Meeting Agenda",
@@ -5824,81 +5837,81 @@
   "Sandisfield": 34,
   "Monterey": 32,
   "Sheffield": 1,
-  "Great Barrington": 7,
+  "Great Barrington": 8,
   "Alford": 5
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
    "meetings": 34,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 32,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
-   "meetings": 7,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "meetings": 8,
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 80,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 73,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 5,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 80,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 5,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
    "meetings": 112,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 4,
-   "checked_at": "2026-09-18T07:31:33-04:00",
+   "checked_at": "2026-09-18T10:18:22-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
