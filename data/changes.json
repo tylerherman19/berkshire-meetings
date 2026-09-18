@@ -1,9 +1,27 @@
 {
- "updated": "2026-09-17T10:45:31-04:00",
+ "updated": "2026-09-18T07:31:33-04:00",
  "changes": [
   {
-   "type": "removed",
-   "at": "2026-09-17T10:45:31-04:00",
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "Monterey",
+   "board": "Health Department",
+   "title": "Board of Health Meeting",
+   "date": "2026-09-21",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "Sandisfield",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-09-21",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
    "town": "Becket",
    "board": "Conservation Commission",
    "title": "Conservation Commission Agenda",
@@ -11,31 +29,58 @@
    "start": "18:00"
   },
   {
-   "type": "removed",
-   "at": "2026-09-17T10:45:31-04:00",
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "Becket",
+   "board": "Select Board",
+   "title": "Select Board Agenda",
+   "date": "2026-09-23",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "Great Barrington",
+   "board": "Design Advisory Committee",
+   "title": "Design Advisory Committee",
+   "date": "2026-09-23",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "New Marlborough",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting Agenda",
+   "date": "2026-09-23",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "Great Barrington",
+   "board": "Berkshire Regional Transit Authority - Finance /Audit Committee Meeting",
+   "title": "Berkshire Regional Transit Authority - Finance /Audit Committee Meeting",
+   "date": "2026-09-24",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
+   "town": "Great Barrington",
+   "board": "Berkshire Regional Transit Authority Advisory Board",
+   "title": "Berkshire Regional Transit Authority Advisory Board",
+   "date": "2026-09-24",
+   "start": "16:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-18T07:31:33-04:00",
    "town": "Becket",
    "board": "Community Preservation Committee",
    "title": "Community Preservation Committee Agenda",
    "date": "2026-09-28",
    "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-17T10:45:31-04:00",
-   "town": "New Marlborough",
-   "board": "Select Board",
-   "title": "Select Board Meeting Agenda",
-   "date": "2026-09-21",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-09-17T10:45:31-04:00",
-   "town": "SBRSD",
-   "board": "School Committee",
-   "title": "Mount Everett Regional School Council (PDF)",
-   "date": "2026-10-15",
-   "start": ""
   }
  ]
 }
