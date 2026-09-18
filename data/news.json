@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T19:29:10-04:00",
+ "updated": "2026-09-17T20:12:13-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Public Hearing \u2013 Quarry Road Bridge Replacement - Thursday, October 1, 2026 at 6:00 p.m.",
+   "summary": "Virtual Design Public Hearing (VDPH)609069 BECKET Bridge Replacement, B-03-045, Quarry Road Over Cushm",
+   "posted": "2026-09-17T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/public-hearing-%E2%80%93-quarry-road-bridge-replacement-thursday-october-1-2026-600-pm",
+   "first_seen": "2026-09-17T20:12:13-04:00"
+  },
   {
    "town": "Alford",
    "category": "General",
@@ -1209,8 +1220,8 @@
   }
  ],
  "towns": {
+  "Becket": 24,
   "Alford": 4,
-  "Becket": 23,
   "BHRSD": 9,
   "Great Barrington": 23,
   "Egremont": 12,
@@ -1228,18 +1239,18 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-17T19:29:10-04:00",
-   "error": null
+   "checked_at": "2026-09-17T20:12:13-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -1248,7 +1259,7 @@
    "ok": true,
    "scraped": 10,
    "items": 12,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1258,7 +1269,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1268,7 +1279,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1278,7 +1289,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1288,7 +1299,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1298,7 +1309,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1307,8 +1318,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 23,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "items": 24,
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1318,7 +1329,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   },
   {
@@ -1328,7 +1339,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-17T19:29:10-04:00",
+   "checked_at": "2026-09-17T20:12:13-04:00",
    "error": null
   }
  ]
