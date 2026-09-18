@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T12:28:42-04:00",
+ "updated": "2026-09-18T13:28:37-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Town Clerk",
+   "headline": "November 3 General Election: Voting Information Now Available",
+   "summary": "The Town Clerk\u2019s webpage has been updated with important information to help Egremont residents prepare for the November 3, 2026 General Election . Residents will find information about: Voting by mail , including how to request a ballot and how to complete and return it properly. Voters who have already requested all\u2026",
+   "posted": "2026-09-18T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/790",
+   "first_seen": "2026-09-18T13:28:37-04:00"
+  },
   {
    "town": "Becket",
    "category": "Road closures",
@@ -1220,11 +1231,11 @@
   }
  ],
  "towns": {
+  "Egremont": 13,
   "Becket": 24,
   "Alford": 4,
   "BHRSD": 9,
   "Great Barrington": 23,
-  "Egremont": 12,
   "Otis": 8,
   "New Marlborough": 10,
   "Sandisfield": 16,
@@ -1239,7 +1250,7 @@
    "ok": true,
    "scraped": 31,
    "items": 23,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1249,7 +1260,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1257,9 +1268,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 10,
-   "items": 12,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "scraped": 11,
+   "items": 13,
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1269,7 +1280,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1279,7 +1290,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1289,7 +1300,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1299,7 +1310,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1309,7 +1320,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1319,7 +1330,7 @@
    "ok": true,
    "scraped": 20,
    "items": 24,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1329,7 +1340,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   },
   {
@@ -1339,7 +1350,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-18T12:28:42-04:00",
+   "checked_at": "2026-09-18T13:28:37-04:00",
    "error": null
   }
  ]
