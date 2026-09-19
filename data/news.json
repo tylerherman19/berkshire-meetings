@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T22:28:46-04:00",
+ "updated": "2026-09-18T23:28:55-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Reminder: Please join us for the Special Town Meeting tomorrow, Saturday, September 19, at 2:00 PM. We hope to see you there!",
+   "summary": null,
+   "posted": "2026-09-18T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/reminder-please-join-us-special-town-meeting-tomorrow-saturday-september-19-200-pm-we-hope",
+   "first_seen": "2026-09-18T23:28:55-04:00"
+  },
   {
    "town": "Egremont",
    "category": "Public notices",
@@ -1231,8 +1242,8 @@
   }
  ],
  "towns": {
+  "Becket": 25,
   "Egremont": 13,
-  "Becket": 24,
   "Alford": 4,
   "BHRSD": 9,
   "Great Barrington": 23,
@@ -1250,18 +1261,18 @@
    "ok": true,
    "scraped": 31,
    "items": 23,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-18T22:28:46-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-09-18T23:28:55-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1270,7 +1281,7 @@
    "ok": true,
    "scraped": 11,
    "items": 13,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1280,7 +1291,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1290,7 +1301,7 @@
    "ok": false,
    "scraped": 0,
    "items": 1,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -1300,7 +1311,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1310,7 +1321,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1320,7 +1331,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1329,8 +1340,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 24,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "items": 25,
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1340,7 +1351,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   },
   {
@@ -1350,7 +1361,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-18T22:28:46-04:00",
+   "checked_at": "2026-09-18T23:28:55-04:00",
    "error": null
   }
  ]
