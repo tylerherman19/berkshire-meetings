@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T09:53:19-04:00",
+ "updated": "2026-09-19T11:28:40-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Emergency Management",
+   "headline": "Southern Berkshire Ambulance Seeks Support for Two Replacement Ambulances",
+   "summary": "Southern Berkshire Ambulance Squad (SBAS) is raising funds to replace two ambulances, with a goal of $1 million. The organization reports it responded to more than 3,000 calls in 2025. SBAS is a nonprofit provider of paramedic-level emergency medical services for Egremont and several other South Berkshire communities\u2026",
+   "posted": "2026-09-19T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/791",
+   "first_seen": "2026-09-19T11:28:40-04:00"
+  },
   {
    "town": "Becket",
    "category": "Meeting notices",
@@ -1242,8 +1253,8 @@
   }
  ],
  "towns": {
+  "Egremont": 14,
   "Becket": 25,
-  "Egremont": 13,
   "Alford": 4,
   "BHRSD": 9,
   "Great Barrington": 23,
@@ -1261,7 +1272,7 @@
    "ok": true,
    "scraped": 31,
    "items": 23,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1271,7 +1282,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1279,9 +1290,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
-   "items": 13,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "scraped": 9,
+   "items": 14,
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1291,7 +1302,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1301,7 +1312,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1311,7 +1322,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1321,7 +1332,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1331,7 +1342,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1341,7 +1352,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1351,7 +1362,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   },
   {
@@ -1361,7 +1372,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-19T09:53:19-04:00",
+   "checked_at": "2026-09-19T11:28:40-04:00",
    "error": null
   }
  ]
