@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T12:28:48-04:00",
+ "updated": "2026-09-19T13:11:54-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1272,7 +1272,7 @@
    "ok": true,
    "scraped": 31,
    "items": 23,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1282,7 +1282,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1292,7 +1292,7 @@
    "ok": true,
    "scraped": 9,
    "items": 14,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1302,18 +1302,18 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 12,
+   "ok": false,
+   "scraped": 0,
    "items": 1,
-   "checked_at": "2026-09-19T12:28:48-04:00",
-   "error": null
+   "checked_at": "2026-09-19T13:11:54-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -1322,7 +1322,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1332,7 +1332,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1342,7 +1342,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1352,7 +1352,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1362,7 +1362,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   },
   {
@@ -1372,7 +1372,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-19T12:28:48-04:00",
+   "checked_at": "2026-09-19T13:11:54-04:00",
    "error": null
   }
  ]
