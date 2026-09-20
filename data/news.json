@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T11:28:42-04:00",
+ "updated": "2026-09-20T12:28:43-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": null,
+   "headline": "New Boston Fed Report Takes a Closer Look at Family Wealth in Massachusetts",
+   "summary": "How financially secure are Massachusetts families\u2014not just by income, but by what they own, what they owe, and what they have available when an unexpected expense occurs? A new Federal Reserve Bank of Boston report, Family Wealth in Massachusetts , provides an unusually detailed look at that question. Based on the\u2026",
+   "posted": "2026-09-20T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/794",
+   "first_seen": "2026-09-20T12:28:43-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -23,7 +34,7 @@
    "town": "Egremont",
    "category": "Public notices",
    "topic": "Town Clerk",
-   "headline": "Keepers of Egremont\u2019s Recorded History",
+   "headline": "Keeper of Egremont\u2019s Recorded History",
    "summary": "Step into the Egremont Town Clerk\u2019s office and you\u2019ll find more than forms, licenses, and election materials. You\u2019ll also find nearly two centuries of Egremont history.Town Clerk Juliette Haas recently shared a look at some of the remarkable records kept in her office. Egremont\u2019s vital records \u2014 births, marriages, and\u2026",
    "posted": "2026-09-19T00:00:00-04:00",
    "date_only": true,
@@ -1275,7 +1286,7 @@
   }
  ],
  "towns": {
-  "Egremont": 16,
+  "Egremont": 17,
   "Becket": 25,
   "Alford": 4,
   "BHRSD": 9,
@@ -1294,7 +1305,7 @@
    "ok": true,
    "scraped": 31,
    "items": 23,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1304,7 +1315,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1312,9 +1323,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 11,
-   "items": 16,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "scraped": 12,
+   "items": 17,
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1324,7 +1335,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1334,7 +1345,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1344,7 +1355,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1354,18 +1365,18 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": true,
-   "scraped": 2,
+   "ok": false,
+   "scraped": 0,
    "items": 3,
-   "checked_at": "2026-09-20T11:28:42-04:00",
-   "error": null
+   "checked_at": "2026-09-20T12:28:43-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19"
   },
   {
    "town": "Becket",
@@ -1374,7 +1385,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1384,7 +1395,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   },
   {
@@ -1394,7 +1405,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-20T11:28:42-04:00",
+   "checked_at": "2026-09-20T12:28:43-04:00",
    "error": null
   }
  ]
