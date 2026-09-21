@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T11:32:27-04:00",
+ "updated": "2026-09-21T12:25:05-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "The Claire Teague Senior Center announces temporary closure in October",
+   "summary": "Claire Teague Senior Center Announces Temporary Closure in October The Claire Teague Senior Center will be temporarily closed to the public Monday, October 19 through Friday, October 23, 2026, while the Town completes several building maintenance projects and Senior Center staff participate in professional training\u2026",
+   "posted": "2026-09-21T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/219",
+   "first_seen": "2026-09-21T12:25:05-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -1264,11 +1275,11 @@
   }
  ],
  "towns": {
+  "Great Barrington": 23,
   "Egremont": 17,
   "Becket": 25,
   "Alford": 4,
   "BHRSD": 9,
-  "Great Barrington": 22,
   "Otis": 8,
   "New Marlborough": 10,
   "Sandisfield": 15,
@@ -1281,9 +1292,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
-   "items": 22,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "scraped": 32,
+   "items": 23,
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1293,7 +1304,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1303,7 +1314,7 @@
    "ok": true,
    "scraped": 11,
    "items": 17,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1313,7 +1324,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1323,7 +1334,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1333,7 +1344,7 @@
    "ok": true,
    "scraped": 20,
    "items": 15,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1343,7 +1354,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1353,7 +1364,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1363,7 +1374,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1373,7 +1384,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   },
   {
@@ -1383,7 +1394,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-21T11:32:27-04:00",
+   "checked_at": "2026-09-21T12:25:05-04:00",
    "error": null
   }
  ]
