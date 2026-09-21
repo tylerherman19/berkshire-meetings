@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T16:28:45-04:00",
+ "updated": "2026-09-21T16:59:24-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Per Diem Firefighter/EMTs Vacancies",
+   "summary": "Per Diem Firefighter/EMT Needed Position Type: Per Diem / Non-Benefited | Hourly Rate: Up to $30.00/hour | Effective",
+   "posted": "2026-09-21T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/diem-firefighteremts-vacancies",
+   "first_seen": "2026-09-21T16:59:24-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Road closures",
@@ -1275,6 +1286,7 @@
   }
  ],
  "towns": {
+  "Sandisfield": 16,
   "Great Barrington": 23,
   "Egremont": 17,
   "Becket": 25,
@@ -1282,7 +1294,6 @@
   "BHRSD": 9,
   "Otis": 8,
   "New Marlborough": 10,
-  "Sandisfield": 15,
   "Tyringham": 3,
   "Monterey": 1
  },
@@ -1294,7 +1305,7 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
@@ -1304,7 +1315,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
@@ -1314,7 +1325,7 @@
    "ok": true,
    "scraped": 11,
    "items": 17,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
@@ -1324,7 +1335,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
@@ -1334,18 +1345,18 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 15,
-   "checked_at": "2026-09-21T16:28:45-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 16,
+   "checked_at": "2026-09-21T16:59:24-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1354,18 +1365,18 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": true,
-   "scraped": 2,
+   "ok": false,
+   "scraped": 0,
    "items": 3,
-   "checked_at": "2026-09-21T16:28:45-04:00",
-   "error": null
+   "checked_at": "2026-09-21T16:59:24-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19"
   },
   {
    "town": "Becket",
@@ -1374,7 +1385,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
@@ -1384,7 +1395,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   },
   {
@@ -1394,7 +1405,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-21T16:28:45-04:00",
+   "checked_at": "2026-09-21T16:59:24-04:00",
    "error": null
   }
  ]
