@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T15:29:30-04:00",
+ "updated": "2026-09-21T16:28:45-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1294,7 +1294,7 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1304,7 +1304,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1314,7 +1314,7 @@
    "ok": true,
    "scraped": 11,
    "items": 17,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1324,7 +1324,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1334,7 +1334,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1344,7 +1344,7 @@
    "ok": false,
    "scraped": 0,
    "items": 15,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -1354,18 +1354,18 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-21T15:29:30-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19"
+   "checked_at": "2026-09-21T16:28:45-04:00",
+   "error": null
   },
   {
    "town": "Becket",
@@ -1374,7 +1374,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1384,7 +1384,7 @@
    "ok": true,
    "scraped": 4,
    "items": 4,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   },
   {
@@ -1394,7 +1394,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-21T15:29:30-04:00",
+   "checked_at": "2026-09-21T16:28:45-04:00",
    "error": null
   }
  ]
