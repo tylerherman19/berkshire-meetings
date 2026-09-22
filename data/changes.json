@@ -1,45 +1,9 @@
 {
- "updated": "2026-09-21T12:26:43-04:00",
+ "updated": "2026-09-22T07:27:10-04:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Tyringham",
-   "board": "Planning Board Meeting (9.23.2026)",
-   "title": "Planning Board Meeting (9.23.2026)",
-   "date": "2026-09-23",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Tyringham",
-   "board": "Board of Health Meeting -Agenda (9.24.2026)",
-   "title": "Board of Health Meeting -Agenda (9.24.2026)",
-   "date": "2026-09-24",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Tyringham",
-   "board": "Select Board Meeting -Agenda (9.24.2026)",
-   "title": "Select Board Meeting -Agenda (9.24.2026)",
-   "date": "2026-09-24",
-   "start": "09:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Administrator Meeting",
-   "date": "2026-09-22",
-   "start": "09:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
+   "at": "2026-09-22T07:27:10-04:00",
    "town": "Egremont",
    "board": "Council on Aging",
    "title": "Council on Aging dinner meeting (PDF)",
@@ -47,17 +11,8 @@
    "start": ""
   },
   {
-   "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Great Barrington",
-   "board": "Planning Board",
-   "title": "Planning Board",
-   "date": "2026-09-24",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
+   "type": "removed",
+   "at": "2026-09-22T07:27:10-04:00",
    "town": "SBRSD",
    "board": "School Committee",
    "title": "Southern Berkshire Regional School District School Committee regular meeting (PDF)",
@@ -66,30 +21,84 @@
   },
   {
    "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Sandisfield",
-   "board": "Home",
-   "title": "Recreation Committee",
-   "date": "2026-09-29",
-   "start": "11:00"
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Great Barrington",
+   "board": "Great Barrington Fire District Prudential Committee",
+   "title": "Great Barrington Fire District Prudential Committee",
+   "date": "2026-09-23",
+   "start": "16:30"
   },
   {
    "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Monterey",
-   "board": "Monterey Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-10-19",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Tyringham",
+   "board": "Planning Board Meeting (9.23.2026)",
+   "title": "Planning Board Meeting (9.23.2026)",
+   "date": "2026-09-23",
    "start": "19:00"
   },
   {
    "type": "added",
-   "at": "2026-09-21T12:26:43-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Administrator Meeting",
-   "date": "2026-10-22",
-   "start": "10:00"
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Egremont",
+   "board": "Council on Aging",
+   "title": "Council on Aging Dinner Meeting (PDF)",
+   "date": "2026-09-23",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Tyringham",
+   "board": "Board of Health Meeting -Agenda (9.24.2026)",
+   "title": "Board of Health Meeting -Agenda (9.24.2026)",
+   "date": "2026-09-24",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Tyringham",
+   "board": "Select Board Meeting -Agenda (9.24.2026)",
+   "title": "Select Board Meeting -Agenda (9.24.2026)",
+   "date": "2026-09-24",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "New Marlborough",
+   "board": "Cable Advisory and Broadband Committee",
+   "title": "Cable Advisory Broadband Committee Meeting Agenda",
+   "date": "2026-09-24",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "SBRSD",
+   "board": "School Committee",
+   "title": "Southern Berkshire Regional School District School Committee Meeting (PDF)",
+   "date": "2026-09-24",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Great Barrington",
+   "board": "Cultural Council",
+   "title": "Cultural Council",
+   "date": "2026-09-28",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-22T07:27:10-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-19",
+   "start": "19:00"
   }
  ]
 }
