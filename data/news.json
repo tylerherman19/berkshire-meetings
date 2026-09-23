@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T23:29:46-04:00",
+ "updated": "2026-09-23T06:29:05-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1294,24 +1294,13 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/transfer-station-closed-4th-july",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Remember to purchase your Transfer Station permits. Current permits expire June 30. Can purchase on-line or at Town Hall Mon. through Fri. 8:30am till 4:30pm",
-   "summary": "For additional info, please click here",
-   "posted": "2026-06-25T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/remember-purchase-your-transfer-station-permits-current-permits-expire-june-30-can",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
   "Sandisfield": 17,
   "Egremont": 18,
   "Great Barrington": 23,
-  "Becket": 25,
+  "Becket": 24,
   "Alford": 4,
   "BHRSD": 9,
   "Otis": 8,
@@ -1327,18 +1316,18 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-22T23:29:46-04:00",
-   "error": null
+   "checked_at": "2026-09-23T06:29:05-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -1347,7 +1336,7 @@
    "ok": true,
    "scraped": 11,
    "items": 18,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
@@ -1357,7 +1346,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
@@ -1367,7 +1356,7 @@
    "ok": true,
    "scraped": 12,
    "items": 1,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
@@ -1377,7 +1366,7 @@
    "ok": true,
    "scraped": 20,
    "items": 17,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
@@ -1387,7 +1376,7 @@
    "ok": true,
    "scraped": 8,
    "items": 8,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
@@ -1397,18 +1386,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
-   "items": 25,
-   "checked_at": "2026-09-22T23:29:46-04:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 24,
+   "checked_at": "2026-09-23T06:29:05-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -1417,7 +1406,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   },
   {
@@ -1427,7 +1416,7 @@
    "ok": true,
    "scraped": 8,
    "items": 9,
-   "checked_at": "2026-09-22T23:29:46-04:00",
+   "checked_at": "2026-09-23T06:29:05-04:00",
    "error": null
   }
  ]
