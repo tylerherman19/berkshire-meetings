@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T07:26:47-04:00",
+ "updated": "2026-09-23T10:48:37-04:00",
  "meetings": [
   {
    "town": "Otis",
@@ -4942,6 +4942,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Great Barrington",
+   "board": "Council on Aging",
+   "title": "Council on Aging",
+   "date": "2026-09-30",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": "Claire Teague Senior Center 917 Main St., Great Barrington, MA 01230 Council on Aging 2026-09-30T13:00:00 Claire Teague Senior Center 917 Main St., Great Barrington, MA 01230 Claire Teague Senior Center Great Barrington MA 01230",
+   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Council-on-Aging-14/#_09302026-2577",
+   "minutes_url": null,
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1940&month=9&year=2026&day=23&calType=0"
+  },
+  {
    "town": "Monterey",
    "board": "Housing Committee",
    "title": "Housing Committee Meeting",
@@ -5122,6 +5135,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Egremont",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Informational Session (PDF)",
+   "date": "2026-10-14",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_10142026-2006",
+   "minutes_url": null,
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "SBRSD",
@@ -5868,7 +5894,7 @@
  "towns": {
   "Otis": 76,
   "Becket": 110,
-  "Egremont": 82,
+  "Egremont": 83,
   "New Marlborough": 74,
   "BHRSD": 14,
   "Tyringham": 11,
@@ -5876,81 +5902,81 @@
   "Sandisfield": 33,
   "Monterey": 33,
   "Sheffield": 1,
-  "Great Barrington": 10,
+  "Great Barrington": 11,
   "Alford": 3
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
    "meetings": 33,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 33,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
-   "meetings": 10,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "meetings": 11,
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
-   "meetings": 82,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "meetings": 83,
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
    "meetings": 74,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 1,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 3,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 76,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 11,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
    "meetings": 110,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 14,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 4,
-   "checked_at": "2026-09-23T07:26:47-04:00",
+   "checked_at": "2026-09-23T10:48:37-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
