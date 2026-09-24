@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T10:56:46-04:00",
+ "updated": "2026-09-24T12:29:30-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Monterey",
+   "category": "General",
+   "topic": null,
+   "headline": "National Grid Warns Customers About Utility Scams",
+   "summary": "National Grid is alerting customers to be aware of scams targeting residents and businesses across its service territory following a recent",
+   "posted": "2026-09-24T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/national-grid-warns-customers-about-utility-scams",
+   "first_seen": "2026-09-24T12:29:30-04:00"
+  },
   {
    "town": "Otis",
    "category": "Public notices",
@@ -1319,6 +1330,7 @@
   }
  ],
  "towns": {
+  "Monterey": 2,
   "Otis": 9,
   "BHRSD": 10,
   "Sandisfield": 17,
@@ -1327,8 +1339,7 @@
   "Becket": 24,
   "Alford": 4,
   "New Marlborough": 10,
-  "Tyringham": 3,
-  "Monterey": 1
+  "Tyringham": 3
  },
  "sources": [
   {
@@ -1338,18 +1349,18 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-24T10:56:46-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-09-24T12:29:30-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1358,7 +1369,7 @@
    "ok": true,
    "scraped": 9,
    "items": 18,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   },
   {
@@ -1368,28 +1379,28 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 1,
-   "checked_at": "2026-09-24T10:56:46-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 13,
+   "items": 2,
+   "checked_at": "2026-09-24T12:29:30-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 17,
-   "checked_at": "2026-09-24T10:56:46-04:00",
-   "error": null
+   "checked_at": "2026-09-24T12:29:30-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -1398,7 +1409,7 @@
    "ok": true,
    "scraped": 9,
    "items": 9,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   },
   {
@@ -1408,18 +1419,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 24,
-   "checked_at": "2026-09-24T10:56:46-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-09-24T12:29:30-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -1428,7 +1439,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   },
   {
@@ -1438,7 +1449,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-24T10:56:46-04:00",
+   "checked_at": "2026-09-24T12:29:30-04:00",
    "error": null
   }
  ]
