@@ -1444,6 +1444,7 @@ function renderView(){
   else if(state.view==="sources")  renderSources();
   else if(state.view==="blotter")  { if(window.BMBlotter) BMBlotter.render(); }
   else if(state.view==="money")    { if(window.BMMoney) BMMoney.render(); }
+  else if(state.view==="contacts") { if(window.BMContacts) BMContacts.render(); }
   Array.prototype.forEach.call(document.querySelectorAll("#views button"),function(b){
     var on = b.dataset.view===state.view;
     b.classList.toggle("active",on);
