@@ -1449,6 +1449,12 @@ function renderView(){
     var on = b.dataset.view===state.view;
     b.classList.toggle("active",on);
     if(on) b.setAttribute("aria-current","page"); else b.removeAttribute("aria-current");
+    /* On a phone the view bar scrolls sideways; keep the active view in sight. */
+    var nav=b.parentNode;
+    if(on && nav && nav.scrollWidth>nav.clientWidth){
+      var nr=nav.getBoundingClientRect(), br=b.getBoundingClientRect();
+      nav.scrollLeft += (br.left-nr.left) - (nr.width-br.width)/2;
+    }
   });
   paintStars();
 }
