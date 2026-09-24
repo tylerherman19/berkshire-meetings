@@ -55,7 +55,7 @@ function render(){
   if(!byTown(state.town))state.town=towns[0].name;
   var t=byTown(state.town);
   var totalBoards=towns.reduce(function(n,x){return n+x.boards.length;},0);
-  var totalMembers=towns.reduce(function(n,x){return n+x.boards.reduce(function(m,b){return m+(b.members?b.members.length:0);},0);},0);
+  var totalMembers=towns.reduce(function(n,x){return n+x.boards.reduce(function(m,b){return m+(b.members?b.members.filter(function(p){return p.name!=="Vacant";}).length:0);},0);},0);
 
   var boards=t.boards;
   if(state.board){
