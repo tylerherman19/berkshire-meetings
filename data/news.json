@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T12:29:30-04:00",
+ "updated": "2026-09-24T13:29:01-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Otis",
+   "category": "General",
+   "topic": null,
+   "headline": "Tax Collector's Vacation",
+   "summary": "Hello, The Collector's office will be closed for vacation the week of October 12th -16th. FY2027 second quarter taxes will be issued October 1st and due November 2nd. Please plan accordingly when paying in person at Town Hall. Thank you.",
+   "posted": "2026-09-24T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R107.php",
+   "first_seen": "2026-09-24T13:29:01-04:00"
+  },
   {
    "town": "Monterey",
    "category": "General",
@@ -1330,8 +1341,8 @@
   }
  ],
  "towns": {
+  "Otis": 10,
   "Monterey": 2,
-  "Otis": 9,
   "BHRSD": 10,
   "Sandisfield": 17,
   "Egremont": 18,
@@ -1349,18 +1360,18 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-24T12:29:30-04:00",
-   "error": null
+   "checked_at": "2026-09-24T13:29:01-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -1369,7 +1380,7 @@
    "ok": true,
    "scraped": 9,
    "items": 18,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1379,7 +1390,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1389,7 +1400,7 @@
    "ok": true,
    "scraped": 13,
    "items": 2,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1399,7 +1410,7 @@
    "ok": false,
    "scraped": 0,
    "items": 17,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -1407,9 +1418,9 @@
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 9,
-   "items": 9,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "scraped": 10,
+   "items": 10,
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1419,7 +1430,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1429,7 +1440,7 @@
    "ok": true,
    "scraped": 20,
    "items": 24,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1439,7 +1450,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   },
   {
@@ -1449,7 +1460,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-24T12:29:30-04:00",
+   "checked_at": "2026-09-24T13:29:01-04:00",
    "error": null
   }
  ]
