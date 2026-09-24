@@ -1,0 +1,57 @@
+/* Contacts — town boards & officers directory */
+.con{--m-ink:#17212b;--m-muted:#65727e;--m-line:#dce2e6;--m-blue:#2878b5;--m-green:#3c7d68;--m-paper:#fbfbf8;max-width:1080px;margin:0 auto;color:var(--m-ink)}
+.c-loading{padding:44px 0;color:var(--muted)}
+
+.c-hero{padding:18px 0 24px;border-bottom:1px solid var(--m-ink)}
+.c-kicker{font-size:12px;font-weight:700;color:var(--m-blue);margin-bottom:11px}
+.c-hero h1{font-family:var(--serif);font-size:clamp(36px,7vw,64px);font-weight:600;line-height:.98;letter-spacing:-.035em;margin:0;max-width:870px}
+.c-hero>p{font-size:17px;line-height:1.5;color:var(--m-muted);max-width:690px;margin:17px 0 24px}
+.c-data-strip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--m-line);border-bottom:1px solid var(--m-line)}
+.c-stat{padding:14px 18px 14px 0;min-width:0;display:grid;grid-template-columns:auto 1fr;gap:0 9px;align-items:baseline}
+.c-stat+.c-stat{border-left:1px solid var(--m-line);padding-left:18px}
+.c-stat strong{font-variant-numeric:tabular-nums;font-size:23px;line-height:1;color:var(--m-ink)}
+.c-stat span{font-size:12px;font-weight:700;color:var(--m-ink)}
+.c-stat small{grid-column:2;font-size:10.5px;color:var(--m-muted)}
+
+.c-controlbar{position:sticky;top:62px;z-index:20;display:flex;align-items:center;gap:18px;flex-wrap:wrap;min-height:58px;padding:9px 0;background:rgba(251,251,248,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--m-line)}
+.c-controlbar label{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:700;white-space:nowrap}
+.c-controlbar select{appearance:none;border:1px solid #aeb8bf;border-radius:3px;background:#fff;color:var(--m-ink);font:600 13px var(--sans);padding:7px 30px 7px 9px;background-image:linear-gradient(45deg,transparent 50%,#65727e 50%),linear-gradient(135deg,#65727e 50%,transparent 50%);background-position:calc(100% - 14px) 13px,calc(100% - 9px) 13px;background-size:5px 5px;background-repeat:no-repeat;max-width:44vw}
+.c-control-note{font-size:12px;color:var(--m-muted);flex:1;min-width:160px}
+
+.c-officials{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 42px;padding:26px 0 8px;border-bottom:1px solid var(--m-ink)}
+.c-official{padding:0 0 20px}
+.c-official h3{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--m-muted);margin:0 0 5px}
+.c-official strong{font-family:var(--serif);font-size:22px;font-weight:600;letter-spacing:-.01em}
+.c-official .c-line{font-size:13px;color:var(--m-muted);margin-top:3px}
+.c-official a{color:var(--m-blue);text-decoration:none}
+.c-official a:hover{text-decoration:underline}
+
+.c-boards{padding:8px 0 30px}
+.c-board{padding:22px 0 18px;border-bottom:1px solid var(--m-line);min-width:0}
+.c-board-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.c-board-head h2{font-family:var(--sans);font-size:clamp(19px,2.6vw,25px);line-height:1.15;letter-spacing:-.02em;margin:0;font-weight:780}
+.c-board-head .c-count{font-size:11.5px;color:var(--m-muted);font-weight:600}
+.c-board-contact{font-size:13px;line-height:1.5;color:var(--m-muted);margin:7px 0 0}
+.c-board-contact a{color:var(--m-blue);text-decoration:none}
+.c-board-contact a:hover{text-decoration:underline}
+.c-members{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0 28px;margin-top:12px}
+.c-member{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-bottom:1px solid var(--m-line);font-size:13.5px;min-width:0}
+.c-member b{font-weight:600;color:var(--m-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.c-member span{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--m-green);white-space:nowrap}
+.c-note{font-size:12px;color:var(--m-muted);font-style:italic;margin:10px 0 0}
+.c-source{font-size:9.5px;line-height:1.35;color:#87929b;margin:12px 0 0}
+.c-source a{color:#87929b}
+
+.c-method{max-width:1080px;margin:0 auto;padding:0 0 34px}
+.c-method details{border-bottom:1px solid var(--m-line);padding:12px 0}
+.c-method summary{font-size:12px;font-weight:700;cursor:pointer;color:var(--m-ink)}
+.c-method div{font-size:13px;line-height:1.55;color:var(--m-muted);padding-top:8px}
+.c-method a{color:var(--m-blue)}
+
+@media (max-width:760px){
+  .c-data-strip{grid-template-columns:1fr 1fr}
+  .c-stat:nth-child(3){border-left:0;padding-left:0}
+  .c-officials{grid-template-columns:1fr}
+  .c-members{grid-template-columns:1fr}
+  .c-controlbar{top:56px}
+}
