@@ -42,7 +42,7 @@ function boardCard(b){
     +(b.members&&b.members.length?'<span class="c-count">'+b.members.length+' listed</span>':'')
     +'</div>'
     +(contact.length?'<p class="c-board-contact">'+contact.join(' &middot; ')+'</p>':'')
-    +members
+    +members+note
     +'<p class="c-source">Source: <a href="'+esc(b.url)+'" target="_blank" rel="noopener">'+esc(b.url.replace(/^https?:\/\//,""))+'</a></p>'
     +'</section>';
 }
