@@ -34,6 +34,7 @@
 .c-board-contact{font-size:13px;line-height:1.5;color:var(--m-muted);margin:7px 0 0}
 .c-board-contact a{color:var(--m-blue);text-decoration:none}
 .c-board-contact a:hover{text-decoration:underline}
+.c-phone-label{font-size:11px;color:var(--m-muted)}
 .c-members{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0 28px;margin-top:12px}
 .c-member{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-bottom:1px solid var(--m-line);font-size:13.5px;min-width:0}
 .c-member b{font-weight:600;color:var(--m-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
