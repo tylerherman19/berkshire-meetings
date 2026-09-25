@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T23:28:55-04:00",
+ "updated": "2026-09-25T06:28:50-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1382,27 +1382,27 @@
    "ok": true,
    "scraped": 32,
    "items": 23,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-24T23:28:55-04:00",
-   "error": null
+   "checked_at": "2026-09-25T06:28:50-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 10,
+   "scraped": 8,
    "items": 19,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
@@ -1412,7 +1412,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
@@ -1422,7 +1422,7 @@
    "ok": true,
    "scraped": 13,
    "items": 2,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
@@ -1432,7 +1432,7 @@
    "ok": true,
    "scraped": 20,
    "items": 17,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
@@ -1442,18 +1442,18 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": true,
-   "scraped": 2,
+   "ok": false,
+   "scraped": 0,
    "items": 3,
-   "checked_at": "2026-09-24T23:28:55-04:00",
-   "error": null
+   "checked_at": "2026-09-25T06:28:50-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19"
   },
   {
    "town": "Becket",
@@ -1462,7 +1462,7 @@
    "ok": true,
    "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
@@ -1472,7 +1472,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   },
   {
@@ -1482,7 +1482,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-24T23:28:55-04:00",
+   "checked_at": "2026-09-25T06:28:50-04:00",
    "error": null
   }
  ]
