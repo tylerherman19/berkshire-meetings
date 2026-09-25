@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T11:10:04-04:00",
+ "updated": "2026-09-25T12:29:51-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "The Town of Great Barrington is monitoring a long-duration coastal storm expected to affect Massachu\u2026",
+   "summary": "Town of Great Barrington Monitoring Weekend Nor\u2019Easter The Town of Great Barrington is monitoring a long-duration coastal storm expected to affect Massachusetts beginning Friday evening and continuing through Monday . According to the Massachusetts Emergency Management Agency (MEMA), the storm is expected to bring an\u2026",
+   "posted": "2026-09-25T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/220",
+   "first_seen": "2026-09-25T12:29:51-04:00"
+  },
   {
    "town": "Becket",
    "category": "Meeting notices",
@@ -1363,13 +1374,13 @@
   }
  ],
  "towns": {
+  "Great Barrington": 24,
   "Becket": 25,
   "Egremont": 19,
   "Otis": 10,
   "Monterey": 2,
   "BHRSD": 10,
   "Sandisfield": 17,
-  "Great Barrington": 23,
   "Alford": 4,
   "New Marlborough": 10,
   "Tyringham": 3
@@ -1380,9 +1391,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 32,
-   "items": 23,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "scraped": 33,
+   "items": 24,
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   },
   {
@@ -1392,7 +1403,7 @@
    "ok": false,
    "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1402,7 +1413,7 @@
    "ok": true,
    "scraped": 8,
    "items": 19,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   },
   {
@@ -1412,7 +1423,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   },
   {
@@ -1422,18 +1433,18 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 17,
-   "checked_at": "2026-09-25T11:10:04-04:00",
-   "error": null
+   "checked_at": "2026-09-25T12:29:51-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -1442,7 +1453,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   },
   {
@@ -1452,18 +1463,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 25,
-   "checked_at": "2026-09-25T11:10:04-04:00",
-   "error": null
+   "checked_at": "2026-09-25T12:29:51-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -1472,7 +1483,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   },
   {
@@ -1482,7 +1493,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-25T11:10:04-04:00",
+   "checked_at": "2026-09-25T12:29:51-04:00",
    "error": null
   }
  ]
