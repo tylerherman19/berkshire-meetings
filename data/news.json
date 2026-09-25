@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T12:29:51-04:00",
+ "updated": "2026-09-25T13:29:09-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "THIS WEEKEND\u2019S BECKET FALL FAMILY FUN FESTIVAL POSTPONED",
+   "summary": "Due to the forecast for inclement weather, the Becket Fall Family Fun Festival, originally scheduled for Saturday, September 26, with a",
+   "posted": "2026-09-25T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/weekend%E2%80%99s-becket-fall-family-fun-festival-postponed",
+   "first_seen": "2026-09-25T13:29:09-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -112,7 +123,7 @@
    "category": "Public notices",
    "topic": null,
    "headline": "Per Diem Firefighter/EMTs Vacancies",
-   "summary": "Per Diem Firefighter/EMT Needed Position Type: Per Diem / Non-Benefited | Hourly Rate: Up to $30.00/hour | Effective",
+   "summary": "Per Diem Firefighter/EMT Needed Position Type: Per Diem / Non-Benefited | Hourly Rate: $20.00-$30.00/hour | Effective",
    "posted": "2026-09-21T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/diem-firefighteremts-vacancies",
@@ -1374,8 +1385,8 @@
   }
  ],
  "towns": {
+  "Becket": 26,
   "Great Barrington": 24,
-  "Becket": 25,
   "Egremont": 19,
   "Otis": 10,
   "Monterey": 2,
@@ -1393,7 +1404,7 @@
    "ok": true,
    "scraped": 33,
    "items": 24,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   },
   {
@@ -1403,7 +1414,7 @@
    "ok": false,
    "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1413,7 +1424,7 @@
    "ok": true,
    "scraped": 8,
    "items": 19,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   },
   {
@@ -1423,7 +1434,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   },
   {
@@ -1433,18 +1444,18 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 17,
-   "checked_at": "2026-09-25T12:29:51-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-09-25T13:29:09-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1453,7 +1464,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   },
   {
@@ -1463,18 +1474,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 25,
-   "checked_at": "2026-09-25T12:29:51-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 26,
+   "checked_at": "2026-09-25T13:29:09-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -1483,7 +1494,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   },
   {
@@ -1493,7 +1504,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-25T12:29:51-04:00",
+   "checked_at": "2026-09-25T13:29:09-04:00",
    "error": null
   }
  ]
