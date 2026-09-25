@@ -29,15 +29,14 @@ function official(o){
 function boardCard(b){
   var contact=[];
   (b.emails||[]).forEach(function(e){contact.push(mailto(e));});
-  (b.phones||[]).forEach(function(p){contact.push(tel(p));});
+  (b.phones||[]).forEach(function(p){var label=b.phone_labels&&b.phone_labels[p];contact.push(tel(p)+(label?' <span class="c-phone-label">('+esc(label)+')</span>':''));});
   var members='';
   if(b.members&&b.members.length){
     members='<div class="c-members">'+b.members.map(function(m){
       return '<div class="c-member"><b>'+esc(m.name)+'</b>'+(m.role?'<span>'+esc(m.role)+'</span>':'')+'</div>';
     }).join('')+'</div>';
-  }else if(b.note){
-    members='<p class="c-note">'+esc(b.note)+'</p>';
   }
+  var note=b.note?'<p class="c-note">'+esc(b.note)+'</p>':'';
   return '<section class="c-board" id="'+esc(b.name.replace(/[^a-z0-9]+/gi,'-').toLowerCase())+'">'
     +'<div class="c-board-head"><h2>'+esc(b.name)+'</h2>'
     +(b.members&&b.members.length?'<span class="c-count">'+b.members.length+' listed</span>':'')
@@ -92,7 +91,7 @@ function render(){
   document.getElementById("c-board-select").addEventListener("change",function(e){state.board=e.target.value;render();});
 }
 
-function load(){fetch("data/contacts.json?v=20260924-1").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){state.data=d;render();}).catch(function(){document.getElementById("view").innerHTML='<div class="c-loading">The board directory could not be loaded.</div>';});}
+function load(){fetch("data/contacts.json?v=20260925-1").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){state.data=d;render();}).catch(function(){document.getElementById("view").innerHTML='<div class="c-loading">The board directory could not be loaded.</div>';});}
 
 window.BMContacts={render:render};
 })();
