@@ -54,5 +54,7 @@
   .c-stat:nth-child(3){border-left:0;padding-left:0}
   .c-officials{grid-template-columns:1fr}
   .c-members{grid-template-columns:1fr}
+  .c-member{display:block;line-height:1.4}
+  .c-member b,.c-member span{display:block;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
   .c-controlbar{top:56px}
 }
