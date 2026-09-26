@@ -1,45 +1,18 @@
 {
- "updated": "2026-09-25T11:42:55-04:00",
+ "updated": "2026-09-26T08:18:13-04:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-09-25T11:42:55-04:00",
-   "town": "Sandisfield",
-   "board": "Library Board of Trustees Meeting",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-09-28",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-25T11:42:55-04:00",
-   "town": "Sandisfield",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-09-28",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-25T11:42:55-04:00",
-   "town": "Becket",
-   "board": "Planning Board",
-   "title": "Planning Board Agenda",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "Sheffield",
+   "board": "Open Space & Recreation Plan Committee",
+   "title": "Open Space & Recreation Plan Committee Agenda 9/29/26",
    "date": "2026-09-29",
-   "start": "17:30"
+   "start": ""
   },
   {
    "type": "removed",
-   "at": "2026-09-25T11:42:55-04:00",
-   "town": "Sandisfield",
-   "board": "Council on Aging Meeting",
-   "title": "Council on Aging Meeting",
-   "date": "2026-10-01",
-   "start": "11:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-25T11:42:55-04:00",
+   "at": "2026-09-26T08:18:13-04:00",
    "town": "Egremont",
    "board": "Select Board",
    "title": "Meeting of the Screening Committee (PDF)",
@@ -47,25 +20,76 @@
    "start": ""
   },
   {
-   "type": "added",
-   "at": "2026-09-25T11:42:55-04:00",
+   "type": "removed",
+   "at": "2026-09-26T08:18:13-04:00",
    "town": "Sandisfield",
-   "board": "Council on Aging Meeting",
-   "title": "Council on Aging Meeting",
-   "date": "2026-11-05",
+   "board": "SBPHC Monthly Meeting",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-10-09",
+   "start": "09:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "Sandisfield",
+   "board": "Flu & Covid Vacination Clinic at Old Town Hall",
+   "title": "Flu & Covid Vacination Clinic at Old Town Hall",
+   "date": "2026-10-09",
    "start": "11:00"
   },
   {
-   "type": "changed",
-   "at": "2026-09-25T11:42:55-04:00",
-   "fields": [
-    "location"
-   ],
+   "type": "removed",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "Sandisfield",
+   "board": "Board of Health",
+   "title": "Board of Health",
+   "date": "2026-10-14",
+   "start": "17:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "Sandisfield",
+   "board": "Library Board of Trustees Meeting",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-10-26",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-26T08:18:13-04:00",
    "town": "Great Barrington",
-   "board": "Great Barrington Selectboard and Finance Committee Meeting",
-   "title": "Great Barrington Selectboard and Finance Committee Meeting",
+   "board": "Selectboard Meeting with Executive Session",
+   "title": "Selectboard Meeting with Executive Session",
    "date": "2026-09-29",
-   "start": "18:00"
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-09-29",
+   "start": "17:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "Egremont",
+   "board": "Select Board",
+   "title": "Select Board Meeting of the Screening Committee (PDF)",
+   "date": "2026-10-01",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-26T08:18:13-04:00",
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2027-03-25",
+   "start": ""
   }
  ]
 }
