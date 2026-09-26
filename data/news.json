@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T21:29:11-04:00",
+ "updated": "2026-09-25T22:28:47-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -32,10 +32,10 @@
   },
   {
    "town": "Becket",
-   "category": "Meeting notices",
+   "category": "General",
    "topic": null,
    "headline": "The Town of Becket has been made aware of fraudulent emails in which the sender represents themselves as the Conservation Commission.",
-   "summary": "If you receive an email requesting payment for a permit in connection with a Conservation Commission meeting, please contact the Town by",
+   "summary": "Please click here to view the Fraud Alert",
    "posted": "2026-09-24T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/town-becket-has-been-made-aware-fraudulent-emails-which-sender-represents-themselves",
@@ -1404,7 +1404,7 @@
    "ok": true,
    "scraped": 33,
    "items": 24,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1414,7 +1414,7 @@
    "ok": false,
    "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1424,7 +1424,7 @@
    "ok": true,
    "scraped": 8,
    "items": 19,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1434,7 +1434,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1444,7 +1444,7 @@
    "ok": true,
    "scraped": 13,
    "items": 2,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1454,7 +1454,7 @@
    "ok": true,
    "scraped": 20,
    "items": 17,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1464,7 +1464,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1474,18 +1474,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 26,
-   "checked_at": "2026-09-25T21:29:11-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-09-25T22:28:47-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -1494,7 +1494,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   },
   {
@@ -1504,7 +1504,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-25T21:29:11-04:00",
+   "checked_at": "2026-09-25T22:28:47-04:00",
    "error": null
   }
  ]
