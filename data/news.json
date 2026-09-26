@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T19:15:31-04:00",
+ "updated": "2026-09-25T21:29:11-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1404,18 +1404,18 @@
    "ok": true,
    "scraped": 33,
    "items": 24,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-25T19:15:31-04:00",
-   "error": null
+   "checked_at": "2026-09-25T21:29:11-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -1424,7 +1424,7 @@
    "ok": true,
    "scraped": 8,
    "items": 19,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
@@ -1434,7 +1434,7 @@
    "ok": true,
    "scraped": 88,
    "items": 10,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
@@ -1444,7 +1444,7 @@
    "ok": true,
    "scraped": 13,
    "items": 2,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
@@ -1454,7 +1454,7 @@
    "ok": true,
    "scraped": 20,
    "items": 17,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
@@ -1464,7 +1464,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
@@ -1474,18 +1474,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 26,
-   "checked_at": "2026-09-25T19:15:31-04:00",
-   "error": null
+   "checked_at": "2026-09-25T21:29:11-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -1494,7 +1494,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   },
   {
@@ -1504,7 +1504,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-25T19:15:31-04:00",
+   "checked_at": "2026-09-25T21:29:11-04:00",
    "error": null
   }
  ]
