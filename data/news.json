@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T11:06:37-04:00",
+ "updated": "2026-09-27T12:28:51-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1401,41 +1401,41 @@
    "town": "Great Barrington",
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
-   "ok": true,
-   "scraped": 33,
+   "ok": false,
+   "scraped": 0,
    "items": 24,
-   "checked_at": "2026-09-27T11:06:37-04:00",
-   "error": null
+   "checked_at": "2026-09-27T12:28:51-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofgbma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.townofgbma.gov', p"
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 0,
-   "checked_at": "2026-09-27T11:06:37-04:00",
-   "error": null
+   "checked_at": "2026-09-27T12:28:51-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 21,
-   "checked_at": "2026-09-27T11:06:37-04:00",
-   "error": null
+   "checked_at": "2026-09-27T12:28:51-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.egremont-ma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,3"
   },
   {
    "town": "New Marlborough",
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
-   "ok": true,
-   "scraped": 88,
+   "ok": false,
+   "scraped": 0,
    "items": 9,
-   "checked_at": "2026-09-27T11:06:37-04:00",
-   "error": null
+   "checked_at": "2026-09-27T12:28:51-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newmarlboroughma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newmarlborou"
   },
   {
    "town": "Monterey",
@@ -1444,7 +1444,7 @@
    "ok": true,
    "scraped": 13,
    "items": 2,
-   "checked_at": "2026-09-27T11:06:37-04:00",
+   "checked_at": "2026-09-27T12:28:51-04:00",
    "error": null
   },
   {
@@ -1454,7 +1454,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-27T11:06:37-04:00",
+   "checked_at": "2026-09-27T12:28:51-04:00",
    "error": null
   },
   {
@@ -1464,7 +1464,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-27T11:06:37-04:00",
+   "checked_at": "2026-09-27T12:28:51-04:00",
    "error": null
   },
   {
@@ -1474,7 +1474,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-27T11:06:37-04:00",
+   "checked_at": "2026-09-27T12:28:51-04:00",
    "error": null
   },
   {
@@ -1484,18 +1484,18 @@
    "ok": true,
    "scraped": 20,
    "items": 26,
-   "checked_at": "2026-09-27T11:06:37-04:00",
+   "checked_at": "2026-09-27T12:28:51-04:00",
    "error": null
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": true,
-   "scraped": 3,
+   "ok": false,
+   "scraped": 0,
    "items": 4,
-   "checked_at": "2026-09-27T11:06:37-04:00",
-   "error": null
+   "checked_at": "2026-09-27T12:28:51-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Max retries exceeded with url: /m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 (Caused by ConnectTimeoutError("
   },
   {
    "town": "BHRSD",
@@ -1504,7 +1504,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-27T11:06:37-04:00",
+   "checked_at": "2026-09-27T12:28:51-04:00",
    "error": null
   }
  ]
