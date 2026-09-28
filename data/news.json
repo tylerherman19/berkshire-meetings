@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T08:28:40-04:00",
+ "updated": "2026-09-28T09:28:34-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Invites Community Input for Police Chief\u2019s Goals and Priorities",
+   "summary": "Town Manager Liz Hartsgrove is inviting residents, business owners, and community members to share their vision for the future of public safety as the Town moves forward with the permanent appointment of Adam Carlotto as Chief of Police. As\u2026",
+   "posted": "2026-09-28T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/221",
+   "first_seen": "2026-09-28T09:28:34-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -1363,9 +1374,9 @@
   }
  ],
  "towns": {
+  "Great Barrington": 25,
   "Egremont": 22,
   "Becket": 25,
-  "Great Barrington": 24,
   "Otis": 10,
   "Monterey": 1,
   "BHRSD": 10,
@@ -1380,9 +1391,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 33,
-   "items": 24,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "scraped": 34,
+   "items": 25,
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1392,7 +1403,7 @@
    "ok": true,
    "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1402,7 +1413,7 @@
    "ok": true,
    "scraped": 11,
    "items": 22,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1412,7 +1423,7 @@
    "ok": true,
    "scraped": 88,
    "items": 8,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1422,7 +1433,7 @@
    "ok": false,
    "scraped": 0,
    "items": 1,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -1432,7 +1443,7 @@
    "ok": true,
    "scraped": 20,
    "items": 16,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1442,7 +1453,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1452,18 +1463,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 25,
-   "checked_at": "2026-09-28T08:28:40-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-09-28T09:28:34-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -1472,7 +1483,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   },
   {
@@ -1482,7 +1493,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-28T08:28:40-04:00",
+   "checked_at": "2026-09-28T09:28:34-04:00",
    "error": null
   }
  ]
