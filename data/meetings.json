@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T09:48:17-04:00",
+ "updated": "2026-09-28T14:11:04-04:00",
  "meetings": [
   {
    "town": "Otis",
@@ -93,6 +93,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Zoning Board of Appeals Agenda",
+   "date": "2026-04-07",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-50",
+   "minutes_url": "https://www.townofbecket.org/zoning-board-appeals/minutes/zoning-board-appearl-minutes-0",
+   "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-50"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Budget Meeting (PDF)",
@@ -106,6 +119,32 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Public Hearing Notice - Special Permit Application for 609 Main Street",
+   "date": "2026-04-08",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-83",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-106",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-public-hearing-notice-special-permit-application-609-main"
+  },
+  {
+   "town": "Becket",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Agenda",
+   "date": "2026-04-08",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-11",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-11"
+  },
+  {
    "town": "Otis",
    "board": "Library Informational Session",
    "title": "Library Informational Session",
@@ -117,6 +156,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-04-08",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-70",
+   "minutes_url": "https://www.townofbecket.org/finance-committee/minutes/finance-committee-minutes-118",
+   "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-70"
   },
   {
    "town": "Becket",
@@ -262,6 +314,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-04-13",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-96",
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-185",
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-96"
+  },
+  {
    "town": "Otis",
    "board": "Scholarship Committee",
    "title": "Scholarship Committee Meeting",
@@ -286,6 +351,32 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_04132026-376",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_04132026-376",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Parks & Recreation Committee",
+   "title": "Parks & Recreation Committee Agenda",
+   "date": "2026-04-14",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-16",
+   "minutes_url": "https://www.townofbecket.org/parks-recreation-committee/minutes/parks-recreation-committee-minutes-13",
+   "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-16"
+  },
+  {
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
+   "date": "2026-04-14",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-63",
+   "minutes_url": "https://www.townofbecket.org/historical-commission/minutes/historical-commission-minutes-86",
+   "source_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-63"
   },
   {
    "town": "Otis",
@@ -364,6 +455,45 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-04-15",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-27",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-27"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-04-15",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-79",
+   "minutes_url": "https://www.townofbecket.org/board-health/minutes/board-health-minutes-100",
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-79"
+  },
+  {
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-04-15",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-71",
+   "minutes_url": "https://www.townofbecket.org/finance-committee/minutes/finance-committee-minutes-119",
+   "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-71"
   },
   {
    "town": "Otis",
@@ -496,6 +626,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Energy Committee",
+   "title": "Energy Committee Agenda",
+   "date": "2026-04-21",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-72",
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-48",
+   "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-72"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -507,6 +650,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_04212026-1866",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_04212026-1866",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-04-22",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-84",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-84"
   },
   {
    "town": "New Marlborough",
@@ -533,6 +689,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_04232026-1868",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_04232026-1868",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-04-27",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-104",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-104"
   },
   {
    "town": "Otis",
@@ -572,6 +741,32 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_04272026-393",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_04272026-393",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-04-28",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-7",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-7"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-04-28",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-103",
+   "minutes_url": "https://www.townofbecket.org/conservation-commission/minutes/conservation-commission-minutes-123",
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-103"
   },
   {
    "town": "Egremont",
@@ -652,6 +847,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Zoning Board of Appeals Agenda",
+   "date": "2026-05-05",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-51",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-51"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Meeting Concurrent with Annual Town Meeting (PDF)",
@@ -679,6 +887,19 @@
   },
   {
    "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-05-06",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-amended-agenda-2",
+   "minutes_url": "https://www.townofbecket.org/board-health/minutes/board-health-minutes-105",
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-80"
+  },
+  {
+   "town": "Becket",
    "board": "Select Board",
    "title": "Select Board Meeting",
    "date": "2026-05-06",
@@ -689,6 +910,19 @@
    "agenda_url": "https://www.townofbecket.org/select-board/agenda/select-board-meeting-1",
    "minutes_url": "https://www.townofbecket.org/select-board/minutes/select-board-minutes-150",
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-meeting-1"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-05-07",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-amended-agenda",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-98",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-85"
   },
   {
    "town": "Egremont",
@@ -756,6 +990,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-05-11",
+   "start": "12:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-97",
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-186",
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-97"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -780,6 +1027,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
+   "date": "2026-05-12",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-64",
+   "minutes_url": "https://www.townofbecket.org/historical-commission/minutes/historical-commission-minutes-87",
+   "source_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-64"
   },
   {
    "town": "Egremont",
@@ -925,6 +1185,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Energy Committee",
+   "title": "Energy Committee Agenda",
+   "date": "2026-05-19",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-73",
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-49",
+   "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-73"
+  },
+  {
    "town": "Otis",
    "board": "Annual Town",
    "title": "Annual Town Meeting",
@@ -977,6 +1250,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-05-20",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-28",
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-41",
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-28"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-05-20",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-updated-0",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-99",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-86"
+  },
+  {
    "town": "Otis",
    "board": "Library Building Committee",
    "title": "Library Building Committee Meeting",
@@ -1014,6 +1313,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Parks & Recreation Committee",
+   "title": "Parks & Recreation Committee Agenda",
+   "date": "2026-05-21",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-17",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-17"
   },
   {
    "town": "Egremont",
@@ -1079,6 +1391,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-05-27",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-amended-0",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-100",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-87"
   },
   {
    "town": "Otis",
@@ -1172,6 +1497,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Agenda",
+   "date": "2026-06-02",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-12",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-12"
+  },
+  {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Meeting",
+   "date": "2026-06-03",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-meeting-0",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-meeting-0"
+  },
+  {
    "town": "Otis",
    "board": "Revitalization",
    "title": "Revitalization",
@@ -1183,6 +1534,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-06-03",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-81",
+   "minutes_url": "https://www.townofbecket.org/board-health/minutes/board-health-minutes-104",
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-81"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-06-03",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-88",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-88"
   },
   {
    "town": "Becket",
@@ -1209,6 +1586,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Becket Cultural Council",
+   "title": "Cultural Council Agenda",
+   "date": "2026-06-04",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-30",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-30"
   },
   {
    "town": "Otis",
@@ -1302,6 +1692,45 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-06-09",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-72",
+   "minutes_url": "https://www.townofbecket.org/finance-committee/minutes/finance-committee-minutes-120",
+   "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-72"
+  },
+  {
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
+   "date": "2026-06-09",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-66",
+   "minutes_url": "https://www.townofbecket.org/historical-commission/minutes/historical-commission-minutes-88",
+   "source_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-66"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-06-09",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-105",
+   "minutes_url": "https://www.townofbecket.org/conservation-commission/minutes/conservation-commission-minutes-124",
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-105"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
@@ -1365,6 +1794,19 @@
    "agenda_url": "https://townofotisma.com/boards_commissions/historical_commission/Documents/Boards Commissions/Historical Commission/Agendas/2026/OHC agenda for June 10 2026.pdf?t=202605131149060",
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-06-10",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-89",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-101",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-89"
   },
   {
    "town": "Otis",
@@ -1432,6 +1874,32 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-06-16",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-8",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-8"
+  },
+  {
+   "town": "Becket",
+   "board": "Energy Committee",
+   "title": "Energy Committee Agenda",
+   "date": "2026-06-16",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-74",
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-50",
+   "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-74"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -1443,6 +1911,32 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_06162026-1917",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_06162026-1917",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-06-17",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-29",
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-42",
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-29"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-06-17",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-90",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-102",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-90"
   },
   {
    "town": "Becket",
@@ -1497,6 +1991,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-06-22",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98",
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-187",
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -1508,6 +2015,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_06222026-442",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_06222026-442",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-06-23",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-106",
+   "minutes_url": "https://www.townofbecket.org/conservation-commission/minutes/conservation-commission-minutes-126",
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-106"
   },
   {
    "town": "Egremont",
@@ -1562,6 +2082,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
+   "date": "2026-06-24",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-65",
+   "minutes_url": "https://www.townofbecket.org/historical-commission/minutes/historical-commission-minutes-89",
+   "source_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-65"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-06-24",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-amended-1",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-103",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-91"
+  },
+  {
    "town": "Egremont",
    "board": "Board of Health",
    "title": "Board of Health Regular Meeting (PDF)",
@@ -1573,6 +2119,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_06252026-1923",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_06252026-1923",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Cemetery Commission",
+   "title": "Cemetery Commission Agenda",
+   "date": "2026-06-29",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/cemetery-commission/agenda/cemetery-commission-agenda-10",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/cemetery-commission/agenda/cemetery-commission-agenda-10"
   },
   {
    "town": "Egremont",
@@ -1614,6 +2173,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-06-30",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-9",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-9"
+  },
+  {
+   "town": "Becket",
+   "board": "Parks & Recreation Committee",
+   "title": "Parks & Recreation Committee Agenda",
+   "date": "2026-06-30",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-18",
+   "minutes_url": "https://www.townofbecket.org/parks-recreation-committee/minutes/parks-recreation-committee-minutes-14",
+   "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-18"
+  },
+  {
    "town": "Egremont",
    "board": "Planning Board",
    "title": "Planning Board Special Permit Hearing (PDF)",
@@ -1638,6 +2223,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_06302026-1933",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_06302026-1933",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-07-01",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-92",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-95",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-92"
   },
   {
    "town": "Becket",
@@ -1666,6 +2264,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Zoning Board of Appeals Agenda",
+   "date": "2026-07-07",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-52",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-52"
+  },
+  {
    "town": "Egremont",
    "board": "French Park Dog Park Committee",
    "title": "French Park Dog Park Committee (PDF)",
@@ -1679,6 +2290,32 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-07-08",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-30",
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-43",
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-30"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-07-08",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-93",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-96",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-93"
+  },
+  {
    "town": "Otis",
    "board": "Finance Board",
    "title": "Finance Board Meeting",
@@ -1690,6 +2327,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda - updated with corrected link",
+   "date": "2026-07-09",
+   "start": "15:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-updated-corrected-link",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-updated-corrected-link"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-07-09",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-82",
+   "minutes_url": "https://www.townofbecket.org/board-health/minutes/board-health-minutes-103",
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-82"
   },
   {
    "town": "Otis",
@@ -1757,6 +2420,58 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-07-14",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-10",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-10"
+  },
+  {
+   "town": "Becket",
+   "board": "Parks & Recreation Committee",
+   "title": "Parks & Recreation Committee Agenda",
+   "date": "2026-07-14",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-tuesday-july-14",
+   "minutes_url": "https://www.townofbecket.org/parks-recreation-committee/minutes/parks-recreation-committee-minutes-15",
+   "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-19"
+  },
+  {
+   "town": "Becket",
+   "board": "Cemetery Commission",
+   "title": "Cemetery Commission Agenda",
+   "date": "2026-07-14",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/cemetery-commission/agenda/cemetery-commission-agenda-11",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/cemetery-commission/agenda/cemetery-commission-agenda-11"
+  },
+  {
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-07-14",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-73",
+   "minutes_url": "https://www.townofbecket.org/finance-committee/minutes/finance-committee-minutes-121",
+   "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-73"
+  },
+  {
    "town": "Egremont",
    "board": "Green Committee",
    "title": "Green Committee Regular Meeting (PDF)",
@@ -1781,6 +2496,45 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_07142026-1942",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_07142026-1942",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Joint Board of Health, Planning Board & Zoning Board of Appeals Meeting",
+   "date": "2026-07-15",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-health/agenda/joint-board-health-planning-board-zoning-board-appeals-meeting",
+   "minutes_url": "https://www.townofbecket.org/board-health/minutes/board-health-minutes-102",
+   "source_url": "https://www.townofbecket.org/board-health/agenda/joint-board-health-planning-board-zoning-board-appeals-meeting"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Joint Board of Health, Planning Board & Zoning Board of Appeals Agenda",
+   "date": "2026-07-15",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/joint-board-health-planning-board-zoning-board-appeals-agenda",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/joint-board-health-planning-board-zoning-board-appeals-agenda"
+  },
+  {
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Joint Board of Health, Planning Board & Zoning Board of Appeals Agenda",
+   "date": "2026-07-15",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/joint-board-health-planning-board-zoning-board-appeals-agenda",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/joint-board-health-planning-board-zoning-board-appeals-agenda"
   },
   {
    "town": "Becket",
@@ -1861,6 +2615,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Energy Committee",
+   "title": "Energy Committee Agenda",
+   "date": "2026-07-21",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-75",
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-51",
+   "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-75"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -1898,6 +2665,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-07-22",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-33",
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-46",
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-33"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-07-22",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-94",
+   "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-97",
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-94"
   },
   {
    "town": "Egremont",
@@ -1939,6 +2732,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-07-27",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-99",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-99"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -1950,6 +2756,32 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_07272026-459",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_07272026-459",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-07-28",
+   "start": "16:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-95",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-95"
+  },
+  {
+   "town": "Becket",
+   "board": "Becket Cultural Council",
+   "title": "Cultural Council Agenda",
+   "date": "2026-07-28",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-updated-1",
+   "minutes_url": "https://www.townofbecket.org/becket-cultural-council/minutes/becket-cultural-council-minutes",
+   "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-31"
   },
   {
    "town": "New Marlborough",
@@ -1978,6 +2810,32 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-07-30",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-31",
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-44",
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-31"
+  },
+  {
+   "town": "Becket",
+   "board": "Cemetery Commission",
+   "title": "Cemetery Commission Agenda",
+   "date": "2026-07-30",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/cemetery-commission/agenda/cemetery-commission-agenda-12",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/cemetery-commission/agenda/cemetery-commission-agenda-12"
+  },
+  {
    "town": "New Marlborough",
    "board": "Library Trustees",
    "title": "Library Trustee Meeting Agenda",
@@ -1989,6 +2847,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_07302026-463",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_07302026-463",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-08-03",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-11",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-11"
   },
   {
    "town": "Egremont",
@@ -2043,6 +2914,32 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-08-04",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-107",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-107"
+  },
+  {
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Zoning Board of Appeals Public Hearing \u2013 Special Permit Application for 8 South Lake Way (Map 211, Lot 145)",
+   "date": "2026-08-04",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-53",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-public-hearing-%E2%80%93-special-permit-application-8-south"
+  },
+  {
    "town": "New Marlborough",
    "board": "Agricultural Commission",
    "title": "Agricultural Commission Meeting Agenda",
@@ -2067,6 +2964,32 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08042026-467",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_08042026-467",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-08-05",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-health/agenda/joint-board-health-zoning-board-appeals-planning-board-conservation-commission-0",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-83"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-08-05",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-96",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-96"
   },
   {
    "town": "Becket",
@@ -2108,6 +3031,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
+   "date": "2026-08-11",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-67",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-67"
+  },
+  {
    "town": "Egremont",
    "board": "Egremont Municipal Housing Trust",
    "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
@@ -2132,6 +3068,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_08112026-1967",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_08112026-1967",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-08-12",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-97",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-97"
   },
   {
    "town": "Otis",
@@ -2207,7 +3156,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/select-board/agenda/select-board-working-meeting-agenda-8",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.08.17_select_board_working_meeting_agenda.pdf",
    "minutes_url": "https://www.townofbecket.org/select-board/minutes/select-board-minutes-155",
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-working-meeting-agenda-8"
   },
@@ -2238,6 +3187,58 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-08-18",
+   "start": "13:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/mcac_revised_agenda_8-18-26_002.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-12"
+  },
+  {
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-08-18",
+   "start": "14:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/finance_committee_agenda_-_august_18_2026.pdf",
+   "minutes_url": "https://www.townofbecket.org/finance-committee/minutes/finance-committee-minutes-122",
+   "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-74"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Working Meeting Agenda - Canceled",
+   "date": "2026-08-18",
+   "start": "16:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-working-meeting-agenda-canceled",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-working-meeting-agenda-canceled"
+  },
+  {
+   "town": "Becket",
+   "board": "Energy Committee",
+   "title": "Energy Committee Agenda",
+   "date": "2026-08-18",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/energy_committee_agenda_august_18_2026.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-76"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Amended Agenda (PDF)",
@@ -2251,6 +3252,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "New Marlborough",
+   "board": "Designer Selection/Design Review Committee",
+   "title": "Design Selection Review Committee Meeting Agenda",
+   "date": "2026-08-18",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08182026-477",
+   "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_08182026-477",
+   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
    "town": "Becket",
    "board": "Select Board",
    "title": "Select Board Agenda",
@@ -2259,7 +3273,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/select-board/agenda/select-board-working-meeting-agenda-7",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.08.19_select_board_working_meeting_agenda.pdf",
    "minutes_url": "https://www.townofbecket.org/select-board/minutes/select-board-minutes-157",
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-agenda-141"
   },
@@ -2275,6 +3289,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Public Hearing Notice - Review of Four Proposed Bylaws",
+   "date": "2026-08-20",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.08.20_notice_of_public_hearing_solar_and_bess_bylaws.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-public-hearing-notice-review-four-proposed-bylaws"
   },
   {
    "town": "Egremont",
@@ -2329,6 +3356,32 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-08-24",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/260824_boa_meeting_agenda_-_august_24_2026_at_1030_am.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-100"
+  },
+  {
+   "town": "Becket",
+   "board": "Becket Cultural Council",
+   "title": "Cultural Council Agenda",
+   "date": "2026-08-24",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/aug_24_2026_becket_cultural_council_meeting_agenda.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-32"
+  },
+  {
    "town": "Otis",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -2353,6 +3406,32 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_08242026-1976",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_08242026-1976",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Agenda",
+   "date": "2026-08-26",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/bylaw_review_aug._26_2026.pdf",
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-45",
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-agenda-0"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-08-26",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/8-26-26_working_meeting.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-98"
   },
   {
    "town": "Otis",
@@ -2389,7 +3468,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/select-board/agenda/select-board-working-meeting-agenda-9",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.08.28_select_board_working_meeting_agenda_for_stm_warrant.pdf",
    "minutes_url": "https://www.townofbecket.org/select-board/minutes/select-board-minutes-158",
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-working-meeting-agenda-9"
   },
@@ -2431,6 +3510,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Parks & Recreation Committee",
+   "title": "Parks & Recreation Committee Agenda",
+   "date": "2026-09-01",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/parks_and_rec_agenda_9-1-26.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-20"
   },
   {
    "town": "Egremont",
@@ -2483,6 +3575,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09012026-480",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_09012026-480",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-09-02",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/boh_public_agenda_amended_090226.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-84"
   },
   {
    "town": "Egremont",
@@ -2563,6 +3668,19 @@
    "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-09-03",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026-09-03_bcc_agenda.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-108"
+  },
+  {
    "town": "Egremont",
    "board": "Berkshire Regional Planning Commission",
    "title": "Berkshire Regional Planning Commission Executive Committee Meeting (PDF)",
@@ -2615,6 +3733,45 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-09-08",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/finance_committee_agenda_-_september_8_2026_002.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-75"
+  },
+  {
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
+   "date": "2026-09-08",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026_sep_8_historical_commission_agenda.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/historical-commission/agenda/historical-commission-agenda-68"
+  },
+  {
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Zoning Board of Appeals Agenda",
+   "date": "2026-09-08",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/zba_agenda_9-8-26_0.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-54"
+  },
+  {
    "town": "Otis",
    "board": "Revitalization Committee",
    "title": "Revitalization Committee Meeting",
@@ -2652,6 +3809,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09082026-487",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_09082026-487",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-09-09",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/9-9-26_public_meeting.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-99"
   },
   {
    "town": "Becket",
@@ -2862,6 +4032,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Municipal Buildings Advisory Committee",
+   "title": "Municipal Buildings Advisory Committee Agenda",
+   "date": "2026-09-15",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/mbac_agenda_9-15-2026.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-13"
+  },
+  {
+   "town": "Becket",
+   "board": "Energy Committee",
+   "title": "Energy Committee Agenda",
+   "date": "2026-09-15",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/energy_committee_agenda_september_15_2026.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-77"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -2888,6 +4084,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Bylaw Review Committee",
+   "title": "Bylaw Review Committee Agenda",
+   "date": "2026-09-16",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/bylaw_review_committee_agenda_sept._16_2026.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-32"
+  },
+  {
    "town": "SBRSD",
    "board": "Finance Subcommittee",
    "title": "Southern Berkshire Regional School District Finance Sub-Committee Meeting (PDF)",
@@ -2911,7 +4120,7 @@
    "location": null,
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-91626",
    "minutes_url": null,
-   "source_url": "https://www.sheffieldma.gov/node/28/agenda"
+   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
   },
   {
    "town": "Tyringham",
@@ -2992,6 +4201,45 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Sandisfield",
+   "board": "Board Assessors",
+   "title": "Board of Assessors Meeting",
+   "date": "2026-09-21",
+   "start": "10:00",
+   "end": "10:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-assessors/events/44961"
+  },
+  {
+   "town": "Monterey",
+   "board": "Health Department",
+   "title": "Board of Health Meeting",
+   "date": "2026-09-21",
+   "start": "14:00",
+   "end": "14:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/health-department/events/46086"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-09-21",
+   "start": "18:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/select-board/events/44981"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -3003,6 +4251,58 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09212026-496",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-09-22",
+   "start": "09:00",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/46111"
+  },
+  {
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-09-22",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026-09-22_bcc_agenda_revised.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/conservation-commission/agenda/conservation-commission-agenda-109"
+  },
+  {
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-09-22",
+   "start": "18:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/select-board/events/46096"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Yanner Park Committee",
+   "title": "Yanner Park Committee meeting",
+   "date": "2026-09-22",
+   "start": "19:00",
+   "end": "20:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/yanner-park-committee/events/44836"
   },
   {
    "town": "Becket",
@@ -3057,6 +4357,19 @@
    "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-09-24",
+   "start": "11:00",
+   "end": "13:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/46036"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3068,6 +4381,19 @@
    "agenda_url": "https://docs.google.com/document/d/1HYwPOwP9c_wr6n1CkYDEYcs459o0TVGm/edit?usp=sharing&ouid=113656411395168769248&rtpof=true&sd=true",
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Joint Planning Board and Select Board Meeting 09/24/26",
+   "date": "2026-09-24",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/planning-board/events/46136"
   },
   {
    "town": "Egremont",
@@ -3148,6 +4474,45 @@
    "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-09-28",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/260928_boa_meeting_agenda_-_september_28_2026_at_10_am.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-101"
+  },
+  {
+   "town": "Monterey",
+   "board": "Parks Commission",
+   "title": "Parks Commission Meeting 09/28/26",
+   "date": "2026-09-28",
+   "start": "10:30",
+   "end": "10:30",
+   "all_day": false,
+   "location": "Monterey Town Beach United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/parks-commission/events/46126"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-09-28",
+   "start": "14:00",
+   "end": "15:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
+  },
+  {
    "town": "Great Barrington",
    "board": "Selectboard Meeting",
    "title": "Selectboard Meeting",
@@ -3174,6 +4539,19 @@
    "source_url": "https://www.townofalford.org/Calendar.aspx?EID=421&month=9&year=2026&day=28&calType=0"
   },
   {
+   "town": "Becket",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Agenda",
+   "date": "2026-09-28",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/cpc_meeting_agenda_september_28_2026.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-13"
+  },
+  {
    "town": "Great Barrington",
    "board": "Cultural Council",
    "title": "Cultural Council",
@@ -3185,6 +4563,19 @@
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Cultural-Council-24/#_09282026-2575",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1938&month=9&year=2026&day=28&calType=0"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-09-28",
+   "start": "18:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/select-board/events/45026"
   },
   {
    "town": "Egremont",
@@ -3211,6 +4602,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.townofalford.org/Calendar.aspx?EID=553&month=9&year=2026&day=28&calType=0"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Home",
+   "title": "Recreation Committee",
+   "date": "2026-09-29",
+   "start": "11:00",
+   "end": "11:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/home/events/44996"
   },
   {
    "town": "Great Barrington",
@@ -3250,6 +4654,19 @@
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_09292026-2585",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1947&month=9&year=2026&day=28&calType=0"
+  },
+  {
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-09-29",
+   "start": "17:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/planning_board_agenda_9-29-26_public_meeting.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-100"
   },
   {
    "town": "Great Barrington",
@@ -3366,7 +4783,7 @@
    "location": null,
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-92926",
    "minutes_url": null,
-   "source_url": "https://www.sheffieldma.gov/node/28/agenda"
+   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
   },
   {
    "town": "Great Barrington",
@@ -3395,6 +4812,19 @@
    "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=464&month=9&year=2026&day=28&calType=0"
   },
   {
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-09-30",
+   "start": "11:00",
+   "end": "11:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43696"
+  },
+  {
    "town": "Great Barrington",
    "board": "Council on Aging",
    "title": "Council on Aging",
@@ -3406,6 +4836,19 @@
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Council-on-Aging-14/#_09302026-2577",
    "minutes_url": null,
    "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1940&month=9&year=2026&day=28&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-09-30",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
    "town": "New Marlborough",
@@ -3432,6 +4875,58 @@
    "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09302026-95",
    "minutes_url": null,
    "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-10-01",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/42031"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-10-01",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-10-01",
+   "start": "11:00",
+   "end": "11:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-01",
+   "start": "19:00",
+   "end": "20:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
   },
   {
    "town": "Egremont",
@@ -3473,6 +4968,32 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Joint Select Board, Planning Board & Housing Committee Meeting",
+   "date": "2026-10-06",
+   "start": "18:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/46156"
+  },
+  {
+   "town": "New Marlborough",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Meeting Agenda",
+   "date": "2026-10-07",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_10072026-504",
+   "minutes_url": null,
+   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
    "town": "Otis",
    "board": "Finance Board",
    "title": "Finance Board Meeting",
@@ -3499,6 +5020,45 @@
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-10-09",
+   "start": "09:00",
+   "end": "10:30",
+   "all_day": false,
+   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39646"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Flu & Covid Vacination Clinic at Old Town Hall",
+   "date": "2026-10-09",
+   "start": "11:00",
+   "end": "13:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/43186"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Columbus Day",
+   "date": "2026-10-12",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43081"
+  },
+  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Public Hearing: Large-Capacity Propane Tank (PDF)",
@@ -3510,6 +5070,45 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_10132026-2009",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-10-14",
+   "start": "17:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-10-14",
+   "start": "17:30",
+   "end": "18:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/35101"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-10-14",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
    "town": "Egremont",
@@ -3564,6 +5163,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Monterey Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-10-19",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Public Library Meeting Room 452 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/monterey-library/events/46116"
+  },
+  {
    "town": "Otis",
    "board": "In-Person Early Voting",
    "title": "In-Person Early Voting",
@@ -3575,6 +5187,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-20",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
    "town": "Otis",
@@ -3590,6 +5215,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-22",
+   "start": "10:00",
+   "end": "11:30",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/46106"
+  },
+  {
    "town": "Otis",
    "board": "Voter Registration Session",
    "title": "Voter Registration Session",
@@ -3601,6 +5239,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Fall Household Hazardous Waste Collection",
+   "date": "2026-10-24",
+   "start": "12:00",
+   "end": "12:00",
+   "all_day": false,
+   "location": "Lee MA Wastewater Treatment Plant 379 Pleasant Street Lee MA 01238 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/45671"
   },
   {
    "town": "Otis",
@@ -3616,6 +5267,45 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-10-26",
+   "start": "14:00",
+   "end": "15:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-26",
+   "start": "15:00",
+   "end": "17:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/45846"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-10-28",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3627,6 +5317,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-11-01",
+   "start": "19:00",
+   "end": "20:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
   },
   {
    "town": "Otis",
@@ -3655,6 +5358,97 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41976"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-11-05",
+   "start": "11:00",
+   "end": "11:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting November 10, 2026",
+   "date": "2026-11-10",
+   "start": "18:00",
+   "end": "19:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/cultural-council/events/44601"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-11-11",
+   "start": "17:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-11",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Veterans Day",
+   "date": "2026-11-11",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43086"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3666,6 +5460,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-11-13",
+   "start": "09:00",
+   "end": "10:30",
+   "all_day": false,
+   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39656"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-11-17",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
    "town": "Otis",
@@ -3681,6 +5501,97 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-11-23",
+   "start": "14:00",
+   "end": "15:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-25",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Thanksgiving",
+   "date": "2026-11-26",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43091"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-01",
+   "start": "19:00",
+   "end": "20:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41986"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-12-03",
+   "start": "11:00",
+   "end": "11:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3692,6 +5603,58 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-12-09",
+   "start": "17:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-12-11",
+   "start": "09:00",
+   "end": "10:30",
+   "all_day": false,
+   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39661"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-15",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
    "town": "BHRSD",
@@ -3707,6 +5670,123 @@
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-23",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Christmas Day",
+   "date": "2026-12-25",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43096"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-12-28",
+   "start": "14:00",
+   "end": "15:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-01",
+   "start": "19:00",
+   "end": "20:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41986"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2027-01-07",
+   "start": "11:00",
+   "end": "11:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2027-01-08",
+   "start": "09:00",
+   "end": "10:30",
+   "all_day": false,
+   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39666"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2027-01-13",
+   "start": "17:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3718,6 +5798,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-19",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2027-01-25",
+   "start": "14:00",
+   "end": "15:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
   },
   {
    "town": "BHRSD",
@@ -3787,88 +5893,90 @@
  ],
  "towns": {
   "Otis": 75,
-  "Becket": 15,
-  "New Marlborough": 75,
+  "Becket": 111,
+  "New Marlborough": 77,
   "Egremont": 84,
   "BHRSD": 15,
   "Tyringham": 9,
   "SBRSD": 5,
   "Sheffield": 2,
+  "Sandisfield": 34,
+  "Monterey": 30,
   "Great Barrington": 9,
   "Alford": 2
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
-   "meetings": 0,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "meetings": 34,
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
-   "meetings": 0,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "meetings": 30,
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 9,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 84,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
-   "meetings": 75,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "meetings": 77,
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 2,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 2,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 75,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 9,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
-   "meetings": 15,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "meetings": 111,
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 15,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 5,
-   "checked_at": "2026-09-28T09:48:17-04:00",
+   "checked_at": "2026-09-28T14:11:04-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
