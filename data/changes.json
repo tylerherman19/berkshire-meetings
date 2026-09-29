@@ -1,279 +1,9 @@
 {
- "updated": "2026-09-29T07:33:34-04:00",
+ "updated": "2026-09-29T12:40:11-04:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Home",
-   "title": "Recreation Committee",
-   "date": "2026-09-29",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sheffield",
-   "board": "Open Space & Recreation Plan Committee",
-   "title": "Open Space & Recreation Plan Committee Agenda 9/29/26",
-   "date": "2026-09-29",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-09-30",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-10-01",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-10-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-10-09",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Flu & Covid Vacination Clinic at Old Town Hall",
-   "date": "2026-10-09",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-10-14",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health Meeting",
-   "date": "2026-10-14",
-   "start": "17:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-10-20",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-10-26",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-11-05",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Cultural Council",
-   "title": "Cultural Council Meeting November 10, 2026",
-   "date": "2026-11-10",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-11-11",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-11-13",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-17",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-11-23",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-12-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-12-03",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-12-09",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-12-11",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-12-15",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-12-28",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-01-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2027-01-07",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2027-01-08",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2027-01-13",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-01-19",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2027-01-25",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Recreation Committee",
    "title": "Recreation Committee",
@@ -281,8 +11,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Council on Aging Meeting",
    "title": "Council on Aging Meeting",
@@ -290,26 +20,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Egremont",
-   "board": "Berkshire Regional Planning Commission",
-   "title": "Berkshire Regional Planning Commission Executive Committee Meeting (PDF)",
-   "date": "2026-10-01",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
-   "town": "Becket",
-   "board": "Board of Health",
-   "title": "Joint Board of Health, Planning Board & Zoning Board of Appeals",
-   "date": "2026-10-08",
-   "start": "13:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "SBPHC Monthly Meeting",
    "title": "SBPHC Monthly Meeting",
@@ -317,8 +29,8 @@
    "start": "09:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Flu & Covid Vacination Clinic at Old Town Hall",
    "title": "Flu & Covid Vacination Clinic at Old Town Hall",
@@ -326,8 +38,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Board of Health",
    "title": "Board of Health",
@@ -335,8 +47,8 @@
    "start": "17:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
@@ -344,8 +56,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Library Board of Trustees Meeting",
    "title": "Library Board of Trustees Meeting",
@@ -353,8 +65,8 @@
    "start": "14:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Council on Aging Meeting",
    "title": "Council on Aging Meeting",
@@ -362,8 +74,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Cultural Council Meeting November 10, 2026",
    "title": "Cultural Council Meeting November 10, 2026",
@@ -371,13 +83,310 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-09-29T07:33:34-04:00",
+   "type": "removed",
+   "at": "2026-09-29T12:40:11-04:00",
    "town": "Sandisfield",
    "board": "Board of Health",
    "title": "Board of Health",
    "date": "2026-11-11",
    "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Home",
+   "title": "Recreation Committee",
+   "date": "2026-09-29",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sheffield",
+   "board": "Open Space & Recreation Plan Committee",
+   "title": "Open Space & Recreation Plan Committee Agenda 9/29/26",
+   "date": "2026-09-29",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-09-30",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-10-01",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-01",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Egremont",
+   "board": "Cemetery Commission",
+   "title": "Cemetery Commission Monthly Meeting (PDF)",
+   "date": "2026-10-02",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-10-09",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Flu & Covid Vacination Clinic at Old Town Hall",
+   "date": "2026-10-09",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-10-14",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-10-14",
+   "start": "17:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "New Marlborough",
+   "board": "Department of Veteran Services Board",
+   "title": "Department of Veteran Services Board Meeting Agenda",
+   "date": "2026-10-15",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-20",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-10-26",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-11-01",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Otis",
+   "board": "Historical Commission",
+   "title": "Historical Commission Meeting",
+   "date": "2026-11-04",
+   "start": "16:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-11-05",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting November 10, 2026",
+   "date": "2026-11-10",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-11-11",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-11-13",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-11-17",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-11-23",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-01",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-12-03",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-12-09",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-12-11",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-15",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-12-28",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-01",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2027-01-07",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2027-01-08",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2027-01-13",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-19",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-09-29T12:40:11-04:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2027-01-25",
+   "start": "14:00"
   }
  ]
 }
