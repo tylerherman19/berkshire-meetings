@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T23:28:41-04:00",
+ "updated": "2026-09-29T06:28:35-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Winter Hours Transfer Station",
+   "summary": "Transfer Station Winter Hours Starting October 1st, 2026 Wed: 12pm-5pm Sat: 9am-4pm Sun: 9am-4pm",
+   "posted": "2026-09-28T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/winter-hours-transfer-station",
+   "first_seen": "2026-09-29T06:28:35-04:00"
+  },
   {
    "town": "Sandisfield",
    "category": "General",
@@ -1371,24 +1382,13 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/wetland-deliniation-work-town-hill-road",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Volunteers Needed for Becket's New Swap Shop \u2013 Opening This Summer at the Transfer Station",
-   "summary": null,
-   "posted": "2026-07-01T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/volunteers-needed-beckets-new-swap-shop-%E2%80%93-opening-summer-transfer-station",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Sandisfield": 17,
+  "Sandisfield": 18,
   "Great Barrington": 25,
   "Egremont": 22,
-  "Becket": 25,
+  "Becket": 24,
   "Otis": 10,
   "Monterey": 1,
   "BHRSD": 10,
@@ -1402,29 +1402,29 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 34,
+   "scraped": 33,
    "items": 25,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 0,
-   "checked_at": "2026-09-28T23:28:41-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-09-29T06:28:35-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 11,
+   "scraped": 10,
    "items": 22,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   },
   {
@@ -1434,7 +1434,7 @@
    "ok": true,
    "scraped": 88,
    "items": 8,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   },
   {
@@ -1444,18 +1444,18 @@
    "ok": false,
    "scraped": 0,
    "items": 1,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 17,
-   "checked_at": "2026-09-28T23:28:41-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 18,
+   "checked_at": "2026-09-29T06:28:35-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1464,7 +1464,7 @@
    "ok": true,
    "scraped": 10,
    "items": 10,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   },
   {
@@ -1474,7 +1474,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   },
   {
@@ -1483,8 +1483,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": false,
    "scraped": 0,
-   "items": 25,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "items": 24,
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -1494,7 +1494,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   },
   {
@@ -1504,7 +1504,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-28T23:28:41-04:00",
+   "checked_at": "2026-09-29T06:28:35-04:00",
    "error": null
   }
  ]
