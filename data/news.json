@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T23:28:36-04:00",
+ "updated": "2026-09-30T12:22:38-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "New Marlborough",
+   "category": "General",
+   "topic": null,
+   "headline": "Spotted Lantern Fly Sightings",
+   "summary": "CLICK HERE for information and to report sighting of the Spotted Lantern Fly",
+   "posted": "2026-09-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/127",
+   "first_seen": "2026-09-30T12:22:38-04:00"
+  },
   {
    "town": "Sheffield",
    "category": "General",
@@ -1415,49 +1426,16 @@
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/108",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Preliminary Real Tax Bill were mailed out June 29, 2026",
-   "summary": "The Town of Great Barrington mailed the preliminary Fiscal Year 2027 property tax bills on June 29, 2026. Property owners should begin receiving their bills in the coming days. To help residents plan ahead, the payment due dates are: First Quarter (Q1): Monday, August 3, 2026 Second Quarter (Q2): Monday, November 2\u2026",
-   "posted": "2026-07-02T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/178",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "New Marlborough",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "From the Broadband Committee: Credit Available for Spectrum Outage",
-   "summary": "If you did not automatically receive a notice of credit from Spectrum for the outage on July 1, contact Spectrum and request a credit. You can call (833) 267-6094 or use the chat feature at spectrum.net . Sincerely, The Broadband and Cable Advisory Committee",
-   "posted": "2026-07-02T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/105",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "Road closures",
-   "topic": null,
-   "headline": "Wetland Deliniation work on Town Hill Road",
-   "summary": "Wetland Deliniation engineering work will be being completed on Town Hill Road for several spaced out days beginning July 9, 2027",
-   "posted": "2026-07-02T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/wetland-deliniation-work-town-hill-road",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
+  "New Marlborough": 9,
   "Sheffield": 1,
   "Monterey": 2,
-  "Great Barrington": 26,
+  "Great Barrington": 25,
   "Egremont": 23,
-  "New Marlborough": 9,
   "Otis": 11,
-  "Sandisfield": 18,
+  "Sandisfield": 17,
   "Becket": 24,
   "BHRSD": 10,
   "Alford": 4,
@@ -1470,8 +1448,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 34,
-   "items": 26,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "items": 25,
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
@@ -1481,7 +1459,7 @@
    "ok": false,
    "scraped": 0,
    "items": 1,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1489,9 +1467,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 11,
+   "scraped": 10,
    "items": 23,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
@@ -1499,30 +1477,30 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 89,
+   "scraped": 90,
    "items": 9,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 14,
+   "ok": false,
+   "scraped": 0,
    "items": 2,
-   "checked_at": "2026-09-29T23:28:36-04:00",
-   "error": null
+   "checked_at": "2026-09-30T12:22:38-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 18,
-   "checked_at": "2026-09-29T23:28:36-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 17,
+   "checked_at": "2026-09-30T12:22:38-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1531,7 +1509,7 @@
    "ok": true,
    "scraped": 11,
    "items": 11,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
@@ -1541,7 +1519,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
@@ -1551,7 +1529,7 @@
    "ok": true,
    "scraped": 20,
    "items": 24,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
@@ -1561,7 +1539,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   },
   {
@@ -1571,7 +1549,7 @@
    "ok": true,
    "scraped": 8,
    "items": 10,
-   "checked_at": "2026-09-29T23:28:36-04:00",
+   "checked_at": "2026-09-30T12:22:38-04:00",
    "error": null
   }
  ]
