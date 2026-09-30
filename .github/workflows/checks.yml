@@ -29,9 +29,12 @@ jobs:
         run: |
           node --check app.js
           node --check blotter.js
+          node --check money.js
+          node --check property.js
+          node --check contacts.js
       - name: Validate the data files parse as JSON
         run: |
-          for f in data/*.json; do
+          for f in data/*.json property-insights.json; do
             python -c "import json,sys; json.load(open(sys.argv[1]))" "$f"
             echo "ok $f"
           done

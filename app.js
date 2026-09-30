@@ -1428,9 +1428,21 @@ function setView(v){
   if(state.view==="news" && v!=="news") markNewsSeen();
   state.view=v;
   if(v==="calendar") state.pcLimit=60;
+  syncHash(v);
   renderHero();
   renderView();
   window.scrollTo({top:0,behavior:"auto"});
+}
+/* The URL hash names the view, so a link like #property opens that tab.
+   Hashes that are not views (in-page anchors) are left alone. */
+function hashView(){
+  var h=location.hash.replace(/^#/,"");
+  return document.querySelector('#views button[data-view="'+h+'"]') ? h : "";
+}
+function syncHash(v){
+  var want = v==="briefing" ? "" : "#"+v;
+  if(location.hash!==want && history.replaceState)
+    history.replaceState(null,"",location.pathname+location.search+want);
 }
 function renderView(){
   var v=$("#view");
@@ -1444,6 +1456,7 @@ function renderView(){
   else if(state.view==="sources")  renderSources();
   else if(state.view==="blotter")  { if(window.BMBlotter) BMBlotter.render(); }
   else if(state.view==="money")    { if(window.BMMoney) BMMoney.render(); }
+  else if(state.view==="property") { if(window.BMProperty) BMProperty.render(); }
   else if(state.view==="contacts") { if(window.BMContacts) BMContacts.render(); }
   Array.prototype.forEach.call(document.querySelectorAll("#views button"),function(b){
     var on = b.dataset.view===state.view;
@@ -1563,6 +1576,8 @@ document.addEventListener("DOMContentLoaded",function(){
     state.town="All"; state.q=""; state.mode="week"; setView("briefing");
   });
   $("#starjump").addEventListener("click",function(){ setView("starred"); });
+  var hv=hashView(); if(hv) state.view=hv;
+  window.addEventListener("hashchange",function(){ var v=hashView(); if(v && v!==state.view) setView(v); });
   /* Closing the tab from the news view counts as having read it, same as
      navigating away would. */
   window.addEventListener("pagehide",function(){
