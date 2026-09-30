@@ -27,6 +27,17 @@ Three ways into the same data, all in one static page:
   marked. Every card carries a **Read full post** button to the original town
   posting, and the tab lists its own sources.
 
+- **Property** — who owns South County, from the MassGIS property-tax parcel
+  snapshot for all eleven towns. A parcel map for the focus town (value per acre,
+  owner's mailing address, land use, last sale, year built) with search and a
+  detail panel; charts on out-of-state ownership, New York vs. Connecticut owners,
+  land vs. value by use, the largest landholders, sales by year, home prices,
+  LLC and trust buyers, sale price vs. assessment and housing age; and a
+  searchable records table with CSV download. Link straight to it with
+  `#property`. Method and limits: `property-method.md`. Rebuild the figures with
+  `python3 property-insights.py` after refreshing the snapshot with
+  `python3 property-collector.py`.
+
 Plus **Archive** (full-text search across posted agendas and minutes) and
 **Sources** (which scrapers succeeded in the last run).
 
