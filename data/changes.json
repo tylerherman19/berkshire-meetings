@@ -1,50 +1,320 @@
 {
- "updated": "2026-09-30T12:23:51-04:00",
+ "updated": "2026-10-01T13:04:39-04:00",
  "changes": [
   {
    "type": "added",
-   "at": "2026-09-30T12:23:51-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Administrator Meeting",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Berkshire Regional Planning Commission Executive Committee",
+   "title": "Berkshire Regional Planning Commission Executive Committee",
    "date": "2026-10-01",
-   "start": "14:30"
+   "start": "16:00"
   },
   {
    "type": "added",
-   "at": "2026-09-30T12:23:51-04:00",
-   "town": "Egremont",
-   "board": "Community Preservation Committee",
-   "title": "Community Preservation Committee Regular Meeting (PDF)",
-   "date": "2026-10-07",
-   "start": ""
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Board of Health",
+   "title": "Board of Health",
+   "date": "2026-10-01",
+   "start": "19:00"
   },
   {
    "type": "added",
-   "at": "2026-09-30T12:23:51-04:00",
-   "town": "Otis",
-   "board": "Recreation Commission",
-   "title": "Recreation Commission Meeting",
-   "date": "2026-10-13",
-   "start": "18:30"
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-03",
+   "start": "08:00"
   },
   {
    "type": "added",
-   "at": "2026-09-30T12:23:51-04:00",
-   "town": "Egremont",
-   "board": "Veterans Services",
-   "title": "Veterans Services Board of Directors Meeting with Closed Session (PDF)",
-   "date": "2026-10-15",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-09-30T12:23:51-04:00",
+   "at": "2026-10-01T13:04:39-04:00",
    "town": "Monterey",
-   "board": "Local Cultural Council",
-   "title": "Local Cultural Council Meeting",
-   "date": "2026-10-23",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting 10/05/26",
+   "date": "2026-10-05",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Flu & Covid Clinic",
+   "title": "Flu & Covid Clinic",
+   "date": "2026-10-05",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Otis",
+   "board": "Council on Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-10-05",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Becket",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Agenda",
+   "date": "2026-10-05",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Selectboard meeting",
+   "title": "Selectboard meeting",
+   "date": "2026-10-05",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-06",
+   "start": "07:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Great Barrington Fire District Prudential Committee",
+   "title": "Great Barrington Fire District Prudential Committee",
+   "date": "2026-10-06",
+   "start": "16:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Plannng Board Agenda",
+   "date": "2026-10-06",
+   "start": "17:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Tree Committee",
+   "title": "Tree Committee",
+   "date": "2026-10-07",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-10",
+   "start": "08:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Community Cafe",
+   "title": "Community Cafe",
+   "date": "2026-10-10",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-12",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-13",
+   "start": "07:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Flu & Covid Clinic",
+   "title": "Flu & Covid Clinic",
+   "date": "2026-10-14",
+   "start": "13:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting",
+   "date": "2026-10-14",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Tyringham",
+   "board": "Flu and Covid Clinic (10.15.2025)",
+   "title": "Flu and Covid Clinic (10.15.2025)",
+   "date": "2026-10-15",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Historic District Commission",
+   "title": "Historic District Commission",
+   "date": "2026-10-15",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Southern Berkshire District Department of Veterans\u2019 Services (DDVS)",
+   "title": "Southern Berkshire District Department of Veterans\u2019 Services (DDVS)",
+   "date": "2026-10-15",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-17",
+   "start": "08:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Town Clerk",
+   "title": "In Person Early Voting",
+   "date": "2026-10-18",
+   "start": "12:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Special Town Meeting - 6:00 pm Monument Mountain Regional High School, 600 Stockbridge Rd",
+   "title": "Special Town Meeting - 6:00 pm Monument Mountain Regional High School, 600 Stockbridge Rd",
+   "date": "2026-10-19",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Otis",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting",
+   "date": "2026-10-19",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-20",
+   "start": "07:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Flu & Covid Clinic",
+   "title": "Flu & Covid Clinic",
+   "date": "2026-10-21",
    "start": "15:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-21",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-24",
+   "start": "08:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Tyringham",
+   "board": "Household Hazardous Waste Day (10.24.2026)",
+   "title": "Household Hazardous Waste Day (10.24.2026)",
+   "date": "2026-10-24",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Town Clerk",
+   "title": "In Person Early Voting",
+   "date": "2026-10-24",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-26",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Great Barrington",
+   "board": "Selectboard meeting",
+   "title": "Selectboard meeting",
+   "date": "2026-10-26",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-27",
+   "start": "07:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-01T13:04:39-04:00",
+   "town": "Alford",
+   "board": "Highway",
+   "title": "Transfer Station",
+   "date": "2026-10-31",
+   "start": "08:00"
   }
  ]
 }
