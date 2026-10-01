@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T13:00:07-04:00",
+ "updated": "2026-10-01T17:46:29-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "TOWN PROVIDES UPDATE ON HOUSATONIC WATER WORKS, REAFFIRMS COMMITMENT TO UNINTERRUPTED SERVICE",
+   "summary": "Public Statement FOR IMMEDIATE RELEASE Great Barrington, MA (October 1, 2026) Town Provides Update on Housatonic Water Works, Reaffirms Commitment to Uninterrupted Service The Town of Great Barrington is working closely with state officials, regulators, and local partners to protect uninterrupted water service for\u2026",
+   "posted": "2026-10-01T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/224",
+   "first_seen": "2026-10-01T17:46:29-04:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "TOWN LAUNCHES SEARCH FOR NEXT SUPERINTENDENT OF PUBLIC WORKS",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (October 1, 2026) Town Launches Search for Next Superintendent of Public Works The Town of Great Barrington has launched an active recruitment for its next Superintendent of Public Works, seeking an experienced and forward-thinking leader to help guide the\u2026",
+   "posted": "2026-10-01T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/223",
+   "first_seen": "2026-10-01T17:46:29-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -1517,6 +1539,7 @@
   }
  ],
  "towns": {
+  "Great Barrington": 27,
   "Egremont": 25,
   "Becket": 26,
   "Sheffield": 2,
@@ -1524,7 +1547,6 @@
   "BHRSD": 11,
   "New Marlborough": 9,
   "Monterey": 2,
-  "Great Barrington": 25,
   "Otis": 11,
   "Alford": 4,
   "Tyringham": 3
@@ -1535,9 +1557,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 29,
-   "items": 25,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "scraped": 30,
+   "items": 27,
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
@@ -1547,7 +1569,7 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1557,7 +1579,7 @@
    "ok": true,
    "scraped": 8,
    "items": 25,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
@@ -1567,18 +1589,18 @@
    "ok": true,
    "scraped": 90,
    "items": 9,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 14,
+   "ok": false,
+   "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-01T13:00:07-04:00",
-   "error": null
+   "checked_at": "2026-10-01T17:46:29-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -1587,7 +1609,7 @@
    "ok": true,
    "scraped": 20,
    "items": 19,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
@@ -1597,7 +1619,7 @@
    "ok": true,
    "scraped": 11,
    "items": 11,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
@@ -1607,18 +1629,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 26,
-   "checked_at": "2026-10-01T13:00:07-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-10-01T17:46:29-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -1627,7 +1649,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   },
   {
@@ -1637,7 +1659,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-01T13:00:07-04:00",
+   "checked_at": "2026-10-01T17:46:29-04:00",
    "error": null
   }
  ]
