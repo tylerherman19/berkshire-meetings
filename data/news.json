@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T21:13:55-04:00",
+ "updated": "2026-10-01T13:00:07-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Select Board",
+   "headline": "Egremont News Issue 138: Town News, Updates & Reminders",
+   "summary": "The October 2026 issue of the Egremont Newsletter is now available , with updates and information from Town boards, departments, and community organizations. In Issue 138 , read about the newly paved Library parking lot and a change to the Town\u2019s policy on dogs on Town property; seasonal fire and home-heating safety\u2026",
+   "posted": "2026-10-01T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/802",
+   "first_seen": "2026-10-01T13:00:07-04:00"
+  },
   {
    "town": "Becket",
    "category": "Road closures",
@@ -123,7 +134,7 @@
    "category": "General",
    "topic": "Community News",
    "headline": "A New Way to Explore Egremont\u2019s Past and the Berkshires",
-   "summary": "Stockbridge resident Patrick White has created 1890.net, a searchable website about the Berkshire cottage era. It catalogs over 40 great houses, but it also focuses on the people who built them, worked in them, and lived in the surrounding communities. White has compiled records for more than 20,000 people, including\u2026",
+   "summary": "Stockbridge resident Patrick White has created 1890s.net , a searchable website that explores the Berkshire cottage era through both its great houses and the people who built, worked in, and lived around them. The site brings together five historical surveys of Berkshire County, including village plans from 1858\u2026",
    "posted": "2026-09-29T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/800",
@@ -706,7 +717,7 @@
    "category": "Public notices",
    "topic": null,
    "headline": "State Election Information",
-   "summary": "for Otis The State Election is Tuesday, November 3, 2026. Polling Location, Otis Town Hall, 1 North Main Rd, Otis, MA 01253. Polling Hours 7:00 AM to 8:00 PM. Information to Voters Booklet- 2026 Ballot Questions. There are 9 ballot questions for the November 3, 2026 election. This is\u2026",
+   "summary": "for Otis The State Election is Tuesday, November 3, 2026. Polling Location, Otis Town Hall, 1 North Main Rd, Otis, MA 01253. Polling Hours 7:00 AM to 8:00 PM. State Election Warrant November 3, 2026 Information to Voters Booklet- 2026 Ballot Questions. There are 9 ballot questions for the\u2026",
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R104.php",
@@ -1506,9 +1517,9 @@
   }
  ],
  "towns": {
+  "Egremont": 25,
   "Becket": 26,
   "Sheffield": 2,
-  "Egremont": 24,
   "Sandisfield": 19,
   "BHRSD": 11,
   "New Marlborough": 9,
@@ -1524,9 +1535,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 34,
+   "scraped": 29,
    "items": 25,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
@@ -1536,7 +1547,7 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1544,9 +1555,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 11,
-   "items": 24,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "scraped": 8,
+   "items": 25,
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
@@ -1556,18 +1567,18 @@
    "ok": true,
    "scraped": 90,
    "items": 9,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 14,
    "items": 2,
-   "checked_at": "2026-09-30T21:13:55-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-01T13:00:07-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -1576,7 +1587,7 @@
    "ok": true,
    "scraped": 20,
    "items": 19,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
@@ -1586,7 +1597,7 @@
    "ok": true,
    "scraped": 11,
    "items": 11,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
@@ -1596,18 +1607,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 26,
-   "checked_at": "2026-09-30T21:13:55-04:00",
-   "error": null
+   "checked_at": "2026-10-01T13:00:07-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -1616,7 +1627,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   },
   {
@@ -1626,7 +1637,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-09-30T21:13:55-04:00",
+   "checked_at": "2026-10-01T13:00:07-04:00",
    "error": null
   }
  ]
