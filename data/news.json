@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T12:13:44-04:00",
+ "updated": "2026-10-02T17:16:49-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1559,7 +1559,7 @@
    "ok": true,
    "scraped": 26,
    "items": 27,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1569,7 +1569,7 @@
    "ok": true,
    "scraped": 12,
    "items": 2,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1579,7 +1579,7 @@
    "ok": true,
    "scraped": 8,
    "items": 25,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1589,7 +1589,7 @@
    "ok": true,
    "scraped": 90,
    "items": 9,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1599,7 +1599,7 @@
    "ok": true,
    "scraped": 14,
    "items": 2,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1609,7 +1609,7 @@
    "ok": true,
    "scraped": 20,
    "items": 19,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1619,7 +1619,7 @@
    "ok": true,
    "scraped": 11,
    "items": 11,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1629,7 +1629,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1639,7 +1639,7 @@
    "ok": true,
    "scraped": 20,
    "items": 26,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1649,7 +1649,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   },
   {
@@ -1659,7 +1659,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-02T12:13:44-04:00",
+   "checked_at": "2026-10-02T17:16:49-04:00",
    "error": null
   }
  ]
