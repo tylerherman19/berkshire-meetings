@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T12:22:35-04:00",
+ "updated": "2026-10-03T10:51:30-04:00",
  "meetings": [
   {
    "town": "Egremont",
@@ -3169,7 +3169,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/mcac_revised_agenda_8-18-26_002.pdf",
+   "agenda_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-12",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/municipal-buildings-advisory-committee/agenda/municipal-buildings-advisory-committee-agenda-12"
   },
@@ -3182,7 +3182,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/finance_committee_agenda_-_august_18_2026.pdf",
+   "agenda_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-74",
    "minutes_url": "https://www.townofbecket.org/finance-committee/minutes/finance-committee-minutes-122",
    "source_url": "https://www.townofbecket.org/finance-committee/agenda/finance-committee-agenda-74"
   },
@@ -3208,7 +3208,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/energy_committee_agenda_august_18_2026.pdf",
+   "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-76",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-76"
   },
@@ -3523,84 +3523,6 @@
    "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/boh_public_agenda_amended_090226.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-84"
-  },
-  {
-   "town": "Egremont",
-   "board": "Planning Board",
-   "title": "Planning Board Regular Meeting (PDF)",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_09022026-1983",
-   "minutes_url": null,
-   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "New Marlborough",
-   "board": "Designer Selection/Design Review Committee",
-   "title": "Designer Selection Review Committee Meeting Agenda",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09022026-481",
-   "minutes_url": null,
-   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "New Marlborough",
-   "board": "Select Board",
-   "title": "Select Board Meeting Agenda 6PM",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09022026-483",
-   "minutes_url": null,
-   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "New Marlborough",
-   "board": "Select Board",
-   "title": "Select Board Meeting Agenda 7PM",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09022026-484",
-   "minutes_url": null,
-   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Tyringham",
-   "board": "Planning Board",
-   "title": "Planning Board Hearing 9.2.2026",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09022026-88",
-   "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Tyringham",
-   "board": "Planning Board",
-   "title": "Planning Board Meeting 9.2.2026",
-   "date": "2026-09-02",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.tyringham-ma.gov/AgendaCenter/ViewFile/Agenda/_09022026-89",
-   "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Becket",
@@ -4055,7 +3977,7 @@
    "location": null,
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-91626",
    "minutes_url": null,
-   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
+   "source_url": "https://www.sheffieldma.gov/node/28/agenda"
   },
   {
    "town": "Tyringham",
@@ -4331,19 +4253,6 @@
    "source_url": "https://www.montereyma.gov/parks-commission/events/46126"
   },
   {
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-09-28",
-   "start": "14:00",
-   "end": "15:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
-  },
-  {
    "town": "Becket",
    "board": "Community Preservation Committee",
    "title": "Community Preservation Committee Agenda",
@@ -4357,19 +4266,6 @@
    "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-13"
   },
   {
-   "town": "Sandisfield",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-09-28",
-   "start": "18:00",
-   "end": "18:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/select-board/events/45026"
-  },
-  {
    "town": "Egremont",
    "board": "Planning Board",
    "title": "Planning Board Regular Meeting (PDF)",
@@ -4381,19 +4277,6 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_09282026-2005",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Home",
-   "title": "Recreation Committee",
-   "date": "2026-09-29",
-   "start": "11:00",
-   "end": "11:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/home/events/44996"
   },
   {
    "town": "Becket",
@@ -4497,20 +4380,7 @@
    "location": null,
    "agenda_url": "https://www.sheffieldma.gov/strategic-planning-committee/files/open-space-recreation-plan-committee-agenda-92926",
    "minutes_url": null,
-   "source_url": "https://www.sheffieldma.gov/node/27/agenda"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-09-30",
-   "start": "11:00",
-   "end": "11:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43696"
+   "source_url": "https://www.sheffieldma.gov/node/28/agenda"
   },
   {
    "town": "Monterey",
@@ -4578,19 +4448,6 @@
    "source_url": "https://www.montereyma.gov/police-department/events/41996"
   },
   {
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-10-01",
-   "start": "11:00",
-   "end": "11:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
-  },
-  {
    "town": "Monterey",
    "board": "Town Administrator",
    "title": "Town Administrator Meeting",
@@ -4602,19 +4459,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/town-administrator/events/46181"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-10-01",
-   "start": "19:00",
-   "end": "20:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
   },
   {
    "town": "Egremont",
@@ -4679,7 +4523,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=502&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=502&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Monterey",
@@ -4705,7 +4549,7 @@
    "location": "Flu & Covid Clinic located at Housy Dome 1064 Main St Housatonic Flu & Covid Clinic 2026-10-05T14:00:00 Flu & Covid Clinic located at Housy Dome 1064 Main St Housatonic Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1861&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1861&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -4744,7 +4588,7 @@
    "location": "In person meeting located at Wheeler Farmstead 817 South Main Street Great Barrington Click here to view the Meeting Materials (PDF) Great Barrington Historical Commission 2026-10-05T17:00:00 In person meeting located at Wheeler Farmstead 817 South Main Street Great Barrington Click here to view the Meeting Materials (PDF) Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Historic-District-Commission-34/#_10052026-2591",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1952&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1952&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -4754,18 +4598,18 @@
    "start": "17:00",
    "end": null,
    "all_day": false,
-   "location": "Hybrid meeting in person at 334 Main Street, Great Barrington and via Zoom at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Selectboard meeting 2026-10-05T17:00:00 Hybrid meeting in person at 334 Main Street, Great Barrington and via Zoom at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Great Barrington MA 01230",
+   "location": "Hybrid meeting in person at 334 Main Street, Great Barrington and via Zoom at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Click here to view the Meeting Materials (PDF) Click here to view Agenda Item 6.c.i. GB/CPC/AHT Review Memo Selectboard meeting 2026-10-05T17:00:00 Hybrid meeting in person at 334 Main Street, Great Barrington and via Zoom at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Click here to view the Meeting Materials (PDF) Click here to view Agenda Item 6.c.i. GB/CPC/AHT Review Memo Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_10052026-2593",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1136&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1136&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Sandisfield",
-   "board": "Select Board",
+   "board": "Select Board Meeting",
    "title": "Select Board Meeting",
    "date": "2026-10-05",
    "start": "18:30",
-   "end": "18:30",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
@@ -4788,13 +4632,13 @@
   {
    "town": "New Marlborough",
    "board": "Select Board",
-   "title": "Select Board Meeting Agenda",
+   "title": "Board of Selectmen Meeting Agenda",
    "date": "2026-10-05",
    "start": null,
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_10052026-506?html=true",
+   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_10052026-508",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
@@ -4809,7 +4653,20 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=554&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=554&month=10&year=2026&day=3&calType=0"
+  },
+  {
+   "town": "Great Barrington",
+   "board": "Selectboard Meeting with Executive Session",
+   "title": "Selectboard Meeting with Executive Session",
+   "date": "2026-10-06",
+   "start": "15:30",
+   "end": null,
+   "all_day": false,
+   "location": "Remote meeting via Zoom only at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Selectboard Meeting with Executive Session 2026-10-06T15:30:00 Remote meeting via Zoom only at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Great Barrington MA 01230",
+   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_10062026-2595",
+   "minutes_url": null,
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1953&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -4822,7 +4679,7 @@
    "location": "In person meeting located at Fire District Office 17 East Street Great Barrington, MA Great Barrington Fire District Prudential Committee 2026-10-06T16:30:00 In person meeting located at Fire District Office 17 East Street Great Barrington, MA Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Great-Barrington-Fire-District-Prudentia-39/#_10062026-2587",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1948&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1948&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Becket",
@@ -4851,6 +4708,19 @@
    "source_url": "https://www.montereyma.gov/housing-committee/events/46156"
   },
   {
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-06",
+   "start": "18:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/select-board/events/46221"
+  },
+  {
    "town": "Great Barrington",
    "board": "Tree Committee",
    "title": "Tree Committee",
@@ -4861,7 +4731,7 @@
    "location": "Mason Library, History Room 231 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/86499963782 Webinar ID: 864 9996 3782 Phone call: (646) 931 3860 Tree Committee 2026-10-07T17:00:00 Mason Library, History Room 231 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/86499963782 Webinar ID: 864 9996 3782 Phone call: (646) 931 3860 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Tree-Committee-28/#_10072026-2590",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1951&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1951&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Becket",
@@ -4929,6 +4799,19 @@
    "source_url": "https://www.townofbecket.org/board-health/agenda/joint-board-health-planning-board-zoning-board-appeals"
   },
   {
+   "town": "Great Barrington",
+   "board": "BERKSHIRE HILLS REGIONAL SCHOOL DISTRICT School Committee - Budget Planning Working Group Meeting",
+   "title": "BERKSHIRE HILLS REGIONAL SCHOOL DISTRICT School Committee - Budget Planning Working Group Meeting",
+   "date": "2026-10-08",
+   "start": "16:45",
+   "end": null,
+   "all_day": false,
+   "location": "In person meeting located at Conference Room A at WEB DuBois Regional Middle School, 313 Monument Valley Road Great Barrington BERKSHIRE HILLS REGIONAL SCHOOL DISTRICT School Committee - Budget Planning Working Group Meeting 2026-10-08T16:45:00 In person meeting located at Conference Room A at WEB DuBois Regional Middle School, 313 Monument Valley Road Great Barrington Great Barrington MA 01230",
+   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Hills-Regional-School-District-38/#_10082026-2596",
+   "minutes_url": null,
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1954&month=10&year=2026&day=3&calType=0"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -4943,24 +4826,24 @@
   },
   {
    "town": "Sandisfield",
-   "board": "Board Health",
+   "board": "SBPHC Monthly Meeting",
    "title": "SBPHC Monthly Meeting",
    "date": "2026-10-09",
    "start": "09:00",
-   "end": "10:30",
+   "end": null,
    "all_day": false,
-   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
+   "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/39646"
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39706"
   },
   {
    "town": "Sandisfield",
-   "board": "Board Health",
+   "board": "Flu & Covid Vacination Clinic at Old Town Hall",
    "title": "Flu & Covid Vacination Clinic at Old Town Hall",
    "date": "2026-10-09",
    "start": "11:00",
-   "end": "13:00",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
@@ -4978,7 +4861,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=503&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=503&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Alford",
@@ -4991,7 +4874,7 @@
    "location": "@ Town Hall",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=474&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=474&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Alford",
@@ -5004,7 +4887,7 @@
    "location": "@ Town Hall",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=370&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=370&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Monterey",
@@ -5030,7 +4913,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=555&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=555&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -5069,33 +4952,7 @@
    "location": "Flue & Covid Clinic located at Claire Teague Senior Center Flu & Covid Clinic 2026-10-14T13:00:00 Flue & Covid Clinic located at Claire Teague Senior Center Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1859&month=10&year=2026&day=2&calType=0"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-10-14",
-   "start": "17:00",
-   "end": "18:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health Meeting",
-   "date": "2026-10-14",
-   "start": "17:30",
-   "end": "18:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/35101"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1859&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Alford",
@@ -5108,7 +4965,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=486&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=486&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Monterey",
@@ -5147,7 +5004,7 @@
    "location": null,
    "agenda_url": "https://www.tyringham-ma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=460&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=460&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5160,7 +5017,7 @@
    "location": "Hybrid Meeting: Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84776235535 Dial in, audio only: +1 929 205 6099 Webinar ID: 847 7623 5535 Historic District Commission 2026-10-15T17:00:00 Hybrid Meeting: Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84776235535 Dial in, audio only: +1 929 205 6099 Webinar ID: 847 7623 5535 Town Hall Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1257&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1257&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5173,7 +5030,7 @@
    "location": "In Person: Department of Veterans\u2019 Service Office 491 Main Street, Great Barrington MA 01230 Via Zoom: https://us06web.zoom.us/j/81638103512?pwd=G8QlWusn0LTyrp29USi1bosJ1o3ZyY.1 Meeting ID: 816 3810 3512 Passcode: 377783 One tap mobile +16465588656,,81638103512#,,,,*377783# Southern Berkshire District Department of Veterans\u2019 Services (DDVS) 2026-10-15T18:00:00 In Person: Department of Veterans\u2019 Service Office 491 Main Street, Great Barrington MA 01230 Via Zoom: https://us06web.zoom.us/j/81638103512?pwd=G8QlWusn0LTyrp29USi1bosJ1o3ZyY.1 Meeting ID: 816 3810 3512 Passcode: 377783 One tap mobile +16465588656,,81638103512#,,,,*377783# :Department of Veterans\u2019 Service Office Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Southern-Berkshire-District-Department-o-55/#_10152026-2589",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1950&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1950&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Egremont",
@@ -5225,7 +5082,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=504&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=504&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -5264,7 +5121,7 @@
    "location": "@ Town Hall",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=629&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=629&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5277,7 +5134,7 @@
    "location": null,
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1911&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1911&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Monterey",
@@ -5316,7 +5173,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=556&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=556&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -5333,16 +5190,16 @@
   },
   {
    "town": "Sandisfield",
-   "board": "Conservation Commission",
+   "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
    "date": "2026-10-20",
    "start": "19:00",
-   "end": "19:00",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40796"
   },
   {
    "town": "Great Barrington",
@@ -5355,7 +5212,7 @@
    "location": "Flu & Covid Clinic located at W.E.B. Dubois Middle School 313 Monument Vally Rd. Great Barrington Flu & Covid Clinic 2026-10-21T15:00:00 Flu & Covid Clinic located at W.E.B. Dubois Middle School 313 Monument Vally Rd. Great Barrington Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1860&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1860&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Alford",
@@ -5368,7 +5225,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=619&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=619&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -5420,7 +5277,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=505&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=505&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -5446,7 +5303,7 @@
    "location": null,
    "agenda_url": "https://www.tyringham-ma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=458&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=458&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Alford",
@@ -5459,7 +5316,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=630&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=630&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Monterey",
@@ -5489,16 +5346,16 @@
   },
   {
    "town": "Sandisfield",
-   "board": "Library",
+   "board": "Library Board of Trustees Meeting",
    "title": "Library Board of Trustees Meeting",
    "date": "2026-10-26",
    "start": "14:00",
-   "end": "15:30",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
+   "source_url": "https://www.sandisfieldma.gov/library/events/39346"
   },
   {
    "town": "Monterey",
@@ -5524,7 +5381,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=422&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=422&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5537,7 +5394,7 @@
    "location": null,
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1137&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1137&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Alford",
@@ -5550,7 +5407,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=557&month=10&year=2026&day=2&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=557&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Monterey",
@@ -5589,20 +5446,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=506&month=10&year=2026&day=2&calType=0"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-01",
-   "start": "19:00",
-   "end": "20:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=506&month=10&year=2026&day=3&calType=0"
   },
   {
    "town": "Otis",
@@ -5671,24 +5515,24 @@
   },
   {
    "town": "Sandisfield",
-   "board": "Council Aging",
+   "board": "Council on Aging Meeting",
    "title": "Council on Aging Meeting",
    "date": "2026-11-05",
    "start": "11:00",
-   "end": "11:00",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43701"
   },
   {
    "town": "Sandisfield",
-   "board": "Cultural Council",
+   "board": "Cultural Council Meeting November 10, 2026",
    "title": "Cultural Council Meeting November 10, 2026",
    "date": "2026-11-10",
    "start": "18:00",
-   "end": "19:30",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
@@ -5697,16 +5541,16 @@
   },
   {
    "town": "Sandisfield",
-   "board": "Board Health",
+   "board": "Board of Health",
    "title": "Board of Health",
    "date": "2026-11-11",
    "start": "17:00",
-   "end": "18:00",
+   "end": null,
    "all_day": false,
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39766"
   },
   {
    "town": "Monterey",
@@ -5748,32 +5592,6 @@
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-11-13",
-   "start": "09:00",
-   "end": "10:30",
-   "all_day": false,
-   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/39656"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-17",
-   "start": "19:00",
-   "end": "19:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
-  },
-  {
    "town": "Otis",
    "board": "Cultural Council",
    "title": "Cultural Council Meeting",
@@ -5785,19 +5603,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-11-23",
-   "start": "14:00",
-   "end": "15:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
   },
   {
    "town": "Monterey",
@@ -5826,19 +5631,6 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/43091"
   },
   {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-12-01",
-   "start": "19:00",
-   "end": "20:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
-  },
-  {
    "town": "Monterey",
    "board": "Police Department",
    "title": "Breakfast with the Monterey Police",
@@ -5865,19 +5657,6 @@
    "source_url": "https://www.montereyma.gov/police-department/events/41996"
   },
   {
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-12-03",
-   "start": "11:00",
-   "end": "11:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
-  },
-  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -5891,19 +5670,6 @@
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-12-09",
-   "start": "17:00",
-   "end": "18:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
-  },
-  {
    "town": "Monterey",
    "board": "Housing Committee",
    "title": "Housing Committee Meeting",
@@ -5915,32 +5681,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-12-11",
-   "start": "09:00",
-   "end": "10:30",
-   "all_day": false,
-   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/39661"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-12-15",
-   "start": "19:00",
-   "end": "19:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
    "town": "BHRSD",
@@ -5982,32 +5722,6 @@
    "source_url": "https://www.montereyma.gov/town-administrator/events/43096"
   },
   {
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-12-28",
-   "start": "14:00",
-   "end": "15:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-01-01",
-   "start": "19:00",
-   "end": "20:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/39246"
-  },
-  {
    "town": "Monterey",
    "board": "Police Department",
    "title": "Breakfast with the Monterey Police",
@@ -6034,45 +5748,6 @@
    "source_url": "https://www.montereyma.gov/police-department/events/41996"
   },
   {
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2027-01-07",
-   "start": "11:00",
-   "end": "11:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43671"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2027-01-08",
-   "start": "09:00",
-   "end": "10:30",
-   "all_day": false,
-   "location": "Stockbridge Town Hall 50 Main St, Community Room, 1st Floor Hybrid Option Via Zoom Stockbridge, MA 01262 United States",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/39666"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2027-01-13",
-   "start": "17:00",
-   "end": "18:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-health/events/40206"
-  },
-  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -6084,32 +5759,6 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-01-19",
-   "start": "19:00",
-   "end": "19:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2027-01-25",
-   "start": "14:00",
-   "end": "15:30",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/library/events/38636"
   },
   {
    "town": "BHRSD",
@@ -6178,91 +5827,91 @@
   }
  ],
  "towns": {
-  "Egremont": 87,
+  "Egremont": 86,
   "Otis": 78,
   "Becket": 114,
-  "New Marlborough": 77,
+  "New Marlborough": 74,
   "BHRSD": 15,
-  "Tyringham": 10,
   "SBRSD": 5,
+  "Tyringham": 8,
   "Sheffield": 2,
-  "Monterey": 28,
-  "Sandisfield": 32,
+  "Monterey": 29,
   "Alford": 16,
-  "Great Barrington": 11
+  "Great Barrington": 13,
+  "Sandisfield": 8
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
-   "meetings": 32,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "meetings": 8,
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
-   "meetings": 28,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "meetings": 29,
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
-   "meetings": 11,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "meetings": 13,
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
-   "meetings": 87,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "meetings": 86,
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
-   "meetings": 77,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "meetings": 74,
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 2,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 16,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
    "meetings": 78,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
-   "meetings": 10,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "meetings": 8,
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "Becket": {
    "ok": true,
    "meetings": 114,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 15,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 5,
-   "checked_at": "2026-10-02T12:22:35-04:00",
+   "checked_at": "2026-10-03T10:51:30-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
