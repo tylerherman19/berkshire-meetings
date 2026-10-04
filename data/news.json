@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T18:06:22-04:00",
+ "updated": "2026-10-03T20:34:23-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1581,7 +1581,7 @@
    "ok": true,
    "scraped": 25,
    "items": 27,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   },
   {
@@ -1591,7 +1591,7 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1601,7 +1601,7 @@
    "ok": true,
    "scraped": 10,
    "items": 27,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   },
   {
@@ -1611,18 +1611,18 @@
    "ok": true,
    "scraped": 90,
    "items": 9,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 14,
+   "ok": false,
+   "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-03T18:06:22-04:00",
-   "error": null
+   "checked_at": "2026-10-03T20:34:23-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -1631,7 +1631,7 @@
    "ok": false,
    "scraped": 0,
    "items": 19,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -1641,7 +1641,7 @@
    "ok": true,
    "scraped": 11,
    "items": 11,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   },
   {
@@ -1651,18 +1651,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 26,
-   "checked_at": "2026-10-03T18:06:22-04:00",
-   "error": null
+   "checked_at": "2026-10-03T20:34:23-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -1671,7 +1671,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   },
   {
@@ -1681,7 +1681,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-03T18:06:22-04:00",
+   "checked_at": "2026-10-03T20:34:23-04:00",
    "error": null
   }
  ]
