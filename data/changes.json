@@ -1,86 +1,95 @@
 {
- "updated": "2026-10-04T11:52:58-04:00",
+ "updated": "2026-10-05T15:57:34-04:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-10-04T11:52:58-04:00",
+   "at": "2026-10-05T15:57:34-04:00",
    "town": "Sandisfield",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-10-05",
-   "start": "18:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-04T11:52:58-04:00",
-   "town": "Sandisfield",
-   "board": "SBPHC Monthly Meeting",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-10-09",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-04T11:52:58-04:00",
-   "town": "Sandisfield",
-   "board": "Flu & Covid Vacination Clinic at Old Town Hall",
-   "title": "Flu & Covid Vacination Clinic at Old Town Hall",
-   "date": "2026-10-09",
+   "board": "Council on Aging Meeting",
+   "title": "Council on Aging Meeting",
+   "date": "2026-11-05",
    "start": "11:00"
   },
   {
    "type": "removed",
-   "at": "2026-10-04T11:52:58-04:00",
+   "at": "2026-10-05T15:57:34-04:00",
    "town": "Sandisfield",
-   "board": "Board of Health",
-   "title": "Board of Health",
-   "date": "2026-11-11",
-   "start": "17:00"
+   "board": "Cultural Council Meeting November 10, 2026",
+   "title": "Cultural Council Meeting November 10, 2026",
+   "date": "2026-11-10",
+   "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-04T11:52:58-04:00",
-   "town": "Egremont",
-   "board": "Board of Health",
-   "title": "Board of Health Regular Meeting (PDF)",
-   "date": "2026-10-08",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-10-04T11:52:58-04:00",
-   "town": "Egremont",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Regular Meeting (PDF)",
-   "date": "2026-10-08",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-10-04T11:52:58-04:00",
-   "town": "Egremont",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Special Meeting (PDF)",
-   "date": "2026-10-14",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-10-04T11:52:58-04:00",
-   "town": "Egremont",
-   "board": "Planning Board",
-   "title": "Planning Board Regular Meeting (PDF)",
-   "date": "2026-10-16",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-10-04T11:52:58-04:00",
+   "type": "removed",
+   "at": "2026-10-05T15:57:34-04:00",
    "town": "Sandisfield",
    "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
    "date": "2026-11-17",
    "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Joint Meeting with Select Board and Housing Committee 10/06/26",
+   "date": "2026-10-06",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "Egremont",
+   "board": "Water Commission",
+   "title": "Water Commission regular meeting (PDF)",
+   "date": "2026-10-07",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "SBRSD",
+   "board": "Policy Subcommittee",
+   "title": "SBRSD School Committee Policy Sub-Committee Meeting (PDF)",
+   "date": "2026-10-07",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "Great Barrington",
+   "board": "Berkshire Hills Regional School District - School Committee",
+   "title": "Berkshire Hills Regional School District - School Committee",
+   "date": "2026-10-08",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "Great Barrington",
+   "board": "Planning Board",
+   "title": "Planning Board",
+   "date": "2026-10-08",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "SBRSD",
+   "board": "School Committee",
+   "title": "SBRSD School Committee Workshop Meeting (PDF)",
+   "date": "2026-10-08",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-05T15:57:34-04:00",
+   "town": "Egremont",
+   "board": "Select Board",
+   "title": "Screening Committee for New Applicants (PDF)",
+   "date": "2026-10-09",
+   "start": ""
   }
  ]
 }
