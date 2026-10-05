@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T21:51:36-04:00",
+ "updated": "2026-10-05T15:14:01-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,50 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Indigenous Peoples\u2019 Day Reminder - Town Offices Closed Monday, October 12, 2026",
+   "summary": "Indigenous Peoples\u2019 Day Reminder | Town Offices Closed As we head into the holiday weekend, a friendly reminder that Great Barrington\u2019s non-emergency Town offices and services will be closed on Monday, October 12, 2026, in observance of Indigenous Peoples\u2019 Day. Regular Town office hours and services will resume on\u2026",
+   "posted": "2026-10-05T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/225",
+   "first_seen": "2026-10-05T15:14:01-04:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Upcoming Road Construction/Road Closure",
+   "summary": "Road Construction Monday, October 5 Evening/overnight line painting throughout town ----------------------------------------------------------------------------------------------------------------------------------------------------------------- Tuesday, October 6 through Thursday, October 8 ROAD CLOSURE-Hartsville\u2026",
+   "posted": "2026-10-05T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/129",
+   "first_seen": "2026-10-05T15:14:01-04:00"
+  },
+  {
+   "town": "Otis",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "AMVets pausing can and bottle collection at the Transfer Station Jan1-May1",
+   "summary": "The AmVets will be pausing their bottle and can collection at the Transfer Station from January1 through May 1. Bottles and cans during this time period should be put in the recycle container at the Transfer Station.",
+   "posted": "2026-10-05T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R109.php",
+   "first_seen": "2026-10-05T15:14:01-04:00"
+  },
+  {
+   "town": "Otis",
+   "category": "General",
+   "topic": null,
+   "headline": "Join us for some Holiday Magic 12/05/2026- Gingerbread House Decorating, Santa, Cider Donuts, Cocoa, Music, and More. Annual Tree Lighting event.",
+   "summary": null,
+   "posted": "2026-10-05T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R110.php",
+   "first_seen": "2026-10-05T15:14:01-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -1547,29 +1591,18 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/farmers-market-vouchers-eligible-seniors",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "New Marlborough",
-   "category": "Road closures",
-   "topic": null,
-   "headline": "Norfolk Road Construction Wednesday",
-   "summary": "NOTICE OF ROAD CONSTRUTION NORFOLK ROAD There will be paving on Norfolk Road on Wednesday, July 8. The road will remain open, but motorists should expect delays and consider alternate routes. Thank you for your patience.",
-   "posted": "2026-07-07T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/108",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
+  "Great Barrington": 28,
+  "New Marlborough": 9,
+  "Otis": 13,
   "Egremont": 27,
-  "Great Barrington": 27,
   "Becket": 26,
   "Sheffield": 2,
   "Sandisfield": 19,
   "BHRSD": 11,
-  "New Marlborough": 9,
   "Monterey": 2,
-  "Otis": 11,
   "Alford": 4,
   "Tyringham": 3
  },
@@ -1579,9 +1612,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 25,
-   "items": 27,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "scraped": 26,
+   "items": 28,
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1591,7 +1624,7 @@
    "ok": true,
    "scraped": 12,
    "items": 2,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1601,7 +1634,7 @@
    "ok": true,
    "scraped": 10,
    "items": 27,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1609,9 +1642,9 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 90,
+   "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1621,27 +1654,27 @@
    "ok": true,
    "scraped": 14,
    "items": 2,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 19,
-   "checked_at": "2026-10-04T21:51:36-04:00",
-   "error": null
+   "checked_at": "2026-10-05T15:14:01-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 11,
-   "items": 11,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "scraped": 13,
+   "items": 13,
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1651,7 +1684,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1661,7 +1694,7 @@
    "ok": true,
    "scraped": 20,
    "items": 26,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1671,7 +1704,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   },
   {
@@ -1681,7 +1714,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-04T21:51:36-04:00",
+   "checked_at": "2026-10-05T15:14:01-04:00",
    "error": null
   }
  ]
