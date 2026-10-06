@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T12:41:43-04:00",
+ "updated": "2026-10-06T17:35:08-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Community Preservation Committee",
+   "headline": "Have an Idea for Egremont? Learn About CPA Funding on October 14",
+   "summary": "Could your idea help create affordable housing, preserve local history, protect open space, or improve recreation? Join Egremont\u2019s Community Preservation Committee for an informational session on Wednesday, October 14, 2026, at 7 p.m., at Town Hall or via Zoom . Learn which projects are eligible for Community\u2026",
+   "posted": "2026-10-06T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/805",
+   "first_seen": "2026-10-06T17:35:08-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -1616,11 +1627,11 @@
   }
  ],
  "towns": {
+  "Egremont": 28,
   "Great Barrington": 29,
   "Sandisfield": 20,
   "New Marlborough": 9,
   "Otis": 13,
-  "Egremont": 27,
   "Becket": 26,
   "Sheffield": 2,
   "BHRSD": 11,
@@ -1636,7 +1647,7 @@
    "ok": true,
    "scraped": 27,
    "items": 29,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   },
   {
@@ -1646,7 +1657,7 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1654,9 +1665,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 10,
-   "items": 27,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "scraped": 11,
+   "items": 28,
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   },
   {
@@ -1666,7 +1677,7 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   },
   {
@@ -1676,18 +1687,18 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 20,
-   "checked_at": "2026-10-06T12:41:43-04:00",
-   "error": null
+   "checked_at": "2026-10-06T17:35:08-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -1696,7 +1707,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   },
   {
@@ -1706,7 +1717,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   },
   {
@@ -1716,7 +1727,7 @@
    "ok": false,
    "scraped": 0,
    "items": 26,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -1726,7 +1737,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   },
   {
@@ -1736,7 +1747,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-06T12:41:43-04:00",
+   "checked_at": "2026-10-06T17:35:08-04:00",
    "error": null
   }
  ]
