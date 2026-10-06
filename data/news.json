@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T21:16:14-04:00",
+ "updated": "2026-10-06T12:41:43-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Hall and Mason Library Delayed Opening \u2013 Wednesday October 7, 2026",
+   "summary": "Please be advised that Town Hall and Mason Library will open at 11:00 AM on Wednesday, October 7, 2026, to allow Town employees to participate in municipal ethics and legal training with Town Counsel. The training will focus on Massachusetts\u2026",
+   "posted": "2026-10-06T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/226",
+   "first_seen": "2026-10-06T12:41:43-04:00"
+  },
   {
    "town": "Sandisfield",
    "category": "General",
@@ -1605,8 +1616,8 @@
   }
  ],
  "towns": {
+  "Great Barrington": 29,
   "Sandisfield": 20,
-  "Great Barrington": 28,
   "New Marlborough": 9,
   "Otis": 13,
   "Egremont": 27,
@@ -1623,9 +1634,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 26,
-   "items": 28,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "scraped": 27,
+   "items": 29,
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1635,7 +1646,7 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1645,7 +1656,7 @@
    "ok": true,
    "scraped": 10,
    "items": 27,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1655,7 +1666,7 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1665,7 +1676,7 @@
    "ok": false,
    "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -1675,7 +1686,7 @@
    "ok": true,
    "scraped": 20,
    "items": 20,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1685,7 +1696,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1695,7 +1706,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1705,7 +1716,7 @@
    "ok": false,
    "scraped": 0,
    "items": 26,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -1715,7 +1726,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   },
   {
@@ -1725,7 +1736,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-05T21:16:14-04:00",
+   "checked_at": "2026-10-06T12:41:43-04:00",
    "error": null
   }
  ]
