@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T15:14:01-04:00",
+ "updated": "2026-10-05T21:16:14-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Household Hazardous Waste Collection",
+   "summary": "Household Hazardous Waste Day is currently scheduled for: October 24, 2026 Time 9 am to 1 pm Location:",
+   "posted": "2026-10-05T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/household-hazardous-waste-collection-0",
+   "first_seen": "2026-10-05T21:16:14-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -1594,13 +1605,13 @@
   }
  ],
  "towns": {
+  "Sandisfield": 20,
   "Great Barrington": 28,
   "New Marlborough": 9,
   "Otis": 13,
   "Egremont": 27,
   "Becket": 26,
   "Sheffield": 2,
-  "Sandisfield": 19,
   "BHRSD": 11,
   "Monterey": 2,
   "Alford": 4,
@@ -1614,18 +1625,18 @@
    "ok": true,
    "scraped": 26,
    "items": 28,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 12,
+   "ok": false,
+   "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-05T15:14:01-04:00",
-   "error": null
+   "checked_at": "2026-10-05T21:16:14-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -1634,7 +1645,7 @@
    "ok": true,
    "scraped": 10,
    "items": 27,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   },
   {
@@ -1644,28 +1655,28 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 14,
+   "ok": false,
+   "scraped": 0,
    "items": 2,
-   "checked_at": "2026-10-05T15:14:01-04:00",
-   "error": null
+   "checked_at": "2026-10-05T21:16:14-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 19,
-   "checked_at": "2026-10-05T15:14:01-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 20,
+   "checked_at": "2026-10-05T21:16:14-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1674,7 +1685,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   },
   {
@@ -1684,18 +1695,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 26,
-   "checked_at": "2026-10-05T15:14:01-04:00",
-   "error": null
+   "checked_at": "2026-10-05T21:16:14-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -1704,7 +1715,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   },
   {
@@ -1714,7 +1725,7 @@
    "ok": true,
    "scraped": 8,
    "items": 11,
-   "checked_at": "2026-10-05T15:14:01-04:00",
+   "checked_at": "2026-10-05T21:16:14-04:00",
    "error": null
   }
  ]
