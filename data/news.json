@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T13:23:43-04:00",
+ "updated": "2026-10-07T19:00:57-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Early Voting",
+   "summary": "Early In-person Voting will take place in the Town Clerk's Office at Town Hall 66 Sandisfield Road Dates & Times:",
+   "posted": "2026-10-07T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/early-voting",
+   "first_seen": "2026-10-07T19:00:57-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -40,6 +51,39 @@
    "date_only": true,
    "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=91281850",
    "first_seen": "2026-10-07T13:23:43-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Sandisfield Orchard Special Permit Notice of Decision",
+   "summary": "Following a Special Permit Hearing held on September 28, 2026, the Sandisfield Select Board approved the Special Permit for the Sandisfield",
+   "posted": "2026-10-06T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/sandisfield-orchard-special-permit-notice-decision",
+   "first_seen": "2026-10-07T19:00:57-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Fall Clothing Swap at Farmington River Elementary",
+   "summary": "Farmington River School PTA Clothing SwapSunday, October 25, 2026, 11 am \u2013 3 pm Join us for a fun Fall Clothing Swap! Bring gently used",
+   "posted": "2026-10-06T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/fall-clothing-swap-farmington-river-elementary",
+   "first_seen": "2026-10-07T19:00:57-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Hall CLOSED Monday, October 12, 2026 for Columbus Day",
+   "summary": null,
+   "posted": "2026-10-06T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-hall-closed-monday-october-12-2026-columbus-day",
+   "first_seen": "2026-10-07T19:00:57-04:00"
   },
   {
    "town": "Becket",
@@ -1682,11 +1726,11 @@
   }
  ],
  "towns": {
+  "Sandisfield": 24,
   "Great Barrington": 31,
   "BHRSD": 12,
   "Becket": 28,
   "Egremont": 28,
-  "Sandisfield": 20,
   "New Marlborough": 9,
   "Otis": 13,
   "Sheffield": 2,
@@ -1702,7 +1746,7 @@
    "ok": true,
    "scraped": 29,
    "items": 31,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
@@ -1712,18 +1756,18 @@
    "ok": true,
    "scraped": 12,
    "items": 2,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 28,
-   "checked_at": "2026-10-07T13:23:43-04:00",
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.egremont-ma.gov/404.aspx?nid=-404&badlink=/Home/Error?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,"
+   "checked_at": "2026-10-07T19:00:57-04:00",
+   "error": null
   },
   {
    "town": "New Marlborough",
@@ -1732,7 +1776,7 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
@@ -1742,18 +1786,18 @@
    "ok": true,
    "scraped": 14,
    "items": 2,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 20,
-   "checked_at": "2026-10-07T13:23:43-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 24,
+   "checked_at": "2026-10-07T19:00:57-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1762,7 +1806,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
@@ -1772,7 +1816,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
@@ -1782,18 +1826,18 @@
    "ok": true,
    "scraped": 20,
    "items": 28,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-07T13:23:43-04:00",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Read timed out. (read timeout=40)"
+   "checked_at": "2026-10-07T19:00:57-04:00",
+   "error": null
   },
   {
    "town": "BHRSD",
@@ -1802,7 +1846,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-07T13:23:43-04:00",
+   "checked_at": "2026-10-07T19:00:57-04:00",
    "error": null
   }
  ]
