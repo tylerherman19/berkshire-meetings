@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T21:26:28-04:00",
+ "updated": "2026-10-07T13:23:43-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "FLU & COVID-19 VACCINE CLINIC \u2013 OCTOBER 14",
+   "summary": "Public Notice FOR IMMEDIATE RELEASE Great Barrington, MA (October 7, 2026) Flu & COVID-19 Vaccine Clinic \u2013 October 14 The Town of Great Barrington, in partnership with the Southern Berkshire Public Health Collaborative (SBPHC), will host a Flu and COVID-19 Vaccine Clinic on Wednesday, October 14, from 1:00 to 3:00\u2026",
+   "posted": "2026-10-07T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/228",
+   "first_seen": "2026-10-07T13:23:43-04:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Affirms Position on Housatonic Water Works",
+   "summary": "At the Great Barrington Fire District meeting Tuesday evening, Selectboard Chair Steve Bannon outlined the Town\u2019s position regarding the ongoing Housatonic Water Works situation and reaffirmed the Town\u2019s commitment to working alongside the Fire District, residents, and\u2026",
+   "posted": "2026-10-07T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/227",
+   "first_seen": "2026-10-07T13:23:43-04:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "BHRSD District Newsletter 10.07.2026",
+   "summary": "BHRSD News + Notes October 7, 2026 Dear BHRSD Community, Student safety, at drop-off and pick-up, is of utmost importance. While these times of day can feel a bit like the Indy 500, please remember...",
+   "posted": "2026-10-07T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=91281850",
+   "first_seen": "2026-10-07T13:23:43-04:00"
+  },
   {
    "town": "Becket",
    "category": "General",
@@ -1649,14 +1682,14 @@
   }
  ],
  "towns": {
+  "Great Barrington": 31,
+  "BHRSD": 12,
   "Becket": 28,
   "Egremont": 28,
-  "Great Barrington": 29,
   "Sandisfield": 20,
   "New Marlborough": 9,
   "Otis": 13,
   "Sheffield": 2,
-  "BHRSD": 11,
   "Monterey": 2,
   "Alford": 4,
   "Tyringham": 3
@@ -1667,30 +1700,30 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 27,
-   "items": 29,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "scraped": 29,
+   "items": 31,
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 12,
    "items": 2,
-   "checked_at": "2026-10-06T21:26:28-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-07T13:23:43-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": true,
-   "scraped": 11,
+   "ok": false,
+   "scraped": 0,
    "items": 28,
-   "checked_at": "2026-10-06T21:26:28-04:00",
-   "error": null
+   "checked_at": "2026-10-07T13:23:43-04:00",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.egremont-ma.gov/404.aspx?nid=-404&badlink=/Home/Error?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,"
   },
   {
    "town": "New Marlborough",
@@ -1699,18 +1732,18 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 14,
    "items": 2,
-   "checked_at": "2026-10-06T21:26:28-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-07T13:23:43-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -1719,7 +1752,7 @@
    "ok": false,
    "scraped": 0,
    "items": 20,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -1729,7 +1762,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": null
   },
   {
@@ -1739,7 +1772,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": null
   },
   {
@@ -1749,18 +1782,18 @@
    "ok": true,
    "scraped": 20,
    "items": 28,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": null
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": true,
-   "scraped": 3,
+   "ok": false,
+   "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-06T21:26:28-04:00",
-   "error": null
+   "checked_at": "2026-10-07T13:23:43-04:00",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Read timed out. (read timeout=40)"
   },
   {
    "town": "BHRSD",
@@ -1768,8 +1801,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 11,
-   "checked_at": "2026-10-06T21:26:28-04:00",
+   "items": 12,
+   "checked_at": "2026-10-07T13:23:43-04:00",
    "error": null
   }
  ]
