@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T11:50:39-04:00",
+ "updated": "2026-10-10T16:00:13-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Town Clerk",
+   "headline": "Early Voting Begins October 17 for November 3 Election",
+   "summary": "Egremont residents can vote early in person for the November 3, 2026, General Election beginning Saturday, October 17, through Friday, October 30. Early voting will take place at Egremont Town Hall, 171 Egremont Plain Road, North Egremont. Voter Registration Deadline: The last day to register to vote for the November\u2026",
+   "posted": "2026-10-10T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/808",
+   "first_seen": "2026-10-10T16:00:13-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": null,
+   "headline": "Exploring Financing Options for an Accessory Dwelling Unit (ADU)?",
+   "summary": "Thinking about building an accessory dwelling unit (ADU) but wondering how to pay for it? At its recent ADU 101: Building Possibilities workshop, Greylock Federal Credit Union outlined three financing options available to help homeowners cover ADU construction costs: MassHousing ADU Financing: A program offering\u2026",
+   "posted": "2026-10-10T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/807",
+   "first_seen": "2026-10-10T16:00:13-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Board of Health",
+   "headline": "Massachusetts Announces New Winter Energy Bill Relief for Residents",
+   "summary": "With winter approaching and heating costs rising, Governor Maura Healey has announced nearly $150 million in energy bill relief to help Massachusetts households manage heating and electricity expenses during the 2026\u20132027 winter season. The relief package includes several programs that may benefit Egremont residents\u2026",
+   "posted": "2026-10-10T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/806",
+   "first_seen": "2026-10-10T16:00:13-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Meeting notices",
@@ -29,6 +62,17 @@
    "date_only": true,
    "url": "https://www.montereyma.gov/home/news/household-hazardous-waste-day-1",
    "first_seen": "2026-10-09T12:57:15-04:00"
+  },
+  {
+   "town": "Sheffield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Help reduce Election Day congestion\u2026consider VOTING EARLY!",
+   "summary": "Sheffield voters, this year\u2019s ballot is a BIG",
+   "posted": "2026-10-08T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sheffieldma.gov/home/news/help-reduce-election-day-congestion%E2%80%A6consider-voting-early",
+   "first_seen": "2026-10-10T16:00:13-04:00"
   },
   {
    "town": "Sandisfield",
@@ -1748,15 +1792,15 @@
   }
  ],
  "towns": {
+  "Egremont": 31,
   "Great Barrington": 32,
   "Monterey": 3,
+  "Sheffield": 3,
   "Sandisfield": 24,
   "BHRSD": 12,
   "Becket": 28,
-  "Egremont": 28,
   "New Marlborough": 9,
   "Otis": 13,
-  "Sheffield": 2,
   "Alford": 4,
   "Tyringham": 3
  },
@@ -1768,27 +1812,27 @@
    "ok": true,
    "scraped": 29,
    "items": 32,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 2,
-   "checked_at": "2026-10-10T11:50:39-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "ok": true,
+   "scraped": 13,
+   "items": 3,
+   "checked_at": "2026-10-10T16:00:13-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
-   "items": 28,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "scraped": 9,
+   "items": 31,
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
@@ -1798,7 +1842,7 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
@@ -1808,18 +1852,18 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 24,
-   "checked_at": "2026-10-10T11:50:39-04:00",
-   "error": null
+   "checked_at": "2026-10-10T16:00:13-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -1828,7 +1872,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
@@ -1838,7 +1882,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
@@ -1848,7 +1892,7 @@
    "ok": true,
    "scraped": 20,
    "items": 28,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
@@ -1858,7 +1902,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   },
   {
@@ -1868,7 +1912,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-10T11:50:39-04:00",
+   "checked_at": "2026-10-10T16:00:13-04:00",
    "error": null
   }
  ]
