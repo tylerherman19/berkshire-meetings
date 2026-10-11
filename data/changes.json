@@ -1,261 +1,36 @@
 {
- "updated": "2026-10-10T11:49:37-04:00",
+ "updated": "2026-10-11T13:44:11-04:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Columbus Day",
+   "date": "2026-10-12",
+   "start": ""
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Becket",
+   "board": "Parks & Recreation Committee",
+   "title": "Parks & Recreation Committee Agenda",
    "date": "2026-10-13",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-10-14",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health Meeting",
-   "date": "2026-10-14",
-   "start": "17:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-10-20",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-10-26",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-11-05",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Cultural Council",
-   "title": "Cultural Council Meeting November 10, 2026",
-   "date": "2026-11-10",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-11-11",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-11-13",
    "start": "09:00"
   },
   {
    "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-17",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-11-23",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-12-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-12-03",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2026-12-09",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2026-12-11",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-12-15",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-12-28",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-01-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2027-01-07",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "SBPHC Monthly Meeting",
-   "date": "2027-01-08",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Board Health",
-   "title": "Board of Health",
-   "date": "2027-01-13",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-01-19",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2027-01-25",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2027-02-01",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Sandisfield",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2027-02-04",
-   "start": "11:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Tyringham",
-   "board": "Finance Subcommittee of the Lee School Committee Meeting",
-   "title": "Finance Subcommittee of the Lee School Committee Meeting",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Becket",
+   "board": "Historical Commission",
+   "title": "Historical Commission Agenda",
    "date": "2026-10-13",
-   "start": "16:30"
+   "start": "15:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Tyringham",
-   "board": "Lee School Committee Meeting",
-   "title": "Lee School Committee Meeting",
-   "date": "2026-10-13",
-   "start": "17:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Select Board Meeting",
    "title": "Select Board Meeting",
@@ -263,17 +38,17 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Tyringham",
-   "board": "Conservation Commission Meeting 10.13.2026",
-   "title": "Conservation Commission Meeting 10.13.2026",
-   "date": "2026-10-13",
-   "start": "19:00"
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-10-14",
+   "start": "17:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Board of Health",
    "title": "Board of Health",
@@ -281,35 +56,26 @@
    "start": "17:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Great Barrington",
-   "board": "Great Barrington Selectboard Public Meeting",
-   "title": "Great Barrington Selectboard Public Meeting",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
    "date": "2026-10-14",
-   "start": "17:30"
+   "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Tyringham",
-   "board": "Union #29 Meeting Agenda 10.14.2026",
-   "title": "Union #29 Meeting Agenda 10.14.2026",
-   "date": "2026-10-14",
-   "start": "17:30"
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Monterey Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-10-19",
+   "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "Egremont",
-   "board": "Select Board",
-   "title": "Screening Committee for New Applicants (PDf)",
-   "date": "2026-10-14",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
@@ -317,8 +83,35 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-22",
+   "start": "10:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Local Cultural Council",
+   "title": "Local Cultural Council Meeting",
+   "date": "2026-10-23",
+   "start": "15:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Fall Household Hazardous Waste Collection",
+   "date": "2026-10-24",
+   "start": "12:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Library Board of Trustees Meeting",
    "title": "Library Board of Trustees Meeting",
@@ -326,8 +119,53 @@
    "start": "14:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-26",
+   "start": "15:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-10-28",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Becket",
+   "board": "Community Preservation Committee",
+   "title": "Community Preservation Committee Agenda",
+   "date": "2026-11-02",
+   "start": "17:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "07:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "08:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Council on Aging Meeting",
    "title": "Council on Aging Meeting",
@@ -335,8 +173,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Cultural Council Meeting November 10, 2026",
    "title": "Cultural Council Meeting November 10, 2026",
@@ -344,8 +182,8 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Board of Health",
    "title": "Board of Health",
@@ -353,8 +191,26 @@
    "start": "17:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-11",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Veterans Day",
+   "date": "2026-11-11",
+   "start": ""
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
@@ -362,8 +218,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
    "town": "Sandisfield",
    "board": "Library Board of Trustees Meeting",
    "title": "Library Board of Trustees Meeting",
@@ -371,13 +227,103 @@
    "start": "14:00"
   },
   {
-   "type": "added",
-   "at": "2026-10-10T11:49:37-04:00",
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-04-08",
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-25",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Thanksgiving",
+   "date": "2026-11-26",
    "start": ""
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "07:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "08:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-23",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Christmas Day",
+   "date": "2026-12-25",
+   "start": ""
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "07:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "08:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "07:30"
+  },
+  {
+   "type": "removed",
+   "at": "2026-10-11T13:44:11-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "08:30"
   }
  ]
 }
