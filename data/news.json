@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T19:28:02-04:00",
+ "updated": "2026-10-11T12:16:02-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1767,28 +1767,6 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/town-sandisfield-annual-appointments",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "General",
-   "topic": null,
-   "headline": "School Supply Drive",
-   "summary": "The Town of Sandisfield and the Sandisfield Library are pairing with the Otis Police Department to host a school supply drive for the",
-   "posted": "2026-07-13T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/school-supply-drive",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "General",
-   "topic": null,
-   "headline": "Farmers Market vouchers for eligible seniors",
-   "summary": "The Council on Aging has vouchers for seniors who are income eligible. These vouchers are good for use at the various farmers markets in",
-   "posted": "2026-07-13T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/farmers-market-vouchers-eligible-seniors",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -1796,7 +1774,7 @@
   "Great Barrington": 32,
   "Monterey": 3,
   "Sheffield": 3,
-  "Sandisfield": 24,
+  "Sandisfield": 22,
   "BHRSD": 12,
   "Becket": 28,
   "New Marlborough": 9,
@@ -1810,20 +1788,20 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 29,
+   "scraped": 28,
    "items": 32,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 3,
-   "checked_at": "2026-10-10T19:28:02-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-11T12:16:02-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1832,7 +1810,7 @@
    "ok": true,
    "scraped": 9,
    "items": 31,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
@@ -1842,18 +1820,18 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 15,
    "items": 3,
-   "checked_at": "2026-10-10T19:28:02-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-11T12:16:02-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -1861,8 +1839,8 @@
    "url": "https://www.sandisfieldma.gov/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 24,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "items": 22,
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
@@ -1872,7 +1850,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
@@ -1882,7 +1860,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
@@ -1892,7 +1870,7 @@
    "ok": false,
    "scraped": 0,
    "items": 28,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -1902,7 +1880,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   },
   {
@@ -1912,7 +1890,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-10T19:28:02-04:00",
+   "checked_at": "2026-10-11T12:16:02-04:00",
    "error": null
   }
  ]
