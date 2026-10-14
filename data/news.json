@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T11:01:58-04:00",
+ "updated": "2026-10-14T15:17:52-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "HURLBURT ROAD BRIDGE REOPENS TO TRAFFIC",
+   "summary": "Public Notice FOR IMMEDIATE RELEASE Great Barrington, MA (October 14, 2026) Hurlburt Road Bridge Reopens to Traffic The Town of Great Barrington is pleased to announce that the Hurlburt Road Bridge has reopened to traffic following the completion of major bridge rehabilitation work coordinated by the Massachusetts\u2026",
+   "posted": "2026-10-14T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/231",
+   "first_seen": "2026-10-14T15:17:52-04:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Specimen Ballot State Election 11/3/26",
+   "summary": null,
+   "posted": "2026-10-14T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/133",
+   "first_seen": "2026-10-14T15:17:52-04:00"
+  },
+  {
+   "town": "Monterey",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "School Committee Candidate Forum",
+   "summary": "Meet the Southern Berkshire School District (SBRSD) School Committee candidates Thursday October 22, 2026 at 5:30PM. In one evening get to",
+   "posted": "2026-10-14T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/school-committee-candidate-forum",
+   "first_seen": "2026-10-14T15:17:52-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -1847,12 +1880,12 @@
   }
  ],
  "towns": {
-  "Great Barrington": 33,
-  "New Marlborough": 12,
+  "Great Barrington": 34,
+  "New Marlborough": 13,
+  "Monterey": 4,
   "Otis": 14,
   "Becket": 30,
   "Egremont": 32,
-  "Monterey": 3,
   "Sheffield": 3,
   "Sandisfield": 21,
   "BHRSD": 12,
@@ -1865,20 +1898,20 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 28,
-   "items": 33,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "scraped": 29,
+   "items": 34,
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 3,
-   "checked_at": "2026-10-14T11:01:58-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-14T15:17:52-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1887,7 +1920,7 @@
    "ok": true,
    "scraped": 8,
    "items": 32,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   },
   {
@@ -1895,30 +1928,30 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 94,
-   "items": 12,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "scraped": 95,
+   "items": 13,
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 3,
-   "checked_at": "2026-10-14T11:01:58-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 16,
+   "items": 4,
+   "checked_at": "2026-10-14T15:17:52-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 21,
-   "checked_at": "2026-10-14T11:01:58-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-10-14T15:17:52-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1927,7 +1960,7 @@
    "ok": true,
    "scraped": 14,
    "items": 14,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   },
   {
@@ -1937,18 +1970,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 30,
-   "checked_at": "2026-10-14T11:01:58-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-10-14T15:17:52-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -1957,7 +1990,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   },
   {
@@ -1967,7 +2000,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-14T11:01:58-04:00",
+   "checked_at": "2026-10-14T15:17:52-04:00",
    "error": null
   }
  ]
