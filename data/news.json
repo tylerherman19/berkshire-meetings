@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T18:37:21-04:00",
+ "updated": "2026-10-13T21:48:39-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Yoga Donation Class for Breast Cancer, Saturday, October 24, 2026 - 10:00am",
+   "summary": null,
+   "posted": "2026-10-13T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/yoga-donation-class-breast-cancer-saturday-october-24-2026-1000am",
+   "first_seen": "2026-10-13T21:48:39-04:00"
+  },
   {
    "town": "Becket",
    "category": "General",
@@ -1781,7 +1792,7 @@
   }
  ],
  "towns": {
-  "Becket": 29,
+  "Becket": 30,
   "Egremont": 32,
   "Great Barrington": 32,
   "Monterey": 3,
@@ -1801,18 +1812,18 @@
    "ok": true,
    "scraped": 28,
    "items": 32,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 3,
-   "checked_at": "2026-10-13T18:37:21-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-13T21:48:39-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1821,7 +1832,7 @@
    "ok": true,
    "scraped": 8,
    "items": 32,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
@@ -1831,28 +1842,28 @@
    "ok": true,
    "scraped": 91,
    "items": 9,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 15,
    "items": 3,
-   "checked_at": "2026-10-13T18:37:21-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-13T21:48:39-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 21,
-   "checked_at": "2026-10-13T18:37:21-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-10-13T21:48:39-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -1861,7 +1872,7 @@
    "ok": true,
    "scraped": 13,
    "items": 13,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
@@ -1871,7 +1882,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
@@ -1880,8 +1891,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 29,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "items": 30,
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
@@ -1891,7 +1902,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   },
   {
@@ -1901,7 +1912,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-13T18:37:21-04:00",
+   "checked_at": "2026-10-13T21:48:39-04:00",
    "error": null
   }
  ]
