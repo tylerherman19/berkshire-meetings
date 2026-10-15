@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T15:03:26-04:00",
+ "updated": "2026-10-15T18:10:43-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Town Clerk",
+   "headline": "November 3 Election: View the Specimen Ballot Before You Vote",
+   "summary": "Egremont voters can now preview the official specimen ballot for the Tuesday, November 3, 2026, Election. The ballot includes candidates for federal, state, and regional school committee offices, along with nine ballot questions . Reviewing the specimen ballot in advance is a helpful way to become familiar with the\u2026",
+   "posted": "2026-10-15T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/810",
+   "first_seen": "2026-10-15T18:10:43-04:00"
+  },
   {
    "town": "New Marlborough",
    "category": "Meeting notices",
@@ -1913,12 +1924,12 @@
   }
  ],
  "towns": {
+  "Egremont": 33,
   "New Marlborough": 15,
   "Great Barrington": 35,
   "Monterey": 4,
   "Otis": 14,
   "Becket": 30,
-  "Egremont": 32,
   "Sheffield": 3,
   "Sandisfield": 21,
   "BHRSD": 12,
@@ -1933,7 +1944,7 @@
    "ok": true,
    "scraped": 30,
    "items": 35,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   },
   {
@@ -1943,7 +1954,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1951,9 +1962,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 6,
-   "items": 32,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "scraped": 7,
+   "items": 33,
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   },
   {
@@ -1963,7 +1974,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   },
   {
@@ -1973,7 +1984,7 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -1983,7 +1994,7 @@
    "ok": false,
    "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -1993,7 +2004,7 @@
    "ok": true,
    "scraped": 14,
    "items": 14,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   },
   {
@@ -2003,7 +2014,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   },
   {
@@ -2013,7 +2024,7 @@
    "ok": false,
    "scraped": 0,
    "items": 30,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2023,7 +2034,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   },
   {
@@ -2033,7 +2044,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-15T15:03:26-04:00",
+   "checked_at": "2026-10-15T18:10:43-04:00",
    "error": null
   }
  ]
