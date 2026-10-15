@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T15:17:52-04:00",
+ "updated": "2026-10-15T10:53:30-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Flu & COVID-19 Vaccine Clinic at W.E.B. Du Bois Middle School \u2013 October 21",
+   "summary": "The Town of Great Barrington, in partnership with the Southern Berkshire Public Health Collaborative (SBPHC), will host a Flu and COVID-19 Vaccine Clinic on Wednesday, October 21, from 3:00 to 6:00 p.m. at W.E.B. Du Bois Middle School, 313\u2026",
+   "posted": "2026-10-15T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/232",
+   "first_seen": "2026-10-15T10:53:30-04:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "General",
+   "topic": null,
+   "headline": "FY 2027 Preliminary Assessments",
+   "summary": "TOWN OF NEW MARLBOROUGH FY27 PRELIMINARY ASSESSED VALUES The New Marlborough Board of Assessors is completing the FY 2027 Quinquennial Revaluation of all real and personal property. The Revaluation process consisted of a comprehensive reassessment of all classes of properties in the Town of New Marlborough as mandated\u2026",
+   "posted": "2026-10-15T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/134",
+   "first_seen": "2026-10-15T10:53:30-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Road closures",
@@ -1880,8 +1902,8 @@
   }
  ],
  "towns": {
-  "Great Barrington": 34,
-  "New Marlborough": 13,
+  "Great Barrington": 35,
+  "New Marlborough": 14,
   "Monterey": 4,
   "Otis": 14,
   "Becket": 30,
@@ -1898,29 +1920,29 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 29,
-   "items": 34,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "scraped": 30,
+   "items": 35,
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 13,
+   "ok": false,
+   "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-14T15:17:52-04:00",
-   "error": null
+   "checked_at": "2026-10-15T10:53:30-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
+   "scraped": 6,
    "items": 32,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
@@ -1928,30 +1950,30 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 95,
-   "items": 13,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "scraped": 96,
+   "items": 14,
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 16,
+   "ok": false,
+   "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-14T15:17:52-04:00",
-   "error": null
+   "checked_at": "2026-10-15T10:53:30-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-14T15:17:52-04:00",
-   "error": null
+   "checked_at": "2026-10-15T10:53:30-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -1960,7 +1982,7 @@
    "ok": true,
    "scraped": 14,
    "items": 14,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
@@ -1970,7 +1992,7 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
@@ -1980,7 +2002,7 @@
    "ok": true,
    "scraped": 20,
    "items": 30,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
@@ -1990,7 +2012,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   },
   {
@@ -2000,7 +2022,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-14T15:17:52-04:00",
+   "checked_at": "2026-10-15T10:53:30-04:00",
    "error": null
   }
  ]
