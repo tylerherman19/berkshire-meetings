@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T14:45:37-04:00",
+ "updated": "2026-10-16T18:01:19-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "SELECTBOARD DECLARES LOCAL EMERGENCY CONCERNING HOUSATONIC WATER WORKS",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (October 16, 2026) Selectboard Declares Local Emergency Concerning Housatonic Water Works On October 14, 2026, the Great Barrington Selectboard adopted a Declaration of Local Emergency concerning the threatened interruption of essential drinking-water service\u2026",
+   "posted": "2026-10-16T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/233",
+   "first_seen": "2026-10-16T18:01:19-04:00"
+  },
+  {
+   "town": "Monterey",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Community Preservation Act Information Session",
+   "summary": "An information session about the Community Preservation Act, which will appear on the the November 3rd 2026 ballot for its final phase of",
+   "posted": "2026-10-16T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/community-preservation-act-information-session",
+   "first_seen": "2026-10-16T18:01:19-04:00"
+  },
   {
    "town": "Becket",
    "category": "Public notices",
@@ -1946,11 +1968,11 @@
   }
  ],
  "towns": {
+  "Great Barrington": 36,
+  "Monterey": 5,
   "Becket": 32,
   "Egremont": 33,
   "New Marlborough": 15,
-  "Great Barrington": 35,
-  "Monterey": 4,
   "Otis": 14,
   "Sheffield": 3,
   "Sandisfield": 21,
@@ -1964,20 +1986,20 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 29,
-   "items": 35,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "scraped": 30,
+   "items": 36,
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 3,
-   "checked_at": "2026-10-16T14:45:37-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-16T18:01:19-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -1986,7 +2008,7 @@
    "ok": true,
    "scraped": 6,
    "items": 33,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
@@ -1996,18 +2018,18 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 4,
-   "checked_at": "2026-10-16T14:45:37-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 17,
+   "items": 5,
+   "checked_at": "2026-10-16T18:01:19-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2016,7 +2038,7 @@
    "ok": false,
    "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2026,7 +2048,7 @@
    "ok": true,
    "scraped": 14,
    "items": 14,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
@@ -2036,7 +2058,7 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
@@ -2046,7 +2068,7 @@
    "ok": true,
    "scraped": 20,
    "items": 32,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
@@ -2056,7 +2078,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   },
   {
@@ -2066,7 +2088,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-16T14:45:37-04:00",
+   "checked_at": "2026-10-16T18:01:19-04:00",
    "error": null
   }
  ]
