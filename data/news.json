@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:53:21-04:00",
+ "updated": "2026-10-18T09:56:09-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -1954,21 +1954,10 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/appointment-opportunities-school-committee-board-assessors",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "Reduced Hours for South County Connector",
-   "summary": "Attention South County Connector riders: To keep our service safe and reliable during a temporary staffing shortage, we are adjusting our daily service hours beginning Thursday, July 23. Hours will change from 6:00 AM\u20139:00 PM daily to 6:30 AM\u20135:00 PM , and we expect the reduced hours to remain in effect at least\u2026",
-   "posted": "2026-07-20T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/185",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 36,
+  "Great Barrington": 35,
   "Monterey": 5,
   "Becket": 32,
   "Egremont": 33,
@@ -1987,8 +1976,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 30,
-   "items": 36,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "items": 35,
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   },
   {
@@ -1998,7 +1987,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2008,7 +1997,7 @@
    "ok": true,
    "scraped": 6,
    "items": 33,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   },
   {
@@ -2018,7 +2007,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   },
   {
@@ -2028,18 +2017,18 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-17T20:53:21-04:00",
-   "error": null
+   "checked_at": "2026-10-18T09:56:09-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2048,7 +2037,7 @@
    "ok": true,
    "scraped": 14,
    "items": 14,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   },
   {
@@ -2058,7 +2047,7 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   },
   {
@@ -2068,7 +2057,7 @@
    "ok": false,
    "scraped": 0,
    "items": 32,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2078,7 +2067,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   },
   {
@@ -2088,7 +2077,7 @@
    "ok": true,
    "scraped": 8,
    "items": 12,
-   "checked_at": "2026-10-17T20:53:21-04:00",
+   "checked_at": "2026-10-18T09:56:09-04:00",
    "error": null
   }
  ]
