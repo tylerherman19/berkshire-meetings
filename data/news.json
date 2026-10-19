@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:06:42-04:00",
+ "updated": "2026-10-19T12:56:01-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Reminder: Great Barrington Special Town Meeting Tonight, October 19",
+   "summary": "The Town of Great Barrington reminds residents that Special Town Meeting will be held tonight, Monday, October 19, 2026, at 6:00 PM, in the Auditorium at Monument Mountain Regional High School, 600 Stockbridge Road. Registered voters will have the\u2026",
+   "posted": "2026-10-19T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/234",
+   "first_seen": "2026-10-19T12:56:01-04:00"
+  },
+  {
+   "town": "Tyringham",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "State Election -Early Voting Hours 2026",
+   "summary": null,
+   "posted": "2026-10-19T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/38",
+   "first_seen": "2026-10-19T12:56:01-04:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "Week at a Glance October 16, 2026",
+   "summary": "Du Bois NewsWeek at a Glance October 16, 2026 A Note from Principal Seth: Listening, Learning, and Growing TogetherDear Families,As your new principal, I\u2019m spending this first year on a \"liste...",
+   "posted": "2026-10-16T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=92851643",
+   "first_seen": "2026-10-19T12:56:01-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -1221,7 +1254,7 @@
   {
    "town": "Tyringham",
    "category": "General",
-   "topic": null,
+   "topic": "Board of Health",
    "headline": "Household Hazardous Waste Day (10.24.2026)",
    "summary": null,
    "posted": "2026-09-09T00:00:00-04:00",
@@ -1943,31 +1976,20 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/186",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Appointment Opportunities - School Committee & Board of Assessors",
-   "summary": "The Town of Sandisfield is seeking interested residents to fill vacancies on the School Committee and on the Board of Assessors",
-   "posted": "2026-07-21T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/appointment-opportunities-school-committee-board-assessors",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 35,
+  "Great Barrington": 36,
+  "Tyringham": 4,
+  "BHRSD": 13,
   "Monterey": 5,
   "Becket": 32,
   "Egremont": 33,
   "New Marlborough": 15,
   "Otis": 14,
   "Sheffield": 3,
-  "Sandisfield": 21,
-  "BHRSD": 12,
-  "Alford": 4,
-  "Tyringham": 3
+  "Sandisfield": 20,
+  "Alford": 4
  },
  "sources": [
   {
@@ -1975,9 +1997,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 30,
-   "items": 35,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "scraped": 31,
+   "items": 36,
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   },
   {
@@ -1987,7 +2009,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -1997,7 +2019,7 @@
    "ok": true,
    "scraped": 6,
    "items": 33,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   },
   {
@@ -2007,7 +2029,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   },
   {
@@ -2017,7 +2039,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2026,8 +2048,8 @@
    "url": "https://www.sandisfieldma.gov/node/1/news",
    "ok": false,
    "scraped": 0,
-   "items": 21,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "items": 20,
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2037,7 +2059,7 @@
    "ok": true,
    "scraped": 13,
    "items": 14,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   },
   {
@@ -2045,9 +2067,9 @@
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
    "ok": true,
-   "scraped": 1,
-   "items": 3,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "scraped": 2,
+   "items": 4,
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   },
   {
@@ -2057,7 +2079,7 @@
    "ok": false,
    "scraped": 0,
    "items": 32,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2067,7 +2089,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   },
   {
@@ -2076,8 +2098,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 12,
-   "checked_at": "2026-10-18T21:06:42-04:00",
+   "items": 13,
+   "checked_at": "2026-10-19T12:56:01-04:00",
    "error": null
   }
  ]
