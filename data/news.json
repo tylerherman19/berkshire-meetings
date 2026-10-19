@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T12:56:01-04:00",
+ "updated": "2026-10-19T17:26:22-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Pedestrian Crossing Improvements Scheduled for South Main Street",
+   "summary": "The Town of Great Barrington Department of Public Works (DPW) Highway Division will be installing new pedestrian crossing signals on South Main Street on Tuesday, October 20, 2026, as part of the Town's ongoing efforts to improve pedestrian safety. The\u2026",
+   "posted": "2026-10-19T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/235",
+   "first_seen": "2026-10-19T17:26:22-04:00"
+  },
+  {
+   "town": "Otis",
+   "category": "General",
+   "topic": null,
+   "headline": "AMVets Post 77 Pancake Breakfast- November 15 2026",
+   "summary": null,
+   "posted": "2026-10-19T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R112.php",
+   "first_seen": "2026-10-19T17:26:22-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Meeting notices",
@@ -1979,14 +2001,14 @@
   }
  ],
  "towns": {
-  "Great Barrington": 36,
+  "Great Barrington": 37,
+  "Otis": 15,
   "Tyringham": 4,
   "BHRSD": 13,
   "Monterey": 5,
   "Becket": 32,
   "Egremont": 33,
   "New Marlborough": 15,
-  "Otis": 14,
   "Sheffield": 3,
   "Sandisfield": 20,
   "Alford": 4
@@ -1997,9 +2019,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
-   "items": 36,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "scraped": 32,
+   "items": 37,
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   },
   {
@@ -2009,7 +2031,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2019,7 +2041,7 @@
    "ok": true,
    "scraped": 6,
    "items": 33,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   },
   {
@@ -2029,7 +2051,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   },
   {
@@ -2039,7 +2061,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2049,7 +2071,7 @@
    "ok": false,
    "scraped": 0,
    "items": 20,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2058,8 +2080,8 @@
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
    "scraped": 13,
-   "items": 14,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "items": 15,
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   },
   {
@@ -2069,7 +2091,7 @@
    "ok": true,
    "scraped": 2,
    "items": 4,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   },
   {
@@ -2079,7 +2101,7 @@
    "ok": false,
    "scraped": 0,
    "items": 32,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2089,7 +2111,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   },
   {
@@ -2099,7 +2121,7 @@
    "ok": true,
    "scraped": 8,
    "items": 13,
-   "checked_at": "2026-10-19T12:56:01-04:00",
+   "checked_at": "2026-10-19T17:26:22-04:00",
    "error": null
   }
  ]
