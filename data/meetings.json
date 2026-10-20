@@ -1,19 +1,6 @@
 {
- "updated": "2026-10-19T14:18:24-04:00",
+ "updated": "2026-10-20T11:27:07-04:00",
  "meetings": [
-  {
-   "town": "New Marlborough",
-   "board": "Select Board",
-   "title": "Select Board Site Visit",
-   "date": "2026-04-22",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_04222026-387",
-   "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_04222026-387",
-   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
   {
    "town": "Egremont",
    "board": "Board of Health",
@@ -2550,6 +2537,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-10-14",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
    "town": "Egremont",
    "board": "Community Preservation Committee",
    "title": "Community Preservation Committee Informational Session (PDF)",
@@ -2600,6 +2600,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_10142026-2029",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Monterey",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-15",
+   "start": "17:00",
+   "end": "18:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/conservation-commission/events/46321"
   },
   {
    "town": "Egremont",
@@ -2732,108 +2745,17 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
-   "town": "Great Barrington",
-   "board": "In-Person Early Voting for the November 3, 2026 State Election",
-   "title": "In-Person Early Voting for the November 3, 2026 State Election",
+   "town": "Monterey",
+   "board": "Monterey Library",
+   "title": "Library Board of Trustees Meeting",
    "date": "2026-10-19",
-   "start": "08:30",
-   "end": null,
+   "start": "19:00",
+   "end": "19:00",
    "all_day": false,
-   "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-19T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
-   "agenda_url": "https://www.townofgbma.gov/agendacenter",
-   "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1973&month=10&year=2026&day=19&calType=0"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Recreation Committee Meeting",
-   "title": "Recreation Committee Meeting",
-   "date": "2026-10-19",
-   "start": "11:00",
-   "end": null,
-   "all_day": false,
-   "location": null,
+   "location": "Public Library Meeting Room 452 Main Road Monterey MA 01245 United States",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/recreation-committee/events/45191"
-  },
-  {
-   "town": "Alford",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-10-19",
-   "start": "16:00",
-   "end": null,
-   "all_day": false,
-   "location": "@ Town Hall",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=636&month=10&year=2026&day=19&calType=0"
-  },
-  {
-   "town": "Great Barrington",
-   "board": "Finance Committee and Selectboard Joint Meeting",
-   "title": "Finance Committee and Selectboard Joint Meeting",
-   "date": "2026-10-19",
-   "start": "17:00",
-   "end": null,
-   "all_day": false,
-   "location": "Monument Mountain Regional High School (Library) 600 Stockbridge Road, Great Barrington, MA 01230 Finance Committee and Selectboard Joint Meeting 2026-10-19T17:00:00 Monument Mountain Regional High School (Library) 600 Stockbridge Road, Great Barrington, MA 01230 Monument Mountain Regional High School Great Barrington MA 01230",
-   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Finance-Committee-5/#_10192026-2615",
-   "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1985&month=10&year=2026&day=19&calType=0"
-  },
-  {
-   "town": "Great Barrington",
-   "board": "Selectboard and Finance Committee Joint Meeting",
-   "title": "Selectboard and Finance Committee Joint Meeting",
-   "date": "2026-10-19",
-   "start": "17:00",
-   "end": null,
-   "all_day": false,
-   "location": "Monument Mountain Regional High School (Library) 600 Stockbridge Road, Great Barrington, MA 01230 Selectboard and Finance Committee Joint Meeting 2026-10-19T17:00:00 Monument Mountain Regional High School (Library) 600 Stockbridge Road, Great Barrington, MA 01230 Great Barrington MA 01230",
-   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_10192026-2614",
-   "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1984&month=10&year=2026&day=19&calType=0"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Select Board Work Session",
-   "title": "Select Board Work Session",
-   "date": "2026-10-19",
-   "start": "17:30",
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/select-board/events/45171"
-  },
-  {
-   "town": "Great Barrington",
-   "board": "Special Town Meeting - 6:00 pm Monument Mountain Regional High School, 600 Stockbridge Rd",
-   "title": "Special Town Meeting - 6:00 pm Monument Mountain Regional High School, 600 Stockbridge Rd",
-   "date": "2026-10-19",
-   "start": "18:00",
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.townofgbma.gov/agendacenter",
-   "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1911&month=10&year=2026&day=19&calType=0"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-10-19",
-   "start": "18:00",
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/select-board/events/45181"
+   "source_url": "https://www.montereyma.gov/monterey-library/events/46116"
   },
   {
    "town": "Otis",
@@ -2872,7 +2794,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=556&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=556&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -2885,7 +2807,7 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-20T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1974&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1974&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Otis",
@@ -2911,7 +2833,33 @@
    "location": "Fire District Office 17 East Street, Great Barrington, MA01230 Great Barrington Fire District Prudential Committee 2026-10-20T16:30:00 Fire District Office 17 East Street, Great Barrington, MA01230 Fire District Office Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Great-Barrington-Fire-District-Prudentia-39/#_10202026-2605",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1963&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1963&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Lombardo Park Committee",
+   "title": "Lombardo Park Committee Meeting",
+   "date": "2026-10-20",
+   "start": "16:30",
+   "end": "16:30",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/lombardo-park-committee/events/46346"
+  },
+  {
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-20",
+   "start": "18:00",
+   "end": "18:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/select-board/events/46376"
   },
   {
    "town": "Great Barrington",
@@ -2924,7 +2872,7 @@
    "location": "Via Zoom: https://us02web.zoom.us/j/84678233103 Join via audio: +1 929 205 6099 Webinar ID: 846 7823 3103 Meeting Packet (PDF) Affordable Housing Trust Fund 2026-10-20T18:30:00 Via Zoom: https://us02web.zoom.us/j/84678233103 Join via audio: +1 929 205 6099 Webinar ID: 846 7823 3103 Meeting Packet (PDF) Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Affordable-Housing-Trust-Fund-AHFT-16/#_10202026-2619",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1990&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1990&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Egremont",
@@ -2963,7 +2911,7 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-21T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1975&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1975&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Alford",
@@ -2976,7 +2924,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=639&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=639&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -2989,7 +2937,7 @@
    "location": "Flag Rock Community Room 2 Bernard Gibbons Dr. Great Barrington, MA 01230 Great Barrington Housing Authority 2026-10-21T13:00:00 Flag Rock Community Room 2 Bernard Gibbons Dr. Great Barrington, MA 01230 Flag Rock Community Room Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Housing-Authority-15/#_10212026-2617",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1988&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1988&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3002,7 +2950,20 @@
    "location": "Great Barrington Town Hall Meeting Room 334 Main St., Great Barrington, MA 01230 Board of Assessors 2026-10-21T14:00:00 Great Barrington Town Hall Meeting Room 334 Main St., Great Barrington, MA 01230 Town Hall Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Board-of-Assessors-3/#_10212026-2607",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1965&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1965&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-21",
+   "start": "14:00",
+   "end": "14:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/select-board/events/46386"
   },
   {
    "town": "Great Barrington",
@@ -3015,7 +2976,7 @@
    "location": "Flu & Covid Clinic located at W.E.B. Dubois Middle School 313 Monument Vally Rd. Great Barrington Flu & Covid Clinic 2026-10-21T15:00:00 Flu & Covid Clinic located at W.E.B. Dubois Middle School 313 Monument Vally Rd. Great Barrington Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1860&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1860&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3028,7 +2989,7 @@
    "location": "via Zoom: Link to webinar: https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Selectboard Meeting with Executive Session 2026-10-21T15:00:00 via Zoom: Link to webinar: https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_10212026-2625",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1995&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1995&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3041,7 +3002,7 @@
    "location": "via Zoom : https://us02web.zoom.us/j/82781564864 Join via audio: +1 929 205 6099 Webinar ID: 827 8156 4864 Ramsdell Building Committee 2026-10-21T16:30:00 via Zoom : https://us02web.zoom.us/j/82781564864 Join via audio: +1 929 205 6099 Webinar ID: 827 8156 4864 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Ramsdell-Building-Committee-45/#_10212026-2620",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1991&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1991&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3054,7 +3015,7 @@
    "location": "Town Hall 334 Main Street, 2nd floor, Great Barrington, MA 01230 Design Advisory Committee 2026-10-21T17:00:00 Town Hall 334 Main Street, 2nd floor, Great Barrington, MA 01230 Town Hall Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Design-Advisory-Committee-25/#_10212026-2622",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1992&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1992&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Alford",
@@ -3067,7 +3028,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=619&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=619&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3080,7 +3041,7 @@
    "location": "Library, Monument Mountain Regional High School 600 Stockbridge Rd, Great Barrington, MA 01230 Via Zoom: Dial In: 646 931 3860 Webinar ID: 899 4161 3372 Passcode: 000929 Berkshire Hills Regional School District Building Committee Meeting 2026-10-21T17:30:00 Library, Monument Mountain Regional High School 600 Stockbridge Rd, Great Barrington, MA 01230 Via Zoom: Dial In: 646 931 3860 Webinar ID: 899 4161 3372 Passcode: 000929 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Hills-Regional-School-District-38/#_10212026-2603",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1961&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1961&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Egremont",
@@ -3119,7 +3080,7 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-22T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1976&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1976&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Otis",
@@ -3135,6 +3096,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-22",
+   "start": "10:00",
+   "end": "11:30",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/46106"
+  },
+  {
    "town": "Great Barrington",
    "board": "Berkshire Regional Transit Authority (BRTA) Advisory Board",
    "title": "Berkshire Regional Transit Authority (BRTA) Advisory Board",
@@ -3145,7 +3119,7 @@
    "location": "Berkshire Regional Transit Authority One Columbus Ave, 2nd Floor Board Room Pittsfield, MA 01201 via Microsoft Teams meeting: https://teams.microsoft.com/meet/266099668682965?p=fkNrwFReYBGisYU4Cf Meeting ID: 266 099 668 682 965 Passcode: 62FK6LT9 Berkshire Regional Transit Authority (BRTA) Advisory Board 2026-10-22T16:00:00 Berkshire Regional Transit Authority One Columbus Ave, 2nd Floor Board Room Pittsfield, MA 01201 via Microsoft Teams meeting: https://teams.microsoft.com/meet/266099668682965?p=fkNrwFReYBGisYU4Cf Meeting ID: 266 099 668 682 965 Passcode: 62FK6LT9 BRTA Intermodal Transportation Center Pittsfield MA 01201",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Regional-Transportation-Author-43/#_10222026-2618",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1989&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1989&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3158,7 +3132,20 @@
    "location": "Hybrid meeting in person at Town Hall, 334 Main Street, 2nd Floor Great Barrington and via Zoom at https://us02web.zoom.us/j/82949470990 To dial in by phone, dial +1 929 205 6099 Webinar ID: 829 4947 0990 GREAT BARRINGTON PLANNING BOARD 2026-10-22T18:00:00 Hybrid meeting in person at Town Hall, 334 Main Street, 2nd Floor Great Barrington and via Zoom at https://us02web.zoom.us/j/82949470990 To dial in by phone, dial +1 929 205 6099 Webinar ID: 829 4947 0990 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Planning-Board-8/#_10222026-2623",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1993&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1993&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting 10/22/26",
+   "date": "2026-10-22",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/planning-board/events/46396"
   },
   {
    "town": "Egremont",
@@ -3223,17 +3210,17 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-23T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1977&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1977&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Monterey",
-   "board": "Local Cultural Council Meeting",
+   "board": "Local Cultural Council",
    "title": "Local Cultural Council Meeting",
    "date": "2026-10-23",
    "start": "15:00",
-   "end": null,
+   "end": "15:00",
    "all_day": false,
-   "location": null,
+   "location": "Public Library Meeting Room 452 Main Road Monterey MA 01245 United States",
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/local-cultural-council/events/46191"
@@ -3249,7 +3236,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=505&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=505&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3262,7 +3249,20 @@
    "location": "In Person Voting located at Town Hall Clerks Office 9:00 AM - 5:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-24T09:00:00 In Person Voting located at Town Hall Clerks Office 9:00 AM - 5:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1972&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1972&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Community Preservation Act Information Session",
+   "date": "2026-10-24",
+   "start": "09:00",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Meeting House 449 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/planning-board/events/46366"
   },
   {
    "town": "Otis",
@@ -3288,7 +3288,7 @@
    "location": null,
    "agenda_url": "https://www.tyringham-ma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=458&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=458&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Alford",
@@ -3301,7 +3301,20 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=630&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=630&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Fall Household Hazardous Waste Collection",
+   "date": "2026-10-24",
+   "start": "12:00",
+   "end": "12:00",
+   "all_day": false,
+   "location": "Lee MA Wastewater Treatment Plant 379 Pleasant Street Lee MA 01238 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/45671"
   },
   {
    "town": "Otis",
@@ -3327,7 +3340,33 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-26T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1978&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1978&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-26",
+   "start": "15:00",
+   "end": "17:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/45846"
+  },
+  {
+   "town": "Otis",
+   "board": "Selectboard",
+   "title": "Selectboard Meeting",
+   "date": "2026-10-26",
+   "start": "15:00",
+   "end": null,
+   "all_day": false,
+   "location": "435 Main Rd, Monterey MA 01245",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Alford",
@@ -3340,7 +3379,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=422&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=422&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3353,7 +3392,7 @@
    "location": "via Zoom: https://us02web.zoom.us/j/84057322633 Dial : +1 929 205 6099 Webinar ID: 840 5732 2633 Cultural Council 2026-10-26T18:00:00 via Zoom: https://us02web.zoom.us/j/84057322633 Dial : +1 929 205 6099 Webinar ID: 840 5732 2633 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Cultural-Council-24/#_10262026-2624",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1994&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1994&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3366,7 +3405,7 @@
    "location": null,
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1137&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1137&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Alford",
@@ -3379,7 +3418,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=557&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=557&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3392,7 +3431,7 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-27T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1979&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1979&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -3405,7 +3444,33 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-28T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1980&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1980&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Great Barrington",
+   "board": "Berkshire County Retirement Board",
+   "title": "Berkshire County Retirement Board",
+   "date": "2026-10-28",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "In Person: Retirement Office 29 Dunham Mall, Pittsfield, MA 01201 online: hhtps://meet.goto.com/640983061 Berkshire County Retirement Board 2026-10-28T09:00:00 In Person: Retirement Office 29 Dunham Mall, Pittsfield, MA 01201 online: hhtps://meet.goto.com/640983061 Retirement Offices Pittsfield MA 01201",
+   "agenda_url": "https://www.townofgbma.gov/agendacenter",
+   "minutes_url": null,
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1996&month=10&year=2026&day=20&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-10-28",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
   },
   {
    "town": "Great Barrington",
@@ -3418,7 +3483,7 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-29T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1981&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1981&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "BHRSD",
@@ -3444,7 +3509,7 @@
    "location": "In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK In-Person Early Voting for the November 3, 2026 State Election 2026-10-30T08:30:00 In Person Voting located at Town Hall Clerks Office 8:30 AM - 4:00 PM Click here to view the November 3, 2026 Specimen Ballot (PDF) Click here to view the Voter Information Guide THE RED BOOK Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1982&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1982&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Alford",
@@ -3457,7 +3522,7 @@
    "location": "@ Alford Fire House",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=637&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=637&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Alford",
@@ -3470,7 +3535,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=506&month=10&year=2026&day=19&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=506&month=10&year=2026&day=20&calType=0"
   },
   {
    "town": "Otis",
@@ -3512,6 +3577,45 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41976"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
+   "town": "Otis",
+   "board": "Honoring our Veterans",
+   "title": "Honoring our Veterans",
+   "date": "2026-11-10",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": "555 North Main Rd, Otis MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
    "town": "Otis",
    "board": "Post Election Counting",
    "title": "Post Election Counting",
@@ -3525,6 +3629,32 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-11",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Veterans Day",
+   "date": "2026-11-11",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43086"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3536,6 +3666,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Egremont",
+   "board": "Alford/Egremont Cultural Council",
+   "title": "Alford-Egremont Cultural Council Regular Meeting (PDF)",
+   "date": "2026-11-12",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_11122026-2037",
+   "minutes_url": null,
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Otis",
@@ -3564,6 +3707,71 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Monterey",
+   "board": "Conservation Commission",
+   "title": "Conservation Committee Meeting",
+   "date": "2026-11-19",
+   "start": "17:00",
+   "end": "18:30",
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/conservation-commission/events/46326"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-25",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Thanksgiving",
+   "date": "2026-11-26",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43091"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41986"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3577,6 +3785,19 @@
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
   },
   {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -3588,6 +3809,58 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-23",
+   "start": "19:00",
+   "end": "19:00",
+   "all_day": false,
+   "location": "Monterey Town Hall 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/housing-committee/events/44026"
+  },
+  {
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Christmas Day",
+   "date": "2026-12-25",
+   "start": null,
+   "end": null,
+   "all_day": true,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/town-administrator/events/43096"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41986"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
   },
   {
    "town": "BHRSD",
@@ -3614,6 +3887,32 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "07:30",
+   "end": "09:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41991"
+  },
+  {
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "08:30",
+   "end": "10:00",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey, MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/police-department/events/41996"
   },
   {
    "town": "BHRSD",
@@ -3682,89 +3981,88 @@
   }
  ],
  "towns": {
-  "New Marlborough": 69,
-  "Egremont": 79,
-  "Otis": 66,
+  "Egremont": 80,
+  "Otis": 68,
+  "New Marlborough": 68,
   "BHRSD": 16,
   "Tyringham": 5,
   "SBRSD": 7,
-  "Great Barrington": 27,
-  "Sandisfield": 3,
-  "Alford": 10,
-  "Monterey": 1
+  "Monterey": 29,
+  "Alford": 9,
+  "Great Barrington": 24
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
-   "meetings": 3,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 0,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
-   "meetings": 1,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 29,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
-   "meetings": 27,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 24,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
-   "meetings": 79,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 80,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
-   "meetings": 69,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 68,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 0,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Alford": {
    "ok": true,
-   "meetings": 10,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 9,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Otis": {
    "ok": true,
-   "meetings": 66,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "meetings": 68,
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
    "meetings": 5,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null
   },
   "Becket": {
    "ok": false,
    "meetings": 0,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": "RuntimeError: board index fetch failed: 403 Client Error: Forbidden for url: https://www.townofbecket.org/minutes-and-agendas"
   },
   "BHRSD": {
    "ok": true,
    "meetings": 16,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 7,
-   "checked_at": "2026-10-19T14:18:24-04:00",
+   "checked_at": "2026-10-20T11:27:07-04:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }

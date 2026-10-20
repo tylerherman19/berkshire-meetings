@@ -1,327 +1,9 @@
 {
- "updated": "2026-10-19T14:18:24-04:00",
+ "updated": "2026-10-20T11:27:07-04:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Monterey Library",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-10-19",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Lombardo Park Committee",
-   "title": "Lombardo Park Committee Meeting",
-   "date": "2026-10-20",
-   "start": "16:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-10-20",
-   "start": "18:00"
-  },
-  {
-   "type": "changed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "fields": [
-    "time"
-   ],
-   "town": "Alford",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-10-21",
-   "start": "17:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Administrator Meeting",
-   "date": "2026-10-22",
-   "start": "10:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Local Cultural Council",
-   "title": "Local Cultural Council Meeting",
-   "date": "2026-10-23",
-   "start": "15:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Planning Board",
-   "title": "Community Preservation Act Information Session",
-   "date": "2026-10-24",
-   "start": "09:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Fall Household Hazardous Waste Collection",
-   "date": "2026-10-24",
-   "start": "12:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Administrator Meeting",
-   "date": "2026-10-26",
-   "start": "15:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-10-28",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-11-05",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-11-05",
-   "start": "08:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Sandisfield",
-   "board": "Board of Health",
-   "title": "Board of Health",
-   "date": "2026-11-11",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-11-11",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Veterans Day",
-   "date": "2026-11-11",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission Meeting",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-17",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Conservation Commission",
-   "title": "Conservation Committee Meeting",
-   "date": "2026-11-19",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Sandisfield",
-   "board": "Library Board of Trustees Meeting",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-11-23",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-11-25",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Thanksgiving",
-   "date": "2026-11-26",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-12-03",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-12-03",
-   "start": "08:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-12-09",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-12-23",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Christmas Day",
-   "date": "2026-12-25",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-01-07",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-01-07",
-   "start": "08:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-02-04",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-02-04",
-   "start": "08:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Sandisfield",
-   "board": "Recreation Committee Meeting",
-   "title": "Recreation Committee Meeting",
-   "date": "2026-10-19",
-   "start": "11:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Sandisfield",
-   "board": "Select Board Work Session",
-   "title": "Select Board Work Session",
-   "date": "2026-10-19",
-   "start": "17:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Sandisfield",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-10-19",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Alford",
-   "board": "Assessors",
-   "title": "Assessors Meeting",
-   "date": "2026-10-21",
-   "start": "09:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Great Barrington",
-   "board": "Selectboard Meeting with Executive Session",
-   "title": "Selectboard Meeting with Executive Session",
-   "date": "2026-10-21",
-   "start": "15:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Great Barrington",
-   "board": "GREAT BARRINGTON PLANNING BOARD",
-   "title": "GREAT BARRINGTON PLANNING BOARD",
-   "date": "2026-10-22",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
+   "at": "2026-10-20T11:27:07-04:00",
    "town": "Monterey",
    "board": "Local Cultural Council Meeting",
    "title": "Local Cultural Council Meeting",
@@ -330,12 +12,273 @@
   },
   {
    "type": "added",
-   "at": "2026-10-19T14:18:24-04:00",
-   "town": "Great Barrington",
-   "board": "Cultural Council",
-   "title": "Cultural Council",
-   "date": "2026-10-26",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Lombardo Park Committee",
+   "title": "Lombardo Park Committee Meeting",
+   "date": "2026-10-20",
+   "start": "16:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-20",
    "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-10-21",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-22",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting 10/22/26",
+   "date": "2026-10-22",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Local Cultural Council",
+   "title": "Local Cultural Council Meeting",
+   "date": "2026-10-23",
+   "start": "15:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Community Preservation Act Information Session",
+   "date": "2026-10-24",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Fall Household Hazardous Waste Collection",
+   "date": "2026-10-24",
+   "start": "12:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Administrator Meeting",
+   "date": "2026-10-26",
+   "start": "15:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Otis",
+   "board": "Selectboard",
+   "title": "Selectboard Meeting",
+   "date": "2026-10-26",
+   "start": "15:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Great Barrington",
+   "board": "Berkshire County Retirement Board",
+   "title": "Berkshire County Retirement Board",
+   "date": "2026-10-28",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-10-28",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Otis",
+   "board": "Honoring our Veterans",
+   "title": "Honoring our Veterans",
+   "date": "2026-11-10",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-11",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Veterans Day",
+   "date": "2026-11-11",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Egremont",
+   "board": "Alford/Egremont Cultural Council",
+   "title": "Alford-Egremont Cultural Council Regular Meeting (PDF)",
+   "date": "2026-11-12",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Conservation Commission",
+   "title": "Conservation Committee Meeting",
+   "date": "2026-11-19",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-25",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Thanksgiving",
+   "date": "2026-11-26",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-23",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Christmas Day",
+   "date": "2026-12-25",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-10-20T11:27:07-04:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "08:30"
   }
  ]
 }
