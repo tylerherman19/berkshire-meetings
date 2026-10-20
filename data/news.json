@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T10:57:44-04:00",
+ "updated": "2026-10-20T15:09:25-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Assessors\u2019 Office Closed Thursday October 29, 2026",
+   "summary": "The Town of Great Barrington wishes to inform residents that the Assessors\u2019 Office will be closed on Thursday, October 29, 2026, to allow staff to attend the Berkshire County Assessors Association's Fall Meeting. This professional development opportunity provides an\u2026",
+   "posted": "2026-10-20T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/236",
+   "first_seen": "2026-10-20T15:09:25-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Select Board",
+   "headline": "Town Hall Closing for Construction",
+   "summary": "Due to construction, Town Hall will be closed on Tuesday, October 27, and may also be closed on Wednesday, October 28. Please plan accordingly. Early voting on both days, between 1 PM and 3 PM, will continue. However, please note that access to the building will be limited to the left end (when facing the building\u2026",
+   "posted": "2026-10-20T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/811",
+   "first_seen": "2026-10-20T15:09:25-04:00"
+  },
+  {
+   "town": "Otis",
+   "category": "General",
+   "topic": null,
+   "headline": "AmVets Post 77 Christmas for the Children , Donations and Spindle Event Flyers",
+   "summary": null,
+   "posted": "2026-10-20T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R114.php",
+   "first_seen": "2026-10-20T15:09:25-04:00"
+  },
   {
    "town": "Otis",
    "category": "General",
@@ -2023,13 +2056,13 @@
   }
  ],
  "towns": {
-  "Otis": 16,
+  "Great Barrington": 38,
+  "Egremont": 34,
+  "Otis": 17,
   "Becket": 33,
-  "Great Barrington": 37,
   "Tyringham": 4,
   "BHRSD": 13,
   "Monterey": 5,
-  "Egremont": 33,
   "New Marlborough": 15,
   "Sheffield": 3,
   "Sandisfield": 20,
@@ -2041,9 +2074,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 30,
-   "items": 37,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "scraped": 31,
+   "items": 38,
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
@@ -2053,7 +2086,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2061,9 +2094,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 4,
-   "items": 33,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "scraped": 5,
+   "items": 34,
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
@@ -2073,7 +2106,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
@@ -2083,7 +2116,7 @@
    "ok": true,
    "scraped": 17,
    "items": 5,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
@@ -2093,7 +2126,7 @@
    "ok": false,
    "scraped": 0,
    "items": 20,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2101,9 +2134,9 @@
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 14,
-   "items": 16,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "scraped": 15,
+   "items": 17,
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
@@ -2113,18 +2146,18 @@
    "ok": true,
    "scraped": 2,
    "items": 4,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-20T10:57:44-04:00",
-   "error": null
+   "checked_at": "2026-10-20T15:09:25-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2133,7 +2166,7 @@
    "ok": true,
    "scraped": 3,
    "items": 4,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   },
   {
@@ -2143,7 +2176,7 @@
    "ok": true,
    "scraped": 8,
    "items": 13,
-   "checked_at": "2026-10-20T10:57:44-04:00",
+   "checked_at": "2026-10-20T15:09:25-04:00",
    "error": null
   }
  ]
