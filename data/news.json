@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:08:25-04:00",
+ "updated": "2026-10-21T11:06:15-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Alford",
+   "category": "General",
+   "topic": "Council on Aging",
+   "headline": "Advance Removal of Ballots",
+   "summary": "The Town of Alford will be conducting Advance Removal of Both EV and AV Ballots on Saturday, October 31, 2026. The session will begin at 2:00pm in the Alford Town Hall. This session is open to the public and all observers must watch the process from behind the guardrail. Please note any challenges must be made at the\u2026",
+   "posted": "2026-10-21T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofalford.org/m/newsflash/Home/Detail/22",
+   "first_seen": "2026-10-21T11:06:15-04:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "BHRSD District Newsletter 10.21.2026",
+   "summary": "BHRSD News + Notes October 21, 2026 Dear BHRSD Community, As we settle into October, thank you for the many ways you support our schools and students. Strong schools are built through partnership, ...",
+   "posted": "2026-10-21T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=92974345",
+   "first_seen": "2026-10-21T11:06:15-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -1936,7 +1958,7 @@
   {
    "town": "Alford",
    "category": "General",
-   "topic": "Town Clerk Office",
+   "topic": "Select Board",
    "headline": "Town Offices Closed to Public",
    "summary": "The Town Offices are closed to the Public during construction. For assistance, please call 413-528-4536 Select Board x101 Town Clerk X102 Assessors x 103 Tax Collector X105",
    "posted": "2026-08-03T00:00:00-04:00",
@@ -2042,31 +2064,20 @@
    "date_only": true,
    "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/29",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "TOWN RECEIVES 250TH ANNIVERSARY COMMEMORATIVE DECLARATION OF INDEPENDENCE",
-   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (July 23, 2026) Town Receives 250 th Anniversary Commemorative Declaration of Independence The Town of Great Barrington proudly welcomed a commemorative copy of the Declaration of Independence on Monday, July 20, as part of Declaration Delivery Day, a statewide\u2026",
-   "posted": "2026-07-23T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/186",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 38,
+  "Alford": 5,
+  "BHRSD": 14,
+  "Great Barrington": 37,
   "Egremont": 34,
   "Otis": 17,
   "Becket": 33,
   "Tyringham": 4,
-  "BHRSD": 13,
   "Monterey": 5,
   "New Marlborough": 15,
   "Sheffield": 3,
-  "Sandisfield": 20,
-  "Alford": 4
+  "Sandisfield": 20
  },
  "sources": [
   {
@@ -2074,9 +2085,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
-   "items": 38,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "scraped": 30,
+   "items": 37,
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   },
   {
@@ -2086,7 +2097,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2096,7 +2107,7 @@
    "ok": true,
    "scraped": 5,
    "items": 34,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   },
   {
@@ -2106,7 +2117,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   },
   {
@@ -2116,7 +2127,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2126,7 +2137,7 @@
    "ok": false,
    "scraped": 0,
    "items": 20,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2136,7 +2147,7 @@
    "ok": true,
    "scraped": 15,
    "items": 17,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   },
   {
@@ -2146,7 +2157,7 @@
    "ok": true,
    "scraped": 2,
    "items": 4,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   },
   {
@@ -2156,7 +2167,7 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2164,9 +2175,9 @@
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
    "ok": true,
-   "scraped": 3,
-   "items": 4,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "scraped": 4,
+   "items": 5,
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   },
   {
@@ -2175,8 +2186,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 13,
-   "checked_at": "2026-10-20T19:08:25-04:00",
+   "items": 14,
+   "checked_at": "2026-10-21T11:06:15-04:00",
    "error": null
   }
  ]
