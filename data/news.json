@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T19:12:09-04:00",
+ "updated": "2026-10-22T11:06:54-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Health Department \u2013 Temporary Office Hours Adjustment",
+   "summary": "The Town of Great Barrington wishes to inform residents that the Health Department will have temporarily adjusted office hours from Friday, October 23, through Wednesday, October 28, 2026. The schedule is as follows: The Southern Berkshire Collaborative will\u2026",
+   "posted": "2026-10-22T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/239",
+   "first_seen": "2026-10-22T11:06:54-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -2111,7 +2122,7 @@
   }
  ],
  "towns": {
-  "Great Barrington": 39,
+  "Great Barrington": 40,
   "Egremont": 35,
   "Alford": 5,
   "BHRSD": 14,
@@ -2129,9 +2140,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 32,
-   "items": 39,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "scraped": 33,
+   "items": 40,
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   },
   {
@@ -2141,7 +2152,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2151,7 +2162,7 @@
    "ok": true,
    "scraped": 6,
    "items": 35,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   },
   {
@@ -2161,7 +2172,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   },
   {
@@ -2171,7 +2182,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2181,7 +2192,7 @@
    "ok": false,
    "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2191,7 +2202,7 @@
    "ok": true,
    "scraped": 15,
    "items": 17,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   },
   {
@@ -2201,7 +2212,7 @@
    "ok": true,
    "scraped": 2,
    "items": 4,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   },
   {
@@ -2211,7 +2222,7 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2221,7 +2232,7 @@
    "ok": true,
    "scraped": 4,
    "items": 5,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   },
   {
@@ -2231,7 +2242,7 @@
    "ok": true,
    "scraped": 8,
    "items": 14,
-   "checked_at": "2026-10-21T19:12:09-04:00",
+   "checked_at": "2026-10-22T11:06:54-04:00",
    "error": null
   }
  ]
