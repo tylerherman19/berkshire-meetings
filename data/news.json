@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T19:15:26-04:00",
+ "updated": "2026-10-23T10:56:51-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2108,17 +2108,6 @@
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/112",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Tyringham",
-   "category": "General",
-   "topic": "Board of Health",
-   "headline": "New Email Addresses for Staff",
-   "summary": "Please note that some of the Town of Tyringham Staff are no longer using BCN email addresses. New Email Addresses: Molly Curtin-Schaefer -Town Administrator Select Board and Board of Health TownHall01264@gmail.com Donna Toomey - Treasurer Treasurer01264@gmail.com Heather Ketchen - Town\u2026",
-   "posted": "2026-07-25T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/29",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -2129,7 +2118,7 @@
   "Sandisfield": 21,
   "Otis": 17,
   "Becket": 33,
-  "Tyringham": 4,
+  "Tyringham": 3,
   "Monterey": 5,
   "New Marlborough": 15,
   "Sheffield": 3
@@ -2140,9 +2129,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 33,
+   "scraped": 32,
    "items": 40,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   },
   {
@@ -2152,7 +2141,7 @@
    "ok": false,
    "scraped": 0,
    "items": 3,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2162,7 +2151,7 @@
    "ok": true,
    "scraped": 6,
    "items": 35,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   },
   {
@@ -2172,7 +2161,7 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   },
   {
@@ -2182,7 +2171,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2192,7 +2181,7 @@
    "ok": false,
    "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2202,7 +2191,7 @@
    "ok": true,
    "scraped": 15,
    "items": 17,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   },
   {
@@ -2211,8 +2200,8 @@
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
    "ok": true,
    "scraped": 2,
-   "items": 4,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "items": 3,
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   },
   {
@@ -2222,7 +2211,7 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2232,7 +2221,7 @@
    "ok": true,
    "scraped": 4,
    "items": 5,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   },
   {
@@ -2242,7 +2231,7 @@
    "ok": true,
    "scraped": 8,
    "items": 14,
-   "checked_at": "2026-10-22T19:15:26-04:00",
+   "checked_at": "2026-10-23T10:56:51-04:00",
    "error": null
   }
  ]
