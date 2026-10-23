@@ -35,4 +35,23 @@ jobs:
           # each run; auto-resolving hunks once merged two runs' outputs into an
           # inconsistent file. Concurrency above prevents the race; if a rebase
           # ever conflicts now, fail loudly instead of publishing a chimera.
-          git diff --cached --quiet || (git commit -m "Update meetings data" && git pull --rebase && git push)
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "Update meetings data"
+          # Retry the push: on Oct 23, 2026 a transient GitHub Internal Server
+          # Error rejected an otherwise clean push and killed the whole run
+          # after a ~100-minute scrape. Rebase is redone each attempt; a real
+          # conflict still fails every attempt and the step fails loudly.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase && git push; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; cleaning up and retrying in 30s..."
+            git rebase --abort 2>/dev/null || true
+            sleep 30
+          done
+          echo "Push failed after 5 attempts."
+          exit 1
