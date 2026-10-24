@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T20:34:37-04:00",
+ "updated": "2026-10-24T09:57:38-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -18,6 +18,17 @@
    "date_only": true,
    "url": "https://www.montereyma.gov/home/news/south-county-connector",
    "first_seen": "2026-10-23T18:04:08-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Wild & Scenic Westfield River Committee - Remarkable River Potluck on Thursday, Nov 5 - 6:30pm to 8:30pm",
+   "summary": "The Wild & Scenic Westfield River Committee invites you. Town officials, community members, volunteers and river enthusiasts to",
+   "posted": "2026-10-22T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/wild-scenic-westfield-river-committee-remarkable-river-potluck-thursday-nov-5-630pm-830pm",
+   "first_seen": "2026-10-24T09:57:38-04:00"
   },
   {
    "town": "Sheffield",
@@ -2145,6 +2156,7 @@
  ],
  "towns": {
   "Monterey": 7,
+  "Becket": 34,
   "Sheffield": 4,
   "Great Barrington": 40,
   "Egremont": 35,
@@ -2152,7 +2164,6 @@
   "BHRSD": 14,
   "Sandisfield": 21,
   "Otis": 17,
-  "Becket": 33,
   "Tyringham": 3,
   "New Marlborough": 15
  },
@@ -2162,9 +2173,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 32,
+   "scraped": 31,
    "items": 40,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   },
   {
@@ -2174,7 +2185,7 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2184,7 +2195,7 @@
    "ok": true,
    "scraped": 6,
    "items": 35,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   },
   {
@@ -2194,18 +2205,18 @@
    "ok": true,
    "scraped": 97,
    "items": 15,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 7,
-   "checked_at": "2026-10-23T20:34:37-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-24T09:57:38-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2214,7 +2225,7 @@
    "ok": false,
    "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2224,7 +2235,7 @@
    "ok": true,
    "scraped": 15,
    "items": 17,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   },
   {
@@ -2234,18 +2245,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 33,
-   "checked_at": "2026-10-23T20:34:37-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 34,
+   "checked_at": "2026-10-24T09:57:38-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2254,7 +2265,7 @@
    "ok": true,
    "scraped": 4,
    "items": 5,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   },
   {
@@ -2264,7 +2275,7 @@
    "ok": true,
    "scraped": 8,
    "items": 14,
-   "checked_at": "2026-10-23T20:34:37-04:00",
+   "checked_at": "2026-10-24T09:57:38-04:00",
    "error": null
   }
  ]
