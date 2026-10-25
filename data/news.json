@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T10:17:55-04:00",
+ "updated": "2026-10-25T14:21:12-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Community Preservation Committee",
+   "headline": "Have a Project Idea for Egremont? Apply for CPA Funding!",
+   "summary": "Step 1 Application Deadline: Tuesday, December 1, 2026 The Egremont Community Preservation Committee (CPC) invites residents, town boards, committees, commissions, and community organizations to submit project ideas for funding in affordable housing, historic preservation, open space, and recreation. Getting started\u2026",
+   "posted": "2026-10-25T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/814",
+   "first_seen": "2026-10-25T14:21:12-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -2144,7 +2155,7 @@
   }
  ],
  "towns": {
-  "Egremont": 36,
+  "Egremont": 37,
   "Monterey": 7,
   "Becket": 34,
   "Sheffield": 4,
@@ -2164,7 +2175,7 @@
    "ok": true,
    "scraped": 31,
    "items": 39,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
@@ -2174,7 +2185,7 @@
    "ok": true,
    "scraped": 12,
    "items": 4,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
@@ -2182,9 +2193,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 6,
-   "items": 36,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "scraped": 7,
+   "items": 37,
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
@@ -2194,28 +2205,28 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 18,
+   "ok": false,
+   "scraped": 0,
    "items": 7,
-   "checked_at": "2026-10-25T10:17:55-04:00",
-   "error": null
+   "checked_at": "2026-10-25T14:21:12-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-25T10:17:55-04:00",
-   "error": null
+   "checked_at": "2026-10-25T14:21:12-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2224,7 +2235,7 @@
    "ok": true,
    "scraped": 15,
    "items": 17,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
@@ -2234,27 +2245,27 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 34,
-   "checked_at": "2026-10-25T10:17:55-04:00",
-   "error": null
+   "checked_at": "2026-10-25T14:21:12-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
    "ok": true,
-   "scraped": 4,
+   "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   },
   {
@@ -2264,7 +2275,7 @@
    "ok": true,
    "scraped": 8,
    "items": 14,
-   "checked_at": "2026-10-25T10:17:55-04:00",
+   "checked_at": "2026-10-25T14:21:12-04:00",
    "error": null
   }
  ]
