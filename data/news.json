@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:05:11-04:00",
+ "updated": "2026-10-25T10:17:55-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2141,28 +2141,6 @@
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R93.php",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "Town of Great Barrington Warns Residents and Applicants of Phishing Scam",
-   "summary": "The Town of Great Barrington is alerting residents, property owners, businesses, contractors, and applicants to a growing nationwide phishing scam targeting individuals involved in municipal permitting, planning, zoning, and licensing processes\u2026",
-   "posted": "2026-07-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/188",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "New Marlborough",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Firefighter/EMT Wanted",
-   "summary": "Full Time The Town of New Marlborough is accepting applications for a full time benefitted Fire Fighter/EMT position to provide emergency response to medical and fire calls as well as perform administrative tasks and maintenance for the Fire/Rescue department. The position description can be\u2026",
-   "posted": "2026-07-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/112",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -2170,13 +2148,13 @@
   "Monterey": 7,
   "Becket": 34,
   "Sheffield": 4,
-  "Great Barrington": 40,
+  "Great Barrington": 39,
   "Alford": 5,
   "BHRSD": 14,
   "Sandisfield": 21,
   "Otis": 17,
   "Tyringham": 3,
-  "New Marlborough": 15
+  "New Marlborough": 14
  },
  "sources": [
   {
@@ -2185,28 +2163,28 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 31,
-   "items": 40,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "items": 39,
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 12,
    "items": 4,
-   "checked_at": "2026-10-24T21:05:11-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-25T10:17:55-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
+   "scraped": 6,
    "items": 36,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   },
   {
@@ -2215,29 +2193,29 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 97,
-   "items": 15,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "items": 14,
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 18,
    "items": 7,
-   "checked_at": "2026-10-24T21:05:11-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-25T10:17:55-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 21,
-   "checked_at": "2026-10-24T21:05:11-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-10-25T10:17:55-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -2246,7 +2224,7 @@
    "ok": true,
    "scraped": 15,
    "items": 17,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   },
   {
@@ -2256,18 +2234,18 @@
    "ok": true,
    "scraped": 2,
    "items": 3,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 34,
-   "checked_at": "2026-10-24T21:05:11-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-10-25T10:17:55-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2276,7 +2254,7 @@
    "ok": true,
    "scraped": 4,
    "items": 5,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   },
   {
@@ -2286,7 +2264,7 @@
    "ok": true,
    "scraped": 8,
    "items": 14,
-   "checked_at": "2026-10-24T21:05:11-04:00",
+   "checked_at": "2026-10-25T10:17:55-04:00",
    "error": null
   }
  ]
