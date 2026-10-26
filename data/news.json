@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T20:09:43-04:00",
+ "updated": "2026-10-26T12:44:28-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "Spirit Week and Halloween Costume Contest Guidelines",
+   "summary": null,
+   "posted": "2026-10-26T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=94191711",
+   "first_seen": "2026-10-26T12:44:28-04:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -29,6 +40,17 @@
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/813",
    "first_seen": "2026-10-24T16:40:06-04:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "Week at a Glance October 23, 2026",
+   "summary": "Du Bois NewsWeek at a Glance October 23, 2026 Message from Mr. LAll the athletics!On the Field, On the Court, and In the Snow: The Power of Middle School Sports!Growing up, athletics was the g...",
+   "posted": "2026-10-23T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=93111049",
+   "first_seen": "2026-10-26T12:44:28-04:00"
   },
   {
    "town": "Monterey",
@@ -2141,29 +2163,18 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/free-senior-fitness-class-%E2%80%93-location-change-weeks-class-friday-july-31-900-am-will-be-held",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Otis",
-   "category": "General",
-   "topic": null,
-   "headline": "Fall Flu & Covid Vaccine Schedule",
-   "summary": "SBPHC Full Schedule Otis Town Hall Flyer Farmington River Flyer",
-   "posted": "2026-07-28T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://townofotisma.com/news_detail_T12_R93.php",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
+  "BHRSD": 16,
   "Egremont": 37,
   "Monterey": 7,
   "Becket": 34,
   "Sheffield": 4,
   "Great Barrington": 39,
   "Alford": 5,
-  "BHRSD": 14,
   "Sandisfield": 21,
-  "Otis": 17,
+  "Otis": 16,
   "Tyringham": 3,
   "New Marlborough": 14
  },
@@ -2173,9 +2184,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
+   "scraped": 29,
    "items": 39,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
@@ -2185,7 +2196,7 @@
    "ok": true,
    "scraped": 12,
    "items": 4,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
@@ -2193,9 +2204,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
+   "scraped": 5,
    "items": 37,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
@@ -2205,7 +2216,7 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
@@ -2215,27 +2226,27 @@
    "ok": true,
    "scraped": 18,
    "items": 7,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-25T20:09:43-04:00",
-   "error": null
+   "checked_at": "2026-10-26T12:44:28-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 15,
-   "items": 17,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "scraped": 14,
+   "items": 16,
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
@@ -2243,20 +2254,20 @@
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
    "ok": true,
-   "scraped": 2,
+   "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 34,
-   "checked_at": "2026-10-25T20:09:43-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-10-26T12:44:28-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2265,7 +2276,7 @@
    "ok": true,
    "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   },
   {
@@ -2274,8 +2285,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 14,
-   "checked_at": "2026-10-25T20:09:43-04:00",
+   "items": 16,
+   "checked_at": "2026-10-26T12:44:28-04:00",
    "error": null
   }
  ]
