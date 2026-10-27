@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:35:13-04:00",
+ "updated": "2026-10-26T21:24:59-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Meeting notices",
+   "topic": "Conservation Commission",
+   "headline": "What Should Egremont's Open Space and Recreation Priorities Be? Share Your Ideas!",
+   "summary": "Conservation Commission Special Meeting \u2014 Thursday, October 29, at 5:30 PM What open spaces should Egremont protect? Where could recreational opportunities be improved? What projects would make a lasting difference for our community? The Egremont Conservation Commission invites residents to a special public meeting\u2026",
+   "posted": "2026-10-26T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/815",
+   "first_seen": "2026-10-26T21:24:59-04:00"
+  },
   {
    "town": "BHRSD",
    "category": "General",
@@ -2166,8 +2177,8 @@
   }
  ],
  "towns": {
+  "Egremont": 38,
   "BHRSD": 16,
-  "Egremont": 37,
   "Monterey": 7,
   "Becket": 34,
   "Sheffield": 4,
@@ -2186,7 +2197,7 @@
    "ok": true,
    "scraped": 29,
    "items": 39,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   },
   {
@@ -2196,7 +2207,7 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2204,9 +2215,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 5,
-   "items": 37,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "scraped": 6,
+   "items": 38,
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   },
   {
@@ -2216,7 +2227,7 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   },
   {
@@ -2226,7 +2237,7 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2236,7 +2247,7 @@
    "ok": false,
    "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2246,7 +2257,7 @@
    "ok": true,
    "scraped": 14,
    "items": 16,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   },
   {
@@ -2256,7 +2267,7 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   },
   {
@@ -2266,7 +2277,7 @@
    "ok": false,
    "scraped": 0,
    "items": 34,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2276,7 +2287,7 @@
    "ok": true,
    "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   },
   {
@@ -2286,7 +2297,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-26T17:35:13-04:00",
+   "checked_at": "2026-10-26T21:24:59-04:00",
    "error": null
   }
  ]
