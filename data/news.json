@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T20:26:27-04:00",
+ "updated": "2026-10-28T12:34:22-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Halloween Weekend Brings Community Celebrations and Cleanup Events",
+   "summary": "Halloween weekend is almost here, and the Town of Great Barrington is reminding residents and families of the festivities planned for Saturday, October 31, along with a community-wide cleanup and Pumpkin Smash in Housatonic on Sunday, November 1. From\u2026",
+   "posted": "2026-10-28T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/242",
+   "first_seen": "2026-10-28T12:34:22-04:00"
+  },
+  {
+   "town": "Otis",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Seasonal Road Closures",
+   "summary": "Snow & Ice Operations",
+   "posted": "2026-10-28T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R115.php",
+   "first_seen": "2026-10-28T12:34:22-04:00"
+  },
   {
    "town": "Becket",
    "category": "Public notices",
@@ -18,6 +40,17 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/becket-transfer-station-%E2%80%93-new-hours-effective-nov-3-tuesdays-saturdays-7-am%E2%80%933-pm",
    "first_seen": "2026-10-27T20:26:27-04:00"
+  },
+  {
+   "town": "Monterey",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Chestnut Hill Road Closing",
+   "summary": "During the week of November 1, 2026 the DPW/Highway Department will be closing Chestnut Hill Road access from Main Rd/Rt 23 for the Winter",
+   "posted": "2026-10-26T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/chestnut-hill-road-closing",
+   "first_seen": "2026-10-28T12:34:22-04:00"
   },
   {
    "town": "Becket",
@@ -1508,8 +1541,8 @@
    "town": "Otis",
    "category": "Public notices",
    "topic": null,
-   "headline": "PLANNING BOARD VACANCY",
-   "summary": "The Otis Planning Board has a vacancy and is looking for a member. Please email townadmin@townofotisma.com if you are interested. This would be a temporary appointment until the May annual election at which time you could enter your name on the ballot for the three year term.",
+   "headline": "FINANCE COMMITTEE VACANCY",
+   "summary": "The Otis Finance Committee has a vacancy and is looking for a member. Please email townadmin@townofotisma.com if you are interested.",
    "posted": "2026-09-09T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R102.php",
@@ -2163,40 +2196,18 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/192",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "Attention South County Connector riders",
-   "summary": "To keep our service safe and reliable during a temporary staffing shortage, we are suspending our Pittsfield FLEX service, effective Monday, August 3. This service suspension is in addition to the On Demand service hours reduction (6:30 AM - 5 PM daily) currently in effect. We\u2026",
-   "posted": "2026-07-30T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/191",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "Becket - Washington Community Yard Sale - August 22 (rain date August 29), 10am till 1pm",
-   "summary": null,
-   "posted": "2026-07-30T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/becket-washington-community-yard-sale-august-22-rain-date-august-29-10am-till-1pm",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Becket": 34,
   "Great Barrington": 40,
+  "Otis": 17,
+  "Becket": 33,
+  "Monterey": 8,
   "Egremont": 38,
   "BHRSD": 16,
-  "Monterey": 7,
   "Sheffield": 4,
   "Alford": 5,
   "Sandisfield": 21,
-  "Otis": 16,
   "Tyringham": 3,
   "New Marlborough": 14
  },
@@ -2206,9 +2217,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 29,
+   "scraped": 30,
    "items": 40,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   },
   {
@@ -2218,7 +2229,7 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2226,9 +2237,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 6,
+   "scraped": 5,
    "items": 38,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   },
   {
@@ -2238,37 +2249,37 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 7,
-   "checked_at": "2026-10-27T20:26:27-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 19,
+   "items": 8,
+   "checked_at": "2026-10-28T12:34:22-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 21,
-   "checked_at": "2026-10-27T20:26:27-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-10-28T12:34:22-04:00",
+   "error": null
   },
   {
    "town": "Otis",
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 13,
-   "items": 16,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "scraped": 9,
+   "items": 17,
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   },
   {
@@ -2278,18 +2289,18 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
-   "items": 34,
-   "checked_at": "2026-10-27T20:26:27-04:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 33,
+   "checked_at": "2026-10-28T12:34:22-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2298,7 +2309,7 @@
    "ok": true,
    "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   },
   {
@@ -2308,7 +2319,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-27T20:26:27-04:00",
+   "checked_at": "2026-10-28T12:34:22-04:00",
    "error": null
   }
  ]
