@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T16:36:53-04:00",
+ "updated": "2026-10-27T20:26:27-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Becket Transfer Station \u2013 NEW HOURS Effective Nov. 3: Tuesdays & Saturdays, 7 AM\u20133 PM",
+   "summary": null,
+   "posted": "2026-10-27T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-transfer-station-%E2%80%93-new-hours-effective-nov-3-tuesdays-saturdays-7-am%E2%80%933-pm",
+   "first_seen": "2026-10-27T20:26:27-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Reminder: SHINE Medicare Information Session \u2014 Wednesday, Oct. 28, 10:30\u201311:30 AM",
+   "summary": null,
+   "posted": "2026-10-26T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/reminder-shine-medicare-information-session-%E2%80%94-wednesday-oct-28-1030%E2%80%931130-am",
+   "first_seen": "2026-10-27T20:26:27-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -2166,11 +2188,11 @@
   }
  ],
  "towns": {
+  "Becket": 34,
   "Great Barrington": 40,
   "Egremont": 38,
   "BHRSD": 16,
   "Monterey": 7,
-  "Becket": 32,
   "Sheffield": 4,
   "Alford": 5,
   "Sandisfield": 21,
@@ -2186,7 +2208,7 @@
    "ok": true,
    "scraped": 29,
    "items": 40,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   },
   {
@@ -2196,7 +2218,7 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2206,7 +2228,7 @@
    "ok": true,
    "scraped": 6,
    "items": 38,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   },
   {
@@ -2216,7 +2238,7 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   },
   {
@@ -2226,18 +2248,18 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 21,
-   "checked_at": "2026-10-27T16:36:53-04:00",
-   "error": null
+   "checked_at": "2026-10-27T20:26:27-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2246,7 +2268,7 @@
    "ok": true,
    "scraped": 13,
    "items": 16,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   },
   {
@@ -2256,18 +2278,18 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 32,
-   "checked_at": "2026-10-27T16:36:53-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 34,
+   "checked_at": "2026-10-27T20:26:27-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2276,7 +2298,7 @@
    "ok": true,
    "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   },
   {
@@ -2286,7 +2308,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-27T16:36:53-04:00",
+   "checked_at": "2026-10-27T20:26:27-04:00",
    "error": null
   }
  ]
