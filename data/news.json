@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T21:43:50-04:00",
+ "updated": "2026-10-29T12:51:57-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,72 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "GREAT BARRINGTON SHINES IN NATIONAL TRAVEL + LEISURE FEATURE",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (October 28, 2026) Great Barrington Shines in National Travel + Leisure Feature Great Barrington is once again capturing national attention, this time in Travel + Leisure , which recently featured the Town as a standout Berkshire destination, celebrating its\u2026",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/243",
+   "first_seen": "2026-10-29T12:51:57-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": null,
+   "headline": "Impact South County Housing Development: Landscaping and Site Improvements Underway",
+   "summary": "Work continues at the Impact South County housing development behind Egremont Town Hall , with landscaping and site improvements taking shape as the project nears completion. This week, crews began planting multiple trees opposite the development's entrance and along the property edge. Additional improvements include\u2026",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/819",
+   "first_seen": "2026-10-29T12:51:57-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Select Board",
+   "headline": "Halloween Hours Set for Saturday, October 31",
+   "summary": "Three very important members of the Halloween committee have spoken: the witch is ready, the little devil approves, and the ghost is\u2026 keeping an eye on things. The Town\u2019s official Halloween trick-or-treat hours will be Saturday, October 31, from 6 to 8 pm . So, grab your costumes, bring your flashlights, and get ready\u2026",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/816",
+   "first_seen": "2026-10-29T12:51:57-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Transportation Department",
+   "headline": "Egremont Seeks Part-time Van Driver",
+   "summary": "The Town of Egremont is seeking applicants for the Van Driver position. This part-time position starts at an hourly wage of $20.50 and guarantees a minimum of 8 hours per week. The main purpose of this position is to transport Senior Citizens and People with Disabilities between various places as planned, including\u2026",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/818",
+   "first_seen": "2026-10-29T12:51:57-04:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Police Department",
+   "headline": "Egremont Seeks Full-Time Police Officer",
+   "summary": "$10,000 Sign-On Bonus | Competitive Pay and Benefits The Town of Egremont is accepting applications for a full-time Police Officer (40 hours per week). This is an opportunity for a qualified officer to serve the Egremont community while enjoying competitive compensation, comprehensive benefits, and career incentives\u2026",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/817",
+   "first_seen": "2026-10-29T12:51:57-04:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Open Space & Recreation Forum",
+   "summary": "Don't miss this opportunity to discuss the future of Sandisfield's recreation and open spaces! Want Sandisfield to focus of establishing",
+   "posted": "2026-10-28T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/open-space-recreation-forum",
+   "first_seen": "2026-10-29T12:51:57-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -79,7 +145,7 @@
    "category": "Meeting notices",
    "topic": "Conservation Commission",
    "headline": "What Should Egremont's Open Space and Recreation Priorities Be? Share Your Ideas!",
-   "summary": "Conservation Commission Special Meeting \u2014 Thursday, October 29, at 5:30 PM What open spaces should Egremont protect? Where could recreational opportunities be improved? What projects would make a lasting difference for our community? The Egremont Conservation Commission invites residents to a special public meeting\u2026",
+   "summary": "Conservation Commission Special Meeting \u2014 Thursday, October 29, at 5:30 PM What Should Egremont's Open Space and Recreation Priorities Be? Share Your Ideas! The Egremont Conservation Commission invites residents to a special public meeting dedicated to discussing priorities for Community Preservation Act (CPA) funding\u2026",
    "posted": "2026-10-26T00:00:00-04:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/815",
@@ -2185,29 +2251,18 @@
    "date_only": true,
    "url": "https://www.townofalford.org/m/newsflash/Home/Detail/16",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "Road closures",
-   "topic": null,
-   "headline": "Hurlburt Road Bridge Closure & Detour Beginning August 10",
-   "summary": "The Town of Great Barrington has been notified by the Massachusetts Department of Transportation (MassDOT) that bridge rehabilitation work on the Hurlburt Road Bridge is scheduled to begin Monday, August 10, 2026 . To safely complete the project, Hurlburt Road\u2026",
-   "posted": "2026-07-31T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/192",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
   "Great Barrington": 40,
+  "Egremont": 42,
+  "Sandisfield": 22,
   "Otis": 17,
   "Becket": 33,
   "Monterey": 8,
-  "Egremont": 38,
   "BHRSD": 16,
   "Sheffield": 4,
   "Alford": 5,
-  "Sandisfield": 21,
   "Tyringham": 3,
   "New Marlborough": 14
  },
@@ -2217,9 +2272,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 30,
+   "scraped": 31,
    "items": 40,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   },
   {
@@ -2229,7 +2284,7 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2237,9 +2292,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 5,
-   "items": 38,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "scraped": 8,
+   "items": 42,
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   },
   {
@@ -2249,28 +2304,28 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 8,
-   "checked_at": "2026-10-28T21:43:50-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-10-29T12:51:57-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 21,
-   "checked_at": "2026-10-28T21:43:50-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 22,
+   "checked_at": "2026-10-29T12:51:57-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -2279,7 +2334,7 @@
    "ok": true,
    "scraped": 9,
    "items": 17,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   },
   {
@@ -2289,7 +2344,7 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   },
   {
@@ -2299,7 +2354,7 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2309,7 +2364,7 @@
    "ok": true,
    "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   },
   {
@@ -2319,7 +2374,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-28T21:43:50-04:00",
+   "checked_at": "2026-10-29T12:51:57-04:00",
    "error": null
   }
  ]
