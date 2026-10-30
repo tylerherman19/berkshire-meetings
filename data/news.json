@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:40:13-04:00",
+ "updated": "2026-10-30T17:26:27-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Otis",
+   "category": "General",
+   "topic": null,
+   "headline": "Attention: October 30th- No Outside Burning of Any Kind Due to Wildfire Fire Risk",
+   "summary": "Per the Fire Chief Except a Gas stove for Cooking",
+   "posted": "2026-10-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R116.php",
+   "first_seen": "2026-10-30T17:26:27-04:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Road closures",
@@ -40,6 +51,17 @@
    "date_only": true,
    "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/39",
    "first_seen": "2026-10-30T12:40:13-04:00"
+  },
+  {
+   "town": "Sheffield",
+   "category": "General",
+   "topic": null,
+   "headline": "Help Shape Sheffield\u2019s Future by Taking the Town\u2019s Planning Survey",
+   "summary": "This is our opportunity to share what we love about Sheffield, what we would like to see improved, and what matters most for our town",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sheffieldma.gov/home/news/help-shape-sheffield%E2%80%99s-future-taking-town%E2%80%99s-planning-survey",
+   "first_seen": "2026-10-30T17:26:27-04:00"
   },
   {
    "town": "Great Barrington",
@@ -2287,15 +2309,15 @@
   }
  ],
  "towns": {
+  "Otis": 18,
   "Great Barrington": 42,
   "Tyringham": 4,
+  "Sheffield": 5,
   "Egremont": 42,
   "Sandisfield": 22,
-  "Otis": 17,
   "Becket": 33,
   "Monterey": 8,
   "BHRSD": 16,
-  "Sheffield": 4,
   "Alford": 5,
   "New Marlborough": 14
  },
@@ -2307,18 +2329,18 @@
    "ok": true,
    "scraped": 33,
    "items": 42,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 4,
-   "checked_at": "2026-10-30T12:40:13-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "ok": true,
+   "scraped": 13,
+   "items": 5,
+   "checked_at": "2026-10-30T17:26:27-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -2327,7 +2349,7 @@
    "ok": true,
    "scraped": 7,
    "items": 42,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   },
   {
@@ -2337,18 +2359,18 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 8,
-   "checked_at": "2026-10-30T12:40:13-04:00",
-   "error": null
+   "checked_at": "2026-10-30T17:26:27-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -2357,7 +2379,7 @@
    "ok": false,
    "scraped": 0,
    "items": 22,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2365,9 +2387,9 @@
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 9,
-   "items": 17,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "scraped": 10,
+   "items": 18,
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   },
   {
@@ -2377,18 +2399,18 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-30T12:40:13-04:00",
-   "error": null
+   "checked_at": "2026-10-30T17:26:27-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2397,7 +2419,7 @@
    "ok": true,
    "scraped": 3,
    "items": 5,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   },
   {
@@ -2407,7 +2429,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-30T12:40:13-04:00",
+   "checked_at": "2026-10-30T17:26:27-04:00",
    "error": null
   }
  ]
