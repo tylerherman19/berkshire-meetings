@@ -38,3 +38,7 @@ jobs:
             python -c "import json,sys; json.load(open(sys.argv[1]))" "$f"
             echo "ok $f"
           done
+      - name: Install scraper dependencies
+        run: pip install -r scraper/requirements.txt
+      - name: Run police parser regression tests
+        run: python -m unittest discover tests
