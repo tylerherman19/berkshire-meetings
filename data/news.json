@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:44:23-04:00",
+ "updated": "2026-10-29T21:52:33-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2271,11 +2271,11 @@
    "town": "Great Barrington",
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
-   "ok": true,
-   "scraped": 31,
+   "ok": false,
+   "scraped": 0,
    "items": 40,
-   "checked_at": "2026-10-29T17:44:23-04:00",
-   "error": null
+   "checked_at": "2026-10-29T21:52:33-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofgbma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.townofgbma.gov', p"
   },
   {
    "town": "Sheffield",
@@ -2284,28 +2284,28 @@
    "ok": false,
    "scraped": 0,
    "items": 4,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": true,
-   "scraped": 8,
+   "ok": false,
+   "scraped": 0,
    "items": 42,
-   "checked_at": "2026-10-29T17:44:23-04:00",
-   "error": null
+   "checked_at": "2026-10-29T21:52:33-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.egremont-ma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,3"
   },
   {
    "town": "New Marlborough",
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
-   "ok": true,
-   "scraped": 97,
+   "ok": false,
+   "scraped": 0,
    "items": 14,
-   "checked_at": "2026-10-29T17:44:23-04:00",
-   "error": null
+   "checked_at": "2026-10-29T21:52:33-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newmarlboroughma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newmarlborou"
   },
   {
    "town": "Monterey",
@@ -2314,7 +2314,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2324,7 +2324,7 @@
    "ok": false,
    "scraped": 0,
    "items": 22,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2334,7 +2334,7 @@
    "ok": true,
    "scraped": 9,
    "items": 17,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": null
   },
   {
@@ -2344,7 +2344,7 @@
    "ok": true,
    "scraped": 1,
    "items": 3,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": null
   },
   {
@@ -2354,18 +2354,18 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": true,
-   "scraped": 3,
+   "ok": false,
+   "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-29T17:44:23-04:00",
-   "error": null
+   "checked_at": "2026-10-29T21:52:33-04:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Max retries exceeded with url: /m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 (Caused by ConnectTimeoutError("
   },
   {
    "town": "BHRSD",
@@ -2374,7 +2374,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-29T17:44:23-04:00",
+   "checked_at": "2026-10-29T21:52:33-04:00",
    "error": null
   }
  ]
