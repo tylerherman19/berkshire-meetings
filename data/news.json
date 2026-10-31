@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:42:11-04:00",
+ "updated": "2026-10-31T15:54:26-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Monterey",
+   "category": "General",
+   "topic": null,
+   "headline": "Veterans' Day Observance and Service",
+   "summary": "The Town of Monterey's Veterans' Day observance and service will take place at the First World War monument in front of the Monterey",
+   "posted": "2026-10-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/veterans-day-observance-and-service-0",
+   "first_seen": "2026-10-31T15:54:26-04:00"
+  },
   {
    "town": "Otis",
    "category": "General",
@@ -2309,6 +2320,7 @@
   }
  ],
  "towns": {
+  "Monterey": 9,
   "Otis": 18,
   "Great Barrington": 42,
   "Tyringham": 4,
@@ -2316,7 +2328,6 @@
   "Egremont": 42,
   "Sandisfield": 22,
   "Becket": 33,
-  "Monterey": 8,
   "BHRSD": 16,
   "Alford": 5,
   "New Marlborough": 14
@@ -2329,7 +2340,7 @@
    "ok": true,
    "scraped": 31,
    "items": 42,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   },
   {
@@ -2339,7 +2350,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2349,7 +2360,7 @@
    "ok": true,
    "scraped": 7,
    "items": 42,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   },
   {
@@ -2359,18 +2370,18 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 8,
-   "checked_at": "2026-10-31T11:42:11-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 19,
+   "items": 9,
+   "checked_at": "2026-10-31T15:54:26-04:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2379,7 +2390,7 @@
    "ok": false,
    "scraped": 0,
    "items": 22,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2389,7 +2400,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   },
   {
@@ -2399,7 +2410,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   },
   {
@@ -2409,7 +2420,7 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2419,7 +2430,7 @@
    "ok": true,
    "scraped": 2,
    "items": 5,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   },
   {
@@ -2429,7 +2440,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-31T11:42:11-04:00",
+   "checked_at": "2026-10-31T15:54:26-04:00",
    "error": null
   }
  ]
