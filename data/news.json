@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:30:34-04:00",
+ "updated": "2026-10-31T11:42:11-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2327,9 +2327,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 33,
+   "scraped": 31,
    "items": 42,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   },
   {
@@ -2339,7 +2339,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2349,7 +2349,7 @@
    "ok": true,
    "scraped": 7,
    "items": 42,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   },
   {
@@ -2359,7 +2359,7 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   },
   {
@@ -2369,7 +2369,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2379,7 +2379,7 @@
    "ok": false,
    "scraped": 0,
    "items": 22,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2389,7 +2389,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   },
   {
@@ -2399,7 +2399,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   },
   {
@@ -2409,7 +2409,7 @@
    "ok": false,
    "scraped": 0,
    "items": 33,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2417,9 +2417,9 @@
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
    "ok": true,
-   "scraped": 3,
+   "scraped": 2,
    "items": 5,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   },
   {
@@ -2429,7 +2429,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-30T21:30:34-04:00",
+   "checked_at": "2026-10-31T11:42:11-04:00",
    "error": null
   }
  ]
