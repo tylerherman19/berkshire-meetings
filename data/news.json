@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:54:26-04:00",
+ "updated": "2026-10-31T19:18:12-04:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Egremont Fire Department Hiring Full-Time Firefighter/EMT",
+   "summary": "The position includes fire protection, emergency medical services, rescue operations, fire prevention, code enforcement, and other public safety responsibilities. Applicants must have a high school diploma or GED and a valid Massachusetts driver's license. Previous firefighting and EMT experience is preferred, but the\u2026",
+   "posted": "2026-10-31T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/820",
+   "first_seen": "2026-10-31T19:18:12-04:00"
+  },
   {
    "town": "Monterey",
    "category": "General",
@@ -425,6 +436,17 @@
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R113.php",
    "first_seen": "2026-10-20T10:57:44-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "BECKET SWAP SHOP UPDATE \u2013 Last Day of the 2026 Season Tomorrow, October 31! Special Sports Equipment Swap Event November 7 & Volunteers Needed for 2027",
+   "summary": null,
+   "posted": "2026-10-19T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-swap-shop-update-%E2%80%93-last-day-2026-season-tomorrow-october-31-special-sports",
+   "first_seen": "2026-10-31T19:18:12-04:00"
   },
   {
    "town": "Becket",
@@ -2320,14 +2342,14 @@
   }
  ],
  "towns": {
+  "Egremont": 43,
   "Monterey": 9,
   "Otis": 18,
   "Great Barrington": 42,
   "Tyringham": 4,
   "Sheffield": 5,
-  "Egremont": 42,
   "Sandisfield": 22,
-  "Becket": 33,
+  "Becket": 34,
   "BHRSD": 16,
   "Alford": 5,
   "New Marlborough": 14
@@ -2340,27 +2362,27 @@
    "ok": true,
    "scraped": 31,
    "items": 42,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 5,
-   "checked_at": "2026-10-31T15:54:26-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-10-31T19:18:12-04:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
-   "items": 42,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "scraped": 8,
+   "items": 43,
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   },
   {
@@ -2370,28 +2392,28 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 9,
-   "checked_at": "2026-10-31T15:54:26-04:00",
-   "error": null
+   "checked_at": "2026-10-31T19:18:12-04:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 22,
-   "checked_at": "2026-10-31T15:54:26-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-10-31T19:18:12-04:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -2400,7 +2422,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   },
   {
@@ -2410,18 +2432,18 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 33,
-   "checked_at": "2026-10-31T15:54:26-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 34,
+   "checked_at": "2026-10-31T19:18:12-04:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2430,7 +2452,7 @@
    "ok": true,
    "scraped": 2,
    "items": 5,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   },
   {
@@ -2440,7 +2462,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-31T15:54:26-04:00",
+   "checked_at": "2026-10-31T19:18:12-04:00",
    "error": null
   }
  ]
