@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:18:12-04:00",
+ "updated": "2026-11-01T11:45:36-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2306,39 +2306,6 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/press-release-transition-fire-department-leadership",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "UPDATE Free Digital Skills Classes - August [Changes are reflected in the class schedule in the Town of Lee and in the contact extension.]",
-   "summary": null,
-   "posted": "2026-08-03T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/update-free-digital-skills-classes-august-changes-are-reflected-class-schedule-town-lee",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "The Becket Tax Collectors' Office will be closed August 11\u201313, 2026, due to staff attendance at the annual Tax Collectors' School. Please plan accordingly. Thank you.",
-   "summary": null,
-   "posted": "2026-08-03T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/becket-tax-collectors-office-will-be-closed-august-11%E2%80%9313-2026-due-staff-attendance-annual",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Alford",
-   "category": "General",
-   "topic": "Select Board",
-   "headline": "Town Offices Closed to Public",
-   "summary": "The Town Offices are closed to the Public during construction. For assistance, please call 413-528-4536 Select Board x101 Town Clerk X102 Assessors x 103 Tax Collector X105",
-   "posted": "2026-08-03T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofalford.org/m/newsflash/Home/Detail/16",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -2349,9 +2316,9 @@
   "Tyringham": 4,
   "Sheffield": 5,
   "Sandisfield": 22,
-  "Becket": 34,
+  "Becket": 32,
   "BHRSD": 16,
-  "Alford": 5,
+  "Alford": 4,
   "New Marlborough": 14
  },
  "sources": [
@@ -2360,9 +2327,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
+   "scraped": 26,
    "items": 42,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
@@ -2372,7 +2339,7 @@
    "ok": true,
    "scraped": 13,
    "items": 5,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
@@ -2380,9 +2347,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
+   "scraped": 7,
    "items": 43,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
@@ -2392,18 +2359,18 @@
    "ok": true,
    "scraped": 97,
    "items": 14,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 9,
-   "checked_at": "2026-10-31T19:18:12-04:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-11-01T11:45:36-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2412,7 +2379,7 @@
    "ok": true,
    "scraped": 20,
    "items": 22,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
@@ -2422,7 +2389,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
@@ -2432,27 +2399,27 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
-   "items": 34,
-   "checked_at": "2026-10-31T19:18:12-04:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 32,
+   "checked_at": "2026-11-01T11:45:36-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
    "ok": true,
-   "scraped": 2,
-   "items": 5,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "scraped": 1,
+   "items": 4,
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   },
   {
@@ -2462,7 +2429,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-10-31T19:18:12-04:00",
+   "checked_at": "2026-11-01T11:45:36-05:00",
    "error": null
   }
  ]
