@@ -1,288 +1,9 @@
 {
- "updated": "2026-11-01T12:11:30-05:00",
+ "updated": "2026-11-02T16:08:53-05:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Council Aging",
-   "title": "Council on Aging Meeting",
-   "date": "2026-11-02",
-   "start": "10:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Becket",
-   "board": "Select Board",
-   "title": "Select Board Agenda",
-   "date": "2026-11-04",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-04",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-11-05",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-11-05",
-   "start": "08:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Sandisfield",
-   "board": "Council on Aging Meeting",
-   "title": "Council on Aging Meeting",
-   "date": "2026-11-05",
-   "start": "11:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Monterey Library",
-   "title": "Monterey Library Board of Trustees Meeting",
-   "date": "2026-11-09",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Sandisfield",
-   "board": "Cultural Council Meeting November 10, 2026",
-   "title": "Cultural Council Meeting November 10, 2026",
-   "date": "2026-11-10",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-11-11",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-11-11",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Veterans Day",
-   "date": "2026-11-11",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Sandisfield",
-   "board": "Open Space and Recreation Forum",
-   "title": "Open Space and Recreation Forum",
-   "date": "2026-11-18",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Conservation Commission",
-   "title": "Conservation Committee Meeting",
-   "date": "2026-11-19",
-   "start": "17:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Sandisfield",
-   "board": "Library Board of Trustees Meeting",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-11-23",
-   "start": "14:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-11-25",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-11-25",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Thanksgiving",
-   "date": "2026-11-26",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-12-03",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-12-03",
-   "start": "08:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-12-09",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-12-09",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-12-23",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-12-23",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Christmas Day",
-   "date": "2026-12-25",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Planning Board",
-   "title": "Parks Commission Meeting",
-   "date": "2027-01-04",
-   "start": "13:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-01-07",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-01-07",
-   "start": "08:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-02-04",
-   "start": "07:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-02-04",
-   "start": "08:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station Open",
-   "date": "2026-11-01",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-01",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Council on Aging Meeting",
    "title": "Council on Aging Meeting",
@@ -290,35 +11,8 @@
    "start": "10:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Tyringham",
-   "board": "Lee School Committee -Policy Subcommittee Meeting 11.2.2026",
-   "title": "Lee School Committee -Policy Subcommittee Meeting 11.2.2026",
-   "date": "2026-11-02",
-   "start": "16:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "GREAT BARRINGTON PARKS COMMISSIONERS",
-   "title": "GREAT BARRINGTON PARKS COMMISSIONERS",
-   "date": "2026-11-02",
-   "start": "17:15"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Great Barrington Cultural Council",
-   "title": "Great Barrington Cultural Council",
-   "date": "2026-11-02",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Select Board",
    "title": "Select Board Meeting",
@@ -326,71 +20,8 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-03",
-   "start": "07:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Town Clerk",
-   "title": "State Election",
-   "date": "2026-11-03",
-   "start": "07:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Election Day \u2014 Tuesday, November 3",
-   "title": "Election Day \u2014 Tuesday, November 3",
-   "date": "2026-11-03",
-   "start": "07:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Great Barrington Fire District Prudential Committee",
-   "title": "Great Barrington Fire District Prudential Committee",
-   "date": "2026-11-03",
-   "start": "16:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Tyringham",
-   "board": "Vote! State Election Flyer 2026",
-   "title": "Vote! State Election Flyer 2026",
-   "date": "2026-11-03",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "BERKSHIRE HILLS REGIONAL SCHOOL DISTRICT - MONUMENT MOUNTAIN REGIONAL HIGH SCHOOL BUILDING COMMITTEE (SBC) - PREQUALIFICATION SUBCOMMITTEE AGENDA",
-   "title": "BERKSHIRE HILLS REGIONAL SCHOOL DISTRICT - MONUMENT MOUNTAIN REGIONAL HIGH SCHOOL BUILDING COMMITTEE (SBC) - PREQUALIFICATION SUBCOMMITTEE AGENDA",
-   "date": "2026-11-04",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Cemetery Commission",
-   "title": "Cemetery Commission",
-   "date": "2026-11-04",
-   "start": "15:15"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Select Board Meeting",
    "title": "Select Board Meeting",
@@ -398,17 +29,8 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Berkshire County Retirement Advisory Board Annual Meeting",
-   "title": "Berkshire County Retirement Advisory Board Annual Meeting",
-   "date": "2026-11-05",
-   "start": "09:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Council Aging",
    "title": "Council on Aging Meeting",
@@ -416,71 +38,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Berkshire Regional Planning Commission Executive Committee",
-   "title": "Berkshire Regional Planning Commission Executive Committee",
-   "date": "2026-11-05",
-   "start": "16:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "ZONING BOARD OF APPEALS",
-   "title": "ZONING BOARD OF APPEALS",
-   "date": "2026-11-05",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-07",
-   "start": "08:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Alford Historic District Commission",
-   "title": "Dr. Justin Jackson",
-   "date": "2026-11-07",
-   "start": "10:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station Open",
-   "date": "2026-11-08",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-09",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Selectboard meeting",
-   "title": "Selectboard meeting",
-   "date": "2026-11-09",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Monterey Library Board of Trustees Meeting",
    "title": "Monterey Library Board of Trustees Meeting",
@@ -488,17 +47,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-10",
-   "start": "07:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Cultural Council",
    "title": "Cultural Council Meeting November 10, 2026",
@@ -506,8 +56,8 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "Board of Health",
@@ -515,17 +65,8 @@
    "start": "17:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Planning Board",
-   "title": "Planning Board Meeting",
-   "date": "2026-11-11",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Town Hall Closed in Observance of Veterans Day",
    "title": "Town Hall Closed in Observance of Veterans Day",
@@ -533,8 +74,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Housing Committee Meeting",
    "title": "Housing Committee Meeting",
@@ -542,17 +83,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Berkshire Hills Regional School District - MOUNTAIN REGIONAL HIGH SCHOOL BUILDING COMMITTEE (SBC) FINANCE SUBCOMMITTEE MEETING",
-   "title": "Berkshire Hills Regional School District - MOUNTAIN REGIONAL HIGH SCHOOL BUILDING COMMITTEE (SBC) FINANCE SUBCOMMITTEE MEETING",
-   "date": "2026-11-12",
-   "start": "12:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Board Health",
    "title": "SBPHC Monthly Meeting",
@@ -560,44 +92,8 @@
    "start": "09:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-14",
-   "start": "08:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Community Cafe",
-   "title": "Community Cafe",
-   "date": "2026-11-14",
-   "start": "10:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station Open",
-   "date": "2026-11-15",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-17",
-   "start": "07:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting",
@@ -605,17 +101,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Berkshire Hills Regional School District - Building Committee",
-   "title": "Berkshire Hills Regional School District - Building Committee",
-   "date": "2026-11-18",
-   "start": "17:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Open Space Recreation Plan Committee",
    "title": "Open Space and Recreation Forum",
@@ -623,53 +110,8 @@
    "start": "18:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-18",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Historic District Commission",
-   "title": "Historic District Commission",
-   "date": "2026-11-19",
-   "start": "17:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-21",
-   "start": "08:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station Open",
-   "date": "2026-11-22",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Berkshire County Retirement Board",
-   "title": "Berkshire County Retirement Board",
-   "date": "2026-11-23",
-   "start": "09:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Sandisfield",
    "board": "Library",
    "title": "Library Board of Trustees Meeting",
@@ -677,35 +119,8 @@
    "start": "14:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-23",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Great Barrington",
-   "board": "Selectboard meeting",
-   "title": "Selectboard meeting",
-   "date": "2026-11-23",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-24",
-   "start": "07:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Housing Committee Meeting",
    "title": "Housing Committee Meeting",
@@ -713,13 +128,526 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-01T12:11:30-05:00",
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
    "town": "Monterey",
    "board": "Town Hall Closed in Observance of Thanksgiving",
    "title": "Town Hall Closed in Observance of Thanksgiving",
    "date": "2026-11-26",
    "start": ""
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-01",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-12-03",
+   "start": "11:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2026-12-09",
+   "start": "17:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee Meeting",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2026-12-11",
+   "start": "09:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-15",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2026-12-28",
+   "start": "14:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-01",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2027-01-07",
+   "start": "11:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2027-01-08",
+   "start": "09:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2027-01-13",
+   "start": "17:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-01-19",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2027-01-25",
+   "start": "14:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-02-01",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2027-02-04",
+   "start": "11:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "Board of Health",
+   "date": "2027-02-10",
+   "start": "17:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board Health",
+   "title": "SBPHC Monthly Meeting",
+   "date": "2027-02-12",
+   "start": "09:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2027-02-16",
+   "start": "19:00"
+  },
+  {
+   "type": "removed",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Library",
+   "title": "Library Board of Trustees Meeting",
+   "date": "2027-02-22",
+   "start": "14:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Becket",
+   "board": "Planning Board",
+   "title": "Planning Board Agenda",
+   "date": "2026-11-02",
+   "start": "09:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Council Aging",
+   "title": "Council on Aging Meeting",
+   "date": "2026-11-02",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Select Board Meeting",
+   "title": "Select Board Meeting",
+   "date": "2026-11-02",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-11-04",
+   "start": "10:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Great Barrington",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors",
+   "date": "2026-11-04",
+   "start": "15:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health",
+   "date": "2026-11-04",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Becket",
+   "board": "Select Board",
+   "title": "Select Board Agenda",
+   "date": "2026-11-04",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Select Board",
+   "title": "Select Board Meeting",
+   "date": "2026-11-04",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-11-05",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Council on Aging Meeting",
+   "title": "Council on Aging Meeting",
+   "date": "2026-11-05",
+   "start": "11:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "New Marlborough",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting Agenda",
+   "date": "2026-11-05",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Monterey Library",
+   "title": "Monterey Library Board of Trustees Meeting",
+   "date": "2026-11-09",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Egremont",
+   "board": "Select Board",
+   "title": "Screening Committee Meeting (PDF)",
+   "date": "2026-11-09",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Becket",
+   "board": "Finance Committee",
+   "title": "Finance Committee Agenda",
+   "date": "2026-11-10",
+   "start": "15:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Cultural Council Meeting November 10, 2026",
+   "title": "Cultural Council Meeting November 10, 2026",
+   "date": "2026-11-10",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Board of Health",
+   "title": "Board of Health",
+   "date": "2026-11-11",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-11",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "CANCELED: Housing Committee Meeting",
+   "date": "2026-11-11",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Veterans Day",
+   "date": "2026-11-11",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Conservation Commission Meeting",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-11-17",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Sandisfield",
+   "board": "Open Space and Recreation Forum",
+   "title": "Open Space and Recreation Forum",
+   "date": "2026-11-18",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Conservation Commission",
+   "title": "Conservation Committee Meeting",
+   "date": "2026-11-19",
+   "start": "17:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-11-25",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "CANCELED: Housing Committee Meeting",
+   "date": "2026-11-25",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Thanksgiving",
+   "date": "2026-11-26",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2026-12-03",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "CANCELED: Housing Committee Meeting",
+   "date": "2026-12-09",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "Housing Committee Meeting",
+   "date": "2026-12-23",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Housing Committee",
+   "title": "CANCELED: Housing Committee Meeting",
+   "date": "2026-12-23",
+   "start": "19:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Town Administrator",
+   "title": "Town Hall Closed in Observance of Christmas Day",
+   "date": "2026-12-25",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Planning Board",
+   "title": "Parks Commission Meeting",
+   "date": "2027-01-04",
+   "start": "13:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-01-07",
+   "start": "08:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "07:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-02T16:08:53-05:00",
+   "town": "Monterey",
+   "board": "Police Department",
+   "title": "Breakfast with the Monterey Police",
+   "date": "2027-02-04",
+   "start": "08:30"
   }
  ]
 }
