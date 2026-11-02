@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:37:58-05:00",
+ "updated": "2026-11-02T15:16:29-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Election Day is Tomorrow",
+   "summary": "Make Your Plan To Vote! The Town of Great Barrington reminds residents that the Massachusetts State Election is tomorrow, Tuesday, November 3, 2026. Polls will be open from 7:00 AM to 8:00 PM. Election Day Polling Locations PRECINCTS A, C & D Great Barrington Fire Department 37 State Road\u2026",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/247",
+   "first_seen": "2026-11-02T15:16:29-05:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Municipal Building Evaluation Reports Released",
+   "summary": "Town advances long-term infrastructure planning with detailed assessments of Town Hall, Mason Library, and Fire Station Headquarters. Directly supporting the Selectboard's strategic priorities of Infrastructure & Assets and Municipal Service Delivery the Town of Great\u2026",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/246",
+   "first_seen": "2026-11-02T15:16:29-05:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "General",
+   "topic": null,
+   "headline": "A message from the New Marlborough Highway Department:",
+   "summary": "Road construction will be occurring on the following roads over the next several weeks. Please expect delays. Thank you for your patience. Southfield Branch Road Rhodes and Bailey/Cagney Road Mill River Gt. Barrington Road (near the Mill River village) Mill River Southfield Road (Collins Hill) Hartsville Mill River\u2026",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/137",
+   "first_seen": "2026-11-02T15:16:29-05:00"
+  },
   {
    "town": "Egremont",
    "category": "Public notices",
@@ -2309,17 +2342,17 @@
   }
  ],
  "towns": {
+  "Great Barrington": 44,
+  "New Marlborough": 15,
   "Egremont": 43,
   "Monterey": 9,
   "Otis": 18,
-  "Great Barrington": 42,
   "Tyringham": 4,
   "Sheffield": 5,
   "Sandisfield": 22,
   "Becket": 32,
   "BHRSD": 16,
-  "Alford": 4,
-  "New Marlborough": 14
+  "Alford": 4
  },
  "sources": [
   {
@@ -2327,20 +2360,20 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 26,
-   "items": 42,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "scraped": 27,
+   "items": 44,
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 13,
+   "ok": false,
+   "scraped": 0,
    "items": 5,
-   "checked_at": "2026-11-01T19:37:58-05:00",
-   "error": null
+   "checked_at": "2026-11-02T15:16:29-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -2349,7 +2382,7 @@
    "ok": true,
    "scraped": 7,
    "items": 43,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   },
   {
@@ -2357,9 +2390,9 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 97,
-   "items": 14,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "scraped": 98,
+   "items": 15,
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   },
   {
@@ -2369,18 +2402,18 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 22,
-   "checked_at": "2026-11-01T19:37:58-05:00",
-   "error": null
+   "checked_at": "2026-11-02T15:16:29-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2389,7 +2422,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   },
   {
@@ -2399,7 +2432,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   },
   {
@@ -2409,7 +2442,7 @@
    "ok": false,
    "scraped": 0,
    "items": 32,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2419,7 +2452,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   },
   {
@@ -2429,7 +2462,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-11-01T19:37:58-05:00",
+   "checked_at": "2026-11-02T15:16:29-05:00",
    "error": null
   }
  ]
