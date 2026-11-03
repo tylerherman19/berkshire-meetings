@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T15:16:29-05:00",
+ "updated": "2026-11-02T21:52:10-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,50 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "New Online Short-Term Rental Registration System",
+   "summary": "The Town has partnered with Deckard Technologies to introduce Rentalscape , an online platform designed to streamline the registration process, improve communication with property owners, and support fair and consistent administration of the Town's short-term rental\u2026",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/248",
+   "first_seen": "2026-11-02T21:52:10-05:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Notice of Public Shade Tree Removal Hearing 11/16/26",
+   "summary": "PUBLIC NOTICE: TREE REMOVAL TOWN OF NEW MARLBOROUGH NOTICE OF PUBLIC SHADE TREE HEARING Pursuant to MGL c. 87, \u00a73 & \u00a74, a public hearing will be held on Monday, November 16, 2026 at 6:00 PM in a hybrid format in person at Town Hall, 807 Mill River Southfield Road and via Zoom ( https://us02web.zoom.us/j/5583864085 )\u2026",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/138",
+   "first_seen": "2026-11-02T21:52:10-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Please join us at our Community Preservation Committee Community Meeting on Nov. 9 at 6:00 PM in the Becket Town Hall Community Room. Participate in a brainstorming session with your neighbors on what we\u2019d all like to see in Becket's bright future!",
+   "summary": null,
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/please-join-us-our-community-preservation-committee-community-meeting-nov-9-600-pm-becket",
+   "first_seen": "2026-11-02T21:52:10-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Bring the Magic\u2014Volunteer for the Children's Holiday Celebration!",
+   "summary": null,
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/bring-magic%E2%80%94volunteer-childrens-holiday-celebration",
+   "first_seen": "2026-11-02T21:52:10-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -40,6 +84,17 @@
    "date_only": true,
    "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/137",
    "first_seen": "2026-11-02T15:16:29-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Becket Transfer Station \u2013 NEW HOURS Effective Nov. 3: Tuesdays & Saturdays, 7 AM\u20133 PM",
+   "summary": null,
+   "posted": "2026-11-01T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/becket-transfer-station-%E2%80%93-new-hours-effective-nov-3-tuesdays-saturdays-7-am%E2%80%933-pm-0",
+   "first_seen": "2026-11-02T21:52:10-05:00"
   },
   {
    "town": "Egremont",
@@ -568,6 +623,17 @@
    "date_only": true,
    "url": "https://www.montereyma.gov/home/news/community-preservation-act-information-session",
    "first_seen": "2026-10-16T18:01:19-04:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Remember to Vote Tomorrow, Tuesday, November 3. Polls Open 7:00 a.m. \u2013 8:00 p.m. Free Rides to the Polls Available.",
+   "summary": "The Becket Washington Friends and Neighbor Group is offering free rides to Becket residents to vote on Election Day. To arrange a free ride",
+   "posted": "2026-10-15T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/remember-vote-tomorrow-tuesday-november-3-polls-open-700-am-%E2%80%93-800-pm-free-rides-polls",
+   "first_seen": "2026-11-02T21:52:10-05:00"
   },
   {
    "town": "Becket",
@@ -2342,15 +2408,15 @@
   }
  ],
  "towns": {
-  "Great Barrington": 44,
-  "New Marlborough": 15,
+  "Great Barrington": 45,
+  "New Marlborough": 16,
+  "Becket": 36,
   "Egremont": 43,
   "Monterey": 9,
   "Otis": 18,
   "Tyringham": 4,
   "Sheffield": 5,
   "Sandisfield": 22,
-  "Becket": 32,
   "BHRSD": 16,
   "Alford": 4
  },
@@ -2360,20 +2426,20 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 27,
-   "items": 44,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "scraped": 28,
+   "items": 45,
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 5,
-   "checked_at": "2026-11-02T15:16:29-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-02T21:52:10-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -2382,7 +2448,7 @@
    "ok": true,
    "scraped": 7,
    "items": 43,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   },
   {
@@ -2390,20 +2456,20 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 98,
-   "items": 15,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "scraped": 99,
+   "items": 16,
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 9,
-   "checked_at": "2026-11-02T15:16:29-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-11-02T21:52:10-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2412,7 +2478,7 @@
    "ok": false,
    "scraped": 0,
    "items": 22,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2422,7 +2488,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   },
   {
@@ -2432,18 +2498,18 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 32,
-   "checked_at": "2026-11-02T15:16:29-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 36,
+   "checked_at": "2026-11-02T21:52:10-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2452,7 +2518,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   },
   {
@@ -2462,7 +2528,7 @@
    "ok": true,
    "scraped": 8,
    "items": 16,
-   "checked_at": "2026-11-02T15:16:29-05:00",
+   "checked_at": "2026-11-02T21:52:10-05:00",
    "error": null
   }
  ]
