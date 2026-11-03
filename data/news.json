@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:52:10-05:00",
+ "updated": "2026-11-03T13:22:03-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,50 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Meeting notices",
+   "topic": "Conservation Commission",
+   "headline": "Growing Great Ideas for Egremont: Conservation Commission Encourages CPA Applications",
+   "summary": "Do you have an idea to protect Egremont's natural resources, preserve open space, or improve recreational opportunities? Your idea could help shape the town's future! The Egremont Conservation Commission thanks the residents who participated in its special meeting on October 14 to discuss community priorities for\u2026",
+   "posted": "2026-11-03T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/822",
+   "first_seen": "2026-11-03T13:22:03-05:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": null,
+   "headline": "Snowplows Need Room, Too! Egremont's Winter Parking Restrictions Begin November 15",
+   "summary": "Winter is coming, and Egremont's snowplows are getting ready to roll! The Highway Department reminds residents that roadside parking restrictions will be in effect from November 15, 2026, through April 15, 2027. While your car may enjoy a snowy roadside view, the Highway Department's snowplows would prefer a clear\u2026",
+   "posted": "2026-11-03T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/821",
+   "first_seen": "2026-11-03T13:22:03-05:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "State Election - November 3rd, 7am - 8pm",
+   "summary": "The State Election will be held on Tuesday, November 3rd, 2026 from 7am - 8pm at Old Town Hall, 3 Silverbrook Road",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/state-election-november-3rd-7am-8pm",
+   "first_seen": "2026-11-03T13:22:03-05:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Town Hall & Transfer Station CLOSED November 11th,2026",
+   "summary": "Town Hall CLOSED November 11th,2026 for Veterans DayTransfer Station will also be CLOSED",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-hall-transfer-station-closed-november-11th2026",
+   "first_seen": "2026-11-03T13:22:03-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -106,6 +150,17 @@
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/820",
    "first_seen": "2026-10-31T19:18:12-04:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "Week at a Glance October 30, 2026",
+   "summary": "Du Bois News Week at a Glance October 30, 2026 Message from Mr. L Joy, Laughs and a Lot of Heart from our Staff What a week! Friday was a joyous day of celebration across our school\u2014from creative c...",
+   "posted": "2026-10-30T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=94537893",
+   "first_seen": "2026-11-03T13:22:03-05:00"
   },
   {
    "town": "Monterey",
@@ -2408,16 +2463,16 @@
   }
  ],
  "towns": {
+  "Egremont": 45,
+  "Sandisfield": 24,
   "Great Barrington": 45,
   "New Marlborough": 16,
   "Becket": 36,
-  "Egremont": 43,
+  "BHRSD": 17,
   "Monterey": 9,
   "Otis": 18,
   "Tyringham": 4,
   "Sheffield": 5,
-  "Sandisfield": 22,
-  "BHRSD": 16,
   "Alford": 4
  },
  "sources": [
@@ -2426,29 +2481,29 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 28,
+   "scraped": 27,
    "items": 45,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 13,
+   "ok": false,
+   "scraped": 0,
    "items": 5,
-   "checked_at": "2026-11-02T21:52:10-05:00",
-   "error": null
+   "checked_at": "2026-11-03T13:22:03-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
-   "items": 43,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "scraped": 9,
+   "items": 45,
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
@@ -2458,28 +2513,28 @@
    "ok": true,
    "scraped": 99,
    "items": 16,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-02T21:52:10-05:00",
-   "error": null
+   "checked_at": "2026-11-03T13:22:03-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 22,
-   "checked_at": "2026-11-02T21:52:10-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 24,
+   "checked_at": "2026-11-03T13:22:03-05:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -2488,7 +2543,7 @@
    "ok": true,
    "scraped": 10,
    "items": 18,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
@@ -2498,7 +2553,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
@@ -2508,7 +2563,7 @@
    "ok": true,
    "scraped": 20,
    "items": 36,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
@@ -2518,7 +2573,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   },
   {
@@ -2527,8 +2582,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 16,
-   "checked_at": "2026-11-02T21:52:10-05:00",
+   "items": 17,
+   "checked_at": "2026-11-03T13:22:03-05:00",
    "error": null
   }
  ]
