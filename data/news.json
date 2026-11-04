@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:56:29-05:00",
+ "updated": "2026-11-04T18:34:09-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Sandisfield",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Veterans Benefits Information Session",
+   "summary": "Sponsored by Sandisfield Council on AgingDate & Time: November 5th, 2026 at 12 NoonLocation:Town",
+   "posted": "2026-11-04T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/veterans-benefits-information-session",
+   "first_seen": "2026-11-04T18:34:09-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -2518,9 +2529,9 @@
   }
  ],
  "towns": {
+  "Sandisfield": 25,
   "Great Barrington": 46,
   "New Marlborough": 17,
-  "Sandisfield": 24,
   "BHRSD": 18,
   "Otis": 19,
   "Tyringham": 5,
@@ -2538,18 +2549,18 @@
    "ok": true,
    "scraped": 27,
    "items": 46,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 13,
+   "ok": false,
+   "scraped": 0,
    "items": 5,
-   "checked_at": "2026-11-04T12:56:29-05:00",
-   "error": null
+   "checked_at": "2026-11-04T18:34:09-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -2558,7 +2569,7 @@
    "ok": true,
    "scraped": 8,
    "items": 45,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
@@ -2568,18 +2579,18 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-04T12:56:29-05:00",
-   "error": null
+   "checked_at": "2026-11-04T18:34:09-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -2587,8 +2598,8 @@
    "url": "https://www.sandisfieldma.gov/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 24,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "items": 25,
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
@@ -2598,7 +2609,7 @@
    "ok": true,
    "scraped": 11,
    "items": 19,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
@@ -2608,7 +2619,7 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
@@ -2618,7 +2629,7 @@
    "ok": true,
    "scraped": 20,
    "items": 36,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
@@ -2628,7 +2639,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   },
   {
@@ -2638,7 +2649,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-04T12:56:29-05:00",
+   "checked_at": "2026-11-04T18:34:09-05:00",
    "error": null
   }
  ]
