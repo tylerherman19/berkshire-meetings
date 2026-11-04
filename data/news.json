@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T18:56:35-05:00",
+ "updated": "2026-11-04T12:56:29-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,72 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Preliminary Election Results for 11.3.26",
+   "summary": "Click here to view the Preliminary Election Results for 11.3.26 (PDF)",
+   "posted": "2026-11-04T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/249",
+   "first_seen": "2026-11-04T12:56:29-05:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Unofficial Results of State Election 11/3/26",
+   "summary": null,
+   "posted": "2026-11-04T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/139",
+   "first_seen": "2026-11-04T12:56:29-05:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Midterm Election 2026 Results",
+   "summary": null,
+   "posted": "2026-11-04T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/midterm-election-2026-results",
+   "first_seen": "2026-11-04T12:56:29-05:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "BHRSD District Newsletter 11.04.2026",
+   "summary": "BHRSD News + NotesNovember 4, 2026Dear BHRSD Community,As we turn our clocks back and bring the first quarter to a close, it's encouraging to see school spirit running high across our district. Fro...",
+   "posted": "2026-11-04T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=95193041",
+   "first_seen": "2026-11-04T12:56:29-05:00"
+  },
+  {
+   "town": "Otis",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Unofficial State Election Results for Otis 11-3-2026",
+   "summary": "**Election results will be posted as unofficial until all ballot deadlines have been completed. There is a ballot deadline for receiving late mailed ballots on 11/6 and for Federal Write in Absentee Ballots on 11/13. Official results will be posted online as soon as\u2026",
+   "posted": "2026-11-03T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://townofotisma.com/news_detail_T12_R117.php",
+   "first_seen": "2026-11-04T12:56:29-05:00"
+  },
+  {
+   "town": "Tyringham",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Town of Tyringham -State Election Results (11.3.2026)",
+   "summary": null,
+   "posted": "2026-11-03T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/40",
+   "first_seen": "2026-11-04T12:56:29-05:00"
+  },
   {
    "town": "Egremont",
    "category": "Meeting notices",
@@ -2449,29 +2515,18 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/take-open-space-recreation-survey",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "General",
-   "topic": null,
-   "headline": "PRESS RELEASE - Transition in Fire Department Leadership",
-   "summary": null,
-   "posted": "2026-08-06T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/press-release-transition-fire-department-leadership",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Egremont": 45,
+  "Great Barrington": 46,
+  "New Marlborough": 17,
   "Sandisfield": 24,
-  "Great Barrington": 45,
-  "New Marlborough": 16,
+  "BHRSD": 18,
+  "Otis": 19,
+  "Tyringham": 5,
+  "Egremont": 45,
   "Becket": 36,
-  "BHRSD": 17,
   "Monterey": 9,
-  "Otis": 18,
-  "Tyringham": 4,
   "Sheffield": 5,
   "Alford": 4
  },
@@ -2482,28 +2537,28 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 27,
-   "items": 45,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "items": 46,
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 13,
    "items": 5,
-   "checked_at": "2026-11-03T18:56:35-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-04T12:56:29-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 9,
+   "scraped": 8,
    "items": 45,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
@@ -2511,9 +2566,9 @@
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 99,
-   "items": 16,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "scraped": 100,
+   "items": 17,
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
@@ -2523,27 +2578,27 @@
    "ok": true,
    "scraped": 19,
    "items": 9,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 24,
-   "checked_at": "2026-11-03T18:56:35-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "checked_at": "2026-11-04T12:56:29-05:00",
+   "error": null
   },
   {
    "town": "Otis",
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 10,
-   "items": 18,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "scraped": 11,
+   "items": 19,
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
@@ -2552,19 +2607,19 @@
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
    "ok": true,
    "scraped": 1,
-   "items": 4,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "items": 5,
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 36,
-   "checked_at": "2026-11-03T18:56:35-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-11-04T12:56:29-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2573,7 +2628,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   },
   {
@@ -2582,8 +2637,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 17,
-   "checked_at": "2026-11-03T18:56:35-05:00",
+   "items": 18,
+   "checked_at": "2026-11-04T12:56:29-05:00",
    "error": null
   }
  ]
