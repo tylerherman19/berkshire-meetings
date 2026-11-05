@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:34:09-05:00",
+ "updated": "2026-11-05T12:57:39-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Housatonic Water Works Issues Emergency Water Conservation Request",
+   "summary": "The Town of Great Barrington is sharing an urgent water conservation request from Housatonic Water Works (HWW) as the company addresses an ongoing water supply emergency affecting its system. HWW is asking all customers in Great Barrington\u2026",
+   "posted": "2026-11-05T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/250",
+   "first_seen": "2026-11-05T12:57:39-05:00"
+  },
   {
    "town": "Sandisfield",
    "category": "Meeting notices",
@@ -2515,22 +2526,11 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/196",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "General",
-   "topic": null,
-   "headline": "Take the Open Space & Recreation Survey!",
-   "summary": "The Town of Sandisfield is creating an Open Space and Recreation Plan to determine the future of its recreational assets and open spaces",
-   "posted": "2026-08-07T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/take-open-space-recreation-survey",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Sandisfield": 25,
-  "Great Barrington": 46,
+  "Great Barrington": 47,
+  "Sandisfield": 24,
   "New Marlborough": 17,
   "BHRSD": 18,
   "Otis": 19,
@@ -2548,8 +2548,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 27,
-   "items": 46,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "items": 47,
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
@@ -2559,7 +2559,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2567,9 +2567,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
+   "scraped": 7,
    "items": 45,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
@@ -2579,37 +2579,37 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 9,
-   "checked_at": "2026-11-04T18:34:09-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-11-05T12:57:39-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
-   "items": 25,
-   "checked_at": "2026-11-04T18:34:09-05:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 24,
+   "checked_at": "2026-11-05T12:57:39-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 11,
+   "scraped": 9,
    "items": 19,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
@@ -2619,7 +2619,7 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
@@ -2629,7 +2629,7 @@
    "ok": true,
    "scraped": 20,
    "items": 36,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
@@ -2639,7 +2639,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   },
   {
@@ -2649,7 +2649,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-04T18:34:09-05:00",
+   "checked_at": "2026-11-05T12:57:39-05:00",
    "error": null
   }
  ]
