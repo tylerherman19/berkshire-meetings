@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:33:30-05:00",
+ "updated": "2026-11-06T12:24:44-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Assessors",
+   "headline": "FY2027 Property Assessments: Residents Encouraged to Review Proposed Values by November 17",
+   "summary": "Egremont property owners can review their proposed FY2027 property assessments and ask questions before the values are finalized. The public disclosure period runs from Monday, November 9, through Tuesday, November 17, 2026. The Board of Assessors has completed its required five-year property revaluation to reflect\u2026",
+   "posted": "2026-11-06T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/824",
+   "first_seen": "2026-11-06T12:24:44-05:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -2540,7 +2551,7 @@
   }
  ],
  "towns": {
-  "Egremont": 46,
+  "Egremont": 47,
   "Great Barrington": 47,
   "Sandisfield": 24,
   "New Marlborough": 17,
@@ -2560,7 +2571,7 @@
    "ok": true,
    "scraped": 27,
    "items": 47,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   },
   {
@@ -2570,7 +2581,7 @@
    "ok": false,
    "scraped": 0,
    "items": 5,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2578,9 +2589,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
-   "items": 46,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "scraped": 9,
+   "items": 47,
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   },
   {
@@ -2590,7 +2601,7 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   },
   {
@@ -2600,7 +2611,7 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2610,7 +2621,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2620,7 +2631,7 @@
    "ok": true,
    "scraped": 9,
    "items": 19,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   },
   {
@@ -2630,18 +2641,18 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 36,
-   "checked_at": "2026-11-05T18:33:30-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-11-06T12:24:44-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2650,7 +2661,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   },
   {
@@ -2660,7 +2671,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-05T18:33:30-05:00",
+   "checked_at": "2026-11-06T12:24:44-05:00",
    "error": null
   }
  ]
