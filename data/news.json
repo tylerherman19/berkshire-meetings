@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:00:00-05:00",
+ "updated": "2026-11-06T21:42:34-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -40,6 +40,17 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/250",
    "first_seen": "2026-11-05T12:57:39-05:00"
+  },
+  {
+   "town": "Sheffield",
+   "category": "Road closures",
+   "topic": null,
+   "headline": "Road Work Notice - Sheffield Egremont Road",
+   "summary": "Please be advised that on Thursday, November 5th and Friday, November 6th from 7 am to 4 pm, road milling will be taking place on Sheffield",
+   "posted": "2026-11-04T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sheffieldma.gov/home/news/road-work-notice-sheffield-egremont-road",
+   "first_seen": "2026-11-06T21:42:34-05:00"
   },
   {
    "town": "Sandisfield",
@@ -326,6 +337,17 @@
    "date_only": true,
    "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/39",
    "first_seen": "2026-10-30T12:40:13-04:00"
+  },
+  {
+   "town": "Sheffield",
+   "category": "General",
+   "topic": null,
+   "headline": "REMINDER: Help Shape Sheffield\u2019s Future by Taking the Town\u2019s Planning Survey",
+   "summary": "This is our opportunity to share what we love about Sheffield, what we would like to see improved, and what matters most for our town",
+   "posted": "2026-10-29T00:00:00-04:00",
+   "date_only": true,
+   "url": "https://www.sheffieldma.gov/home/news/reminder-help-shape-sheffield%E2%80%99s-future-taking-town%E2%80%99s-planning-survey",
+   "first_seen": "2026-11-06T21:42:34-05:00"
   },
   {
    "town": "Sheffield",
@@ -2553,6 +2575,7 @@
  "towns": {
   "Egremont": 47,
   "Great Barrington": 47,
+  "Sheffield": 7,
   "Sandisfield": 24,
   "New Marlborough": 17,
   "BHRSD": 18,
@@ -2560,7 +2583,6 @@
   "Tyringham": 5,
   "Becket": 36,
   "Monterey": 9,
-  "Sheffield": 5,
   "Alford": 4
  },
  "sources": [
@@ -2571,18 +2593,18 @@
    "ok": true,
    "scraped": 27,
    "items": 47,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 5,
-   "checked_at": "2026-11-06T18:00:00-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "ok": true,
+   "scraped": 14,
+   "items": 7,
+   "checked_at": "2026-11-06T21:42:34-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -2591,7 +2613,7 @@
    "ok": true,
    "scraped": 9,
    "items": 47,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   },
   {
@@ -2601,7 +2623,7 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   },
   {
@@ -2611,7 +2633,7 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2621,7 +2643,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2631,7 +2653,7 @@
    "ok": true,
    "scraped": 9,
    "items": 19,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   },
   {
@@ -2641,7 +2663,7 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   },
   {
@@ -2651,7 +2673,7 @@
    "ok": false,
    "scraped": 0,
    "items": 36,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2661,7 +2683,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   },
   {
@@ -2671,7 +2693,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-06T18:00:00-05:00",
+   "checked_at": "2026-11-06T21:42:34-05:00",
    "error": null
   }
  ]
