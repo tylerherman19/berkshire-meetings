@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:37:26-05:00",
+ "updated": "2026-11-08T16:05:05-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Select Board",
+   "headline": "Town Hall Closed Wednesday, November 11, in Observance of Veterans Day",
+   "summary": "The Transfer Station is normally closed on Wednesdays, so the holiday will not affect its regular schedule. This Veterans Day, the Town of Egremont offers heartfelt thanks to the men and women who have served our country and to those who continue to serve today. We are deeply grateful for their courage, dedication\u2026",
+   "posted": "2026-11-08T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/825",
+   "first_seen": "2026-11-08T16:05:05-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -2584,8 +2595,8 @@
   }
  ],
  "towns": {
+  "Egremont": 48,
   "Great Barrington": 48,
-  "Egremont": 47,
   "Sheffield": 7,
   "Sandisfield": 24,
   "New Marlborough": 17,
@@ -2604,27 +2615,27 @@
    "ok": true,
    "scraped": 27,
    "items": 48,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 14,
    "items": 7,
-   "checked_at": "2026-11-08T11:37:26-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-08T16:05:05-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 9,
-   "items": 47,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "scraped": 10,
+   "items": 48,
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   },
   {
@@ -2634,7 +2645,7 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   },
   {
@@ -2644,7 +2655,7 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2654,7 +2665,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2664,7 +2675,7 @@
    "ok": true,
    "scraped": 9,
    "items": 19,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   },
   {
@@ -2674,18 +2685,18 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 36,
-   "checked_at": "2026-11-08T11:37:26-05:00",
-   "error": null
+   "checked_at": "2026-11-08T16:05:05-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2694,7 +2705,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   },
   {
@@ -2704,7 +2715,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-08T11:37:26-05:00",
+   "checked_at": "2026-11-08T16:05:05-05:00",
    "error": null
   }
  ]
