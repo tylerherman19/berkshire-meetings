@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:26:27-05:00",
+ "updated": "2026-11-08T11:37:26-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "TOWN BUILDINGS CLOSED IN OBSERVANCE OF VETERANS DAY, WEDNESDAY NOVEMBER 11",
+   "summary": "The Town of Great Barrington announces that all non-emergency municipal buildings and services, will be closed on Wednesday, November 11, 2026, in observance of Veterans Day. Regular municipal operations will resume on Thursday, November 12, 2026. The Town of Great Barrington extends its sincere gratitude to all\u2026",
+   "posted": "2026-11-07T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/251",
+   "first_seen": "2026-11-08T11:37:26-05:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -2573,8 +2584,8 @@
   }
  ],
  "towns": {
+  "Great Barrington": 48,
   "Egremont": 47,
-  "Great Barrington": 47,
   "Sheffield": 7,
   "Sandisfield": 24,
   "New Marlborough": 17,
@@ -2591,9 +2602,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 26,
-   "items": 47,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "scraped": 27,
+   "items": 48,
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   },
   {
@@ -2603,7 +2614,7 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2613,7 +2624,7 @@
    "ok": true,
    "scraped": 9,
    "items": 47,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   },
   {
@@ -2623,7 +2634,7 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   },
   {
@@ -2633,7 +2644,7 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2643,7 +2654,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2653,7 +2664,7 @@
    "ok": true,
    "scraped": 9,
    "items": 19,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   },
   {
@@ -2663,18 +2674,18 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 36,
-   "checked_at": "2026-11-07T19:26:27-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-11-08T11:37:26-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2683,7 +2694,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   },
   {
@@ -2693,7 +2704,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-07T19:26:27-05:00",
+   "checked_at": "2026-11-08T11:37:26-05:00",
    "error": null
   }
  ]
