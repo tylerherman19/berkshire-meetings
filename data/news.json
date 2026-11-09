@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:47:41-05:00",
+ "updated": "2026-11-09T15:38:49-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Please join us at our Community Preservation Committee Community Meeting tonight at 6:00 PM in the Becket Town Hall Community Room. Participate in a brainstorming session with your neighbors on what we\u2019d all like to see in Becket's bright future!",
+   "summary": null,
+   "posted": "2026-11-09T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/please-join-us-our-community-preservation-committee-community-meeting-tonight-600-pm",
+   "first_seen": "2026-11-09T15:38:49-05:00"
+  },
   {
    "town": "Egremont",
    "category": "Public notices",
@@ -2581,29 +2592,18 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/197",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "\u201cEMPLOYMENT SPOTLIGHT\u201d\u2026 DRIVE CONNECTION, DELIVER COMMUNITY!",
-   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (August 11, 2026) \u201cEmployment Spotlight\u201d\u2026 Drive Connection, Deliver Community! What if your workday could help someone get to a new job; Keep a medical appointment; Stay independent; Visit a friend; Get groceries; or, Simply stay connected to the community they\u2026",
-   "posted": "2026-08-11T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/196",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
+  "Becket": 37,
   "Egremont": 48,
-  "Great Barrington": 48,
+  "Great Barrington": 47,
   "Sheffield": 7,
   "Sandisfield": 24,
   "New Marlborough": 17,
   "BHRSD": 18,
   "Otis": 19,
   "Tyringham": 5,
-  "Becket": 36,
   "Monterey": 9,
   "Alford": 4
  },
@@ -2612,11 +2612,11 @@
    "town": "Great Barrington",
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
-   "ok": true,
-   "scraped": 27,
-   "items": 48,
-   "checked_at": "2026-11-08T19:47:41-05:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 47,
+   "checked_at": "2026-11-09T15:38:49-05:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofgbma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.townofgbma.gov', p"
   },
   {
    "town": "Sheffield",
@@ -2625,28 +2625,28 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-11-08T19:47:41-05:00",
+   "checked_at": "2026-11-09T15:38:49-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": true,
-   "scraped": 10,
+   "ok": false,
+   "scraped": 0,
    "items": 48,
-   "checked_at": "2026-11-08T19:47:41-05:00",
-   "error": null
+   "checked_at": "2026-11-09T15:38:49-05:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.egremont-ma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,3"
   },
   {
    "town": "New Marlborough",
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
-   "ok": true,
-   "scraped": 100,
+   "ok": false,
+   "scraped": 0,
    "items": 17,
-   "checked_at": "2026-11-08T19:47:41-05:00",
-   "error": null
+   "checked_at": "2026-11-09T15:38:49-05:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newmarlboroughma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newmarlborou"
   },
   {
    "town": "Monterey",
@@ -2655,7 +2655,7 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-08T19:47:41-05:00",
+   "checked_at": "2026-11-09T15:38:49-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2665,7 +2665,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-08T19:47:41-05:00",
+   "checked_at": "2026-11-09T15:38:49-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2673,9 +2673,9 @@
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 9,
+   "scraped": 8,
    "items": 19,
-   "checked_at": "2026-11-08T19:47:41-05:00",
+   "checked_at": "2026-11-09T15:38:49-05:00",
    "error": null
   },
   {
@@ -2685,28 +2685,28 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-08T19:47:41-05:00",
+   "checked_at": "2026-11-09T15:38:49-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 36,
-   "checked_at": "2026-11-08T19:47:41-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 37,
+   "checked_at": "2026-11-09T15:38:49-05:00",
+   "error": null
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": true,
-   "scraped": 1,
+   "ok": false,
+   "scraped": 0,
    "items": 4,
-   "checked_at": "2026-11-08T19:47:41-05:00",
-   "error": null
+   "checked_at": "2026-11-09T15:38:49-05:00",
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Max retries exceeded with url: /m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 (Caused by ConnectTimeoutError("
   },
   {
    "town": "BHRSD",
@@ -2715,7 +2715,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-08T19:47:41-05:00",
+   "checked_at": "2026-11-09T15:38:49-05:00",
    "error": null
   }
  ]
