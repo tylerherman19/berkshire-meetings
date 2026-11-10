@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T15:38:49-05:00",
+ "updated": "2026-11-09T22:26:18-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "TOWN ANNOUNCES APPOINTMENT OF DARRELL (DJ) MARKS AS ACTING FIRE CHIEF",
+   "summary": "Public Statement FOR IMMEDIATE RELEASE Great Barrington, MA (November 9, 2026) Town Announces Appointment of Darrell (DJ) Marks as Acting Fire Chief The Town of Great Barrington announces the appointment of Captain Darrell (DJ) Marks as Acting Fire Chief, effective immediately, as the Town continues to ensure stable\u2026",
+   "posted": "2026-11-09T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/252",
+   "first_seen": "2026-11-09T22:26:18-05:00"
+  },
   {
    "town": "Becket",
    "category": "Meeting notices",
@@ -2595,9 +2606,9 @@
   }
  ],
  "towns": {
+  "Great Barrington": 48,
   "Becket": 37,
   "Egremont": 48,
-  "Great Barrington": 47,
   "Sheffield": 7,
   "Sandisfield": 24,
   "New Marlborough": 17,
@@ -2612,11 +2623,11 @@
    "town": "Great Barrington",
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
-   "ok": false,
-   "scraped": 0,
-   "items": 47,
-   "checked_at": "2026-11-09T15:38:49-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofgbma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.townofgbma.gov', p"
+   "ok": true,
+   "scraped": 28,
+   "items": 48,
+   "checked_at": "2026-11-09T22:26:18-05:00",
+   "error": null
   },
   {
    "town": "Sheffield",
@@ -2625,28 +2636,28 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-11-09T15:38:49-05:00",
+   "checked_at": "2026-11-09T22:26:18-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 10,
    "items": 48,
-   "checked_at": "2026-11-09T15:38:49-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.egremont-ma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,3"
+   "checked_at": "2026-11-09T22:26:18-05:00",
+   "error": null
   },
   {
    "town": "New Marlborough",
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-09T15:38:49-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newmarlboroughma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newmarlborou"
+   "checked_at": "2026-11-09T22:26:18-05:00",
+   "error": null
   },
   {
    "town": "Monterey",
@@ -2655,7 +2666,7 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-09T15:38:49-05:00",
+   "checked_at": "2026-11-09T22:26:18-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2665,7 +2676,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-09T15:38:49-05:00",
+   "checked_at": "2026-11-09T22:26:18-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2675,7 +2686,7 @@
    "ok": true,
    "scraped": 8,
    "items": 19,
-   "checked_at": "2026-11-09T15:38:49-05:00",
+   "checked_at": "2026-11-09T22:26:18-05:00",
    "error": null
   },
   {
@@ -2685,28 +2696,28 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-09T15:38:49-05:00",
+   "checked_at": "2026-11-09T22:26:18-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-09T15:38:49-05:00",
-   "error": null
+   "checked_at": "2026-11-09T22:26:18-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-09T15:38:49-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Max retries exceeded with url: /m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 (Caused by ConnectTimeoutError("
+   "checked_at": "2026-11-09T22:26:18-05:00",
+   "error": null
   },
   {
    "town": "BHRSD",
@@ -2715,7 +2726,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-09T15:38:49-05:00",
+   "checked_at": "2026-11-09T22:26:18-05:00",
    "error": null
   }
  ]
