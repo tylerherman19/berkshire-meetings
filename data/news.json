@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:26:18-05:00",
+ "updated": "2026-11-10T07:29:08-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Monterey",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Transfer Station Hours",
+   "summary": "The Transfer Station will be closed for Veterans Day this coming Wednesday November 11, 2026. The Transfer Station will reopen Saturday",
+   "posted": "2026-11-09T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/transfer-station-hours-1",
+   "first_seen": "2026-11-10T07:29:08-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -51,6 +62,17 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/251",
    "first_seen": "2026-11-08T11:37:26-05:00"
+  },
+  {
+   "town": "Monterey",
+   "category": "General",
+   "topic": null,
+   "headline": "Behavioral Health Needs & Crisis Response",
+   "summary": "The Office of Senator Paul Mark and the",
+   "posted": "2026-11-06T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/behavioral-health-needs-crisis-response",
+   "first_seen": "2026-11-10T07:29:08-05:00"
   },
   {
    "town": "Egremont",
@@ -2592,21 +2614,11 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/aging-place-workshop-wednesday-august-19-2026-%C2%A01030am%C2%A0%C2%A01130am",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "PEARL STREET WASTEWATER LIFT STATION MODERNIZATION PROJECT BEGINS AUGUST 17TH",
-   "summary": "Public Notice FOR IMMEDIATE RELEASE Great Barrington, MA (August 12, 2026) Pearl Street Wastewater Lift Station Modernization Project begins August 17 th The Town of Great Barrington Wastewater Department will begin a major renovation of the Pearl Street sewage lift station on Monday, August 17, 2026, marking an\u2026",
-   "posted": "2026-08-12T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/197",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 48,
+  "Monterey": 11,
+  "Great Barrington": 47,
   "Becket": 37,
   "Egremont": 48,
   "Sheffield": 7,
@@ -2615,7 +2627,6 @@
   "BHRSD": 18,
   "Otis": 19,
   "Tyringham": 5,
-  "Monterey": 9,
   "Alford": 4
  },
  "sources": [
@@ -2625,8 +2636,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 28,
-   "items": 48,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "items": 47,
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   },
   {
@@ -2636,7 +2647,7 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2646,7 +2657,7 @@
    "ok": true,
    "scraped": 10,
    "items": 48,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   },
   {
@@ -2656,18 +2667,18 @@
    "ok": true,
    "scraped": 100,
    "items": 17,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 9,
-   "checked_at": "2026-11-09T22:26:18-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 11,
+   "checked_at": "2026-11-10T07:29:08-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2676,7 +2687,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2686,7 +2697,7 @@
    "ok": true,
    "scraped": 8,
    "items": 19,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   },
   {
@@ -2696,18 +2707,18 @@
    "ok": true,
    "scraped": 1,
    "items": 5,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 37,
-   "checked_at": "2026-11-09T22:26:18-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-11-10T07:29:08-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2716,7 +2727,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   },
   {
@@ -2726,7 +2737,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-09T22:26:18-05:00",
+   "checked_at": "2026-11-10T07:29:08-05:00",
    "error": null
   }
  ]
