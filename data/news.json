@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:29:08-05:00",
+ "updated": "2026-11-10T15:25:39-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,61 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "SELECTBOARD DEDICATES $50,000 SECURED STATE FUNDING TO SUPPORT POTENTIAL HWW ACQUISITION",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (November 9, 2026) Selectboard Dedicates $50,000 Secured State Funding to Support Potential HWW Acquisition At its meeting Monday evening, November 9, the Great Barrington Selectboard voted to dedicate up to $50,000 in state funding secured through\u2026",
+   "posted": "2026-11-10T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/254",
+   "first_seen": "2026-11-10T15:25:39-05:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "GREAT BARRINGTON CODERED ALERT SYSTEM AVAILABLE FREE TO ALL HWW CUSTOMERS",
+   "summary": "Public Notice FOR IMMEDIATE RELEASE Great Barrington, MA (November 9, 2026) Great Barrington CodeRed Alert System Available Free to All HWW Customers The Town of Great Barrington reminds all Housatonic Water Works (HWW) customers, including those residing in Stockbridge and West Stockbridge, that they can sign up for\u2026",
+   "posted": "2026-11-10T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/253",
+   "first_seen": "2026-11-10T15:25:39-05:00"
+  },
+  {
+   "town": "New Marlborough",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Transfer Station Closed 11/11/26",
+   "summary": "The Transfer Station will be closed on Wednesday November 11th in observance of Veterans Day.",
+   "posted": "2026-11-10T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/140",
+   "first_seen": "2026-11-10T15:25:39-05:00"
+  },
+  {
+   "town": "Tyringham",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Transfer Station -OPEN Veteran's Day",
+   "summary": "Transfer Station -OPEN Veterans Day",
+   "posted": "2026-11-10T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/41",
+   "first_seen": "2026-11-10T15:25:39-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Fire & EMS \u2013 Jaws of Life Demonstration. Join the Becket Fire Department and EMS on Sunday, November 15, at 12:00 noon for a demonstration of the Town\u2019s new vehicle extrication tools, commonly known as the \u201cJaws of Life.\u201d",
+   "summary": "Location : 108 Washington St., Becket (behind the firehouse at the pavilion)Fire and EMS personnel will demonstrate how",
+   "posted": "2026-11-10T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/fire-ems-%E2%80%93-jaws-life-demonstration-join-becket-fire-department-and-ems-sunday-november-15",
+   "first_seen": "2026-11-10T15:25:39-05:00"
+  },
   {
    "town": "Monterey",
    "category": "Public notices",
@@ -2617,16 +2672,16 @@
   }
  ],
  "towns": {
+  "Great Barrington": 49,
+  "New Marlborough": 18,
+  "Tyringham": 6,
+  "Becket": 38,
   "Monterey": 11,
-  "Great Barrington": 47,
-  "Becket": 37,
   "Egremont": 48,
   "Sheffield": 7,
   "Sandisfield": 24,
-  "New Marlborough": 17,
   "BHRSD": 18,
   "Otis": 19,
-  "Tyringham": 5,
   "Alford": 4
  },
  "sources": [
@@ -2635,9 +2690,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 28,
-   "items": 47,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "scraped": 30,
+   "items": 49,
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2647,7 +2702,7 @@
    "ok": false,
    "scraped": 0,
    "items": 7,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2657,7 +2712,7 @@
    "ok": true,
    "scraped": 10,
    "items": 48,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2666,8 +2721,8 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 100,
-   "items": 17,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "items": 18,
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2677,7 +2732,7 @@
    "ok": true,
    "scraped": 20,
    "items": 11,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2687,7 +2742,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2695,9 +2750,9 @@
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 8,
+   "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2705,9 +2760,9 @@
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
    "ok": true,
-   "scraped": 1,
-   "items": 5,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "scraped": 2,
+   "items": 6,
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2716,8 +2771,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 37,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "items": 38,
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2727,7 +2782,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   },
   {
@@ -2737,7 +2792,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-10T07:29:08-05:00",
+   "checked_at": "2026-11-10T15:25:39-05:00",
    "error": null
   }
  ]
