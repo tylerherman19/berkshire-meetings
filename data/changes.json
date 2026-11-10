@@ -1,72 +1,9 @@
 {
- "updated": "2026-11-09T16:12:06-05:00",
+ "updated": "2026-11-10T14:45:21-05:00",
  "changes": [
   {
    "type": "removed",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Sandisfield",
-   "board": "Board of Assessors Meeting",
-   "title": "Board of Assessors Meeting",
-   "date": "2026-11-09",
-   "start": "10:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Sandisfield",
-   "board": "Select Board Meeting",
-   "title": "Select Board Meeting",
-   "date": "2026-11-09",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Otis",
-   "board": "Post Election Counting",
-   "title": "Post Election Counting",
-   "date": "2026-11-10",
-   "start": "10:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Sandisfield",
-   "board": "Cultural Council Meeting November 10, 2026",
-   "title": "Cultural Council Meeting November 10, 2026",
-   "date": "2026-11-10",
-   "start": "18:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Alford",
-   "board": "Planning Board",
-   "title": "Planning Board Meeting",
-   "date": "2026-11-11",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Becket",
-   "board": "Community Preservation Committee",
-   "title": "Community Preservation Committee Meeting - Public Hearing",
-   "date": "2026-11-09",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Otis",
-   "board": "Post Election Counting- CANCELED",
-   "title": "Post Election Counting- CANCELED",
-   "date": "2026-11-10",
-   "start": "10:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Becket",
    "board": "Finance Committee",
    "title": "Finance Committee Agenda",
@@ -74,8 +11,8 @@
    "start": "15:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Becket",
    "board": "Historical Commission",
    "title": "Historical Commission Agenda",
@@ -83,26 +20,8 @@
    "start": "15:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Becket",
-   "board": "Planning Board",
-   "title": "Planning Board Agenda",
-   "date": "2026-11-10",
-   "start": "17:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Sheffield",
-   "board": "Open Space and Recreation Committee",
-   "title": "Open Space and Recreation Committee Agenda 11/10/26",
-   "date": "2026-11-10",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Town Hall Closed in Observance of Veterans Day",
    "title": "Town Hall Closed in Observance of Veterans Day",
@@ -110,8 +29,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Becket",
    "board": "Board of Health",
    "title": "Board of Health Joint Meeting Agenda",
@@ -119,80 +38,8 @@
    "start": "13:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Great Barrington",
-   "board": "Planning Board",
-   "title": "Planning Board",
-   "date": "2026-11-12",
-   "start": "18:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Alford",
-   "board": "Planning Board",
-   "title": "Planning Board Meeting",
-   "date": "2026-11-12",
-   "start": "18:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "New Marlborough",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Site Visit Meeting Agenda",
-   "date": "2026-11-12",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "SBRSD",
-   "board": "Superintendent Evaluation Subcommittee",
-   "title": "Southern Berkshire Regional School District Superintendent Evaluation Subcommittee (PDF)",
-   "date": "2026-11-12",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Great Barrington",
-   "board": "Southern Berkshire Public Health Collaborative",
-   "title": "Southern Berkshire Public Health Collaborative",
-   "date": "2026-11-13",
-   "start": "09:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "New Marlborough",
-   "board": "Southern Berkshire Public Health Collaborative",
-   "title": "Southern Berkshire Public Health Collaborative Meeting Agenda",
-   "date": "2026-11-13",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Egremont",
-   "board": "Egremont Municipal Housing Trust",
-   "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
-   "date": "2026-11-16",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Becket",
-   "board": "Energy Committee",
-   "title": "Energy Committee Agenda",
-   "date": "2026-11-17",
-   "start": "17:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Sandisfield",
    "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
@@ -200,17 +47,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Egremont",
-   "board": "Select Board",
-   "title": "Select Board Executive Session (PDF)",
-   "date": "2026-11-17",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Cemetery Commission Meeting",
    "title": "Cemetery Commission Meeting",
@@ -218,8 +56,8 @@
    "start": "09:30"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Conservation Committee Meeting",
    "title": "Conservation Committee Meeting",
@@ -227,26 +65,8 @@
    "start": "17:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Egremont",
-   "board": "Egremont Municipal Housing Trust",
-   "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
-   "date": "2026-11-20",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
-   "town": "Sandisfield",
-   "board": "Library Board of Trustees Meeting",
-   "title": "Library Board of Trustees Meeting",
-   "date": "2026-11-23",
-   "start": "14:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Housing Committee Meeting",
    "title": "Housing Committee Meeting",
@@ -254,8 +74,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Town Hall Closed in Observance of Thanksgiving",
    "title": "Town Hall Closed in Observance of Thanksgiving",
@@ -263,8 +83,8 @@
    "start": ""
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Sandisfield",
    "board": "Council on Aging Meeting",
    "title": "Council on Aging Meeting",
@@ -272,8 +92,8 @@
    "start": "11:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Housing Committee Meeting",
    "title": "Housing Committee Meeting",
@@ -281,8 +101,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Sandisfield",
    "board": "Conservation Commission Meeting",
    "title": "Conservation Commission Meeting",
@@ -290,8 +110,8 @@
    "start": "19:00"
   },
   {
-   "type": "added",
-   "at": "2026-11-09T16:12:06-05:00",
+   "type": "removed",
+   "at": "2026-11-10T14:45:21-05:00",
    "town": "Monterey",
    "board": "Housing Committee Meeting",
    "title": "Housing Committee Meeting",
@@ -299,16 +119,91 @@
    "start": "19:00"
   },
   {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Tyringham",
+   "board": "Transfer Station -OPEN on Veterans Day",
+   "title": "Transfer Station -OPEN on Veterans Day",
+   "date": "2026-11-11",
+   "start": ""
+  },
+  {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Great Barrington",
+   "board": "Great Barrington Selectboard Executive Session Meeting",
+   "title": "Great Barrington Selectboard Executive Session Meeting",
+   "date": "2026-11-12",
+   "start": "16:30"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Sandisfield",
+   "board": "Finance Committee Meeting",
+   "title": "Finance Committee Meeting",
+   "date": "2026-11-13",
+   "start": "16:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Great Barrington",
+   "board": "Great Barrington Cultural Council",
+   "title": "Great Barrington Cultural Council",
+   "date": "2026-11-16",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Becket",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Agenda",
+   "date": "2026-11-17",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Becket",
+   "board": "Zoning Board of Appeals",
+   "title": "Zoning Board of Appeals Agenda",
+   "date": "2026-11-17",
+   "start": "18:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-10T14:45:21-05:00",
+   "town": "Sandisfield",
+   "board": "Board of Health",
+   "title": "Board of Health",
+   "date": "2026-12-09",
+   "start": "17:00"
+  },
+  {
    "type": "changed",
-   "at": "2026-11-09T16:12:06-05:00",
+   "at": "2026-11-10T14:45:21-05:00",
    "fields": [
     "location"
    ],
    "town": "Great Barrington",
-   "board": "Sewer Commissioners and Selectboard Meeting and Selectboard Regular Meeting with Executive Session",
-   "title": "Sewer Commissioners and Selectboard Meeting and Selectboard Regular Meeting with Executive Session",
-   "date": "2026-11-09",
-   "start": "17:00"
+   "board": "Berkshire Hills Regional School District School Committee",
+   "title": "Berkshire Hills Regional School District School Committee",
+   "date": "2026-11-12",
+   "start": "18:00"
+  },
+  {
+   "type": "changed",
+   "at": "2026-11-10T14:45:21-05:00",
+   "fields": [
+    "location"
+   ],
+   "town": "BHRSD",
+   "board": "School Committee",
+   "title": "School Committee Meeting",
+   "date": "2026-11-12",
+   "start": ""
   }
  ]
 }
