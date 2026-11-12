@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:31:15-05:00",
+ "updated": "2026-11-12T13:10:09-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2669,35 +2669,13 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/berkshire-county-farmers-forum-agriculture-and-wetlands-protection-act",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "TOWN MANAGER RELEASES TRANSPORTATION RESTRUCTURING PROPOSAL",
-   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (August 14, 2026) Town Manager Releases Transportation Restructuring Proposal The Town of Great Barrington today released its Transportation Restructuring Proposal, a comprehensive plan to strengthen the organization behind the South County Connector and\u2026",
-   "posted": "2026-08-14T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/198",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "Aging in Place Workshop - Wednesday, August 19, 2026 - 10:30am to 11:30am",
-   "summary": "To view the flyer (includes Zoom), click here",
-   "posted": "2026-08-14T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/aging-place-workshop-wednesday-august-19-2026-%C2%A01030am%C2%A0%C2%A01130am",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 50,
+  "Great Barrington": 49,
   "New Marlborough": 18,
   "Tyringham": 6,
-  "Becket": 38,
+  "Becket": 37,
   "Sheffield": 8,
   "Monterey": 11,
   "Egremont": 48,
@@ -2713,8 +2691,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 31,
-   "items": 50,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "items": 49,
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2724,7 +2702,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2732,9 +2710,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
+   "scraped": 6,
    "items": 48,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2744,7 +2722,7 @@
    "ok": true,
    "scraped": 100,
    "items": 18,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2754,7 +2732,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2764,7 +2742,7 @@
    "ok": true,
    "scraped": 20,
    "items": 24,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2774,7 +2752,7 @@
    "ok": true,
    "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2784,7 +2762,7 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2793,8 +2771,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 38,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "items": 37,
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2804,7 +2782,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   },
   {
@@ -2814,7 +2792,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-11T19:31:15-05:00",
+   "checked_at": "2026-11-12T13:10:09-05:00",
    "error": null
   }
  ]
