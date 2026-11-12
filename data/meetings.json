@@ -1,19 +1,6 @@
 {
- "updated": "2026-11-11T13:55:04-05:00",
+ "updated": "2026-11-12T13:13:52-05:00",
  "meetings": [
-  {
-   "town": "Egremont",
-   "board": "Egremont Municipal Housing Trust",
-   "title": "Egremont Municipal Housing Trust Regular Meeting (PDF)",
-   "date": "2026-05-15",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_05152026-1888",
-   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_05152026-1888",
-   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
   {
    "town": "Otis",
    "board": "Deadline to apply for a mailed ballot for the annual town election",
@@ -63,7 +50,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-73",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-49",
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-73"
   },
   {
@@ -128,7 +115,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-28",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-41",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-28"
   },
   {
@@ -765,7 +752,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-74",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-50",
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-74"
   },
   {
@@ -791,7 +778,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-29",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-42",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-29"
   },
   {
@@ -875,15 +862,15 @@
   {
    "town": "Becket",
    "board": "Board of Assessors",
-   "title": "Board of Assessors Minutes",
+   "title": "Board of Assessors Agenda",
    "date": "2026-06-22",
-   "start": null,
+   "start": "10:30",
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98",
    "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-187",
-   "source_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-187"
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-98"
   },
   {
    "town": "New Marlborough",
@@ -1077,7 +1064,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-18",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/parks-recreation-committee/minutes/parks-recreation-committee-minutes-14",
    "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-18"
   },
   {
@@ -1181,7 +1168,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-30",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-43",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-30"
   },
   {
@@ -1324,7 +1311,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-tuesday-july-14",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/parks-recreation-committee/minutes/parks-recreation-committee-minutes-15",
    "source_url": "https://www.townofbecket.org/parks-recreation-committee/agenda/parks-recreation-committee-agenda-19"
   },
   {
@@ -1506,7 +1493,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-75",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-51",
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-75"
   },
   {
@@ -1558,7 +1545,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-33",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-46",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-33"
   },
   {
@@ -1616,15 +1603,15 @@
   {
    "town": "Becket",
    "board": "Board of Assessors",
-   "title": "Board of Assessors Minutes",
+   "title": "Board of Assessors Agenda",
    "date": "2026-07-27",
-   "start": null,
+   "start": "10:30",
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-99",
    "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-188",
-   "source_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-188"
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-99"
   },
   {
    "town": "New Marlborough",
@@ -1701,7 +1688,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-31",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-44",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-committee-agenda-31"
   },
   {
@@ -2130,7 +2117,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-76",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-52",
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-76"
   },
   {
@@ -2252,6 +2239,19 @@
   },
   {
    "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-08-24",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-100",
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-189",
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-100"
+  },
+  {
+   "town": "Becket",
    "board": "Becket Cultural Council",
    "title": "Cultural Council Agenda",
    "date": "2026-08-24",
@@ -2277,19 +2277,6 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
-   "town": "Becket",
-   "board": "Board of Assessors",
-   "title": "Board of Assessors Minutes",
-   "date": "2026-08-24",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-189",
-   "source_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-189"
-  },
-  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board special meeting with closed session (PDF)",
@@ -2312,7 +2299,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-agenda-0",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-45",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/agenda/bylaw-review-agenda-0"
   },
   {
@@ -2650,7 +2637,7 @@
    "all_day": false,
    "location": null,
    "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-77",
-   "minutes_url": null,
+   "minutes_url": "https://www.townofbecket.org/energy-committee/minutes/energy-committee-minutes-53",
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-77"
   },
   {
@@ -2759,6 +2746,19 @@
   },
   {
    "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-09-28",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/260928_boa_meeting_agenda_-_september_28_2026_at_10_am.pdf",
+   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-190",
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-101"
+  },
+  {
+   "town": "Becket",
    "board": "Community Preservation Committee",
    "title": "Community Preservation Committee Agenda",
    "date": "2026-09-28",
@@ -2769,19 +2769,6 @@
    "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/cpc_meeting_agenda_september_28_2026.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-13"
-  },
-  {
-   "town": "Becket",
-   "board": "Board of Assessors",
-   "title": "Board of Assessors Minutes",
-   "date": "2026-09-28",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-190",
-   "source_url": "https://www.townofbecket.org/board-assessors/minutes/board-assessors-minutes-190"
   },
   {
    "town": "Becket",
@@ -2857,7 +2844,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-14",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/cpc_meeting_agenda_october_5_2026.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-14"
   },
@@ -2912,6 +2899,19 @@
    "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.10.07_select_board_agenda.pdf",
    "minutes_url": "https://www.townofbecket.org/select-board/minutes/select-board-minutes-160",
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-agenda-144"
+  },
+  {
+   "town": "Egremont",
+   "board": "Water Commission",
+   "title": "Water Commission Regular Meeting (PDF)",
+   "date": "2026-10-07",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_10072026-2021",
+   "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_10072026-2021",
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Otis",
@@ -3078,7 +3078,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-85",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/boh_agenda_1001426.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-85"
   },
@@ -3637,7 +3637,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-revised-1",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/10-29-2026_becket_cultural_council_agenda_zoom_link_included.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/becket-cultural-council/agenda/cultural-council-agenda-33"
   },
@@ -3825,6 +3825,19 @@
   },
   {
    "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-11-04",
+   "start": "10:30",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/261104_boa_meeting_agenda_-_nov_4_2026_at_1030_am.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-102"
+  },
+  {
+   "town": "Becket",
    "board": "Board of Health",
    "title": "Board of Health",
    "date": "2026-11-04",
@@ -3832,7 +3845,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-4",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/boh_agenda_110426_2.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-4"
   },
@@ -3848,19 +3861,6 @@
    "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.11.04_select_board_agenda.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-agenda-146"
-  },
-  {
-   "town": "Monterey",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-04",
-   "start": "18:00",
-   "end": "18:00",
-   "all_day": false,
-   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.montereyma.gov/select-board/events/46506"
   },
   {
    "town": "Otis",
@@ -4241,19 +4241,6 @@
   },
   {
    "town": "Tyringham",
-   "board": "Transfer Station -OPEN on Veterans Day",
-   "title": "Transfer Station -OPEN on Veterans Day",
-   "date": "2026-11-11",
-   "start": null,
-   "end": null,
-   "all_day": true,
-   "location": null,
-   "agenda_url": "https://www.tyringham-ma.gov/agendacenter",
-   "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=482&month=11&year=2026&day=11&calType=0"
-  },
-  {
-   "town": "Tyringham",
    "board": "Select Board Meeting (11.12.2026)",
    "title": "Select Board Meeting (11.12.2026)",
    "date": "2026-11-12",
@@ -4263,7 +4250,7 @@
    "location": null,
    "agenda_url": "https://www.tyringham-ma.gov/DocumentCenter/View/1738",
    "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=478&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=478&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Otis",
@@ -4302,7 +4289,7 @@
    "location": "Remote meeting via Zoom at https://us02web.zoom.us/j/88253610823?pwd=7ida3qPj4Ii5txxNYgdI54UllXlZ4f.1 Webinar ID: 882 5361 0823 Passcode: 416441 +1 929 205 6099 US (New York) Berkshire Hills Regional School District - MOUNTAIN REGIONAL HIGH SCHOOL BUILDING COMMITTEE (SBC) FINANCE SUBCOMMITTEE MEETING 2026-11-12T12:00:00 Remote meeting via Zoom at https://us02web.zoom.us/j/88253610823?pwd=7ida3qPj4Ii5txxNYgdI54UllXlZ4f.1 Webinar ID: 882 5361 0823 Passcode: 416441 +1 929 205 6099 US (New York) Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Hills-Regional-School-District-38/#_11122026-2616",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1987&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1987&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Becket",
@@ -4313,7 +4300,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-joint-meeting-agenda-0",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/joint_meeting_agenda_111226.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-joint-meeting-agenda-0"
   },
@@ -4328,7 +4315,7 @@
    "location": "Remote meeting via Zoom only at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 CLICK HERE FOR THE AMENDED AGENDA, as of November 9, 2026 at 8:37pm Amend reflects clarification in venue to ZOOM ONLY. Great Barrington Selectboard Executive Session Meeting 2026-11-12T16:30:00 Remote meeting via Zoom only at https://us02web.zoom.us/j/87435677107 Dial-in: (929) 205 6099 Webinar ID: 874 3567 7107 CLICK HERE FOR THE AMENDED AGENDA, as of November 9, 2026 at 8:37pm Amend reflects clarification in venue to ZOOM ONLY. Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Selectboard-2/#_11122026-2658",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2027&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2027&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Monterey",
@@ -4354,7 +4341,7 @@
    "location": "In-Person: BHRSD District Office Professional Development Room, 50 Main Street \u2013 2nd Floor, Stockbridge, MA 01262 Virtual Participation: Please click to join webinar Passcode: bhrsd OR copy and paste the following: https://us02web.zoom.us/j/87114298271?pwd=NVVrUmpYYmFrTG9YTDV4dnJLb0kwdz09 Phone:+1 301 715 8592 Webinar ID: 871 1429 8271 Passcode: 770713 MEETING CANCELED Berkshire Hills Regional School District School Committee 2026-11-12T18:00:00 In-Person: BHRSD District Office Professional Development Room, 50 Main Street \u2013 2nd Floor, Stockbridge, MA 01262 Virtual Participation: Please click to join webinar Passcode: bhrsd OR copy and paste the following: https://us02web.zoom.us/j/87114298271?pwd=NVVrUmpYYmFrTG9YTDV4dnJLb0kwdz09 Phone:+1 301 715 8592 Webinar ID: 871 1429 8271 Passcode: 770713 MEETING CANCELED BHRSD Offices Stockbridge MA 01262",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Hills-Regional-School-District-38/#_11122026-2654",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2023&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2023&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -4367,7 +4354,7 @@
    "location": "Hybrid meeting in person at Town Hall, 334 Main Street, 2nd Floor Great Barrington and via Zoom at https://us02web.zoom.us/j/82949470990 To dial in by phone, dial +1 929 205 6099 Webinar ID: 829 4947 0990 Click here to view the MEETING MATERIALS (PDF) Planning Board 2026-11-12T18:00:00 Hybrid meeting in person at Town Hall, 334 Main Street, 2nd Floor Great Barrington and via Zoom at https://us02web.zoom.us/j/82949470990 To dial in by phone, dial +1 929 205 6099 Webinar ID: 829 4947 0990 Click here to view the MEETING MATERIALS (PDF) Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Planning-Board-8/#_11122026-2655",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2025&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2025&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -4380,7 +4367,7 @@
    "location": "@ Alford Town Hall",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=647&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=647&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Monterey",
@@ -4406,7 +4393,7 @@
    "location": "ZOOM Only Meeting",
    "agenda_url": "https://www.tyringham-ma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=477&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.tyringham-ma.gov/Calendar.aspx?EID=477&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "BHRSD",
@@ -4523,7 +4510,20 @@
    "location": "Hybrid meeting located in person at Stockbridge Town Hall and via Zoom at https://us06web.zoom.us/j/85765540853?pwd=BryjALVQ03aZaItrAtclUedSyd9bH4.1 Meeting ID: 857 6554 0853 Passcode: 522304 Southern Berkshire Public Health Collaborative 2026-11-13T09:00:00 Hybrid meeting located in person at Stockbridge Town Hall and via Zoom at https://us06web.zoom.us/j/85765540853?pwd=BryjALVQ03aZaItrAtclUedSyd9bH4.1 Meeting ID: 857 6554 0853 Passcode: 522304 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Southern-Berkshire-Public-Health-Collabo-42/#_11132026-2657",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2026&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2026&month=11&year=2026&day=12&calType=0"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Finance Committee Meeting",
+   "title": "Finance Committee Meeting",
+   "date": "2026-11-13",
+   "start": "16:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/finance-committee/events/45366"
   },
   {
    "town": "Otis",
@@ -4575,7 +4575,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=508&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=508&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -4588,7 +4588,7 @@
    "location": "@ Town Hall",
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=475&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=475&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -4601,7 +4601,20 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=644&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=644&month=11&year=2026&day=12&calType=0"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Agenda",
+   "date": "2026-11-16",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/261116_boa_meeting_agenda_-_november_16_2026_-_10_am.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-assessors/agenda/board-assessors-agenda-103"
   },
   {
    "town": "Otis",
@@ -4627,7 +4640,7 @@
    "location": "Remote meeting via Zoom at https://us02web.zoom.us/j/84057322633 Or One tap mobile: 1-929-205-6099 # US (New York) Or Telephone: Dial (for higher quality, dial a number based on your current location): +1 929 205 6099 US (New York) +1 301 715 8592 US (Washington DC) +1 305 224 1968 US Webinar ID: 840 5732 2633 International numbers available: htps://us02web.zoom.us/u/kcJD3STxMI Great Barrington Cultural Council 2026-11-16T18:00:00 Remote meeting via Zoom at https://us02web.zoom.us/j/84057322633 Or One tap mobile: 1-929-205-6099 # US (New York) Or Telephone: Dial (for higher quality, dial a number based on your current location): +1 929 205 6099 US (New York) +1 301 715 8592 US (Washington DC) +1 305 224 1968 US Webinar ID: 840 5732 2633 International numbers available: htps://us02web.zoom.us/u/kcJD3STxMI Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Cultural-Council-24/#_11162026-2659",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2028&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2028&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Egremont",
@@ -4666,7 +4679,20 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=560&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=560&month=11&year=2026&day=12&calType=0"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board of Assessors Meeting",
+   "title": "Board of Assessors Meeting",
+   "date": "2026-11-17",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-assessors/events/45376"
   },
   {
    "town": "Great Barrington",
@@ -4679,7 +4705,20 @@
    "location": "Fire District Offices 17 East Street, Great Barrington, MA 01230 Great Barrington Fire District Prudential Committee 2026-11-17T16:30:00 Fire District Offices 17 East Street, Great Barrington, MA 01230 Fire District Office Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Great-Barrington-Fire-District-Prudentia-39/#_11172026-2651",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2020&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2020&month=11&year=2026&day=12&calType=0"
+  },
+  {
+   "town": "Monterey",
+   "board": "Lombardo Park Committee",
+   "title": "Lombardo Park Committee Meeting",
+   "date": "2026-11-17",
+   "start": "16:30",
+   "end": "16:30",
+   "all_day": false,
+   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.montereyma.gov/lombardo-park-committee/events/46636"
   },
   {
    "town": "Becket",
@@ -4690,7 +4729,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-79",
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/energy_committee_agenda_november_17_2026.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/energy-committee/agenda/energy-committee-agenda-79"
   },
@@ -4734,6 +4773,19 @@
    "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-55"
   },
   {
+   "town": "Sandisfield",
+   "board": "Conservation Commission Meeting",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-11-17",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40801"
+  },
+  {
    "town": "Egremont",
    "board": "Conservation Commission",
    "title": "Conservation Commission Special Meeting (PDF)",
@@ -4773,6 +4825,45 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "New Marlborough",
+   "board": "Designer Selection/Design Review Committee",
+   "title": "Designer Selection Review Committee Meeting Agenda",
+   "date": "2026-11-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_11172026-543",
+   "minutes_url": null,
+   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "New Marlborough",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting Agenda",
+   "date": "2026-11-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_11172026-541",
+   "minutes_url": null,
+   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board of Health Meeting",
+   "title": "Board of Health Meeting",
+   "date": "2026-11-18",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/45361"
+  },
+  {
    "town": "Great Barrington",
    "board": "Berkshire Hills Regional School District - Building Committee",
    "title": "Berkshire Hills Regional School District - Building Committee",
@@ -4783,7 +4874,20 @@
    "location": "Remote meeting via Zoom https://us02web.zoom.us/j/89137994507?pwd=TcBM1Mat0HUOHgaki8nGzE8BgXJYBb.1 Passcode:341395 Phone one-tap: +1-305-224-1968 Berkshire Hills Regional School District - Building Committee 2026-11-18T17:30:00 Remote meeting via Zoom https://us02web.zoom.us/j/89137994507?pwd=TcBM1Mat0HUOHgaki8nGzE8BgXJYBb.1 Passcode:341395 Phone one-tap: +1-305-224-1968 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Hills-Regional-School-District-38/#_11182026-2633",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2002&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2002&month=11&year=2026&day=12&calType=0"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Open Space and Recreation Forum",
+   "title": "Open Space and Recreation Forum",
+   "date": "2026-11-18",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/open-space-recreation-plan-committee/events/45281"
   },
   {
    "town": "Alford",
@@ -4796,7 +4900,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=620&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=620&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Egremont",
@@ -4835,7 +4939,7 @@
    "location": "Remote meeting via Zoom at https://us02web.zoom.us/j/89827062416?pwd=rPWxoUC93pbrawQe9NbSB4o01NAasK.1 One tap mobile 1-646-558-8656 US (New York) Meeting ID: 898 2706 2416 Passcode: 142925 Downtown Great Barrington Cultural District Steering Committee Meeting 2026-11-19T10:00:00 Remote meeting via Zoom at https://us02web.zoom.us/j/89827062416?pwd=rPWxoUC93pbrawQe9NbSB4o01NAasK.1 One tap mobile 1-646-558-8656 US (New York) Meeting ID: 898 2706 2416 Passcode: 142925 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Downtown-Great-Barrington-Cultural-Distr-26/#_11192026-2660",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2029&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2029&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -4848,7 +4952,7 @@
    "location": "Hybrid Meeting: Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84776235535 Dial in, audio only: +1 929 205 6099 Webinar ID: 847 7623 5535 Historic District Commission 2026-11-19T17:00:00 Hybrid Meeting: Town Hall 334 Main Street, Great Barrington, MA 01230 via Zoom: https://us02web.zoom.us/j/84776235535 Dial in, audio only: +1 929 205 6099 Webinar ID: 847 7623 5535 Town Hall Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1258&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1258&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Monterey",
@@ -4862,6 +4966,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/conservation-commission/events/46326"
+  },
+  {
+   "town": "New Marlborough",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting Agenda",
+   "date": "2026-11-19",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_11192026-542",
+   "minutes_url": null,
+   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -4887,7 +5004,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=509&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=509&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -4900,7 +5017,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=645&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=645&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -4913,7 +5030,7 @@
    "location": "Hybrid meeting in person Retirement Office, 29 Dunham Mall, Pittsfield and via https://meet.goto.com/178325989 Berkshire County Retirement Board 2026-11-23T09:00:00 Hybrid meeting in person Retirement Office, 29 Dunham Mall, Pittsfield and via https://meet.goto.com/178325989 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-County-Retirement-Board-37/#_11232026-2647",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2015&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2015&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Sandisfield",
@@ -4939,7 +5056,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=423&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=423&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -4952,7 +5069,7 @@
    "location": null,
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1139&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=1139&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -4965,7 +5082,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=561&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=561&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Monterey",
@@ -5017,7 +5134,7 @@
    "location": null,
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2024&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2024&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -5030,7 +5147,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=510&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=510&month=11&year=2026&day=12&calType=0"
   },
   {
    "town": "Alford",
@@ -5043,7 +5160,20 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=646&month=11&year=2026&day=11&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=646&month=11&year=2026&day=12&calType=0"
+  },
+  {
+   "town": "Otis",
+   "board": "Recreation Commission",
+   "title": "Recreation Commission Meeting",
+   "date": "2026-12-02",
+   "start": "18:30",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main road, Otis, MA 01253",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Monterey",
@@ -5072,6 +5202,19 @@
    "source_url": "https://www.montereyma.gov/police-department/events/41996"
   },
   {
+   "town": "Sandisfield",
+   "board": "Council on Aging Meeting",
+   "title": "Council on Aging Meeting",
+   "date": "2026-12-03",
+   "start": "11:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/council-aging/events/43706"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -5083,6 +5226,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.bhrsd.org/sc-meeting-calendar"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Board of Health",
+   "title": "Board of Health",
+   "date": "2026-12-09",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/board-health/events/39771"
   },
   {
    "town": "Monterey",
@@ -5109,6 +5265,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/housing-committee/events/44356"
+  },
+  {
+   "town": "Sandisfield",
+   "board": "Conservation Commission Meeting",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-12-15",
+   "start": "19:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40806"
   },
   {
    "town": "BHRSD",
@@ -5200,6 +5369,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://www.montereyma.gov/police-department/events/41996"
+  },
+  {
+   "town": "Otis",
+   "board": "Finance Board",
+   "title": "Finance Board Meeting",
+   "date": "2027-01-14",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "1 North Main Road, Otis, MA",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "BHRSD",
@@ -5346,91 +5528,91 @@
   }
  ],
  "towns": {
+  "Otis": 68,
   "Egremont": 80,
-  "Otis": 66,
-  "New Marlborough": 68,
-  "Becket": 113,
+  "New Marlborough": 71,
+  "Becket": 115,
   "BHRSD": 17,
   "SBRSD": 8,
   "Sheffield": 2,
   "Monterey": 28,
-  "Tyringham": 3,
+  "Tyringham": 2,
   "Great Barrington": 13,
   "Alford": 12,
-  "Sandisfield": 1
+  "Sandisfield": 9
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
-   "meetings": 1,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "meetings": 9,
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Monterey": {
    "ok": true,
    "meetings": 28,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Great Barrington": {
    "ok": true,
    "meetings": 13,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Egremont": {
    "ok": true,
    "meetings": 80,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "New Marlborough": {
    "ok": true,
-   "meetings": 68,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "meetings": 71,
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Sheffield": {
    "ok": true,
    "meetings": 2,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Alford": {
    "ok": true,
    "meetings": 12,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Otis": {
    "ok": true,
-   "meetings": 66,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "meetings": 68,
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Tyringham": {
    "ok": true,
-   "meetings": 3,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "meetings": 2,
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "Becket": {
    "ok": true,
-   "meetings": 113,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "meetings": 115,
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null
   },
   "BHRSD": {
    "ok": true,
    "meetings": 17,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null,
    "note": "Berkshire Hills Regional School District"
   },
   "SBRSD": {
    "ok": true,
    "meetings": 8,
-   "checked_at": "2026-11-11T13:55:04-05:00",
+   "checked_at": "2026-11-12T13:13:52-05:00",
    "error": null,
    "note": "District notices reposted by member towns"
   }
