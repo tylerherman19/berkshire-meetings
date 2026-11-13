@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:10:24-05:00",
+ "updated": "2026-11-13T12:38:56-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Temporary Municipal Email Service Outage",
+   "summary": "PUBLIC NOTICE Temporary Municipal Email Service Outage November 13, 2026 The Town of Great Barrington is currently experiencing an interruption to its municipal email services due to the Microsoft service outage. During this time, Town employees are unable to send or receive emails, which will delay responses to\u2026",
+   "posted": "2026-11-13T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/256",
+   "first_seen": "2026-11-13T12:38:56-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -2672,7 +2683,7 @@
   }
  ],
  "towns": {
-  "Great Barrington": 49,
+  "Great Barrington": 50,
   "New Marlborough": 18,
   "Tyringham": 6,
   "Becket": 37,
@@ -2691,8 +2702,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 31,
-   "items": 49,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "items": 50,
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   },
   {
@@ -2702,7 +2713,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2710,9 +2721,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 6,
+   "scraped": 4,
    "items": 48,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   },
   {
@@ -2722,7 +2733,7 @@
    "ok": true,
    "scraped": 100,
    "items": 18,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   },
   {
@@ -2732,7 +2743,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2742,7 +2753,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2752,7 +2763,7 @@
    "ok": true,
    "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   },
   {
@@ -2762,7 +2773,7 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   },
   {
@@ -2772,7 +2783,7 @@
    "ok": false,
    "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2782,7 +2793,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   },
   {
@@ -2792,7 +2803,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-12T19:10:24-05:00",
+   "checked_at": "2026-11-13T12:38:56-05:00",
    "error": null
   }
  ]
