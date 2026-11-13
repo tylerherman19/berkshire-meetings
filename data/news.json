@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:38:56-05:00",
+ "updated": "2026-11-13T18:28:07-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "EMPLOYMENT SPOTLIGHT: A CAREER IN PUBLIC SAFETY, A COMMITMENT TO COMMUNITY!",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (November 13, 2026) Employment Spotlight: A Career in Public Safety, A Commitment to Community! The Town of Great Barrington is highlighting an opportunity to join its municipal team as a Full-Time Police Patrol Officer, offering a rewarding career in public\u2026",
+   "posted": "2026-11-13T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/257",
+   "first_seen": "2026-11-13T18:28:07-05:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Town Clerk",
+   "headline": "Official November 3 Election Results Now Available",
+   "summary": "The Town Clerk's Office has released the official results of the November 3, 2026, State Election in Egremont. Residents can review the vote totals for federal and state offices, Southern Berkshire Regional School Committee seats, and all nine ballot questions. Click to visit the Town Clerk's webpage to download the\u2026",
+   "posted": "2026-11-13T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/826",
+   "first_seen": "2026-11-13T18:28:07-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Public notices",
@@ -221,8 +243,8 @@
    "town": "Great Barrington",
    "category": "Public notices",
    "topic": null,
-   "headline": "Preliminary Election Results for 11.3.26",
-   "summary": "Click here to view the Preliminary Election Results for 11.3.26 (PDF)",
+   "headline": "Final Election Results for 11.3.26",
+   "summary": "Click here to view the Final Election Results for 11.3.26 (PDF)",
    "posted": "2026-11-04T00:00:00-05:00",
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/249",
@@ -297,7 +319,7 @@
   {
    "town": "Egremont",
    "category": "General",
-   "topic": null,
+   "topic": "Highway Deparment",
    "headline": "Snowplows Need Room, Too! Egremont's Winter Parking Restrictions Begin November 15",
    "summary": "Winter is coming, and Egremont's snowplows are getting ready to roll! The Highway Department reminds residents that roadside parking restrictions will be in effect from November 15, 2026, through April 15, 2027. While your car may enjoy a snowy roadside view, the Highway Department's snowplows would prefer a clear\u2026",
    "posted": "2026-11-03T00:00:00-05:00",
@@ -2683,13 +2705,13 @@
   }
  ],
  "towns": {
-  "Great Barrington": 50,
+  "Great Barrington": 51,
+  "Egremont": 49,
   "New Marlborough": 18,
   "Tyringham": 6,
   "Becket": 37,
   "Sheffield": 8,
   "Monterey": 11,
-  "Egremont": 48,
   "Sandisfield": 24,
   "BHRSD": 18,
   "Otis": 19,
@@ -2701,9 +2723,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 31,
-   "items": 50,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "scraped": 32,
+   "items": 51,
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   },
   {
@@ -2713,7 +2735,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2721,9 +2743,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 4,
-   "items": 48,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "scraped": 5,
+   "items": 49,
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   },
   {
@@ -2733,7 +2755,7 @@
    "ok": true,
    "scraped": 100,
    "items": 18,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   },
   {
@@ -2743,7 +2765,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2753,7 +2775,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2763,7 +2785,7 @@
    "ok": true,
    "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   },
   {
@@ -2773,7 +2795,7 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   },
   {
@@ -2783,7 +2805,7 @@
    "ok": false,
    "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2793,7 +2815,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   },
   {
@@ -2803,7 +2825,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-13T12:38:56-05:00",
+   "checked_at": "2026-11-13T18:28:07-05:00",
    "error": null
   }
  ]
