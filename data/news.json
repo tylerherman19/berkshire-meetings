@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:28:07-05:00",
+ "updated": "2026-11-14T11:31:55-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,50 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "2026 S&P Credit Rating Report",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (November 14, 2026) Town Maintains AA+ Credit Rating; S&P Revises Financial Outlook to Negative The Town of Great Barrington has maintained its AA+ credit rating from S&P Global Ratings following a recent review conducted in connection with the Town's reissuance\u2026",
+   "posted": "2026-11-14T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/260",
+   "first_seen": "2026-11-14T11:31:55-05:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "SCC Pittsfield FLEX and WKND Hours Reinstated",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (November 14, 2026) Town Announces Return of Pittsfield FLEX and Weekend Transportation Services The Town of Great Barrington is pleased to announce two important service restorations for the South County Connector (SCC): the return of Pittsfield FLEX beginning\u2026",
+   "posted": "2026-11-14T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/259",
+   "first_seen": "2026-11-14T11:31:55-05:00"
+  },
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Town Clerk",
+   "headline": "Egremont Thanks Juliette Haas for More Than 22 Years of Dedicated Service",
+   "summary": "The Town of Egremont extends its sincere appreciation and best wishes to Juliette Haas , who retired on November 13, 2026, after more than 22 years of dedicated service to the Town and its residents. Juliette began her service in 2001 as a part-time volunteer with the Board of Health and eventually became its\u2026",
+   "posted": "2026-11-14T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/827",
+   "first_seen": "2026-11-14T11:31:55-05:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "POLICE LEADERSHIP COMMUNITY SURVEY REPORT RELEASED",
+   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (November 13, 2026) Police Leadership Community Survey Report Released The Town of Great Barrington announces that the Police Leadership Community Survey Report is now available for public review. The report summarizes feedback from 116 survey participants who\u2026",
+   "posted": "2026-11-13T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/258",
+   "first_seen": "2026-11-14T11:31:55-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -2705,8 +2749,8 @@
   }
  ],
  "towns": {
-  "Great Barrington": 51,
-  "Egremont": 49,
+  "Great Barrington": 54,
+  "Egremont": 50,
   "New Marlborough": 18,
   "Tyringham": 6,
   "Becket": 37,
@@ -2723,9 +2767,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 32,
-   "items": 51,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "scraped": 34,
+   "items": 54,
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   },
   {
@@ -2735,7 +2779,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2743,9 +2787,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 5,
-   "items": 49,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "scraped": 6,
+   "items": 50,
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   },
   {
@@ -2755,7 +2799,7 @@
    "ok": true,
    "scraped": 100,
    "items": 18,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   },
   {
@@ -2765,7 +2809,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2775,7 +2819,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2785,7 +2829,7 @@
    "ok": true,
    "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   },
   {
@@ -2795,7 +2839,7 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   },
   {
@@ -2805,7 +2849,7 @@
    "ok": false,
    "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2815,7 +2859,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   },
   {
@@ -2825,7 +2869,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-13T18:28:07-05:00",
+   "checked_at": "2026-11-14T11:31:55-05:00",
    "error": null
   }
  ]
