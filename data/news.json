@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:47:01-05:00",
+ "updated": "2026-11-15T11:58:54-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2724,36 +2724,14 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/massachusetts-state-primary-election-%E2%80%93-september-1-2026",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "\u201cEMPLOYMENT SPOTLIGHT\u201d\u2026 DPW HIGHWAY KEEPS THE TOWN MOVING!",
-   "summary": "Media Release FOR IMMEDIATE RELEASE Great Barrington, MA (August 17, 2026) \u201cEmployment Spotlight\u201d\u2026 DPW Highway Keeps the Town Moving! This week's Employment Spotlight shines on the dedicated professionals of the Highway Division, whose work keeps Great Barrington safe, connected, and moving every day. Whether\u2026",
-   "posted": "2026-08-17T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/200",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "Meeting notices",
-   "topic": null,
-   "headline": "Berkshire County Farmers Forum - Agriculture and the Wetlands Protection Act",
-   "summary": null,
-   "posted": "2026-08-17T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/berkshire-county-farmers-forum-agriculture-and-wetlands-protection-act",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 54,
+  "Great Barrington": 53,
   "Egremont": 50,
   "New Marlborough": 18,
   "Tyringham": 6,
-  "Becket": 37,
+  "Becket": 36,
   "Sheffield": 8,
   "Monterey": 11,
   "Sandisfield": 24,
@@ -2768,8 +2746,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 34,
-   "items": 54,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "items": 53,
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   },
   {
@@ -2779,7 +2757,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2789,7 +2767,7 @@
    "ok": true,
    "scraped": 6,
    "items": 50,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   },
   {
@@ -2799,7 +2777,7 @@
    "ok": true,
    "scraped": 100,
    "items": 18,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   },
   {
@@ -2809,7 +2787,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2819,7 +2797,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2829,7 +2807,7 @@
    "ok": true,
    "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   },
   {
@@ -2839,7 +2817,7 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   },
   {
@@ -2848,8 +2826,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": false,
    "scraped": 0,
-   "items": 37,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "items": 36,
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2859,7 +2837,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   },
   {
@@ -2869,7 +2847,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-14T20:47:01-05:00",
+   "checked_at": "2026-11-15T11:58:54-05:00",
    "error": null
   }
  ]
