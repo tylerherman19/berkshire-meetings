@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:53:10-05:00",
+ "updated": "2026-11-16T15:19:37-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "New Marlborough",
+   "category": "General",
+   "topic": null,
+   "headline": "Sharps Disposal Sites",
+   "summary": "CLICK HERE for information on where to safely dispose of Sharps items in Southern Berkshire County.",
+   "posted": "2026-11-16T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/142",
+   "first_seen": "2026-11-16T15:19:37-05:00"
+  },
   {
    "town": "Egremont",
    "category": "General",
@@ -1487,7 +1498,7 @@
    "category": "General",
    "topic": null,
    "headline": "Join us for some Holiday Magic 12/05/2026- Gingerbread House Decorating, Santa, Cider Donuts, Cocoa, Music, and More. Annual Tree Lighting event.",
-   "summary": null,
+   "summary": "No registration needed for the Gingerbread House Event. Drop in!",
    "posted": "2026-10-05T00:00:00-04:00",
    "date_only": true,
    "url": "https://townofotisma.com/news_detail_T12_R110.php",
@@ -2735,28 +2746,17 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/free-weed-watchers-indoor-workshop-aug-26-2pm-till-4pm",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Sandisfield",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Massachusetts State Primary Election \u2013 September 1, 2026",
-   "summary": "The Massachusetts State Primary Election will be held on Tuesday, September 1, 2026 . Election Day Voting",
-   "posted": "2026-08-18T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.sandisfieldma.gov/home/news/massachusetts-state-primary-election-%E2%80%93-september-1-2026",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
+  "New Marlborough": 19,
   "Egremont": 51,
   "Great Barrington": 53,
   "Becket": 37,
-  "New Marlborough": 18,
   "Tyringham": 6,
   "Sheffield": 8,
   "Monterey": 11,
-  "Sandisfield": 24,
+  "Sandisfield": 23,
   "BHRSD": 18,
   "Otis": 19,
   "Alford": 4
@@ -2769,18 +2769,18 @@
    "ok": true,
    "scraped": 34,
    "items": 53,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 15,
    "items": 8,
-   "checked_at": "2026-11-15T20:53:10-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-16T15:19:37-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -2789,7 +2789,7 @@
    "ok": true,
    "scraped": 7,
    "items": 51,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   },
   {
@@ -2798,8 +2798,8 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 100,
-   "items": 18,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "items": 19,
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   },
   {
@@ -2809,7 +2809,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2818,8 +2818,8 @@
    "url": "https://www.sandisfieldma.gov/node/1/news",
    "ok": false,
    "scraped": 0,
-   "items": 24,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "items": 23,
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2827,9 +2827,9 @@
    "name": "Otis Town News",
    "url": "https://townofotisma.com/newslist.php",
    "ok": true,
-   "scraped": 7,
+   "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   },
   {
@@ -2839,18 +2839,18 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 37,
-   "checked_at": "2026-11-15T20:53:10-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-11-16T15:19:37-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2859,7 +2859,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   },
   {
@@ -2869,7 +2869,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-15T20:53:10-05:00",
+   "checked_at": "2026-11-16T15:19:37-05:00",
    "error": null
   }
  ]
