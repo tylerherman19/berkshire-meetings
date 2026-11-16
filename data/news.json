@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:40:49-05:00",
+ "updated": "2026-11-15T20:53:10-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "General",
+   "topic": "Board of Health",
+   "headline": "Heat Your Home With a Heat Pump? You May Qualify for Lower Winter Electric Rates",
+   "summary": "Massachusetts residents who use electric heat pumps to heat their homes may qualify for reduced winter electricity rates through Eversource, National Grid, and Unitil . The seasonal heat pump rates are available November 1, 2026, through April 30, 2027 , and reduce certain electricity delivery charges. The lower rates\u2026",
+   "posted": "2026-11-15T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/829",
+   "first_seen": "2026-11-15T20:53:10-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "General",
@@ -2738,8 +2749,8 @@
   }
  ],
  "towns": {
+  "Egremont": 51,
   "Great Barrington": 53,
-  "Egremont": 50,
   "Becket": 37,
   "New Marlborough": 18,
   "Tyringham": 6,
@@ -2758,27 +2769,27 @@
    "ok": true,
    "scraped": 34,
    "items": 53,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 15,
+   "ok": false,
+   "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-15T16:40:49-05:00",
-   "error": null
+   "checked_at": "2026-11-15T20:53:10-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 6,
-   "items": 50,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "scraped": 7,
+   "items": 51,
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   },
   {
@@ -2788,18 +2799,18 @@
    "ok": true,
    "scraped": 100,
    "items": 18,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-15T16:40:49-05:00",
-   "error": null
+   "checked_at": "2026-11-15T20:53:10-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -2808,7 +2819,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2818,7 +2829,7 @@
    "ok": true,
    "scraped": 7,
    "items": 19,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   },
   {
@@ -2828,18 +2839,18 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-15T16:40:49-05:00",
-   "error": null
+   "checked_at": "2026-11-15T20:53:10-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2848,7 +2859,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   },
   {
@@ -2858,7 +2869,7 @@
    "ok": true,
    "scraped": 8,
    "items": 18,
-   "checked_at": "2026-11-15T16:40:49-05:00",
+   "checked_at": "2026-11-15T20:53:10-05:00",
    "error": null
   }
  ]
