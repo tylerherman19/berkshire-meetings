@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:08:16-05:00",
+ "updated": "2026-11-17T17:11:44-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Egremont",
+   "category": "Public notices",
+   "topic": "Community Preservation Committee",
+   "headline": "Egremont Receives 67% State Match for Community Preservation Funds",
+   "summary": "More than $252,000 in funding to support community preservation initiatives The Egremont Community Preservation Committee (CPC) has received welcome news about the Town's Community Preservation Act (CPA) funding. The Town raised $151,350 through its voter-approved property tax surcharge and will receive an additional\u2026",
+   "posted": "2026-11-17T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/830",
+   "first_seen": "2026-11-17T17:11:44-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Reminder \u2013 This Thursday! The Gathering \u2013 Men\u2019s Group will hold its first meeting on November 19, 2026, from 7:00\u20139:00 p.m. in the Becket Town Hall Community Room. All are welcome!",
+   "summary": "I invite you to join us at our first meeting on Thursday, November 19th, 7:00 \u2013 9:00 p.m. in the Becket Town Hall Community Room. Enter",
+   "posted": "2026-11-17T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/reminder-%E2%80%93-thursday-gathering-%E2%80%93-men%E2%80%99s-group-will-hold-its-first-meeting-november-19-2026",
+   "first_seen": "2026-11-17T17:11:44-05:00"
+  },
   {
    "town": "New Marlborough",
    "category": "General",
@@ -55,13 +77,24 @@
   {
    "town": "Egremont",
    "category": "General",
-   "topic": "Town Clerk",
+   "topic": "Board of Health",
    "headline": "Egremont Thanks Juliette Haas for More Than 22 Years of Dedicated Service",
    "summary": "The Town of Egremont extends its sincere appreciation and best wishes to Juliette Haas , who retired on November 13, 2026, after more than 22 years of dedicated service to the Town and its residents. Juliette began her service in 2001 as a part-time volunteer with the Board of Health and eventually became its\u2026",
    "posted": "2026-11-14T00:00:00-05:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/827",
    "first_seen": "2026-11-14T11:31:55-05:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "Week at a Glance November 13, 2026",
+   "summary": "Du Bois NewsWeek at a Glance November 13, 2026 Message from Mr. LFueling Our Kids for Success: A Little Note on Health & WellnessWe are awfully lucky to be part of a district that truly ca...",
+   "posted": "2026-11-13T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=96569056",
+   "first_seen": "2026-11-17T17:11:44-05:00"
   },
   {
    "town": "Great Barrington",
@@ -2749,15 +2782,15 @@
   }
  ],
  "towns": {
+  "Egremont": 52,
+  "Becket": 38,
   "New Marlborough": 19,
-  "Egremont": 51,
   "Great Barrington": 53,
-  "Becket": 37,
+  "BHRSD": 19,
   "Tyringham": 6,
   "Sheffield": 8,
   "Monterey": 11,
   "Sandisfield": 23,
-  "BHRSD": 18,
   "Otis": 19,
   "Alford": 4
  },
@@ -2769,7 +2802,7 @@
    "ok": true,
    "scraped": 33,
    "items": 53,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   },
   {
@@ -2779,7 +2812,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2787,9 +2820,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
-   "items": 51,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "scraped": 8,
+   "items": 52,
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   },
   {
@@ -2799,7 +2832,7 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   },
   {
@@ -2809,7 +2842,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2819,7 +2852,7 @@
    "ok": false,
    "scraped": 0,
    "items": 23,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2829,7 +2862,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   },
   {
@@ -2839,18 +2872,18 @@
    "ok": true,
    "scraped": 1,
    "items": 6,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 37,
-   "checked_at": "2026-11-17T08:08:16-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 38,
+   "checked_at": "2026-11-17T17:11:44-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2859,7 +2892,7 @@
    "ok": true,
    "scraped": 1,
    "items": 4,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   },
   {
@@ -2868,8 +2901,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 18,
-   "checked_at": "2026-11-17T08:08:16-05:00",
+   "items": 19,
+   "checked_at": "2026-11-17T17:11:44-05:00",
    "error": null
   }
  ]
