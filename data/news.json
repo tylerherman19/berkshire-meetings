@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:09:57-05:00",
+ "updated": "2026-11-18T13:47:26-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,50 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Town Presents FY2028 Financial Forecast and Five-Year Financial Outlook",
+   "summary": "The Town of Great Barrington presented its preliminary Fiscal Year 2028 (FY28) financial forecast and five-year financial outlook during the November 17 Selectboard meeting, providing an early look at the financial challenges, opportunities, and\u2026",
+   "posted": "2026-11-18T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/262",
+   "first_seen": "2026-11-18T13:47:26-05:00"
+  },
+  {
+   "town": "Alford",
+   "category": "General",
+   "topic": "Council on Aging",
+   "headline": "Winter Lights",
+   "summary": "/DocumentCenter/View/961",
+   "posted": "2026-11-18T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofalford.org/m/newsflash/Home/Detail/24",
+   "first_seen": "2026-11-18T13:47:26-05:00"
+  },
+  {
+   "town": "Alford",
+   "category": "General",
+   "topic": "Select Board",
+   "headline": "Construction Update",
+   "summary": "The Town Office ADA Upgrade project is in the final stages of work. We hope to be substantially complete by the end of November. There is still ongoing work, setting the granite steps and walkway pavers. The Select Board requests that residents consider the site a construction zone until there is no construction\u2026",
+   "posted": "2026-11-18T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofalford.org/m/newsflash/Home/Detail/23",
+   "first_seen": "2026-11-18T13:47:26-05:00"
+  },
+  {
+   "town": "BHRSD",
+   "category": "General",
+   "topic": null,
+   "headline": "BHRSD District Newsletter 11.18.2026",
+   "summary": "BHRSD News + Notes November 18, 2026 Dear BHRSD Community, As Thanksgiving approaches, I find myself reflecting on the many relationships that make Berkshire Hills such a special place to learn and...",
+   "posted": "2026-11-18T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.bhrsd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=97045892",
+   "first_seen": "2026-11-18T13:47:26-05:00"
+  },
   {
    "town": "Egremont",
    "category": "Public notices",
@@ -29,6 +73,17 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/reminder-%E2%80%93-thursday-gathering-%E2%80%93-men%E2%80%99s-group-will-hold-its-first-meeting-november-19-2026",
    "first_seen": "2026-11-17T17:11:44-05:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Sandisfield Annual Holiday Fair",
+   "summary": "Sandisfield Holiday FairDate: Saturday, December 5th, 2026 Time: 10:00am-3:00pmLocation: 207 Sandisfield Road Sandisfield, MA (Fire Station",
+   "posted": "2026-11-16T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/sandisfield-annual-holiday-fair",
+   "first_seen": "2026-11-18T13:47:26-05:00"
   },
   {
    "town": "New Marlborough",
@@ -2782,17 +2837,17 @@
   }
  ],
  "towns": {
+  "Great Barrington": 54,
+  "Alford": 6,
+  "BHRSD": 20,
   "Egremont": 52,
   "Becket": 38,
+  "Sandisfield": 24,
   "New Marlborough": 19,
-  "Great Barrington": 53,
-  "BHRSD": 19,
   "Tyringham": 6,
   "Sheffield": 8,
   "Monterey": 11,
-  "Sandisfield": 23,
-  "Otis": 19,
-  "Alford": 4
+  "Otis": 19
  },
  "sources": [
   {
@@ -2800,9 +2855,9 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 33,
-   "items": 53,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "scraped": 34,
+   "items": 54,
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   },
   {
@@ -2812,7 +2867,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2820,9 +2875,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 8,
+   "scraped": 7,
    "items": 52,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   },
   {
@@ -2832,7 +2887,7 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   },
   {
@@ -2842,18 +2897,18 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 23,
-   "checked_at": "2026-11-17T23:09:57-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 24,
+   "checked_at": "2026-11-18T13:47:26-05:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -2862,37 +2917,37 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": true,
-   "scraped": 1,
+   "ok": false,
+   "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 20,
    "items": 38,
-   "checked_at": "2026-11-17T23:09:57-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "checked_at": "2026-11-18T13:47:26-05:00",
+   "error": null
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
    "ok": true,
-   "scraped": 1,
-   "items": 4,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "scraped": 3,
+   "items": 6,
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   },
   {
@@ -2901,8 +2956,8 @@
    "url": "https://www.bhrsd.org/",
    "ok": true,
    "scraped": 8,
-   "items": 19,
-   "checked_at": "2026-11-17T23:09:57-05:00",
+   "items": 20,
+   "checked_at": "2026-11-18T13:47:26-05:00",
    "error": null
   }
  ]
