@@ -2,8 +2,9 @@
 
 Every public meeting across the southern Berkshires, on one page —
 Great Barrington (incl. Housatonic), Sheffield, Egremont, New Marlborough,
-Monterey, Sandisfield, Stockbridge, West Stockbridge, Alford, Mount Washington,
-Richmond, and the Southern Berkshire Regional School District.
+Monterey, Sandisfield, Otis, Tyringham, Becket and Alford, plus the Berkshire
+Hills and Southern Berkshire regional school districts. Richmond is listed on
+the site but has no automated source yet.
 
 **Live:** https://tylerherman19.github.io/berkshire-meetings/
 
@@ -64,14 +65,24 @@ server to host a per-person feed, and this site is deliberately static.
 - `scraper/scrape.py` pulls each town's meeting calendar (iCal feeds where available,
   HTML parsing elsewhere) into `data/meetings.json`, and diffs against the previous
   run into `data/changes.json`.
-- `.github/workflows/update.yml` runs the scraper daily at 6:00 AM ET and commits
+- `.github/workflows/update.yml` runs the scraper once a day (scheduled for
+  6:02 AM ET, though GitHub often starts scheduled jobs hours late) and commits
   fresh data. GitHub Pages rebuilds automatically.
+- When a town's website blocks or fails the scraper, that town's meetings from
+  the previous run are carried forward (upcoming ones for at most 7 days), the
+  Sources tab marks the town as failed or "partly blocked", and the What
+  Changed feed does not report its missing meetings as removed.
 - `scraper/news.py` pulls each town's news/announcements page into `data/news.json`,
   keyed by source URL so re-runs never duplicate anything, keeping 90 days of
   history even after a town drops a post off its own page.
 - `.github/workflows/news.yml` runs that one hourly from 6:00 AM to midnight ET.
   Cron is UTC and DST-blind, so the schedule covers both offsets and the scraper
   checks the Eastern clock itself, exiting without writing outside the window.
+- `scraper/police.py` (run daily by `.github/workflows/police.yml`) reads the
+  Great Barrington PD's weekly dispatch-log PDFs into `data/police.json` for the
+  Police Blotter tab, privacy-filtered (no names, street level only, medical and
+  welfare calls excluded). A week posted as a scanned image has no text to read;
+  it is noted on the tab and retried daily.
 - The site is static (`index.html` + `styles.css` + `app.js` + `assets/`) — no
   build step, no dependencies, no server.
 
@@ -85,12 +96,16 @@ server to host a per-person feed, and this site is deliberately static.
 | Egremont | `egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all` |
 | New Marlborough | `newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all` |
 | Sheffield | `sheffieldma.gov/minutes-and-agendas` (per-board agenda pages) |
-| Stockbridge | `stockbridge-ma.gov/meetings` (static table) |
-| West Stockbridge | `weststockbridge-ma.gov/AgendaCenter/` |
 | Alford | `townofalford.org/calendar.aspx` (CivicEngage) |
-| Mount Washington | `mountwashington-ma.gov/?mec-ical-feed=1` (iCal) |
+| Otis | `townofotisma.com` Revize calendar JSON + per-board agenda pages |
+| Tyringham | `tyringham-ma.gov/calendar.aspx?CID=26` + AgendaCenter |
+| Becket | `townofbecket.org/minutes-and-agendas` (per-board indexes) |
+| BHRSD | `bhrsd.org/sc-meeting-calendar` + Google Doc agendas |
 | SBRSD | reattributed from member-town AgendaCenter "PLEASE POST" notices |
 | Richmond | _no reliable central listing found yet — in progress_ |
+
+`scraper/scrape.py` also contains parsers for Stockbridge, Lee and Mount
+Washington that are not currently in the daily run.
 
 Pittsfield is covered editorially when a story crosses over (no automated scrape).
 
