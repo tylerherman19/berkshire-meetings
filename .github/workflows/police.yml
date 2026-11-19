@@ -3,8 +3,9 @@ name: Scrape police blotter
 # Daily, 6:33 AM Eastern. Cron is UTC and has no idea about daylight saving,
 # so like the meetings scraper this simply runs at 10:33 UTC year-round -
 # 6:33 AM ET in summer, 5:33 AM in winter. The GB PD posts its weekly log PDF
-# a week or two after the week closes, so most runs find nothing new and exit
-# without committing.
+# a week or two after the week closes, so most runs find nothing new; they
+# still commit the refreshed "updated" time, which the Blotter tab shows as
+# "Site last checked".
 on:
   schedule:
     - cron: "33 10 * * *" # 6:33 AM ET (off the congested :00 minute)
@@ -23,8 +24,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install dependencies
@@ -39,4 +40,22 @@ jobs:
           # NOTE: do NOT add -X theirs here, matching the meetings workflow:
           # the data file is fully regenerated each run. If a rebase ever
           # conflicts, fail loudly instead of publishing a chimera.
-          git diff --cached --quiet || (git commit -m "Update police blotter" && git pull --rebase && git push)
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "Update police blotter"
+          # Retry the push, as the meetings workflow does: a transient GitHub
+          # error, or another bot pushing to main in the same moment, should
+          # not fail the run. A real rebase conflict fails every attempt.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase && git push; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; cleaning up and retrying in 30s..."
+            git rebase --abort 2>/dev/null || true
+            sleep 30
+          done
+          echo "Push failed after 5 attempts."
+          exit 1

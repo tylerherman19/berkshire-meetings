@@ -43,8 +43,29 @@ GB_MONTHS = "|".join(MONTHS_FULL)
 meetings = []
 stats = {}
 
+# Fetches that failed outright (blocked, timed out, server error) since the
+# run started. main() reads it before and after each town's scrape, so a
+# town whose site blocked us can be told apart from one that genuinely has
+# nothing posted - the old code reported both as "OK, 0 meetings".
+FETCH_FAILS = {"n": 0}
 
-def get(url, timeout=40):
+
+def get(url, timeout=40, tls_attempts=3, critical=True):
+    """GET with a browser-TLS fallback for Cloudflare 403s.
+
+    ``critical=False`` marks a nice-to-have fetch (a detail page for an
+    agenda link, a PDF for the search index) whose failure should not mark
+    the town's whole scrape as degraded.
+    """
+    try:
+        return _get(url, timeout, tls_attempts)
+    except Exception:
+        if critical:
+            FETCH_FAILS["n"] += 1
+        raise
+
+
+def _get(url, timeout, tls_attempts):
     try:
         r = requests.get(url, headers=UA, timeout=timeout)
         r.raise_for_status()
@@ -52,21 +73,25 @@ def get(url, timeout=40):
     except requests.HTTPError as e:
         code = e.response.status_code if e.response is not None else None
         server = (e.response.headers.get("Server") if e.response is not None else None)
-        if code == 403:
+        if code == 403 and tls_attempts > 0:
             try:
                 from curl_cffi import requests as tls_requests
             except ImportError:
                 print("[retry-tls] curl_cffi not installed", flush=True)
                 raise
-            for attempt in (1, 2, 3):
+            for attempt in range(1, tls_attempts + 1):
                 print(f"[retry-tls] 403 (server={server}) for {url}; "
-                      f"browser-TLS attempt {attempt}/3", flush=True)
+                      f"browser-TLS attempt {attempt}/{tls_attempts}", flush=True)
                 r2 = tls_requests.get(url, headers=UA, timeout=timeout, impersonate="chrome")
                 if r2.status_code < 400:
                     print(f"[retry-tls] success for {url}", flush=True)
                     return r2
                 print(f"[retry-tls] still failing: {r2.status_code}", flush=True)
-                time.sleep(10 * attempt)
+                # Back off between attempts only: sleeping after the last one
+                # just delayed the inevitable raise by 30s on every blocked
+                # page (~15 minutes a run across Sheffield and Becket).
+                if attempt < tls_attempts:
+                    time.sleep(10 * attempt)
             raise
         raise
 
@@ -207,7 +232,8 @@ def _civicplus_list(town, url):
             loc = clean_location(lm.group(1))
         agenda_url = None
         try:
-            dsoup = BeautifulSoup(get(detail, timeout=20).text, "html.parser")
+            dsoup = BeautifulSoup(get(detail, timeout=20, critical=False).text,
+                                  "html.parser")
             for la in dsoup.find_all("a", href=True):
                 lbl = (la.get_text(" ", strip=True) + " " + la["href"]).lower()
                 if "agenda" in lbl:
@@ -414,15 +440,29 @@ def scrape_sheffield():
 
 # ---------------- Drupal day-page crawl (Monterey, Sandisfield fallback) ----------------
 
+DAY_PAGE_GIVE_UP = 5  # consecutive failed day pages before abandoning the crawl
+
+
 def scrape_drupal_day_pages(town, base, days=45):
     """Crawl /calendar/day/YYYY-MM-DD pages (Drupal date module). Returns count."""
     count = 0
+    fails_in_a_row = 0
     for i in range(days):
         d = TODAY + timedelta(days=i)
         try:
             soup = BeautifulSoup(
                 get(f"{base}/calendar/day/{d.isoformat()}", timeout=20).text, "html.parser")
+            fails_in_a_row = 0
         except Exception:
+            fails_in_a_row += 1
+            if fails_in_a_row >= DAY_PAGE_GIVE_UP:
+                # The site is blocking us. Every remaining day page would burn
+                # ~30s of retries to fail the same way: on Nov 18, 2026 this
+                # loop spent 46 minutes on Sandisfield and 45 on Monterey to
+                # collect nothing. main() carries the last good data forward.
+                print(f"[{town}] {fails_in_a_row} day pages in a row failed; "
+                      f"giving up on the crawl", flush=True)
+                break
             continue
         for a in soup.find_all("a", href=True):
             href = a["href"]
@@ -700,7 +740,9 @@ BECKET_BASE = "https://www.townofbecket.org"
 def _becket_pdf(doc_url):
     """Fetch a Becket agenda/minutes doc page and return its PDF href."""
     try:
-        soup = BeautifulSoup(get(doc_url, timeout=30).text, "html.parser")
+        # Not critical: on failure the meeting still links to the doc page.
+        soup = BeautifulSoup(get(doc_url, timeout=30, critical=False).text,
+                             "html.parser")
     except Exception:
         return None
     for a in soup.find_all("a", href=True):
@@ -901,7 +943,7 @@ def meeting_key(m):
 PDF_HINTS = ("AgendaCenter/ViewFile/", ".pdf", "/media/")
 
 
-def extract_document_text(meetings_out):
+def extract_document_text(meetings_out, previous_texts=None):
     """Download agenda + minutes PDFs and extract searchable text.
 
     Writes data/agenda_text.json keyed by meeting_key(). Agenda and minutes
@@ -917,8 +959,10 @@ def extract_document_text(meetings_out):
     print(f"[doc-text] extracting text for {len(meetings_out)} meetings", flush=True)
 
     def fetch_text(url):
-        r = requests.get(url, headers=UA, timeout=45)
-        r.raise_for_status()
+        # One browser-TLS attempt on a 403: Becket serves its agenda PDFs
+        # behind Cloudflare, and the plain requests call this used to make
+        # failed on every one of them. No back-off - this is best effort.
+        r = get(url, timeout=45, tls_attempts=1, critical=False)
         if len(r.content) > 15_000_000:  # skip monster files
             return ""
         with pdfplumber.open(io.BytesIO(r.content)) as pdf:
@@ -932,6 +976,8 @@ def extract_document_text(meetings_out):
         return re.sub(r"\n{3,}", "\n\n", txt).strip()[:8000]
 
     combined = {}
+    reused = 0
+    old_texts = previous_texts or {}
     for m in meetings_out:
         key = meeting_key(m)
         if m.get("_doc_text"):
@@ -940,6 +986,7 @@ def extract_document_text(meetings_out):
             continue
         if not m.get("agenda_url") and not m.get("minutes_url"):
             continue
+        failed = False
         for url, kind in ((m.get("agenda_url"), "agenda"), (m.get("minutes_url"), "minutes")):
             if not url or not any(h in url for h in PDF_HINTS):
                 continue
@@ -947,13 +994,21 @@ def extract_document_text(meetings_out):
                 txt = fetch_text(url)
             except Exception as e:
                 print(f"[doc-text] skip {url}: {type(e).__name__}", flush=True)
+                failed = True
                 continue
             if len(txt) < 120:
                 continue
             prev = combined.get(key, "")
             tag = "\n\n--- MINUTES ---\n\n" if kind == "minutes" else ""
             combined[key] = (prev + tag + txt)[:16000] if prev else txt
-    print(f"[doc-text] extracted {len(combined)} documents", flush=True)
+        if failed and key not in combined and key in old_texts:
+            # A download failed today but worked on an earlier run: keep that
+            # text rather than dropping the meeting out of archive search.
+            combined[key] = old_texts[key]
+            reused += 1
+    print(f"[doc-text] extracted {len(combined)} documents"
+          f" ({reused} kept from the previous run after a failed download)",
+          flush=True)
     return combined
 
 
@@ -963,10 +1018,16 @@ def change_summary(m):
             "start": m.get("start") or ""}
 
 
-def detect_changes(old, new, checked_at):
+def detect_changes(old, new, checked_at, degraded=()):
     """Diff the previous meetings.json against this run's. Returns change
     dicts, newest first, capped at 80. Only upcoming meetings (date >= today)
-    are compared so yesterday's meetings aging out don't count as removed."""
+    are compared so yesterday's meetings aging out don't count as removed.
+
+    ``degraded`` names towns whose site blocked or failed some fetches this
+    run. A meeting missing from one of those is far more likely a page we
+    could not read than a real cancellation, so no "removed" entry is
+    emitted for it (on Nov 18, 2026 a Monterey block put 19 false
+    removals in the What Changed feed)."""
     today = checked_at[:10]
     old_m = {meeting_key(m): m for m in old if (m.get("date") or "") >= today}
     new_m = {meeting_key(m): m for m in new if (m.get("date") or "") >= today}
@@ -990,7 +1051,10 @@ def detect_changes(old, new, checked_at):
             changes.append({"type": "changed", "at": checked_at,
                             "fields": fields, **change_summary(m)})
     for k, m in old_m.items():
-        if k not in new_m:
+        # Degraded towns stay in old_m (so carried-forward meetings match and
+        # are not re-announced as "added" every run); only their removals
+        # are suppressed.
+        if k not in new_m and (m.get("town") or "") not in degraded:
             changes.append({"type": "removed", "at": checked_at,
                             **change_summary(m)})
     # A rescheduled meeting looks like a removed+added pair (the key holds
@@ -1018,6 +1082,85 @@ def detect_changes(old, new, checked_at):
     return merged[:80]
 
 
+# How long an upcoming meeting may be carried forward from an earlier run
+# while its town's site keeps blocking us. Past meetings (the minutes
+# archive) cannot be cancelled, so they carry without a limit; upcoming ones
+# expire so a meeting the town has since cancelled cannot linger for long.
+CARRY_UPCOMING_DAYS = 7
+
+
+def carry_forward(out, old_meetings, health, today):
+    """Fill gaps left by blocked or failed town scrapes from the last run.
+
+    ``health`` maps town -> {"ok": bool, "fails": int, "count": int} for this
+    run. A town counts as degraded when its scrape raised or any of its
+    critical fetches failed. For each degraded town, every meeting from the
+    previous file that this run did not find again (matched on board and
+    date) is put back, stamped with ``carried_since`` - the first day it
+    was carried - unless it is upcoming and has been carried for longer
+    than CARRY_UPCOMING_DAYS.
+
+    Returns (meetings, {town: number carried}).
+    """
+    degraded = {t for t, h in health.items() if not h["ok"] or h["fails"]}
+    have = {(m["town"], m["board"], m["date"]) for m in out}
+    expire = (today - timedelta(days=CARRY_UPCOMING_DAYS)).isoformat()
+    oldest = (today - timedelta(days=180)).isoformat()  # the scrapers' own window
+    today_s = today.isoformat()
+    carried = {}
+    for m in old_meetings:
+        town = m.get("town")
+        if town not in degraded:
+            continue
+        if (town, m.get("board"), m.get("date")) in have:
+            continue
+        if (m.get("date") or "") < oldest:
+            continue
+        since = m.get("carried_since") or today_s
+        if (m.get("date") or "") >= today_s and since < expire:
+            continue
+        m = dict(m, carried_since=since)
+        out.append(m)
+        have.add((town, m.get("board"), m.get("date")))
+        carried[town] = carried.get(town, 0) + 1
+    return out, carried
+
+
+def source_status(name, h, carried, checked_at, old_source):
+    """The Sources-tab record for one town, saying plainly what happened."""
+    n_carried = carried.get(name, 0)
+    rec = {"ok": True, "meetings": 0, "checked_at": checked_at, "error": None}
+    if not h["ok"] or (h["fails"] and h["count"] == 0):
+        old = old_source or {}
+        # When the previous run worked, it is the last good check; when it
+        # failed too, it inherited the date of the last one that worked.
+        last_ok = old.get("checked_at") if old.get("ok") else old.get("last_ok")
+        why = h.get("error") or (
+            f"The town website blocked or failed {h['fails']} "
+            f"request{'s' if h['fails'] != 1 else ''} from the scraper.")
+        when = ""
+        if last_ok:
+            try:
+                d = datetime.fromisoformat(last_ok)
+                when = f" ({d.strftime('%b')} {d.day})"
+            except ValueError:
+                pass
+        rec.update(ok=False, error=(
+            why + (f" Showing {n_carried} meeting{'s' if n_carried != 1 else ''}"
+                   f" from the last successful check{when}." if n_carried else
+                   " No earlier data to fall back on.")))
+        if last_ok:
+            rec["last_ok"] = last_ok
+    elif h["fails"]:
+        rec["partial"] = True
+        rec["note"] = (
+            f"{h['fails']} page{'s' if h['fails'] != 1 else ''} on the town site "
+            f"could not be read this run"
+            + (f"; {n_carried} meeting{'s' if n_carried != 1 else ''} carried over "
+               "from the previous check." if n_carried else "."))
+    return rec
+
+
 def main():
     jobs = [
         ("Sandisfield", scrape_sandisfield),
@@ -1032,20 +1175,36 @@ def main():
         ("Becket", scrape_becket),
         ("BHRSD", scrape_bhrsd),
     ]
-    total = 0
-    errors = {}
-    for name, fn in jobs:
+    root = Path(__file__).resolve().parent.parent
+    target = root / "data" / "meetings.json"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    # The previous run's output: the diff baseline for "what changed", and
+    # the fallback for any town whose site blocks us this run.
+    old_payload = {}
+    if target.exists():
         try:
-            c = fn()
-            ok = True
+            old_payload = json.loads(target.read_text())
+        except Exception as e:
+            print(f"could not read previous meetings.json: {e}", flush=True)
+    old_meetings = old_payload.get("meetings") or []
+    old_sources = old_payload.get("sources") or {}
+
+    health = {}
+    for name, fn in jobs:
+        fails_before = FETCH_FAILS["n"]
+        h = {"ok": True, "fails": 0, "count": 0, "error": None}
+        try:
+            h["count"] = fn()
         except Exception as e:  # never let one town kill the run
             print(f"[{name}] ERROR: {e}", flush=True)
-            c = 0
-            ok = False
-            errors[name] = f"{type(e).__name__}: {e}"[:200]
-        stats[name] = c
-        total += c
-        print(f"[{name}] {c} meetings", flush=True)
+            h["ok"] = False
+            h["error"] = f"{type(e).__name__}: {e}"[:200]
+        h["fails"] = FETCH_FAILS["n"] - fails_before
+        health[name] = h
+        stats[name] = h["count"]
+        print(f"[{name}] {h['count']} meetings"
+              + (f" ({h['fails']} failed fetches)" if h["fails"] else ""),
+              flush=True)
 
     n_sbrsd = attribute_sbrsd()
     print(f"[SBRSD] reattributed {n_sbrsd} notices from member towns", flush=True)
@@ -1057,6 +1216,11 @@ def main():
             continue
         seen.add(key)
         out.append(m)
+
+    out, carried = carry_forward(out, old_meetings, health, TODAY)
+    for town, n in carried.items():
+        print(f"[{town}] carried {n} meetings forward from the previous run",
+              flush=True)
     out.sort(key=lambda m: (m["date"], m["start"] or "99:99", m["town"] or ""))
 
     # per-town counts after dedupe, so the JSON reflects what's actually published
@@ -1066,13 +1230,10 @@ def main():
 
     checked_at = datetime.now(ET).isoformat(timespec="seconds")
     sources = {}
-    for name in stats:
-        sources[name] = {
-            "ok": name not in errors,
-            "meetings": town_counts.get(name, 0),
-            "checked_at": checked_at,
-            "error": errors.get(name),
-        }
+    for name, h in health.items():
+        sources[name] = source_status(name, h, carried, checked_at,
+                                      old_sources.get(name))
+        sources[name]["meetings"] = town_counts.get(name, 0)
     sources["SBRSD"] = {
         "ok": True,
         "meetings": town_counts.get("SBRSD", 0),
@@ -1080,13 +1241,7 @@ def main():
         "error": None,
         "note": "District notices reposted by member towns",
     }
-    sources["BHRSD"] = {
-        "ok": "BHRSD" not in errors,
-        "meetings": town_counts.get("BHRSD", 0),
-        "checked_at": checked_at,
-        "error": errors.get("BHRSD"),
-        "note": "Berkshire Hills Regional School District",
-    }
+    sources["BHRSD"]["note"] = "Berkshire Hills Regional School District"
 
     for m in out:
         m.pop("_doc_text", None)
@@ -1097,18 +1252,9 @@ def main():
         "towns": town_counts,
         "sources": sources,
     }
-    root = Path(__file__).resolve().parent.parent
-    target = root / "data" / "meetings.json"
-    target.parent.mkdir(parents=True, exist_ok=True)
 
-    # Diff against the previous run so the site can show "what changed".
-    old_meetings = []
-    if target.exists():
-        try:
-            old_meetings = json.loads(target.read_text()).get("meetings") or []
-        except Exception as e:
-            print(f"could not read previous meetings.json for diff: {e}", flush=True)
-    changes = detect_changes(old_meetings, out, checked_at)
+    degraded = {t for t, h in health.items() if not h["ok"] or h["fails"]}
+    changes = detect_changes(old_meetings, out, checked_at, degraded)
     changes_target = root / "data" / "changes.json"
     changes_target.write_text(json.dumps({"updated": checked_at,
                                           "changes": changes}, indent=1))
@@ -1119,8 +1265,14 @@ def main():
 
     # Searchable agenda/minutes text lives in a separate lazy-loaded file so
     # the main JSON stays small.
-    texts = extract_document_text(out)
     atext_target = root / "data" / "agenda_text.json"
+    old_texts = {}
+    if atext_target.exists():
+        try:
+            old_texts = json.loads(atext_target.read_text()).get("texts") or {}
+        except Exception as e:
+            print(f"could not read previous agenda_text.json: {e}", flush=True)
+    texts = extract_document_text(out, old_texts)
     atext_target.write_text(json.dumps({"updated": checked_at, "texts": texts}))
     print(f"agenda text -> {atext_target}", flush=True)
 

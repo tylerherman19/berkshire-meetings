@@ -30,8 +30,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install dependencies
@@ -43,4 +43,22 @@ jobs:
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
           git add data/news.json
-          git diff --cached --quiet || (git commit -m "Update town news" && git pull --rebase && git push)
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "Update town news"
+          # Retry the push, as the meetings workflow does: a transient GitHub
+          # error, or another bot pushing to main in the same moment, should
+          # not fail the run. A real rebase conflict fails every attempt.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase && git push; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; cleaning up and retrying in 30s..."
+            git rebase --abort 2>/dev/null || true
+            sleep 30
+          done
+          echo "Push failed after 5 attempts."
+          exit 1

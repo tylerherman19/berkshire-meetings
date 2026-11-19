@@ -58,6 +58,11 @@ def main():
         for path in sorted(ROOT.rglob(pattern)):
             if SKIP_DIRS & set(path.relative_to(ROOT).parts):
                 continue
+            # rglob matches directories too: a folder once named
+            # .github/workflows/contacts-prepare.yml crashed this script with
+            # IsADirectoryError and failed Checks on that branch (Nov 17, 2026).
+            if not path.is_file():
+                continue
             checked += 1
             try:
                 text = path.read_text(encoding="utf-8")

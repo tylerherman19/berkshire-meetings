@@ -937,7 +937,7 @@ function townIndex(){
     'Counts cover the next seven days.</p></div><div class="towngrid">';
   allPlaces().forEach(function(x,i){
     var up=upcoming(x), s=DATA.sources&&DATA.sources[x];
-    var dot='<span class="sdot '+(s?(s.ok?"ok":"bad"):"")+'"></span>';
+    var dot='<span class="sdot '+(s?(s.ok?(s.partial?"stale":"ok"):"bad"):"")+'"></span>';
     h+='<button class="towncard rise" style="--i:'+Math.min(i,12)+'" data-action="town-pick" '+
       'data-town="'+esc(x)+'" type="button">'+
       '<div class="tc-top">'+dot+'<span class="tc-name">'+esc(townLabel(x))+'</span></div>'+
@@ -1390,7 +1390,7 @@ function renderSources(){
   var upd=DATA.updated?new Date(DATA.updated).toLocaleString("en-US",
     {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET":"not yet";
   var h='<div class="viewhead"><h2>Source health</h2>'+
-    '<p class="vsub">Every town calendar is scraped daily at 6:02 AM ET. If a source fails, its meetings may be '+
+    '<p class="vsub">Every town calendar is scraped once a day (scheduled for 6:02 AM ET; GitHub often starts it hours late). If a source fails, its meetings may be '+
     'missing — this page says so plainly instead of pretending nothing was posted.</p>'+
     '<p class="vsub srcfresh"><span>Data updated '+esc(upd)+'</span>'+
     '<button class="btn ghost sm" id="refreshdata" type="button">Refresh data</button>'+
@@ -1402,6 +1402,7 @@ function renderSources(){
     allPlaces().forEach(function(tn,i){
       var s=src[tn], dot, status, detail;
       if(!s){ dot=""; status="Not scraped"; detail="No automated source yet — coverage is manual."; }
+      else if(s.ok&&s.partial){ dot="stale"; status="Partly blocked"; detail=plural(s.meetings,"meeting")+" in the feed"; }
       else if(s.ok){ dot="ok"; status="OK"; detail=plural(s.meetings,"meeting")+" in the feed"; }
       else { dot="bad"; status="Scrape failed"; detail=s.error||"The source could not be reached."; }
       h+='<div class="srccard rise" style="--i:'+Math.min(i,12)+'">'+
