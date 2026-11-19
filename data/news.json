@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:04:47-05:00",
+ "updated": "2026-11-19T13:57:23-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2823,17 +2823,6 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/205",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "Free Weed Watchers Indoor Workshop - Aug 26 from 2pm till 4pm",
-   "summary": null,
-   "posted": "2026-08-21T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/free-weed-watchers-indoor-workshop-aug-26-2pm-till-4pm",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -2841,7 +2830,7 @@
   "Alford": 6,
   "BHRSD": 20,
   "Egremont": 52,
-  "Becket": 38,
+  "Becket": 37,
   "Sandisfield": 24,
   "New Marlborough": 19,
   "Tyringham": 6,
@@ -2857,7 +2846,7 @@
    "ok": true,
    "scraped": 34,
    "items": 54,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   },
   {
@@ -2867,7 +2856,7 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
@@ -2875,9 +2864,9 @@
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 7,
+   "scraped": 6,
    "items": 52,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   },
   {
@@ -2887,7 +2876,7 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   },
   {
@@ -2897,7 +2886,7 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2907,7 +2896,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2917,7 +2906,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   },
   {
@@ -2927,18 +2916,18 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
-   "items": 38,
-   "checked_at": "2026-11-18T20:04:47-05:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 37,
+   "checked_at": "2026-11-19T13:57:23-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2947,7 +2936,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   },
   {
@@ -2957,7 +2946,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-18T20:04:47-05:00",
+   "checked_at": "2026-11-19T13:57:23-05:00",
    "error": null
   }
  ]
