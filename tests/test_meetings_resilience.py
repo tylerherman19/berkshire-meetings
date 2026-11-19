@@ -132,6 +132,31 @@ class DetectChangesTests(unittest.TestCase):
         self.assertEqual([(c["town"], c["type"]) for c in changes],
                          [("Egremont", "removed")])
 
+    def test_blocked_town_is_quiet_across_consecutive_runs(self):
+        # Day 1 healthy; days 2 and 3 Monterey is blocked and carried forward.
+        # Nothing about Monterey changed, so What Changed must stay empty -
+        # no false removals, and no carried meetings re-announced as added.
+        day1 = [mtg("Monterey", "Select Board", TODAY + timedelta(days=2)),
+                mtg("Monterey", "Planning Board", TODAY + timedelta(days=3))]
+        health = {"Monterey": blocked()}
+        prev = day1
+        for _ in range(2):
+            out, _carried = scrape.carry_forward([], prev, health, TODAY)
+            changes = scrape.detect_changes(prev, out, self.AT,
+                                            degraded={"Monterey"})
+            self.assertEqual(changes, [])
+            prev = out
+
+    def test_real_change_in_degraded_town_still_reported(self):
+        d = TODAY + timedelta(days=2)
+        old = [mtg("Becket", "Select Board", d, start="18:00")]
+        new = [mtg("Becket", "Select Board", d, start="18:00",
+                   agenda_url="https://x.invalid/a.pdf"),
+               mtg("Becket", "Planning Board", d)]
+        changes = scrape.detect_changes(old, new, self.AT, degraded={"Becket"})
+        self.assertEqual(sorted((c["board"], c["type"]) for c in changes),
+                         [("Planning Board", "added"), ("Select Board", "changed")])
+
 
 class FetchBehaviourTests(unittest.TestCase):
     def setUp(self):

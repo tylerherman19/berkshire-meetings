@@ -1029,8 +1029,7 @@ def detect_changes(old, new, checked_at, degraded=()):
     emitted for it (on Nov 18, 2026 a Monterey block put 19 false
     removals in the What Changed feed)."""
     today = checked_at[:10]
-    old_m = {meeting_key(m): m for m in old if (m.get("date") or "") >= today
-             and (m.get("town") or "") not in degraded}
+    old_m = {meeting_key(m): m for m in old if (m.get("date") or "") >= today}
     new_m = {meeting_key(m): m for m in new if (m.get("date") or "") >= today}
     changes = []
     for k, m in new_m.items():
@@ -1052,7 +1051,10 @@ def detect_changes(old, new, checked_at, degraded=()):
             changes.append({"type": "changed", "at": checked_at,
                             "fields": fields, **change_summary(m)})
     for k, m in old_m.items():
-        if k not in new_m:
+        # Degraded towns stay in old_m (so carried-forward meetings match and
+        # are not re-announced as "added" every run); only their removals
+        # are suppressed.
+        if k not in new_m and (m.get("town") or "") not in degraded:
             changes.append({"type": "removed", "at": checked_at,
                             **change_summary(m)})
     # A rescheduled meeting looks like a removed+added pair (the key holds

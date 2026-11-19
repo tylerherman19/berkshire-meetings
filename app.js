@@ -1390,7 +1390,7 @@ function renderSources(){
   var upd=DATA.updated?new Date(DATA.updated).toLocaleString("en-US",
     {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET":"not yet";
   var h='<div class="viewhead"><h2>Source health</h2>'+
-    '<p class="vsub">Every town calendar is scraped daily at 6:02 AM ET. If a source fails, its meetings may be '+
+    '<p class="vsub">Every town calendar is scraped once a day (scheduled for 6:02 AM ET; GitHub often starts it hours late). If a source fails, its meetings may be '+
     'missing — this page says so plainly instead of pretending nothing was posted.</p>'+
     '<p class="vsub srcfresh"><span>Data updated '+esc(upd)+'</span>'+
     '<button class="btn ghost sm" id="refreshdata" type="button">Refresh data</button>'+
