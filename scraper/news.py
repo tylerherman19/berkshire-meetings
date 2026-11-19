@@ -764,7 +764,10 @@ def main():
             "town": name,
             "name": src["name"],
             "url": src["url"],
-            "ok": name not in errors and stats.get(name, 0) > 0,
+            # A page that loaded and simply has nothing posted is a quiet
+            # source, not a failed one (Tyringham's newsflash list is often
+            # empty); the News tab already renders ok + 0 as "quiet".
+            "ok": name not in errors,
             "scraped": stats.get(name, 0),
             "items": town_counts.get(name, 0),
             "checked_at": checked_at,
