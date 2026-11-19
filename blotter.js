@@ -262,6 +262,21 @@ function render(){
     'below count back from there rather than from today. '+
     'The daily check still runs &mdash; it just has nothing newer to fetch yet.</p>';
 
+  /* A week the department posted as a scanned image has no text to read, so
+     it contributes no entries. Without saying so it looks like a quiet week
+     and drags every count and chart that covers it. */
+  var unread=(POL.weeks||[]).filter(function(w){ return w.note; });
+  if(unread.length){
+    h+='<p class="blot-lag blot-missing" role="note"><b>Missing '+
+      (unread.length>1?'weeks':'week')+':</b> the department posted its log for '+
+      unread.map(function(w){
+        return '<a href="'+esc(w.url)+'" target="_blank" rel="noopener">'+esc(weekLabel(w.file))+'</a>';
+      }).join(', ')+
+      ' as a scanned image, which can&rsquo;t be read automatically, so '+
+      (unread.length>1?'those weeks have':'that week has')+' no entries here. '+
+      'The original PDF is linked; the site checks again daily in case a readable copy is posted.</p>';
+  }
+
   if(STALE){
     h+='<p class="blot-stale" role="status">Couldn&rsquo;t reach the data file on that '+
       'last refresh, so this is still the previously loaded copy. Try again in a moment.</p>';

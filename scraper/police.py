@@ -60,6 +60,22 @@ EXCLUDE_REASONS = {
     "SERVE IMMEDIATE THREAT", "ESCORT / TRANSPORT",
     "BOLO", "OUT OF TOWN ARREST", "FID / LTC",
 }
+# Any legal-process call type ("SERVE PAPERWORK" was published on Nov 1,
+# 2026 because only three SERVE variants were listed above).
+EXCLUDE_REASON_PREFIXES = ("SERVE ",)
+# Outcomes that reveal a medical event even when the call reason does not
+# ("ASSIST CITIZEN ... TRANSPORTED TO HOSPITAL" on a residential street).
+# Traffic calls are exempt: a crash on a public road does not identify a
+# household, and those are routinely reported in the local press.
+MEDICAL_ACTIONS = {"TRANSPORTED TO HOSPITAL", "AMBULANCE DISPATCHED"}
+
+
+def privacy_excluded(reason, action, group):
+    """True when a call must never be published (reason/action in any case)."""
+    r, a = reason.upper(), action.upper()
+    if r in EXCLUDE_REASONS or r.startswith(EXCLUDE_REASON_PREFIXES):
+        return True
+    return a in MEDICAL_ACTIONS and group != "Traffic"
 
 GROUPS = [
     "Crime", "Traffic", "Disorder", "Alarms", "Fire & hazards",
@@ -92,7 +108,12 @@ def group_for(reason):
 # Location labels that are not streets, mapped to a geocodable place.
 LOCATION_ALIASES = {
     "DOWNTOWN HOUSATONIC BUSINESS DISTRICT": "Housatonic, MA",
+    "DOWNTOWN HOUSY": "Housatonic, MA",
+    "DOWNTOWN GREAT BARRINGTON CULTURAL DISTRICT": "Great Barrington, MA",
 }
+# PD spellings of real streets that the geocoder only knows spelled right.
+# Applied to the geocoder query only; the displayed text stays as logged.
+STREET_SPELLINGS = {"ROSSETTER ST": "ROSSETER ST", "COPPER BEACH LN": "COPPER BEECH LN"}
 SKIP_LOC = re.compile(r"POSSIBLY|UNKNOWN|LAST SEEN|MSP\b|^\s*$", re.I)
 
 # --- PDF table parsing -------------------------------------------------------
@@ -180,7 +201,13 @@ def clean_location(raw):
     # Zone letters the PD puts inside street names: MAIN (A) ST -> MAIN ST.
     s = re.sub(r"\s*\([A-Z]\)\s*", " ", s).strip()
     s = re.sub(r"\s{2,}", " ", s)
-    return s, sector
+    return dedupe_suffix(s), sector
+
+
+def dedupe_suffix(s):
+    """'COTTAGE ST ST' -> 'COTTAGE ST' (seen in the Sept 2026 logs)."""
+    return re.sub(r"\b(ST|RD|AVE|LN|DR|CT|PL|WAY)\s+\1\b", r"\1", s,
+                  flags=re.I)
 
 
 def _word_lines(page):
@@ -423,7 +450,7 @@ def drop_reason(row):
         # Reason/action could not be separated with confidence, so the
         # privacy exclusions cannot be relied on for this row.
         return "unresolved"
-    if row["r"] in EXCLUDE_REASONS:
+    if privacy_excluded(row["r"], row.get("a", ""), group_for(row["r"])):
         return "excluded"
     if row["sector"] and row["sector"] not in GB_SECTORS:
         return "out_of_town"
@@ -476,17 +503,28 @@ def index_pdfs():
     out.sort(key=lambda p: p["from"], reverse=True)
     return out
 
+def _has_geo_fix(key):
+    return key in LOCATION_ALIASES or any(
+        k in key for k in STREET_SPELLINGS)
+
+
 def geocode(street, sector, cache):
     key = street.upper()
-    if key in cache:
+    # Cached misses are final, except for labels that gained an alias or
+    # spelling fix after they were first cached as unmappable.
+    if key in cache and not (cache[key] is None and _has_geo_fix(key)):
         return cache[key]
     result = None
+    errored = False
     if street.upper() in LOCATION_ALIASES:
         queries = [LOCATION_ALIASES[street.upper()]]
     elif SKIP_LOC.search(street):
         queries = []
     else:
-        parts = [p.strip() for p in re.split(r"\s+\+\s+", street) if p.strip()]
+        fixed = key
+        for wrong, right in STREET_SPELLINGS.items():
+            fixed = fixed.replace(wrong, right)
+        parts = [p.strip() for p in re.split(r"\s+\+\s+", fixed) if p.strip()]
         town = "Housatonic, MA" if sector == "HOU" else "Great Barrington, MA"
         queries = []
         if len(parts) > 1:
@@ -500,8 +538,12 @@ def geocode(street, sector, cache):
                 "q": q, "format": "json", "limit": 1,
                 "countrycodes": "us",
             })
+            r.raise_for_status()
             hits = r.json()
         except Exception:
+            # An outage or rate limit is not "this street does not exist":
+            # caching it as a miss used to unmap the street permanently.
+            errored = True
             hits = []
         time.sleep(1.05)  # Nominatim usage policy: max 1 req/s
         if hits:
@@ -510,7 +552,8 @@ def geocode(street, sector, cache):
             if 42.06 <= lat <= 42.34 and -73.56 <= lon <= -73.16:
                 result = [round(lat, 5), round(lon, 5)]
                 break
-    cache[key] = result
+    if result is not None or not errored:
+        cache[key] = result
     return result
 
 def main():
@@ -518,15 +561,33 @@ def main():
     if DATA_FILE.exists():
         existing = json.loads(DATA_FILE.read_text())
     geo = existing.get("geo", {})
-    have = set() if os.environ.get("REPARSE") else {
-        w["file"] for w in existing.get("weeks", [])}
     incidents = {} if os.environ.get("REPARSE") else {
         i["id"]: i for i in existing.get("incidents", [])}
+    # A week counts as done only if it was readable. Weeks noted as
+    # unreadable - or on file with no incidents at all, which is how the
+    # scanned Oct 25-31, 2026 log was stored before notes were kept - are
+    # fetched again each run, so a text copy the department re-posts under
+    # the same name gets picked up and the note stays on the week until then.
+    weeks_with_rows = {i.get("w") for i in incidents.values()}
+    have = set() if os.environ.get("REPARSE") else {
+        w["file"] for w in existing.get("weeks", [])
+        if not w.get("note") and w["file"] in weeks_with_rows}
 
     pdfs = index_pdfs()[:BACKFILL_WEEKS]
     keep_files = {p["file"] for p in pdfs}
     # Drop weeks that aged out of the backfill window.
     incidents = {k: v for k, v in incidents.items() if v.get("w") in keep_files}
+    # Weeks are not re-parsed, so a tightened privacy rule has to be applied
+    # to what is already on file too, or it only protects future weeks.
+    purged = [k for k, v in incidents.items()
+              if privacy_excluded(v["r"], v["a"], v["g"])]
+    for k in purged:
+        del incidents[k]
+    if purged:
+        print(f"Removed {len(purged)} already-published incident(s) under the"
+              f" current privacy rules.")
+    for v in incidents.values():
+        v["loc"] = dedupe_suffix(v["loc"])
 
     new_weeks = [p for p in pdfs if p["file"] not in have]
     guard_fails = []
