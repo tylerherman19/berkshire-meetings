@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:11:54-05:00",
+ "updated": "2026-11-20T13:31:39-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,28 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Libraries Serve as Food Donation Drop-Off Locations for People\u2019s Pantry",
+   "summary": "The Town of Great Barrington is pleased to announce that both Mason Library and Ramsdell Library are serving as food donation drop-off locations for The People's Pantry, providing residents with a convenient opportunity to support local\u2026",
+   "posted": "2026-11-20T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/264",
+   "first_seen": "2026-11-20T13:31:39-05:00"
+  },
+  {
+   "town": "Great Barrington",
+   "category": "General",
+   "topic": null,
+   "headline": "Thanksgiving Holiday Municipal Services Schedule",
+   "summary": "The Town of Great Barrington wishes to inform residents of the following municipal service schedules in observance of the Thanksgiving holiday. All non-public-safety municipal offices and services will be closed on Thursday, November 26, 2026, with the following\u2026",
+   "posted": "2026-11-20T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/263",
+   "first_seen": "2026-11-20T13:31:39-05:00"
+  },
   {
    "town": "Great Barrington",
    "category": "Meeting notices",
@@ -2812,21 +2834,10 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/tree-id-walk-chelsey-simmons-saturday-sept-12-10am",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "REDUCED LAKE MANSFIELD LIFEGUARD COVERAGE FOR REMAINDER OF SEASON",
-   "summary": "Public Notice FOR IMMEDIATE RELEASE Great Barrington, MA (August 22, 2026) Reduced Lake Mansfield Lifeguard Coverage for Remainder of Season As the summer season begins to wind down, the Town of Great Barrington would like to provide an update regarding lifeguard coverage at Lake Mansfield Beach through Labor Day\u2026",
-   "posted": "2026-08-22T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/205",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
-  "Great Barrington": 54,
+  "Great Barrington": 55,
   "Alford": 6,
   "BHRSD": 20,
   "Egremont": 52,
@@ -2843,11 +2854,11 @@
    "town": "Great Barrington",
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
-   "ok": false,
-   "scraped": 0,
-   "items": 54,
-   "checked_at": "2026-11-19T20:11:54-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofgbma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.townofgbma.gov', p"
+   "ok": true,
+   "scraped": 36,
+   "items": 55,
+   "checked_at": "2026-11-20T13:31:39-05:00",
+   "error": null
   },
   {
    "town": "Sheffield",
@@ -2856,38 +2867,38 @@
    "ok": false,
    "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-19T20:11:54-05:00",
+   "checked_at": "2026-11-20T13:31:39-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 4,
    "items": 52,
-   "checked_at": "2026-11-19T20:11:54-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.egremont-ma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,3"
+   "checked_at": "2026-11-20T13:31:39-05:00",
+   "error": null
   },
   {
    "town": "New Marlborough",
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-19T20:11:54-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.newmarlboroughma.gov', port=443): Max retries exceeded with url: /m/newsflash?cat=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.newmarlborou"
+   "checked_at": "2026-11-20T13:31:39-05:00",
+   "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 11,
-   "checked_at": "2026-11-19T20:11:54-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-11-20T13:31:39-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2896,7 +2907,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-19T20:11:54-05:00",
+   "checked_at": "2026-11-20T13:31:39-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2906,7 +2917,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-19T20:11:54-05:00",
+   "checked_at": "2026-11-20T13:31:39-05:00",
    "error": null
   },
   {
@@ -2916,7 +2927,7 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-19T20:11:54-05:00",
+   "checked_at": "2026-11-20T13:31:39-05:00",
    "error": null
   },
   {
@@ -2926,18 +2937,18 @@
    "ok": false,
    "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-19T20:11:54-05:00",
+   "checked_at": "2026-11-20T13:31:39-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-19T20:11:54-05:00",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Max retries exceeded with url: /m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 (Caused by ConnectTimeoutError("
+   "checked_at": "2026-11-20T13:31:39-05:00",
+   "error": null
   },
   {
    "town": "BHRSD",
@@ -2946,7 +2957,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-19T20:11:54-05:00",
+   "checked_at": "2026-11-20T13:31:39-05:00",
    "error": null
   }
  ]
