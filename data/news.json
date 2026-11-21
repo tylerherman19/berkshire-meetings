@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:45:20-05:00",
+ "updated": "2026-11-21T12:22:24-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2866,20 +2866,20 @@
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
-   "scraped": 36,
+   "scraped": 35,
    "items": 55,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 15,
    "items": 8,
-   "checked_at": "2026-11-20T19:45:20-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-21T12:22:24-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -2888,7 +2888,7 @@
    "ok": true,
    "scraped": 5,
    "items": 53,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   },
   {
@@ -2898,18 +2898,18 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 11,
-   "checked_at": "2026-11-20T19:45:20-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-11-21T12:22:24-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2918,7 +2918,7 @@
    "ok": false,
    "scraped": 0,
    "items": 24,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
@@ -2928,7 +2928,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   },
   {
@@ -2938,7 +2938,7 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   },
   {
@@ -2948,7 +2948,7 @@
    "ok": false,
    "scraped": 0,
    "items": 37,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
@@ -2958,7 +2958,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   },
   {
@@ -2968,7 +2968,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-20T19:45:20-05:00",
+   "checked_at": "2026-11-21T12:22:24-05:00",
    "error": null
   }
  ]
