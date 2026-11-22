@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:04:17-05:00",
+ "updated": "2026-11-21T22:01:54-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2879,18 +2879,18 @@
    "ok": true,
    "scraped": 35,
    "items": 55,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 15,
    "items": 8,
-   "checked_at": "2026-11-21T18:04:17-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-21T22:01:54-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
@@ -2899,7 +2899,7 @@
    "ok": true,
    "scraped": 5,
    "items": 53,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
@@ -2909,7 +2909,7 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
@@ -2919,18 +2919,18 @@
    "ok": true,
    "scraped": 19,
    "items": 11,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 25,
-   "checked_at": "2026-11-21T18:04:17-05:00",
-   "error": null
+   "checked_at": "2026-11-21T22:01:54-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2939,7 +2939,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
@@ -2949,7 +2949,7 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
@@ -2959,7 +2959,7 @@
    "ok": true,
    "scraped": 20,
    "items": 37,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
@@ -2969,7 +2969,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   },
   {
@@ -2979,7 +2979,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-21T18:04:17-05:00",
+   "checked_at": "2026-11-21T22:01:54-05:00",
    "error": null
   }
  ]
