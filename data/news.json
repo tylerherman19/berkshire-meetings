@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:12:31-05:00",
+ "updated": "2026-11-23T16:59:38-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -10,10 +10,10 @@
  "items": [
   {
    "town": "Egremont",
-   "category": "General",
+   "category": "Public notices",
    "topic": "Select Board",
-   "headline": "Happy Thanksgiving, Egremont!",
-   "summary": "We\u2019re grateful for the people who make Egremont such a special place to call home. May your Thanksgiving be filled with warmth, laughter, and good company. Warm wishes from the Town of Egremont.",
+   "headline": "Happy Thanksgiving, Egremont! Town Hall Closed Nov. 27",
+   "summary": "We\u2019re grateful for the people who make Egremont such a special place to call home. May your Thanksgiving be filled with warmth, laughter, and good company. Warm wishes from the Town of Egremont. Town Hall will be closed Friday, November 27, 2026. The Transfer Station is closed Thursday, November 26, 2026.",
    "posted": "2026-11-22T00:00:00-05:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/833",
@@ -2867,17 +2867,6 @@
    "date_only": true,
    "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/207",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "Tree ID Walk with Chelsey Simmons - Saturday, Sept 12, 10AM",
-   "summary": "https://www.becketathenaeum.org/events/tree",
-   "posted": "2026-08-25T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/tree-id-walk-chelsey-simmons-saturday-sept-12-10am",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
@@ -2886,7 +2875,7 @@
   "Sandisfield": 25,
   "Alford": 6,
   "BHRSD": 20,
-  "Becket": 37,
+  "Becket": 36,
   "New Marlborough": 19,
   "Tyringham": 6,
   "Sheffield": 8,
@@ -2901,18 +2890,18 @@
    "ok": true,
    "scraped": 35,
    "items": 55,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": true,
-   "scraped": 15,
+   "ok": false,
+   "scraped": 0,
    "items": 8,
-   "checked_at": "2026-11-22T19:12:31-05:00",
-   "error": null
+   "checked_at": "2026-11-23T16:59:38-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
@@ -2921,7 +2910,7 @@
    "ok": true,
    "scraped": 6,
    "items": 55,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
@@ -2931,28 +2920,28 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-22T19:12:31-05:00",
-   "error": null
+   "checked_at": "2026-11-23T16:59:38-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 25,
-   "checked_at": "2026-11-22T19:12:31-05:00",
-   "error": null
+   "checked_at": "2026-11-23T16:59:38-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2961,7 +2950,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
@@ -2971,7 +2960,7 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
@@ -2980,8 +2969,8 @@
    "url": "https://www.townofbecket.org/node/1/news",
    "ok": true,
    "scraped": 20,
-   "items": 37,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "items": 36,
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
@@ -2991,7 +2980,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   },
   {
@@ -3001,7 +2990,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-22T19:12:31-05:00",
+   "checked_at": "2026-11-23T16:59:38-05:00",
    "error": null
   }
  ]
