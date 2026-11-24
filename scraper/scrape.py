@@ -8,6 +8,7 @@ Sources:
   - Sheffield               : per-board agenda pages (/node/N/agenda)
   - Otis                    : Revize calendar JSON + per-board agenda pages
   - Becket                  : Drupal 7 per-board agenda/minutes indexes
+  - Richmond                : Revize yearly agenda/minutes tables
   - Berkshire Hills RSD     : district meeting calendar + Google Doc agendas
   - SBRSD                   : reattributed from member-town cross-posts
 
@@ -19,7 +20,7 @@ import sys
 import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 from zoneinfo import ZoneInfo
 
 import requests
@@ -41,7 +42,14 @@ ABBR = {m[:3].lower(): i + 1 for i, m in enumerate(MONTHS_FULL)}
 GB_MONTHS = "|".join(MONTHS_FULL)
 
 meetings = []
-stats = {}
+
+
+def require_complete(issues):
+    if issues:
+        detail = str(issues[0])
+        if len(issues) > 1:
+            detail += f" ({len(issues) - 1} more requests failed)"
+        raise RuntimeError(detail)
 
 
 def get(url, timeout=40):
@@ -111,23 +119,11 @@ def scrape_ics(town, base, feed_path="/calendar/ical/export.ics"):
     import recurring_ical_events
 
     url = base.rstrip("/") + feed_path
-    try:
-        raw = get(url).content
-    except Exception as e:
-        print(f"[{town}] ics fetch failed: {e}", flush=True)
-        return 0
-    try:
-        cal = Calendar.from_ical(raw)
-    except Exception as e:
-        print(f"[{town}] ics parse failed: {e}", flush=True)
-        return 0
+    raw = get(url).content
+    cal = Calendar.from_ical(raw)
     window_start = datetime.combine(TODAY - timedelta(days=7), datetime.min.time())
     window_end = datetime.combine(TODAY + timedelta(days=120), datetime.min.time())
-    try:
-        events = recurring_ical_events.of(cal).between(window_start, window_end)
-    except Exception as e:
-        print(f"[{town}] ics expansion failed: {e}", flush=True)
-        return 0
+    events = recurring_ical_events.of(cal).between(window_start, window_end)
     n = 0
     for ev in events:
         try:
@@ -167,13 +163,12 @@ def scrape_ics(town, base, feed_path="/calendar/ical/export.ics"):
 def _civicplus_list(town, url):
     """Parse a CivicPlus classic /calendar.aspx upcoming-meetings list. Returns count."""
     base = re.match(r"https?://[^/]+", url).group(0)
-    try:
-        soup = BeautifulSoup(get(url).text, "html.parser")
-    except Exception as e:
-        print(f"[{town}] fetch failed ({url}): {e}", flush=True)
-        return 0
+    soup = BeautifulSoup(get(url).text, "html.parser")
+    calendar = soup.select_one(".calendarViewList")
+    if calendar is None:
+        raise ValueError("Expected CivicPlus calendar list was missing")
     n = 0
-    for h3 in soup.find_all("h3"):
+    for h3 in calendar.find_all("h3"):
         a = h3.find("a", href=True)
         if not a:
             continue
@@ -245,17 +240,10 @@ def scrape_lee():
 
 def scrape_agenda_center(town, base):
     url = base.rstrip("/") + "/AgendaCenter/Search/?term=&CIDs=all"
-    try:
-        html = get(url).text
-    except Exception as e:
-        print(f"[{town}] fetch failed: {e}", flush=True)
-        return 0
-    soup = BeautifulSoup(html, "html.parser")
-    tables = soup.find_all("table")
+    soup = BeautifulSoup(get(url).text, "html.parser")
+    tables = soup.select("table[summary='List of Agendas']")
     if not tables:
-        title = soup.title.get_text(strip=True) if soup.title else "?"
-        print(f"[{town}] no tables found (title={title!r}, len={len(html)})", flush=True)
-        return 0
+        raise ValueError("Expected CivicPlus agenda tables were missing")
     cutoff = TODAY - timedelta(days=30)
     horizon = TODAY + timedelta(days=120)
     minutes_cutoff = TODAY - timedelta(days=180)
@@ -343,11 +331,7 @@ def board_from_agenda_title(title):
 def scrape_sheffield():
     town = "Sheffield"
     base = "https://www.sheffieldma.gov"
-    try:
-        soup = BeautifulSoup(get(base + "/minutes-and-agendas").text, "html.parser")
-    except Exception as e:
-        print(f"[{town}] fetch failed: {e}", flush=True)
-        return 0
+    soup = BeautifulSoup(get(base + "/minutes-and-agendas").text, "html.parser")
     boards = []
     h2 = soup.find(["h2", "h3"], string=re.compile(r"Agendas", re.I))
     scope = h2.find_next(["ul", "div"]) if h2 else soup
@@ -362,7 +346,9 @@ def scrape_sheffield():
         if url not in seen_b:
             seen_b.add(url)
             uniq.append((name, url))
-    n = 0
+    if not uniq:
+        raise ValueError("Expected Sheffield board links were missing")
+    issues = []
     seen_urls = {}
     print(f"[{town}] {len(uniq)} board pages", flush=True)
     for name, burl in uniq:
@@ -370,6 +356,7 @@ def scrape_sheffield():
             bsoup = BeautifulSoup(get(burl, timeout=20).text, "html.parser")
         except Exception as e:
             print(f"[{town}] board page failed ({name}): {e}", flush=True)
+            issues.append(e)
             continue
         pages = [bsoup]
         year_a = bsoup.find("a", string=re.compile(rf"\b{TODAY.year}\b"))
@@ -377,8 +364,8 @@ def scrape_sheffield():
             try:
                 pages.append(BeautifulSoup(
                     get(urljoin(base, year_a["href"]), timeout=20).text, "html.parser"))
-            except Exception:
-                pass
+            except Exception as e:
+                issues.append(e)
         new_here = 0
         for pg in pages:
             for a in pg.find_all("a", href=True):
@@ -409,6 +396,7 @@ def scrape_sheffield():
     for rec in seen_urls.values():
         add(town, rec["board"], rec["title"], rec["date"],
             agenda_url=rec["agenda_url"], source_url=rec["source_url"])
+    require_complete(issues)
     return len(seen_urls)
 
 
@@ -417,13 +405,20 @@ def scrape_sheffield():
 def scrape_drupal_day_pages(town, base, days=45):
     """Crawl /calendar/day/YYYY-MM-DD pages (Drupal date module). Returns count."""
     count = 0
+    issues = []
+    consecutive_failures = 0
     for i in range(days):
         d = TODAY + timedelta(days=i)
         try:
             soup = BeautifulSoup(
                 get(f"{base}/calendar/day/{d.isoformat()}", timeout=20).text, "html.parser")
-        except Exception:
+        except Exception as e:
+            issues.append(e)
+            consecutive_failures += 1
+            if consecutive_failures >= 3:
+                break
             continue
+        consecutive_failures = 0
         for a in soup.find_all("a", href=True):
             href = a["href"]
             if not re.search(r"/(node|events|event)/\d+", href):
@@ -446,27 +441,25 @@ def scrape_drupal_day_pages(town, base, days=45):
                     break
             add(town, title, title, d, start=start, source_url=urljoin(base, href))
             count += 1
+    require_complete(issues)
     return count
 
 
 def scrape_monterey():
-    town = "Monterey"
-    base = "https://www.montereyma.gov"
-    n = scrape_ics(town, base)
-    if n:
-        return n
-    print(f"[{town}] ics unavailable, falling back to day pages", flush=True)
-    return scrape_drupal_day_pages(town, base)
+    return scrape_drupal_calendar("Monterey", "https://www.montereyma.gov")
 
 
 def scrape_sandisfield():
-    town = "Sandisfield"
-    base = "https://www.sandisfieldma.gov"
-    n = scrape_ics(town, base)
-    if n:
-        return n
-    print(f"[{town}] ics blocked, falling back to day pages", flush=True)
-    return scrape_drupal_day_pages(town, base)
+    return scrape_drupal_calendar("Sandisfield", "https://www.sandisfieldma.gov")
+
+
+def scrape_drupal_calendar(town, base):
+    try:
+        return scrape_ics(town, base)
+    except Exception as e:
+        print(f"[{town}] calendar feed unavailable, falling back to day pages: {e}", flush=True)
+        scrape_drupal_day_pages(town, base)
+        raise RuntimeError("Calendar feed unavailable; fallback covers the next 45 days only") from e
 
 
 # ---------------- Stockbridge (static meetings table) ----------------
@@ -533,15 +526,14 @@ def scrape_alford():
     town = "Alford"
     base = "https://www.townofalford.org"
     url = base + "/calendar.aspx?CID=26,29,30,14,23,25,31,27,24,22,28"
-    try:
-        soup = BeautifulSoup(get(url).text, "html.parser")
-    except Exception as e:
-        print(f"[{town}] fetch failed: {e}", flush=True)
-        return 0
+    soup = BeautifulSoup(get(url).text, "html.parser")
+    calendar = soup.select_one(".calendarViewList")
+    if calendar is None:
+        raise ValueError("Expected Alford calendar list was missing")
     n = 0
     cutoff = TODAY - timedelta(days=30)
     horizon = TODAY + timedelta(days=120)
-    for h2 in soup.find_all("h2", class_="title"):
+    for h2 in calendar.find_all("h2", class_="title"):
         board = h2.get_text(" ", strip=True)
         if not board or "search" in board.lower():
             continue
@@ -610,16 +602,12 @@ OTIS_DOCS = OTIS_BASE + "/transparency/agendas_minutes.php"
 
 def scrape_otis():
     town = "Otis"
-    try:
-        events = get(OTIS_CAL, timeout=40).json()
-    except Exception as e:
-        print(f"[{town}] calendar fetch failed: {e}", flush=True)
-        return 0
-    if isinstance(events, dict):
-        print(f"[{town}] calendar API error: {events}", flush=True)
-        return 0
+    events = get(OTIS_CAL, timeout=40).json()
+    if not isinstance(events, list):
+        raise ValueError("Otis calendar returned an unexpected response")
     # Board landing -> (board name, agendas/minutes page)
     boards = []
+    issues = []
     try:
         soup = BeautifulSoup(get(OTIS_DOCS, timeout=40).text, "html.parser")
         for a in soup.find_all("a", href=True):
@@ -632,13 +620,16 @@ def scrape_otis():
             if name:
                 boards.append((name, urljoin(OTIS_BASE + "/", href)))
     except Exception as e:
-        print(f"[{town}] board index failed: {e}", flush=True)
+        issues.append(e)
+    else:
+        if not boards:
+            issues.append("Expected Otis board links were missing")
     docs = {}  # (board.lower(), date) -> {"agenda": url, "minutes": url}
     for name, page in boards:
         try:
             psoup = BeautifulSoup(get(page, timeout=30).text, "html.parser")
         except Exception as e:
-            print(f"[{town}] board page failed: {e}", flush=True)
+            issues.append(e)
             continue
         for a in psoup.find_all("a", href=True):
             href = a["href"]
@@ -681,14 +672,23 @@ def scrape_otis():
             agenda_url=doc.get("agenda"), minutes_url=doc.get("minutes"),
             source_url=OTIS_DOCS)
         n += 1
+    require_complete(issues)
     return n
 
 
 # ---------------- Tyringham (CivicPlus, same as Egremont/Alford) ----------------
 
 def scrape_tyringham():
-    n = _civicplus_list("Tyringham", "https://www.tyringham-ma.gov/calendar.aspx?CID=26")
-    n += scrape_agenda_center("Tyringham", "https://www.tyringham-ma.gov")
+    town, base = "Tyringham", "https://www.tyringham-ma.gov"
+    issues = []
+    n = 0
+    for fetch_source, url in ((_civicplus_list, base + "/calendar.aspx?CID=26"),
+                              (scrape_agenda_center, base)):
+        try:
+            n += fetch_source(town, url)
+        except Exception as e:
+            issues.append(e)
+    require_complete(issues)
     return n
 
 
@@ -729,11 +729,14 @@ def scrape_becket():
         name = a.get_text(" ", strip=True)
         if name:
             boards.append((name, m.group(1)))
+    if not boards:
+        raise ValueError("Expected Becket board links were missing")
     cutoff = TODAY - timedelta(days=180)
     horizon = TODAY + timedelta(days=120)
     recent_cutoff = TODAY - timedelta(days=45)
     recs = {}  # (board, date) -> dict(title, start, agenda, minutes, source)
     fetches = 0
+    issues = []
     for name, nid in boards:
         for kind, path in (("agenda", f"/node/{nid}/agenda/2026"),
                            ("minutes", f"/node/{nid}/minutes/2026")):
@@ -742,6 +745,8 @@ def scrape_becket():
                                       "html.parser")
             except Exception as e:
                 print(f"[{town}] {name} {kind} index failed: {e}", flush=True)
+                if not isinstance(e, requests.HTTPError) or e.response is None or e.response.status_code != 404:
+                    issues.append(e)
                 continue
             for a in isoup.find_all("a", href=True):
                 href = a["href"]
@@ -776,6 +781,7 @@ def scrape_becket():
         add(town, board, r["title"], d, start=r["start"],
             agenda_url=r["agenda"], minutes_url=r["minutes"], source_url=r["source"])
         n += 1
+    require_complete(issues)
     return n
 
 
@@ -787,24 +793,22 @@ BHRSD_AGENDA_PAGE = "https://www.bhrsd.org/upcoming-meeting-agenda"
 
 def scrape_bhrsd():
     town = "BHRSD"
-    try:
-        soup = BeautifulSoup(get(BHRSD_CAL, timeout=40).text, "html.parser")
-    except Exception as e:
-        print(f"[{town}] calendar fetch failed: {e}", flush=True)
-        return 0
+    soup = BeautifulSoup(get(BHRSD_CAL, timeout=40).text, "html.parser")
     dates = []
     for tag in soup.find_all("strong"):
         d = date_from_text(tag.get_text(" ", strip=True))
         if not d:
             continue
         row = tag.find_parent("tr") or tag.parent
-        loc = row.get_text(" ", strip=True) if row else ""
-        # drop the date text itself from the location
-        loc = re.sub(r"(?i)" + "|".join(MONTHS_FULL) + r"\s+\d{1,2},?\s+\d{4}", "", loc)
+        cells = row.find_all("td", recursive=False)
+        loc = cells[-1].get_text(" ", strip=True) if len(cells) > 1 else ""
         dates.append((d, clean_location(loc)))
+    if not dates:
+        raise ValueError("Expected Berkshire Hills school committee dates were missing")
     # The upcoming agenda is a public Google Doc; export it as text for the
     # search index and pull the meeting time from it (calendar has no times).
     agenda_url, agenda_date, agenda_text, start = None, None, None, None
+    issues = []
     try:
         asoup = BeautifulSoup(get(BHRSD_AGENDA_PAGE, timeout=40).text, "html.parser")
         link_text = ""
@@ -827,7 +831,7 @@ def scrape_bhrsd():
                     hh = int(tm.group(1)) % 12 + (12 if tm.group(3).lower() == "pm" else 0)
                     start = f"{hh:02d}:{tm.group(2)}"
     except Exception as e:
-        print(f"[{town}] agenda doc failed: {e}", flush=True)
+        issues.append(e)
     n = 0
     for d, loc in dates:
         if d < TODAY - timedelta(days=180) or d > TODAY + timedelta(days=180):
@@ -841,7 +845,93 @@ def scrape_bhrsd():
         if is_agenda_mtg and agenda_text and len(agenda_text) > 120:
             meetings[-1]["_doc_text"] = agenda_text
         n += 1
+    require_complete(issues)
     return n
+
+
+RICHMOND_AGENDAS = "https://www.richmondma.org/agendas_and_minutes/"
+
+
+def parse_richmond_agendas(soup, url, cutoff, horizon, records):
+    page = soup.select_one("main .post")
+    if page is None or not page.find("strong"):
+        raise ValueError("Expected Richmond agenda and minutes listings were missing")
+    for row in page.select("table tr"):
+        cells = row.find_all("td", recursive=False)
+        if len(cells) < 2:
+            continue
+        heading = row.find_previous("strong")
+        if not heading or page not in heading.parents:
+            continue
+        board = heading.get_text(" ", strip=True)
+        label = cells[0].get_text(" ", strip=True)
+        match = re.match(r"^(\d{1,2}/\d{1,2}/\d{2,4})\s*(.*)$", label)
+        if not match:
+            continue
+        d = date_from_text(match[1])
+        if not d or not cutoff <= d <= horizon:
+            continue
+        note = match[2].strip(" -–—")
+        cancelled = re.search(r"\b(?:no meeting|no quorum|cancell?ed)\b", note, re.I)
+        documents = {}
+        for cell in cells[1:]:
+            for link in cell.find_all("a", href=True):
+                kind = link.get_text(" ", strip=True).lower()
+                href = urljoin(url, link["href"])
+                if kind in {"agenda", "packet", "minutes"} and urlsplit(href).scheme in {"http", "https"}:
+                    documents[kind] = href
+        if not documents and not cancelled:
+            continue
+        start = None
+        when = re.search(r"\b(\d{1,2}):(\d{2})\s*([ap])\.?m\.?", note, re.I)
+        if when and 1 <= int(when[1]) <= 12 and int(when[2]) < 60:
+            start = f"{int(when[1]) % 12 + (12 if when[3].lower() == 'p' else 0):02d}:{when[2]}"
+        revised = bool(re.search(r"\b(?:revised|amended)\b", note, re.I))
+        subject = re.sub(r"\b(?:revised|amended)\b", "", note, flags=re.I)
+        subject = re.sub(r"\b\d{1,2}:\d{2}\s*[ap]\.?m\.?", "", subject, flags=re.I).strip(" -–—")
+        if subject.casefold() == board.casefold():
+            subject = ""
+        title = f"{board} Meeting"
+        if subject:
+            title += f" – {subject}"
+        if cancelled and not re.search(r"\bcancell?ed\b", title, re.I):
+            title += " (Cancelled)"
+        key = (board, d, start, subject.casefold())
+        record = records.setdefault(key, {
+            "title": title, "url": url, "documents": {}, "revised": False,
+            "location": "Remote participation only" if "remote participation only" in note.lower() else None,
+        })
+        if revised or not record["revised"]:
+            record["documents"].update(documents)
+        else:
+            for kind, href in documents.items():
+                record["documents"].setdefault(kind, href)
+        record["revised"] |= revised
+
+
+def scrape_richmond():
+    cutoff, horizon = TODAY - timedelta(days=180), TODAY + timedelta(days=120)
+    url = f"{RICHMOND_AGENDAS}{TODAY.year}.php"
+    soup = BeautifulSoup(get(url).text, "html.parser")
+    records = {}
+    parse_richmond_agendas(soup, url, cutoff, horizon, records)
+    issues = []
+    for year in {cutoff.year, horizon.year} - {TODAY.year}:
+        year_url = f"{RICHMOND_AGENDAS}{year}.php"
+        if not any(urljoin(url, link["href"]) == year_url for link in soup.find_all("a", href=True)):
+            continue
+        try:
+            extra = BeautifulSoup(get(year_url).text, "html.parser")
+            parse_richmond_agendas(extra, year_url, cutoff, horizon, records)
+        except Exception as e:
+            issues.append(e)
+    for (board, d, start, _), record in records.items():
+        docs = record["documents"]
+        add("Richmond", board, record["title"], d, start=start, location=record["location"],
+            agenda_url=docs.get("agenda") or docs.get("packet"), minutes_url=docs.get("minutes"),
+            source_url=record["url"])
+    require_complete(issues)
+    return len(records)
 
 
 SBRSD_RE = re.compile(r"southern berkshire regional school|\bsbrsd\b", re.I)
@@ -1018,6 +1108,103 @@ def detect_changes(old, new, checked_at):
     return merged[:80]
 
 
+def collect_meetings(previous, jobs, checked_at):
+    """Retain last verified records when a source can't complete its refresh."""
+    meetings.clear()
+    old_by_town = {}
+    for m in previous.get("meetings", []):
+        if m["date"] >= (TODAY - timedelta(days=180)).isoformat():
+            old_by_town.setdefault(m["town"], []).append(m)
+    old_sources = previous.get("sources", {})
+    sources = {}
+
+    def last_success(town):
+        old = old_sources.get(town, {})
+        return old.get("last_success_at") or (old.get("checked_at") if old.get("ok") else None)
+
+    def record_status(town, error=None, retained=0):
+        sources[town] = {
+            "ok": error is None,
+            "checked_at": checked_at,
+            "last_success_at": checked_at if error is None else last_success(town),
+            "error": error,
+            "retained": retained,
+        }
+
+    for town, scrape in jobs:
+        start = len(meetings)
+        error = None
+        try:
+            scrape()
+        except Exception as e:  # one unavailable source should never stop the others
+            error = f"{type(e).__name__}: {e}"[:240]
+        fresh = meetings[start:]
+        known = old_by_town.get(town, [])
+        if not fresh and known and error is None:
+            error = "Source returned zero records while previously published records are still in range"
+        retained = 0
+        if error:
+            print(f"[{town}] INCOMPLETE: {error}", flush=True)
+            prior = {meeting_key(m): m for m in known}
+            merged = []
+            for m in fresh:
+                old = prior.pop(meeting_key(m), {})
+                merged.append({**old, **{key: value for key, value in m.items()
+                                         if value is not None or key not in old}})
+            retained = len(prior)
+            meetings[start:] = merged + list(prior.values())
+        record_status(town, error, retained)
+        print(f"[{town}] {len(fresh)} collected, {retained} retained", flush=True)
+
+    attribute_sbrsd()
+    # The district's listings arrive as reposts from a subset of the town feeds.
+    district_sources = {"Egremont", "New Marlborough"}
+    incomplete = sorted(town for town in district_sources if town in sources and not sources[town]["ok"])
+    retained = 0
+    if incomplete:
+        district_keys = {(m["board"], m["date"], m["start"]) for m in meetings if m["town"] == "SBRSD"}
+        for m in old_by_town.get("SBRSD", []):
+            key = (m["board"], m["date"], m["start"])
+            if key not in district_keys:
+                district_keys.add(key)
+                meetings.append(m)
+                retained += 1
+    record_status("SBRSD", "Incomplete member-town sources: " + ", ".join(incomplete) if incomplete else None, retained)
+    sources["SBRSD"]["note"] = "District notices reposted by member towns"
+    if "BHRSD" in sources:
+        sources["BHRSD"]["note"] = "Berkshire Hills Regional School District"
+
+    unique = {}
+    for m in meetings:
+        unique.setdefault(meeting_key(m), m)
+    out = sorted(unique.values(), key=lambda m: (m["date"], m["start"] or "99:99", m["town"]))
+    counts = {}
+    for m in out:
+        counts[m["town"]] = counts.get(m["town"], 0) + 1
+    for town, status in sources.items():
+        status["meetings"] = counts.get(town, 0)
+    return out, counts, sources
+
+
+def read_json(path):
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def document_index(out, old_meetings, old_texts):
+    texts = extract_document_text(out)
+    old_by_key = {meeting_key(m): m for m in old_meetings}
+    for m in out:
+        key = meeting_key(m)
+        if key in texts or key not in old_texts or key not in old_by_key:
+            continue
+        old = old_by_key[key]
+        if all(old.get(field) == m.get(field) for field in ("agenda_url", "minutes_url")):
+            texts[key] = old_texts[key]
+    return texts
+
+
 def main():
     jobs = [
         ("Sandisfield", scrape_sandisfield),
@@ -1030,64 +1217,19 @@ def main():
         ("Otis", scrape_otis),
         ("Tyringham", scrape_tyringham),
         ("Becket", scrape_becket),
+        ("Richmond", scrape_richmond),
         ("BHRSD", scrape_bhrsd),
     ]
-    total = 0
-    errors = {}
-    for name, fn in jobs:
-        try:
-            c = fn()
-            ok = True
-        except Exception as e:  # never let one town kill the run
-            print(f"[{name}] ERROR: {e}", flush=True)
-            c = 0
-            ok = False
-            errors[name] = f"{type(e).__name__}: {e}"[:200]
-        stats[name] = c
-        total += c
-        print(f"[{name}] {c} meetings", flush=True)
-
-    n_sbrsd = attribute_sbrsd()
-    print(f"[SBRSD] reattributed {n_sbrsd} notices from member towns", flush=True)
-
-    seen, out = set(), []
-    for m in meetings:
-        key = (m["town"], m["board"], m["title"], m["date"], m["start"])
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(m)
-    out.sort(key=lambda m: (m["date"], m["start"] or "99:99", m["town"] or ""))
-
-    # per-town counts after dedupe, so the JSON reflects what's actually published
-    town_counts = {}
-    for m in out:
-        town_counts[m["town"]] = town_counts.get(m["town"], 0) + 1
-
+    root = Path(__file__).resolve().parent.parent / "data"
+    root.mkdir(parents=True, exist_ok=True)
+    target = root / "meetings.json"
+    atext_target = root / "agenda_text.json"
+    previous = read_json(target)
+    old_meetings = previous.get("meetings", [])
+    old_texts = read_json(atext_target).get("texts", {})
     checked_at = datetime.now(ET).isoformat(timespec="seconds")
-    sources = {}
-    for name in stats:
-        sources[name] = {
-            "ok": name not in errors,
-            "meetings": town_counts.get(name, 0),
-            "checked_at": checked_at,
-            "error": errors.get(name),
-        }
-    sources["SBRSD"] = {
-        "ok": True,
-        "meetings": town_counts.get("SBRSD", 0),
-        "checked_at": checked_at,
-        "error": None,
-        "note": "District notices reposted by member towns",
-    }
-    sources["BHRSD"] = {
-        "ok": "BHRSD" not in errors,
-        "meetings": town_counts.get("BHRSD", 0),
-        "checked_at": checked_at,
-        "error": errors.get("BHRSD"),
-        "note": "Berkshire Hills Regional School District",
-    }
-
+    out, town_counts, sources = collect_meetings(previous, jobs, checked_at)
+    texts = document_index(out, old_meetings, old_texts)
     for m in out:
         m.pop("_doc_text", None)
 
@@ -1097,19 +1239,8 @@ def main():
         "towns": town_counts,
         "sources": sources,
     }
-    root = Path(__file__).resolve().parent.parent
-    target = root / "data" / "meetings.json"
-    target.parent.mkdir(parents=True, exist_ok=True)
-
-    # Diff against the previous run so the site can show "what changed".
-    old_meetings = []
-    if target.exists():
-        try:
-            old_meetings = json.loads(target.read_text()).get("meetings") or []
-        except Exception as e:
-            print(f"could not read previous meetings.json for diff: {e}", flush=True)
     changes = detect_changes(old_meetings, out, checked_at)
-    changes_target = root / "data" / "changes.json"
+    changes_target = root / "changes.json"
     changes_target.write_text(json.dumps({"updated": checked_at,
                                           "changes": changes}, indent=1))
     print(f"{len(changes)} changes -> {changes_target}", flush=True)
@@ -1119,8 +1250,6 @@ def main():
 
     # Searchable agenda/minutes text lives in a separate lazy-loaded file so
     # the main JSON stays small.
-    texts = extract_document_text(out)
-    atext_target = root / "data" / "agenda_text.json"
     atext_target.write_text(json.dumps({"updated": checked_at, "texts": texts}))
     print(f"agenda text -> {atext_target}", flush=True)
 

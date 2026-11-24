@@ -11,7 +11,6 @@ window.BMBlotter = (function(){
 "use strict";
 
 var POL=null, LOADING=false, FAILED=false, STALE=false;
-var WAITING=[];
 var map=null, dots=null, dotById={}, GEO=null;
 var bstate = {days:28, custom:false, from:"", to:"", group:"All", q:"",
               sort:"new", sel:null};
@@ -137,13 +136,7 @@ function desc(i){
 }
 
 /* ------------------------------------------------------------ data */
-/* Every caller that asks for data gets its callback back, even if a fetch was
-   already in flight when it asked. The old version dropped the callback in
-   that case, which left the tab stuck on "Gathering the blotter" whenever a
-   reader switched away and back, or hit Refresh mid-load. */
-function ensure(cb, bust){
-  if(POL!==null && !bust){ if(cb) cb(); return; }
-  if(cb) WAITING.push(cb);
+function load(scrollY){
   if(LOADING) return;
   LOADING=true;
   fetch("data/police.json?ts="+Date.now(),{cache:"no-store"})
@@ -153,8 +146,7 @@ function ensure(cb, bust){
       GEO=POL.geo||{};
       FAILED=false; STALE=false;
       done();
-    })
-    .catch(function(){
+    },function(){
       /* A failed refresh must not throw away data we already have: keep the
          view on screen and flag it as stale instead of blanking the tab. */
       if(POL!==null) STALE=true; else FAILED=true;
@@ -162,8 +154,9 @@ function ensure(cb, bust){
     });
   function done(){
     LOADING=false;
-    var q=WAITING; WAITING=[];
-    q.forEach(function(fn){ try{ fn(); }catch(e){} });
+    if($("#view").dataset.view!=="blotter") return;
+    render();
+    if(scrollY!=null && document.getElementById("blotrefresh")) window.scrollTo(0,scrollY);
   }
 }
 
@@ -210,14 +203,14 @@ function filtered(){
 /* ------------------------------------------------------------ render */
 function render(){
   var host=$("#view");
-  if(POL===null){
-    host.innerHTML='<p class="loading">Gathering the blotter&hellip;</p>';
-    ensure(function(){ render(); });
+  if(FAILED){
+    host.innerHTML='<p class="none" style="margin-top:30px">Couldn&rsquo;t load the blotter. '+
+      '<button type="button" class="btn ghost sm" data-blot="retry">Try again</button></p>';
     return;
   }
-  if(FAILED){
-    host.innerHTML='<p class="none" style="margin-top:30px">Couldn&rsquo;t load the blotter '+
-      '&mdash; the first data pull is probably still running. Check back shortly.</p>';
+  if(POL===null){
+    host.innerHTML='<p class="loading">Gathering the blotter&hellip;</p>';
+    load();
     return;
   }
   var list=filtered();
@@ -513,11 +506,7 @@ function bindBar(){
     /* Keep the current data in place while the new copy is on the wire. The
        old handler blanked POL first, so a slow or failed request wiped the
        whole tab out from under the reader. */
-    var y=window.pageYOffset;
-    ensure(function(){
-      render();
-      window.scrollTo(0,y);
-    }, true);
+    load(window.pageYOffset);
   });
 }
 
@@ -525,7 +514,8 @@ document.addEventListener("click",function(e){
   var el=e.target.closest("[data-blot]");
   if(!el) return;
   var a=el.dataset.blot;
-  if(a==="days"){ bstate.days=+el.dataset.days; bstate.custom=false; render(); }
+  if(a==="retry"){ FAILED=false; render(); }
+  else if(a==="days"){ bstate.days=+el.dataset.days; bstate.custom=false; render(); }
   else if(a==="custom"){ bstate.custom=true; render(); }
   else if(a==="row"){
     var id=el.dataset.id;
