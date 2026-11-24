@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:59:38-05:00",
+ "updated": "2026-11-24T15:36:12-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "New Marlborough",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Notice of Tax Taking 2026",
+   "summary": "Town of New Marlborough Office of the Collector of Taxes Notice of Tax Taking To the owner(s) of record of the hereinafter described parcels of land situated in the Town of New Marlborough, County of Berkshire, Commonwealth of Massachusetts, and all others concerned. You are hereby notified that on Thursday, December\u2026",
+   "posted": "2026-11-24T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/143",
+   "first_seen": "2026-11-24T15:36:12-05:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Town of Sandisfield Announces Fire Department Leadership Appointments",
+   "summary": "The Town of Sandisfield is pleased to announce the appointment of Christopher Colonair as part-time Fire Chief, effective November 9, 2026",
+   "posted": "2026-11-24T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-sandisfield-announces-fire-department-leadership-appointments",
+   "first_seen": "2026-11-24T15:36:12-05:00"
+  },
+  {
+   "town": "Sandisfield",
+   "category": "General",
+   "topic": null,
+   "headline": "Town Hall Closed Thursday, November 26, 2026",
+   "summary": "for ThanksgivingWe wish everyone a safe and happy holiday",
+   "posted": "2026-11-23T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sandisfieldma.gov/home/news/town-hall-closed-thursday-november-26-2026",
+   "first_seen": "2026-11-24T15:36:12-05:00"
+  },
   {
    "town": "Egremont",
    "category": "Public notices",
@@ -2856,27 +2889,16 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/exercise-your-right-vote-state-primary-%E2%80%94-tuesday-september-1-polls-open-700-am%E2%80%93800-pm",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "Back to School Reminder: Stay Alert and Watch for School Buses",
-   "summary": "With students in the Berkshire Hills Regional School District returning to school next week, the Town of Great Barrington is reminding everyone that the start of the school year means more buses, young pedestrians, cyclists and family vehicles will once\u2026",
-   "posted": "2026-08-26T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/207",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
+  "New Marlborough": 20,
+  "Sandisfield": 27,
   "Egremont": 55,
-  "Great Barrington": 55,
-  "Sandisfield": 25,
+  "Great Barrington": 54,
   "Alford": 6,
   "BHRSD": 20,
   "Becket": 36,
-  "New Marlborough": 19,
   "Tyringham": 6,
   "Sheffield": 8,
   "Monterey": 11,
@@ -2889,28 +2911,28 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 35,
-   "items": 55,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "items": 54,
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 15,
    "items": 8,
-   "checked_at": "2026-11-23T16:59:38-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-24T15:36:12-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 6,
+   "scraped": 5,
    "items": 55,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   },
   {
@@ -2919,8 +2941,8 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 100,
-   "items": 19,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "items": 20,
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   },
   {
@@ -2930,18 +2952,18 @@
    "ok": false,
    "scraped": 0,
    "items": 11,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 25,
-   "checked_at": "2026-11-23T16:59:38-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 27,
+   "checked_at": "2026-11-24T15:36:12-05:00",
+   "error": null
   },
   {
    "town": "Otis",
@@ -2950,7 +2972,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   },
   {
@@ -2960,18 +2982,18 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 36,
-   "checked_at": "2026-11-23T16:59:38-05:00",
-   "error": null
+   "checked_at": "2026-11-24T15:36:12-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -2980,7 +3002,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   },
   {
@@ -2990,7 +3012,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-23T16:59:38-05:00",
+   "checked_at": "2026-11-24T15:36:12-05:00",
    "error": null
   }
  ]
