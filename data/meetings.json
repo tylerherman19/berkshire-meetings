@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:56:06-05:00",
+ "updated": "2026-11-24T11:12:37-05:00",
  "meetings": [
   {
    "town": "Becket",
@@ -117,6 +117,32 @@
    "agenda_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-12",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/community-preservation-committee/agenda/community-preservation-committee-agenda-12"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-06-02",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Board of Health Agenda June 2 2026 stamped.pdf?t=202605211837540",
+   "minutes_url": "https://www.richmondma.org/BOH June 2 minutes.pdf?t=202608170957580",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-06-02",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 6-1-26  6 pm.pdf?t=202605281630040",
+   "minutes_url": "https://www.richmondma.org/BOS Minutes 6-2-26  5 pm.pdf?t=202606241748430",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -301,6 +327,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting",
+   "date": "2026-06-08",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/planning Board agenda 6-4-26.pdf?t=202606041300040",
+   "minutes_url": "https://www.richmondma.org/PB minutes 6-8-2026.pdf?t=202610151015230",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Finance Committee",
    "title": "Finance Committee Agenda",
@@ -392,6 +431,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-06-09",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/con com agenda 6-9.pdf?t=202606041259070",
+   "minutes_url": "https://www.richmondma.org/June 9 2026 Minutes.pdf?t=202608131112270",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Otis",
    "board": "Historical Commission",
    "title": "Historical Commission Meeting",
@@ -416,6 +468,19 @@
    "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-89",
    "minutes_url": "https://www.townofbecket.org/planning-board/minutes/planning-board-minutes-101",
    "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-89"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-06-10",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 6-10-26  6 pm REVISED stamped.pdf?t=202606091445450",
+   "minutes_url": "https://www.richmondma.org/June 10 BOS minutes.pdf?t=202607130934090",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -457,6 +522,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-06-11",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Library Trustee Mtg JUNE 2026 AGENDA.pdf?t=202605211847000",
+   "minutes_url": "https://www.richmondma.org/Library Trustee Mtg JUNE 2026 MINUTES.pdf?t=202607201434380",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Select Board",
    "title": "Select Board Meeting Agenda",
@@ -481,6 +559,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Recreation Committee",
+   "title": "Recreation Committee Meeting",
+   "date": "2026-06-15",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RRC agenda 6.15.26 stamped.pdf?t=202606101613010",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -520,6 +611,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_06162026-1917",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_06162026-1917",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "School Committee",
+   "title": "School Committee Meeting \u2013 School Committee Meeting",
+   "date": "2026-06-16",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RCS Agenda 6.16.2026 stamped.pdf?t=202606081150540",
+   "minutes_url": "https://www.richmondma.org/RCS 6.16.2026 FINAL minutes.pdf?t=202609230853440",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -611,6 +715,32 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_06182026-438",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_06182026-438",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire County Retirement Advisory Board",
+   "date": "2026-06-18",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/AdvisoryBoardMeeting 6.18.2026 stamped.pdf?t=202605281524090",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire County Retirement",
+   "date": "2026-06-18",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Berkshire County Retirement 6.18.26 stamped.pdf?t=202606150849240",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -730,6 +860,32 @@
    "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-91"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Meeting",
+   "date": "2026-06-24",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Assessors June 24 2026 Meeting Notice.pdf?t=202606111500170",
+   "minutes_url": "https://www.richmondma.org/June 24 2026 Meeting Minutes.pdf?t=202608170948470",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-06-24",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 6-24-26.pdf?t=202606221539050",
+   "minutes_url": "https://www.richmondma.org/June 24 BOS minutes.pdf?t=202607130932460",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Egremont",
    "board": "Board of Health",
    "title": "Board of Health Regular Meeting (PDF)",
@@ -754,6 +910,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_06252026-1930",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_06252026-1930",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 BRTA Advisory Board",
+   "date": "2026-06-25",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BRTA 260625 Pub Notice stamped.pdf?t=202606220944580",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -886,6 +1055,19 @@
    "source_url": "https://www.townofbecket.org/select-board/agenda/oak-tree-planting-ceremony"
   },
   {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire Regional Planning Commission",
+   "date": "2026-07-02",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BRPC July 2 2026 Agenda stamped.pdf?t=202606251013060",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Otis",
    "board": "Council on Aging",
    "title": "Council on Aging Meeting",
@@ -897,6 +1079,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Budget Advisory/Finance Committee",
+   "title": "Budget Advisory/Finance Committee Meeting \u2013 Finance Committee",
+   "date": "2026-07-06",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Finance Committee July 6 2026 revised stamped.pdf?t=202607020839110",
+   "minutes_url": "https://www.richmondma.org/JULY 6  2026 FINANCE COMMITTEE (002).pdf?t=202611230932380",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -925,6 +1120,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting \u2013 CANCELLED",
+   "date": "2026-07-07",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Board of Health Agenda JuLY 7 2026 STAMPED.pdf?t=202606231207490",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Planning Board",
    "title": "Planning Board Agenda",
@@ -949,6 +1157,19 @@
    "agenda_url": null,
    "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-43",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-43"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-07-08",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 7-8-26  6 pm.pdf?t=202607080843310",
+   "minutes_url": "https://www.richmondma.org/July 8 BOS minutes.pdf?t=202607231005550",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -1042,6 +1263,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-07-09",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Library Trustee July 9 2026 AGENDA stamped.pdf?t=202606150856230",
+   "minutes_url": "https://www.richmondma.org/Trustee July 9 2026 MINUTES.pdf?t=202611051547410",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Egremont",
    "board": "Planning Board",
    "title": "Planning Board Regular Meeting (PDF)",
@@ -1066,6 +1300,19 @@
    "agenda_url": null,
    "minutes_url": "https://townofotisma.com/Documents/Boards Commissions/School Committee/minutes/2026/482 Minutes_ 7-13-26 - APPROVED.pdf?t=202610061359430",
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting \u2013 CANCELLED",
+   "date": "2026-07-13",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Planning_Board AGENDA July 13 2026 canceled stamped.pdf?t=202607091212060",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -1159,6 +1406,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting \u2013 NO MEETING (Cancelled)",
+   "date": "2026-07-14",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Historical Commission",
+   "date": "2026-07-14",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Historical Commission Agenda July 14 2026 stamped.pdf?t=202607081001100",
+   "minutes_url": "https://www.richmondma.org/Richmond Historical Commission July 14 2026 minutes.pdf?t=202607201541020",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Board of Health",
    "title": "Joint Board of Health, Planning Board & Zoning Board of Appeals Meeting",
@@ -1235,6 +1508,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_07162026-455",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_07162026-455",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire Regional Planning Commission",
+   "date": "2026-07-16",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BRPC Agenda July 16 2026 stamped.pdf?t=202607091221010",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -1367,6 +1653,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-07-22",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 7-22-26 revised stamped.pdf?t=202607220907390",
+   "minutes_url": "https://www.richmondma.org/July 22 BOS minutes.pdf?t=202608271627020",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -1469,6 +1768,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Meeting",
+   "date": "2026-07-29",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Assessors July 29 2026 Meeting Notice stamped.pdf?t=202607151737180",
+   "minutes_url": "https://www.richmondma.org/July 29 2026 Meeting Minutes.pdf?t=202610011452430",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -1627,6 +1939,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting \u2013 Remote participation only",
+   "date": "2026-08-04",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": "Remote participation only",
+   "agenda_url": "https://www.richmondma.org/Board of Health Agenda August 4 2026 stamped.pdf?t=202607131051100",
+   "minutes_url": "https://www.richmondma.org/BOH August 4 minutes.pdf?t=202609151307410",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Board of Health",
    "title": "Board of Health Agenda",
@@ -1692,6 +2017,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Richmond",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting \u2013 CANCELLED",
+   "date": "2026-08-10",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Planning_Board AGENDA August 10 2026 canceled.pdf?t=202608100941590",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Historical Commission",
    "title": "Historical Commission Agenda",
@@ -1742,6 +2080,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08112026-470",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_08112026-470",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-08-11",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/conservation 8 11 26.pdf?t=202608071416210",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -1796,6 +2147,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-08-12",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 8-12-26.pdf?t=202608101517190",
+   "minutes_url": "https://www.richmondma.org/August 12 BOS minutes.pdf?t=202609100947520",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Otis",
    "board": "Finance Board",
    "title": "Finance Board Meeting",
@@ -1833,6 +2197,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_08132026-471",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_08132026-471",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-08-13",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Library Trustee August 13 2026 AGENDA.pdf?t=202608071417290",
+   "minutes_url": "https://www.richmondma.org/Library Trustee August 13 2026 MINUTES.pdf?t=202609151049120",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -2121,6 +2498,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "School Committee",
+   "title": "School Committee Meeting \u2013 School Council Meeting",
+   "date": "2026-08-25",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/School Council Agenda 8-25-26 stamped.pdf?t=202608200854530",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Planning Board",
    "title": "Planning Board Agenda",
@@ -2145,6 +2535,32 @@
    "agenda_url": null,
    "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-45",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-45"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-08-26",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 8-26-26  6 pm.pdf?t=202608241617550",
+   "minutes_url": "https://www.richmondma.org/August 26 BOS minutes.pdf?t=202609301755480",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire County Retirement Board",
+   "date": "2026-08-26",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Berkshire County Retirement 8.26.26 stamped.pdf?t=202608191623010",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -2251,6 +2667,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-09-02",
+   "start": "09:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 9-2-26  9 am.pdf?t=202608311513350",
+   "minutes_url": "https://www.richmondma.org/September 2 BOS minutes.pdf?t=202609301757220",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Board of Health",
    "title": "Board of Health Agenda",
@@ -2262,6 +2691,19 @@
    "agenda_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-amended-2",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-84"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting \u2013 Public Hearing",
+   "date": "2026-09-02",
+   "start": "18:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 9-2-26  6pm.pdf?t=202608311516030",
+   "minutes_url": "https://www.richmondma.org/September 2 BOS minutes 6 PM.pdf?t=202610151539450",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -2381,6 +2823,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-09-08",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Board of Health Agenda September 8 2026 stamped.pdf?t=202609021801390",
+   "minutes_url": "https://www.richmondma.org/BOH Sept 8 minutes.pdf?t=202610151032030",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Planning Board",
    "title": "Planning Board Agenda",
@@ -2433,6 +2888,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting \u2013 PUBLIC HEARING",
+   "date": "2026-09-09",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 9-9-26  6pm.pdf?t=202609031631360",
+   "minutes_url": "https://www.richmondma.org/September 9 BOS minutes.pdf?t=202610151540120",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "BHRSD",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -2459,6 +2927,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-09-10",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Sept 10 2026 Library Trustee AGENDA stamped.pdf?t=202609100850190",
+   "minutes_url": "https://www.richmondma.org/Sept 2026 Library Trustee MINUTES.pdf?t=202611051546520",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Otis",
    "board": "School Committee",
    "title": "School Committee Meeting",
@@ -2483,6 +2964,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_09142026-491",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_09142026-491",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting",
+   "date": "2026-09-14",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/2026_9_14_Planning_Board AGENDA stamped.pdf?t=202609100918530",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -2537,6 +3031,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "School Committee",
+   "title": "School Committee Meeting \u2013 School Committee Meeting",
+   "date": "2026-09-15",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RCS Agenda 9.15.2026 stamped.pdf?t=202609091745110",
+   "minutes_url": "https://www.richmondma.org/RCS Final minutes 9.15.2026.pdf?t=202610281335340",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Bylaw Review Committee",
    "title": "Bylaw Review Committee Minutes",
@@ -2548,6 +3055,19 @@
    "agenda_url": null,
    "minutes_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-48",
    "source_url": "https://www.townofbecket.org/bylaw-review-committee/minutes/bylaw-review-committee-minutes-48"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-09-16",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 9-16-26  630pm v2.pdf?t=202609151103030",
+   "minutes_url": "https://www.richmondma.org/September 16 BOS minutes.pdf?t=202610151540450",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "New Marlborough",
@@ -2576,6 +3096,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire Regional Planning Commission",
+   "date": "2026-09-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BRPC 1. 2026.09.17 FC Agenda stamped.pdf?t=202609151541040",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Conservation Commission",
    "title": "Conservation Commission Minutes",
@@ -2600,6 +3133,45 @@
    "agenda_url": "https://www.townofbecket.org/select-board/agenda/select-board-agenda-revised-19",
    "minutes_url": "https://www.townofbecket.org/select-board/minutes/select-boardmunicipal-light-plant-board-minutes",
    "source_url": "https://www.townofbecket.org/select-board/agenda/select-board-agenda-143"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Meeting",
+   "date": "2026-09-23",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Assessors Sept 23 2026 meeting notice STAMPED.pdf?t=202609151133420",
+   "minutes_url": "https://www.richmondma.org/Sept 23 2026 Meeting Minutes.pdf?t=202610291128380",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-09-23",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 9-23-26 revised.pdf?t=202609221604060",
+   "minutes_url": "https://www.richmondma.org/September 23 BOS minutes.pdf?t=202610291125550",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-09-23",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Library Trustee AGENDA Wed Sept 23 2026 stamped.pdf?t=202609151105190",
+   "minutes_url": "https://www.richmondma.org/Trustee MINUTES Wed Sept 23 2026.pdf?t=202611051546270",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "BHRSD",
@@ -2732,6 +3304,19 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire County Retirement",
+   "date": "2026-09-30",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Berkshire County Retirement 9.30.2026 stamped.pdf?t=202609231438470",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "New Marlborough",
    "board": "Conservation Commission",
    "title": "Conservation Commission Meeting Agenda",
@@ -2743,6 +3328,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_10012026-502",
    "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_10012026-502",
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire Regional Planning Commission",
+   "date": "2026-10-01",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BRPC 1. 2026.10.01 E.C. AGENDA stamped.pdf?t=202609241602320",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -2808,6 +3406,19 @@
    "agenda_url": "https://www.townofbecket.org/planning-board/agenda/plannng-board-agenda",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/planning-board/agenda/plannng-board-agenda"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-10-06",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Board of Health Agenda October 6 2006 stamped.pdf?t=202609301752190",
+   "minutes_url": "https://www.richmondma.org/BOH October 6.pdf?t=202610151032250",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -2966,6 +3577,45 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Conservation Commission",
+   "title": "Conservation Commission Meeting",
+   "date": "2026-10-13",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/concomagenda 10-13-26.pdf?t=202610081540460",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-10-13",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Library Trustee AGENDA October 13 2026 stamped.pdf?t=202610050852070",
+   "minutes_url": "https://www.richmondma.org/Oct 2026 Library Trustee MINUTES.pdf?t=202611121429280",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting",
+   "date": "2026-10-13",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/PB Agenda 10-23-26.pdf?t=202610081557570",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Board of Health",
    "title": "Board of Health Agenda",
@@ -2990,6 +3640,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_10142026-2028",
    "minutes_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Minutes/_10142026-2028",
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-10-14",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 10-14-26 .pdf?t=202610081538440",
+   "minutes_url": "https://www.richmondma.org/October 14 BOS minutes.pdf?t=202610291407590",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -3031,6 +3694,19 @@
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
+   "town": "Richmond",
+   "board": "Recreation Committee",
+   "title": "Recreation Committee Meeting",
+   "date": "2026-10-19",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RRC agenda 10.19.26 stamped.pdf?t=202610151457500",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Otis",
    "board": "In-Person Early Voting",
    "title": "In-Person Early Voting",
@@ -3042,6 +3718,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "School Committee",
+   "title": "School Committee Meeting \u2013 School Committee Meeting",
+   "date": "2026-10-20",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RCS Agenda 10.20.2026 stamped.pdf?t=202610141426440",
+   "minutes_url": "https://www.richmondma.org/RCS FINAL Minutes 10.20.2026.pdf?t=202611190942440",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Becket",
@@ -3237,6 +3926,45 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_10272026-524",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Assessors",
+   "title": "Board of Assessors Meeting",
+   "date": "2026-10-28",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Assessors Agenda October 28 2026 stamped.pdf?t=202610281457440",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-10-28",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 10-28-26 .pdf?t=202610261624060",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire County Retirement Board Meeting",
+   "date": "2026-10-28",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Berkshire County Retirement Notice10.28.2026 stamped.pdf?t=202610201201250",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -3512,6 +4240,19 @@
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting",
+   "date": "2026-11-04",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BOS Agenda 11-2-26 .pdf?t=202611021505290",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Becket",
    "board": "Planning Board",
    "title": "Planning Board Agenda",
@@ -3614,6 +4355,32 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_11092026-2050",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Library Trustees",
+   "title": "Library Trustees Meeting",
+   "date": "2026-11-09",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Nov 9 2026 Library Trustee AGENDA stamped.pdf?t=202611051507140",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Planning Board",
+   "title": "Planning Board Meeting \u2013 CANCELLED",
+   "date": "2026-11-09",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/2026_11_9_Planning_Board AGENDA_canceled stamped.pdf?t=202611051536120",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -3744,6 +4511,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_11102026-536",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "School Committee",
+   "title": "School Committee Meeting \u2013 School Council Meeting",
+   "date": "2026-11-10",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Richmond Consolidated School School Council Nov 10 2026 stamped.pdf?t=202611051532030",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "SBRSD",
@@ -4162,6 +4942,45 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Budget Advisory/Finance Committee",
+   "title": "Budget Advisory/Finance Committee Meeting \u2013 Finance Committee",
+   "date": "2026-11-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Finance Committee November 17 2026 stamped.pdf?t=202611121535450",
+   "minutes_url": "https://www.richmondma.org/November 17 2026 Finance Committee.pdf?t=202611230932090",
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Recreation Committee",
+   "title": "Recreation Committee Meeting",
+   "date": "2026-11-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RRC agenda 11.17.26 STAMPED.pdf?t=202611101537210",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "School Committee",
+   "title": "School Committee Meeting \u2013 School Committee Meeting",
+   "date": "2026-11-17",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/RCS Agenda 11.17.2026 STAMPED.pdf?t=202611101536310",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "SBRSD",
    "board": "Superintendent Evaluation Subcommittee",
    "title": "Southern Berkshire Regional School District Superintendent Evaluation Subcommittee Meeting (PDF)",
@@ -4251,6 +5070,19 @@
    "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_11182026-2069",
    "minutes_url": null,
    "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Board of Selectmen",
+   "title": "Board of Selectmen Meeting \u2013 NO MEETING (Cancelled)",
+   "date": "2026-11-18",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Egremont",
@@ -4630,6 +5462,32 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 Berkshire County Retirement",
+   "date": "2026-11-25",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Berkshire County Retirement Agenda11.25.2026 stamped.pdf?t=202611171555310",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
+   "board": "Miscellaneous",
+   "title": "Miscellaneous Meeting \u2013 BRTA Advisory Board",
+   "date": "2026-11-25",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/BRTA November 25 2026 Public Notice (002) stamped.pdf?t=202611190818440",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
    "town": "Great Barrington",
    "board": "Town Hall Offices Closed",
    "title": "Town Hall Offices Closed",
@@ -4719,6 +5577,19 @@
    "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_12012026-556",
    "minutes_url": null,
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
+  },
+  {
+   "town": "Richmond",
+   "board": "Cultural Council",
+   "title": "Cultural Council Meeting",
+   "date": "2026-12-01",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Cultural Council Agenda 120126 stamped.pdf?t=202611230940140",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
   },
   {
    "town": "Otis",
@@ -5362,6 +6233,7 @@
   "Becket": 108,
   "Otis": 61,
   "New Marlborough": 80,
+  "Richmond": 67,
   "Egremont": 81,
   "BHRSD": 18,
   "SBRSD": 6,
@@ -5445,6 +6317,14 @@
    "checked_at": "2026-11-23T17:56:06-05:00",
    "error": null,
    "note": "District notices reposted by member towns"
+  },
+  "Richmond": {
+   "ok": true,
+   "checked_at": "2026-11-24T11:12:37-05:00",
+   "last_success_at": "2026-11-24T11:12:37-05:00",
+   "error": null,
+   "retained": 0,
+   "meetings": 67
   }
  }
 }

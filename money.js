@@ -233,7 +233,23 @@ function bind(root){
 }
 
 function methodology(){return '<details class="m-method" id="mny-method"><summary>Data, definitions and limitations</summary><div><p><strong>Scope:</strong> Great Barrington, Sheffield, Egremont, New Marlborough, Monterey, Sandisfield, Otis, Tyringham, Becket, Alford and Richmond.</p><p><strong>General fund:</strong> Schedule A actuals. Enterprise funds such as water, sewer and ambulance are excluded. Education includes regional-school assessments.</p><p><strong>Population:</strong> Per-resident measures use DLS 2023 estimates for every year. The average tax bill is the DLS average single-family bill, not the levy divided by population.</p><p><strong>Prop 2½:</strong> Headroom is excess levy capacity divided by the maximum levy limit. It is not a forecast of a town’s tax increase.</p><p><strong>Reserves:</strong> Free cash and stabilization are shown separately and compared with annual general-fund spending; they are not interchangeable in municipal accounting.</p><p><strong>Source:</strong> Massachusetts Division of Local Services Municipal Databank, Schedule A FY2023–25 and FY2025 Community Snapshots. Data retrieved September 15, 2026.</p></div></details><details class="m-method m-gaps"><summary>What is still missing from this dataset</summary><div><p><strong>Revenue:</strong> property tax, state aid, local receipts and reserve use by year. This would show how each town pays for the spending shown above.</p><p><strong>Taxable property base:</strong> the Property tab adds MassGIS record values (including exempt property), not DLS equalized taxable valuation or new growth. Those DLS series are still needed to explain tax rates.</p><p><strong>Debt:</strong> outstanding and authorized debt, maturity schedules and debt exclusions. Debt service alone does not show the obligation ahead.</p><p><strong>Overrides:</strong> Proposition 2½ ballot history and levy-limit changes. Current headroom is only one frame of that story.</p><p><strong>Other obligations:</strong> enterprise funds, pensions and retiree health liabilities. The current general-fund view excludes them.</p><p>Massachusetts DLS publishes these series in its <a href="https://www.mass.gov/info-details/municipal-finance-trend-dashboard-reports" target="_blank" rel="noopener">Municipal Finance Trend Dashboard</a>. They can be added in a second data-ingestion pass without changing the page model.</p></div></details>';}
-function load(){fetch("data/money.json?v=20260915-3").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){state.data=d;render();}).catch(function(){document.getElementById("view").innerHTML='<div class="m-loading">The finance data could not be loaded.</div>';});}
+var loading=false;
+function load(){
+  if(loading) return;
+  loading=true;
+  var host=document.getElementById("view");
+  fetch("data/money.json?v=20260915-3").then(function(r){
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    return r.json();
+  }).then(function(d){
+    loading=false;
+    state.data=d;
+    if(host.dataset.view==="money") render();
+  },function(){
+    loading=false;
+    if(host.dataset.view==="money") host.innerHTML='<div class="m-loading">The finance data could not be loaded. Open Money to try again.</div>';
+  });
+}
 
 window.BMMoney={render:render};
 })();

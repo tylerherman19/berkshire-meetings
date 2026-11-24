@@ -64,8 +64,10 @@ server to host a per-person feed, and this site is deliberately static.
 - `scraper/scrape.py` pulls each town's meeting calendar (iCal feeds where available,
   HTML parsing elsewhere) into `data/meetings.json`, and diffs against the previous
   run into `data/changes.json`.
-- `.github/workflows/update.yml` runs the scraper daily at 6:00 AM ET and commits
-  fresh data. GitHub Pages rebuilds automatically.
+- `.github/workflows/update.yml` schedules the scraper daily and commits the feed.
+  Incomplete source refreshes keep previously published records within the archive
+  window and report the last complete refresh on the Sources tab. GitHub Pages
+  rebuilds automatically.
 - `scraper/news.py` pulls each town's news/announcements page into `data/news.json`,
   keyed by source URL so re-runs never duplicate anything, keeping 90 days of
   history even after a town drops a post off its own page.
@@ -90,7 +92,7 @@ server to host a per-person feed, and this site is deliberately static.
 | Alford | `townofalford.org/calendar.aspx` (CivicEngage) |
 | Mount Washington | `mountwashington-ma.gov/?mec-ical-feed=1` (iCal) |
 | SBRSD | reattributed from member-town AgendaCenter "PLEASE POST" notices |
-| Richmond | _no reliable central listing found yet — in progress_ |
+| Richmond | `richmondma.org/agendas_and_minutes/` (yearly board agenda and minutes tables) |
 
 Pittsfield is covered editorially when a story crosses over (no automated scrape).
 

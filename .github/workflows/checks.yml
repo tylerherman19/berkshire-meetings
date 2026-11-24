@@ -40,5 +40,5 @@ jobs:
           done
       - name: Install scraper dependencies
         run: pip install -r scraper/requirements.txt
-      - name: Run police parser regression tests
+      - name: Run scraper regression tests
         run: python -m unittest discover tests

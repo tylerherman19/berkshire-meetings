@@ -82,7 +82,13 @@ function cleanLoc(loc, board){
   if(!phys) return viaZoom ? "Remote via Zoom" : "";
   return viaZoom ? phys+" · via Zoom" : phys;
 }
-function isRemote(m){ return /via zoom|remote meeting/i.test(String(m.location||"")); }
+function meetingFormat(m){
+  var location=String(m.location||"").trim();
+  var description=location+" "+String(m.title||"");
+  if(/\bhybrid\b|\bin[\s-]+person\s*(?:[/&,]|and|or)\s*(?:virtual|remote|zoom)\b|\b(?:virtual|remote)\s*(?:[/&,]|and|or)\s*in[\s-]+person\b/i.test(description)) return "hybrid";
+  if(/\b(?:zoom|virtual|remote)\b|\bteams\.microsoft\.com\b|\bmeet\.(?:google|goto)\.com\b/i.test(description)) return "remote";
+  return location && !/^(?:TBA|TBD|to be announced|to be determined|unknown)$/i.test(location) ? "in-person" : "unknown";
+}
 function isCancelled(m){ return /\bcancell?ed\b/i.test(String(m.title||"")+" "+String(m.board||"")); }
 
 /* ------------------------------------------------- stars (localStorage) */
@@ -388,8 +394,10 @@ function statusTags(m){
   else if(UPD_KEYS[k]) h += '<span class="tag updated">Changed</span>';
   if(m.agenda_url) h += '<span class="tag agenda">Agenda posted</span>';
   if(m.minutes_url) h += '<span class="tag minutes">Minutes available</span>';
-  h += isRemote(m) ? '<span class="tag remote">Remote</span>'
-                   : '<span class="tag inperson">In-person</span>';
+  var format=meetingFormat(m);
+  if(format==="hybrid") h+='<span class="tag remote">Hybrid</span>';
+  else if(format==="remote") h+='<span class="tag remote">Remote</span>';
+  else if(format==="in-person") h+='<span class="tag inperson">In-person</span>';
   return h;
 }
 function starBtn(m){
@@ -698,8 +706,10 @@ function pcFilter(m){
   var t=etToday(), q=state.q.trim().toLowerCase();
   if(state.town!=="All" && m.town!==state.town) return false;
   if(state.board!=="All" && (m.board||m.title)!==state.board) return false;
-  if(state.format==="remote" && !isRemote(m)) return false;
-  if(state.format==="in-person" && isRemote(m)) return false;
+  if(state.format!=="all"){
+    var format=meetingFormat(m);
+    if(format!==state.format && format!=="hybrid") return false;
+  }
   if(q){
     var hay=(m.title+" "+(m.board||"")+" "+townLabel(m.town)+" "+(m.location||"")).toLowerCase();
     if(hay.indexOf(q)<0) return false;
@@ -1319,6 +1329,7 @@ function newsFeedHTML(list){
    Archive + sources
    ============================================================ */
 var ATEXT=null, ATEXT_LOADING=false;
+var archiveTown="All";
 function ensureAtext(cb){
   if(ATEXT!==null){ if(cb) cb(); return; }
   if(ATEXT_LOADING) return;
@@ -1332,7 +1343,7 @@ function archiveMatches(){
   var t=etToday(), q=state.archiveQ.trim().toLowerCase(), out=[];
   DATA.meetings.forEach(function(m){
     if(m.date>=t) return;
-    if(state.town!=="All" && m.town!==state.town) return;
+    if(archiveTown!=="All" && m.town!==archiveTown) return;
     if(state.minOnly && !m.minutes_url) return;
     var inDoc=false;
     if(q){
@@ -1352,12 +1363,15 @@ function archiveMatches(){
 function renderArchive(){
   var t=etToday();
   var past=DATA.meetings.filter(function(m){
-    return m.date<t && (state.town==="All"||m.town===state.town);
+    return m.date<t && (archiveTown==="All"||m.town===archiveTown);
   });
   var withMin=past.filter(function(m){ return m.minutes_url; }).length;
   $("#view").innerHTML='<div class="viewhead"><h2>Minutes archive</h2>'+
     '<p class="vsub">Search past meetings, boards, and the full text of posted agendas and minutes.</p></div>'+
     '<div class="archivebar">'+
+      '<span class="fsel"><select id="archtown" aria-label="Archive town"><option value="All">All towns</option>'+
+      allPlaces().map(function(town){return '<option value="'+esc(town)+'"'+(archiveTown===town?' selected':'')+'>'+esc(townLabel(town))+'</option>';}).join('')+
+      '</select></span>'+
       '<input id="aq" type="search" value="'+esc(state.archiveQ)+'" '+
         'placeholder="Search past meetings, boards, agendas, minutes…" '+
         'aria-label="Search the minutes archive" autocomplete="off">'+
@@ -1368,6 +1382,7 @@ function renderArchive(){
     '<div id="archresults"></div>';
   renderArchiveResults();
   ensureAtext(function(){ if(state.view==="archive") renderArchiveResults(); });
+  $("#archtown").addEventListener("change",function(e){ archiveTown=e.target.value; renderArchive(); $("#archtown").focus(); });
   $("#aq").addEventListener("input",function(e){ state.archiveQ=e.target.value; renderArchiveResults(); });
   $("#amin").addEventListener("change",function(e){ state.minOnly=e.target.checked; renderArchiveResults(); });
 }
@@ -1390,9 +1405,9 @@ function renderSources(){
   var upd=DATA.updated?new Date(DATA.updated).toLocaleString("en-US",
     {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET":"not yet";
   var h='<div class="viewhead"><h2>Source health</h2>'+
-    '<p class="vsub">Every town calendar is scraped daily at 6:02 AM ET. If a source fails, its meetings may be '+
-    'missing — this page says so plainly instead of pretending nothing was posted.</p>'+
-    '<p class="vsub srcfresh"><span>Data updated '+esc(upd)+'</span>'+
+    '<p class="vsub">Sources are checked daily. If a refresh is incomplete, the feed keeps any saved records '+
+    'that are still within the archive window.</p>'+
+    '<p class="vsub srcfresh"><span>Feed updated '+esc(upd)+'</span>'+
     '<button class="btn ghost sm" id="refreshdata" type="button">Refresh data</button>'+
     '<a class="rerun" href="https://github.com/tylerherman19/berkshire-meetings/actions/workflows/update.yml" target="_blank" rel="noopener">Re-run the scraper</a></p></div>';
   if(!src){
@@ -1403,13 +1418,19 @@ function renderSources(){
       var s=src[tn], dot, status, detail;
       if(!s){ dot=""; status="Not scraped"; detail="No automated source yet — coverage is manual."; }
       else if(s.ok){ dot="ok"; status="OK"; detail=plural(s.meetings,"meeting")+" in the feed"; }
-      else { dot="bad"; status="Scrape failed"; detail=s.error||"The source could not be reached."; }
+      else {
+        dot="bad"; status=s.meetings?"Incomplete refresh":"Scrape failed";
+        detail=plural(s.meetings,"meeting")+" in the feed"+(s.retained?" · "+s.retained+" kept from earlier checks":"");
+      }
       h+='<div class="srccard rise" style="--i:'+Math.min(i,12)+'">'+
         '<div class="srcname"><span class="sdot '+dot+'"></span>'+esc(townLabel(tn))+'</div>'+
         '<div class="srcstatus">'+esc(status)+
           (s&&s.checked_at ? ' · checked '+esc(new Date(s.checked_at).toLocaleString("en-US",
             {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}))+" ET" : "")+'</div>'+
         '<div class="srcdetail">'+esc(detail)+'</div>'+
+        (s&&!s.ok&&s.last_success_at?'<div class="srcdetail">Last complete refresh '+esc(new Date(s.last_success_at).toLocaleString("en-US",
+          {timeZone:ET,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}))+" ET</div>":"")+
+        (s&&!s.ok&&s.error?'<div class="srcdetail">'+esc(s.error)+'</div>':"")+
         (s&&s.note?'<div class="srcdetail">'+esc(s.note)+'</div>':"")+'</div>';
     });
     h+='</div>';
@@ -1437,7 +1458,10 @@ function setView(v){
    Hashes that are not views (in-page anchors) are left alone. */
 function hashView(){
   var h=location.hash.replace(/^#/,"");
-  return document.querySelector('#views button[data-view="'+h+'"]') ? h : "";
+  if(h==="starred") return h;
+  return Array.prototype.some.call(document.querySelectorAll("#views button[data-view]"),function(b){
+    return b.dataset.view===h;
+  }) ? h : "";
 }
 function syncHash(v){
   var want = v==="briefing" ? "" : "#"+v;
@@ -1446,6 +1470,7 @@ function syncHash(v){
 }
 function renderView(){
   var v=$("#view");
+  v.dataset.view=state.view;
   v.classList.remove("fade"); void v.offsetWidth; v.classList.add("fade");
   if(state.view==="briefing")      renderBriefing();
   else if(state.view==="news")     renderNews();

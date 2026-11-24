@@ -9,7 +9,7 @@
 "use strict";
 
 var V="20260930";
-var state={ins:null,loading:false,failed:false,town:"Great Barrington",mode:"density",isolate:"",sel:null,
+var state={ins:null,loading:false,failed:false,town:"Great Barrington",mode:"density",isolate:"",sel:null,boundary:null,
   market:"region",find:"",tq:"",tuse:"",tmail:"",tsort:"value",tlimit:60};
 var cache={},pending={},map=null,layer=null,layerIndex={};
 
@@ -163,7 +163,7 @@ function render(){
   bind(document.getElementById("property-analysis"));
   ensureTown(t,function(){if(isActive()&&state.town===t.name)townReady(t);});
 }
-function isActive(){var b=document.querySelector('#views button[data-view="property"]');return b&&b.classList.contains("active");}
+function isActive(){return document.getElementById("view").dataset.view==="property";}
 function stat(value,label,note){return '<div class="m-stat"><strong>'+value+'</strong><span>'+label+'</span><small>'+note+'</small></div>';}
 function controls(t){
   var opts=state.ins.towns.slice().sort(function(a,b){return a.name.localeCompare(b.name);}).map(function(d){return '<option'+(d.name===t.name?' selected':'')+'>'+esc(d.name)+'</option>';}).join("");
@@ -186,7 +186,11 @@ function ensureTown(t,cb){
   if(pending[t.id]){pending[t.id].push(cb);return;}
   pending[t.id]=[cb];
   fetch("property-"+t.id+".json?v="+V).then(function(r){if(!r.ok)throw Error(r.status);return r.json();}).then(function(d){cache[t.id]=derive(t,d);var q=pending[t.id];delete pending[t.id];q.forEach(function(f){f();});})
-    .catch(function(){delete pending[t.id];["map","ratio","records"].forEach(function(id){var s=document.getElementById("ps-"+id);if(s)s.querySelector(".p-body").innerHTML='<p class="p-status p-error">'+esc(t.name)+' records could not be loaded. Reload to try again.</p>';});});
+    .catch(function(){
+      delete pending[t.id];
+      if(!isActive() || state.town!==t.name) return;
+      ["map","ratio","records"].forEach(function(id){var s=document.getElementById("ps-"+id);if(s)s.querySelector(".p-body").innerHTML='<p class="p-status p-error">'+esc(t.name)+' records could not be loaded. Reload to try again.</p>';});
+    });
 }
 function townReady(){["map","ratio","records"].forEach(refill);var h=document.getElementById("p-ratio-h");if(h)h.textContent=ratioHeadline(townOf(state.town));drawMap();}
 
@@ -207,12 +211,17 @@ function drawMap(){
   map=L.map(host,{preferCanvas:true,scrollWheelZoom:false,zoomSnap:.25});
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',maxZoom:19}).addTo(map);
   layerIndex={};
-  layer=L.geoJSON(d.geometry,{renderer:L.canvas({padding:.3}),style:function(f){return styleFor(f,d);},onEachFeature:function(f,l){var loc=f.properties.LOC_ID;if(loc)(layerIndex[loc]||(layerIndex[loc]=[])).push(l);l.on("click",function(){select(loc,f);});}}).addTo(map);
+  layer=L.geoJSON(d.geometry,{renderer:L.canvas({padding:.3}),style:function(f){return styleFor(f,d);},onEachFeature:function(f,l){
+    var loc=f.properties.LOC_ID;
+    if(loc && linked(f,d).length) (layerIndex[loc]||(layerIndex[loc]=[])).push(l);
+    l.on("click",function(){select(loc,f);});
+  }}).addTo(map);
   if(layer.getBounds().isValid())map.fitBounds(layer.getBounds(),{padding:[6,6]});
   paintLegend();showDetail();
 }
 function styleFor(f,d){
-  var c=classify(f,d),sel=state.sel&&f.properties.LOC_ID===state.sel,dim=state.isolate&&(!c||c[0]!==state.isolate);
+  var c=classify(f,d),dim=state.isolate&&(!c||c[0]!==state.isolate);
+  var sel=state.boundary ? f===state.boundary : state.sel && f.properties.LOC_ID===state.sel && linked(f,d).length;
   if(sel)return {color:C.ink,weight:2.6,fillColor:c?c[1]:"#fff",fillOpacity:c?.95:.2,opacity:1};
   if(!c)return {color:"#9aa5ad",weight:.35,fillOpacity:0,opacity:.55};
   return {color:"#ffffff",weight:.35,opacity:dim?.25:.8,fillColor:c[1],fillOpacity:dim?.08:.82};
@@ -226,8 +235,8 @@ function paintLegend(){
   document.getElementById("p-map-count").textContent=num(d.geometry.features.length)+" mapped boundaries; "+num(none)+" have no fill for this view (no linked record, a source NO_MATCH flag, or no data for this measure). Shapes are simplified for the web and are not survey boundaries.";
 }
 function select(loc,f){
-  state.sel=loc||null;restyle();showDetail();
-  if(loc&&layerIndex[loc]&&window.innerWidth<850){var el=document.getElementById("p-detail");if(el)el.scrollIntoView({behavior:"smooth",block:"nearest"});}
+  state.sel=loc||null;state.boundary=f||null;restyle();showDetail();
+  if((f||layerIndex[loc])&&window.innerWidth<850){var el=document.getElementById("p-detail");if(el)el.scrollIntoView({behavior:"smooth",block:"nearest"});}
 }
 function zoomTo(loc){
   var ls=layerIndex[loc];if(!ls||!map)return false;var b=L.latLngBounds([]);ls.forEach(function(l){b.extend(l.getBounds());});
@@ -235,13 +244,13 @@ function zoomTo(loc){
 }
 function showDetail(){
   var el=document.getElementById("p-detail"),t=townOf(state.town),d=cache[t.id];if(!el||!d)return;
-  if(!state.sel){
+  if(!state.sel && !state.boundary){
     var res=t.uses.Residential;
     el.innerHTML='<h4>Select a parcel.</h4><p>Click any shape on the map, or search above, to see the owner of record, mailing address, assessment, acreage, last recorded sale and year built.</p>'
       +'<dl class="p-facts"><dt>Records</dt><dd>'+num(t.records)+'</dd><dt>Assessed value</dt><dd>'+compact(t.value)+'</dd><dt>Mapped land</dt><dd>'+num(t.acres)+' acres</dd><dt>Homes</dt><dd>'+num(res.n)+'</dd><dt>Homes owned from out of state</dt><dd>'+pct(t.away_share)+'</dd><dt>Fiscal year</dt><dd>'+t.fy.map(function(f){return "FY"+f;}).join(", ")+'</dd></dl>';
     return;
   }
-  var rs=d.index[state.sel]||[],a=d.area[state.sel]||0;
+  var rs=state.boundary ? linked(state.boundary,d) : (d.index[state.sel]||[]),a=d.area[state.sel]||0;
   if(!rs.length){el.innerHTML='<h4>Unmatched boundary</h4><p>This shape has no usable linked assessment record, or the source flags it NO_MATCH. No owner or value is assigned.</p><p class="p-mono">'+esc(state.sel)+'</p><button type="button" class="p-textbtn" data-clear-sel>Clear selection</button>';return;}
   var v=sum(rs,function(r){return r.TOTAL_VAL||0;}),first=rs[0],shown=layerIndex[state.sel];
   var html='<p class="p-eyebrow">'+esc(t.name)+(rs.length>1?' · '+rs.length+' records share this boundary':'')+'</p><h4>'+esc(first.SITE_ADDR||"No site address")+'</h4>'
@@ -531,7 +540,7 @@ function methodology(){
 }
 
 /* ---------------------------------------------------------------- events */
-function setTown(name){if(!name||name===state.town)return;var y=window.scrollY;state.town=name;state.sel=null;state.find="";state.isolate="";state.tlimit=60;render();window.scrollTo(0,y);}
+function setTown(name){if(!name||name===state.town)return;var y=window.scrollY;state.town=name;state.sel=null;state.boundary=null;state.find="";state.isolate="";state.tlimit=60;render();window.scrollTo(0,y);}
 function bind(root){
   var tipEl=root.querySelector("#p-tip"),findTimer,recTimer;
   root.addEventListener("change",function(e){

@@ -3,11 +3,18 @@
 (function(){
 "use strict";
 
-var state={data:null,town:"Great Barrington",board:""};
+var state={data:null,loading:false,town:"Great Barrington",board:""};
 
 function esc(v){return String(v==null?"":v).replace(/[&<>\"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
 function mailto(e){return '<a href="mailto:'+esc(e)+'">'+esc(e)+'</a>';}
-function tel(p){var d=String(p).replace(/[^\dx]/g,"");return '<a href="tel:'+esc(d)+'">'+esc(p)+'</a>';}
+function tel(p){
+  var label=String(p);
+  var number=label.match(/^(\+?1[\s.-]*)?(?:\(\d{3}\)|\d{3})[\s.-]*\d{3}[\s.-]*\d{4}/);
+  if(!number) return esc(p);
+  var extension=label.slice(number[0].length).match(/^\s*[,;]?\s*(?:ext(?:ension)?\.?|x)\s*(\d+)/i);
+  var dial=number[0].replace(/[^+\d]/g,"")+(extension?";ext="+extension[1]:"");
+  return '<a href="tel:'+esc(dial)+'">'+esc(p)+'</a>';
+}
 function byTown(name){return state.data.towns.filter(function(t){return t.name===name;})[0]||null;}
 
 function stat(value,label,note){return '<div class="c-stat"><strong>'+value+'</strong><span>'+label+'</span><small>'+note+'</small></div>';}
@@ -91,7 +98,22 @@ function render(){
   document.getElementById("c-board-select").addEventListener("change",function(e){state.board=e.target.value;render();});
 }
 
-function load(){fetch("data/contacts.json?v=20260925-1").then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){state.data=d;render();}).catch(function(){document.getElementById("view").innerHTML='<div class="c-loading">The board directory could not be loaded.</div>';});}
+function load(){
+  if(state.loading) return;
+  state.loading=true;
+  var host=document.getElementById("view");
+  fetch("data/contacts.json?v=20261124").then(function(r){
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    return r.json();
+  }).then(function(d){
+    state.loading=false;
+    state.data=d;
+    if(host.dataset.view==="contacts") render();
+  },function(){
+    state.loading=false;
+    if(host.dataset.view==="contacts") host.innerHTML='<div class="c-loading">The board directory could not be loaded. Open Contacts to try again.</div>';
+  });
+}
 
 window.BMContacts={render:render};
 })();
