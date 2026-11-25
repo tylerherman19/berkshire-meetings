@@ -1,19 +1,6 @@
 {
- "updated": "2026-11-24T15:29:21-05:00",
+ "updated": "2026-11-25T14:45:50-05:00",
  "meetings": [
-  {
-   "town": "New Marlborough",
-   "board": "Transfer Station Working Group",
-   "title": "Transfer Station Working Group Meeting Agenda Amended",
-   "date": "2026-05-28",
-   "start": null,
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Agenda/_05282026-415",
-   "minutes_url": "https://www.newmarlboroughma.gov/AgendaCenter/ViewFile/Minutes/_05282026-415",
-   "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
-  },
   {
    "town": "Otis",
    "board": "Revitalization Committee",
@@ -4417,7 +4404,7 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/planning_board_11-10-26_public_meeting.pdf",
+   "agenda_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-104",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/planning-board/agenda/planning-board-agenda-104"
   },
@@ -4786,32 +4773,6 @@
    "source_url": "https://www.newmarlboroughma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
-   "town": "Sandisfield",
-   "board": "Board Assessors",
-   "title": "Board of Assessors Meeting",
-   "date": "2026-11-17",
-   "start": "10:00",
-   "end": "10:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/board-assessors/events/45376"
-  },
-  {
-   "town": "Monterey",
-   "board": "Lombardo Park Committee",
-   "title": "Lombardo Park Committee Meeting",
-   "date": "2026-11-17",
-   "start": "16:30",
-   "end": "16:30",
-   "all_day": false,
-   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.montereyma.gov/lombardo-park-committee/events/46636"
-  },
-  {
    "town": "Becket",
    "board": "Energy Committee",
    "title": "Energy Committee Agenda",
@@ -4862,32 +4823,6 @@
    "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/2026.11.17_zba_agenda_with_zoom.pdf",
    "minutes_url": null,
    "source_url": "https://www.townofbecket.org/zoning-board-appeals/agenda/zoning-board-appeals-agenda-55"
-  },
-  {
-   "town": "Monterey",
-   "board": "Select Board",
-   "title": "Select Board Meeting",
-   "date": "2026-11-17",
-   "start": "18:00",
-   "end": "18:00",
-   "all_day": false,
-   "location": "Monterey Town Hall Meeting Room 435 Main Road Monterey MA 01245 United States",
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.montereyma.gov/select-board/events/46701"
-  },
-  {
-   "town": "Sandisfield",
-   "board": "Conservation Commission",
-   "title": "Conservation Commission Meeting",
-   "date": "2026-11-17",
-   "start": "19:00",
-   "end": "19:00",
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.sandisfieldma.gov/conservation-commission/events/40751"
   },
   {
    "town": "Egremont",
@@ -5319,32 +5254,6 @@
    "source_url": "https://www.sandisfieldma.gov/select-board/events/45466"
   },
   {
-   "town": "Alford",
-   "board": "Highway",
-   "title": "Transfer Station",
-   "date": "2026-11-24",
-   "start": "07:00",
-   "end": null,
-   "all_day": false,
-   "location": null,
-   "agenda_url": null,
-   "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=561&month=11&year=2026&day=24&calType=0"
-  },
-  {
-   "town": "Great Barrington",
-   "board": "Ramsdell Building Committee CANCELED",
-   "title": "Ramsdell Building Committee CANCELED",
-   "date": "2026-11-24",
-   "start": "16:30",
-   "end": null,
-   "all_day": false,
-   "location": "via Zoom: https://us02web.zoom.us/j/82781564864 Join via audio: +1 929 205 6099 | Webinar ID: 827 8156 4864 Ramsdell Building Committee CANCELED 2026-11-24T16:30:00 via Zoom: https://us02web.zoom.us/j/82781564864 Join via audio: +1 929 205 6099 | Webinar ID: 827 8156 4864 Great Barrington MA 01230",
-   "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Ramsdell-Building-Committee-45/#_11242026-2772",
-   "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2051&month=11&year=2026&day=24&calType=0"
-  },
-  {
    "town": "Egremont",
    "board": "Select Board",
    "title": "Select Board Regular Meeting (PDF)",
@@ -5394,7 +5303,7 @@
    "location": "virtual meeting: hhtps://meet.goto.com/770741877 Berkshire County Retirement Board 2026-11-25T09:00:00 virtual meeting: hhtps://meet.goto.com/770741877 Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-County-Retirement-Board-37/#_11252026-2677",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2045&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2045&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5407,7 +5316,7 @@
    "location": "Claire Teague Senior Center 917 Main Street Great Barrington, MA 01230 Council on Aging 2026-11-25T13:00:00 Claire Teague Senior Center 917 Main Street Great Barrington, MA 01230 Claire Teague Senior Center Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Council-on-Aging-14/#_11252026-2679",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2047&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2047&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5420,7 +5329,7 @@
    "location": "BRTA Intermodal Transportation Center One Columbus Avenue, Pittsfield, MA 01201 Berkshire Regional Transportation Authority (BRTA) Finance and Audit Committee 2026-11-25T15:00:00 BRTA Intermodal Transportation Center One Columbus Avenue, Pittsfield, MA 01201 BRTA Intermodal Transportation Center Pittsfield MA 01201",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Regional-Transportation-Author-43/#_11252026-2770",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2049&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2049&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5433,7 +5342,7 @@
    "location": "Intermodal Transportation Center 1 Columbus Ave., Pittsfield MA 01201 Berkshire Regional Transit Authority (BRTA) Advisory Board 2026-11-25T16:00:00 Intermodal Transportation Center 1 Columbus Ave., Pittsfield MA 01201 Transportation Center Pittsfield MA 01201",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Berkshire-Regional-Transportation-Author-43/#_11252026-2758",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2048&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2048&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Great Barrington",
@@ -5446,7 +5355,7 @@
    "location": "via Zoom: https://us02web.zoom.us/j/85807166171 Join via audio: +1 929 205 6099 | Webinar ID: 858 0716 6171 Meeting Materials Historical Commission 2026-11-25T17:00:00 via Zoom: https://us02web.zoom.us/j/85807166171 Join via audio: +1 929 205 6099 | Webinar ID: 858 0716 6171 Meeting Materials Great Barrington MA 01230",
    "agenda_url": "https://www.townofgbma.gov/AgendaCenter/Historical-Commission-36/#_11252026-2838",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2053&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2053&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Monterey",
@@ -5537,7 +5446,7 @@
    "location": null,
    "agenda_url": "https://www.townofgbma.gov/agendacenter",
    "minutes_url": null,
-   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2024&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofgbma.gov/Calendar.aspx?EID=2024&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Alford",
@@ -5550,7 +5459,7 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=510&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=510&month=11&year=2026&day=25&calType=0"
   },
   {
    "town": "Alford",
@@ -5563,7 +5472,20 @@
    "location": null,
    "agenda_url": null,
    "minutes_url": null,
-   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=646&month=11&year=2026&day=24&calType=0"
+   "source_url": "https://www.townofalford.org/Calendar.aspx?EID=646&month=11&year=2026&day=25&calType=0"
+  },
+  {
+   "town": "Otis",
+   "board": "Revitalization Committee",
+   "title": "Revitalization Committee Meeting",
+   "date": "2026-11-30",
+   "start": "10:00",
+   "end": null,
+   "all_day": false,
+   "location": "Town Hall",
+   "agenda_url": null,
+   "minutes_url": null,
+   "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
   },
   {
    "town": "Egremont",
@@ -5632,6 +5554,19 @@
   },
   {
    "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-12-01",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.richmondma.org/Board of Health Agenda December 1 2026 stamped.pdf?t=202611251213350",
+   "minutes_url": null,
+   "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Richmond",
    "board": "Cultural Council",
    "title": "Cultural Council Meeting",
    "date": "2026-12-01",
@@ -5639,9 +5574,22 @@
    "end": null,
    "all_day": false,
    "location": null,
-   "agenda_url": "https://www.richmondma.org/Cultural Council Agenda 120126 stamped.pdf?t=202611230940140",
+   "agenda_url": "https://www.richmondma.org/Cultural Council Agenda 120126 stamped.pdf?t=202611251225450",
    "minutes_url": null,
    "source_url": "https://www.richmondma.org/agendas_and_minutes/2026.php"
+  },
+  {
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-12-02",
+   "start": "17:00",
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.townofbecket.org/sites/g/files/vyhlif4146/f/agendas/boh_amended_agenda_120226.pdf",
+   "minutes_url": null,
+   "source_url": "https://www.townofbecket.org/board-health/agenda/board-health-agenda-86"
   },
   {
    "town": "Otis",
@@ -5655,6 +5603,19 @@
    "agenda_url": null,
    "minutes_url": null,
    "source_url": "https://townofotisma.com/transparency/agendas_minutes.php"
+  },
+  {
+   "town": "Egremont",
+   "board": "Council on Aging",
+   "title": "Council on Aging Monthly Meeting (PDF)",
+   "date": "2026-12-02",
+   "start": null,
+   "end": null,
+   "all_day": false,
+   "location": null,
+   "agenda_url": "https://www.egremont-ma.gov/AgendaCenter/ViewFile/Agenda/_12022026-2081",
+   "minutes_url": null,
+   "source_url": "https://www.egremont-ma.gov/AgendaCenter/Search/?term=&CIDs=all"
   },
   {
    "town": "Egremont",
@@ -6464,112 +6425,112 @@
   }
  ],
  "towns": {
-  "New Marlborough": 80,
-  "Otis": 60,
-  "Becket": 111,
-  "Richmond": 67,
-  "Egremont": 83,
+  "Otis": 61,
+  "New Marlborough": 79,
+  "Becket": 112,
+  "Richmond": 68,
+  "Egremont": 84,
   "BHRSD": 18,
   "SBRSD": 6,
   "Sheffield": 2,
-  "Sandisfield": 37,
-  "Monterey": 23,
-  "Alford": 3,
-  "Great Barrington": 7
+  "Sandisfield": 35,
+  "Monterey": 21,
+  "Great Barrington": 6,
+  "Alford": 2
  },
  "sources": {
   "Sandisfield": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 37
+   "meetings": 35
   },
   "Monterey": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 23
+   "meetings": 21
   },
   "Great Barrington": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 7
+   "meetings": 6
   },
   "Egremont": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 83
+   "meetings": 84
   },
   "New Marlborough": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 80
+   "meetings": 79
   },
   "Sheffield": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
    "meetings": 2
   },
   "Alford": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 3
+   "meetings": 2
   },
   "Otis": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 60
+   "meetings": 61
   },
   "Tyringham": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
    "meetings": 0
   },
   "Becket": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 111
+   "meetings": 112
   },
   "Richmond": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
-   "meetings": 67
+   "meetings": 68
   },
   "BHRSD": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
    "note": "Berkshire Hills Regional School District",
@@ -6577,8 +6538,8 @@
   },
   "SBRSD": {
    "ok": true,
-   "checked_at": "2026-11-24T15:29:21-05:00",
-   "last_success_at": "2026-11-24T15:29:21-05:00",
+   "checked_at": "2026-11-25T14:45:50-05:00",
+   "last_success_at": "2026-11-25T14:45:50-05:00",
    "error": null,
    "retained": 0,
    "note": "District notices reposted by member towns",

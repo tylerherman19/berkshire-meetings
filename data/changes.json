@@ -1,337 +1,40 @@
 {
- "updated": "2026-11-24T15:29:21-05:00",
+ "updated": "2026-11-25T14:45:50-05:00",
  "changes": [
   {
-   "type": "removed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee Meeting",
-   "title": "Housing Committee Meeting",
-   "date": "2026-11-25",
-   "start": "19:00"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Local Cultural Council Meeting 12/16/26",
-   "title": "Local Cultural Council Meeting 12/16/26",
-   "date": "2026-12-16",
-   "start": "14:30"
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Town Hall Closed in Observance of Christmas Day",
-   "title": "Town Hall Closed in Observance of Christmas Day",
-   "date": "2026-12-25",
-   "start": ""
-  },
-  {
-   "type": "removed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Parks Commission Meeting",
-   "title": "Parks Commission Meeting",
-   "date": "2027-01-04",
-   "start": "13:00"
-  },
-  {
    "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-11-25",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-11-25",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Thanksgiving",
-   "date": "2026-11-26",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "New Marlborough",
-   "board": "Select Board",
-   "title": "Select Board Meeting Agenda",
+   "at": "2026-11-25T14:45:50-05:00",
+   "town": "Otis",
+   "board": "Revitalization Committee",
+   "title": "Revitalization Committee Meeting",
    "date": "2026-11-30",
+   "start": "10:00"
+  },
+  {
+   "type": "added",
+   "at": "2026-11-25T14:45:50-05:00",
+   "town": "Richmond",
+   "board": "Board of Health",
+   "title": "Board of Health Meeting",
+   "date": "2026-12-01",
    "start": ""
   },
   {
    "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-12-03",
-   "start": "07:30"
+   "at": "2026-11-25T14:45:50-05:00",
+   "town": "Becket",
+   "board": "Board of Health",
+   "title": "Board of Health Agenda",
+   "date": "2026-12-02",
+   "start": "17:00"
   },
   {
    "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2026-12-03",
-   "start": "08:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
+   "at": "2026-11-25T14:45:50-05:00",
    "town": "Egremont",
-   "board": "Berkshire Regional Planning Commission",
-   "title": "Berkshire Regional Planning Commission Executive Committee Meeting (PDF)",
-   "date": "2026-12-03",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Egremont",
-   "board": "Short Term Rental Committee",
-   "title": "Short-Term Rental Committee Regular Meeting (PDF)",
-   "date": "2026-12-03",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-12-09",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-12-09",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Monterey Library",
-   "title": "Monterey Library Board of Trustees Meeting",
-   "date": "2026-12-14",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Local Cultural Council",
-   "title": "Local Cultural Council Meeting 12/16/26",
-   "date": "2026-12-16",
-   "start": "14:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "Housing Committee Meeting",
-   "date": "2026-12-23",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Housing Committee",
-   "title": "CANCELED: Housing Committee Meeting",
-   "date": "2026-12-23",
-   "start": "19:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Town Administrator",
-   "title": "Town Hall Closed in Observance of Christmas Day",
-   "date": "2026-12-25",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Planning Board",
-   "title": "Parks Commission Meeting",
-   "date": "2027-01-04",
-   "start": "13:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-01-07",
-   "start": "07:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-01-07",
-   "start": "08:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-02-04",
-   "start": "07:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-02-04",
-   "start": "08:30"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-24T15:29:21-05:00",
-   "town": "Monterey",
-   "board": "Police Department",
-   "title": "Breakfast with the Monterey Police",
-   "date": "2027-03-04",
-   "start": "08:30"
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-01-14",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-01-28",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-02-11",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-02-25",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-03-11",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-03-25",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-04-08",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-05-06",
-   "start": ""
-  },
-  {
-   "type": "changed",
-   "at": "2026-11-24T15:29:21-05:00",
-   "fields": [
-    "location"
-   ],
-   "town": "BHRSD",
-   "board": "School Committee",
-   "title": "School Committee Meeting",
-   "date": "2027-05-20",
+   "board": "Council on Aging",
+   "title": "Council on Aging Monthly Meeting (PDF)",
+   "date": "2026-12-02",
    "start": ""
   }
  ]
