@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:05:28-05:00",
+ "updated": "2026-11-25T09:12:33-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -101,7 +101,7 @@
    "category": "General",
    "topic": "Technology Committee",
    "headline": "Senator Markey Calls for Consumer Protections in Verizon's Copper Telephone Phase-Out",
-   "summary": "U.S. Senator Edward J. Markey's office has expressed concerns about Verizon's plans to phase out traditional copper telephone lines in Massachusetts, emphasizing the need to protect residents who depend on reliable landline service. To enact its proposal to retire its copper telephone service, Verizon must receive\u2026",
+   "summary": "US Senator Edward J. Markey\u2019s office reported that Verizon has committed to no copper telephone disconnections before the fourth quarter of 2027 . That extended the earlier assurance that there would be no disconnections by the end of 2026, giving more time to work through the FCC process and remaining concerns. To\u2026",
    "posted": "2026-11-20T00:00:00-05:00",
    "date_only": true,
    "url": "https://www.egremont-ma.gov/m/newsflash/Home/Detail/831",
@@ -2867,71 +2867,16 @@
    "date_only": true,
    "url": "https://www.townofbecket.org/home/news/buckley-dunton-boat-ramp-will-be-closed-today-aug-31-through-sept-4-construction",
    "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "Town of Great Barrington announces that sewer bills have been mailed",
-   "summary": "The Town of Great Barrington announces that sewer bills for the billing period January 1, 2026 through June 30, 2026 were mailed on Thursday, August 27, 2026. The payment is due September 28, 2026. Understanding Your Bill Additional information regarding: EDU billing codes How they apply to your property How they\u2026",
-   "posted": "2026-08-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/209",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Great Barrington",
-   "category": "General",
-   "topic": null,
-   "headline": "Town Responds to Partial Collapse of Former Cook\u2019s Garage",
-   "summary": "The Town of Great Barrington is evaluating next steps following the partial collapse of the former Cook\u2019s Garage building on Thursday, August 20. The collapse raised concerns regarding the stability of the remaining structure and debris entering the Housatonic\u2026",
-   "posted": "2026-08-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofgbma.gov/m/newsflash/Home/Detail/208",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "New Marlborough",
-   "category": "Meeting notices",
-   "topic": null,
-   "headline": "Town Hall Renovation Project Public Information Session",
-   "summary": "View event flyer HERE",
-   "posted": "2026-08-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/116",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "New Marlborough",
-   "category": "Public notices",
-   "topic": null,
-   "headline": "Employment Opportunity Digital Navigator",
-   "summary": "DIGITAL NAVIGATOR Part-Time Independent Contractor Approximately 13\u201314 Hours per Week Grant-Funded through December 31, 2026 About the Position The Town of New Marlborough is looking for a friendly, patient person who is comfortable with everyday technology and enjoys helping others. The Digital Navigator provides\u2026",
-   "posted": "2026-08-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/117",
-   "first_seen": "2026-09-14T15:25:03-04:00"
-  },
-  {
-   "town": "Becket",
-   "category": "General",
-   "topic": null,
-   "headline": "Exercise Your Right to Vote in the State Primary \u2014 Tuesday, September 1. Polls Open 7:00 AM\u20138:00 PM",
-   "summary": null,
-   "posted": "2026-08-27T00:00:00-04:00",
-   "date_only": true,
-   "url": "https://www.townofbecket.org/home/news/exercise-your-right-vote-state-primary-%E2%80%94-tuesday-september-1-polls-open-700-am%E2%80%93800-pm",
-   "first_seen": "2026-09-14T15:25:03-04:00"
   }
  ],
  "towns": {
   "Sheffield": 9,
-  "New Marlborough": 20,
+  "New Marlborough": 18,
   "Sandisfield": 27,
   "Monterey": 12,
-  "Becket": 37,
+  "Becket": 36,
   "Egremont": 55,
-  "Great Barrington": 54,
+  "Great Barrington": 52,
   "Alford": 6,
   "BHRSD": 20,
   "Tyringham": 6,
@@ -2944,8 +2889,8 @@
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 35,
-   "items": 54,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "items": 52,
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
@@ -2955,7 +2900,7 @@
    "ok": true,
    "scraped": 11,
    "items": 9,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
@@ -2965,7 +2910,7 @@
    "ok": true,
    "scraped": 5,
    "items": 55,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
@@ -2974,19 +2919,19 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 100,
-   "items": 20,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "items": 18,
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 12,
-   "checked_at": "2026-11-24T23:05:28-05:00",
-   "error": null
+   "checked_at": "2026-11-25T09:12:33-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -2995,7 +2940,7 @@
    "ok": true,
    "scraped": 20,
    "items": 27,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
@@ -3005,7 +2950,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
@@ -3015,18 +2960,18 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": true,
-   "scraped": 20,
-   "items": 37,
-   "checked_at": "2026-11-24T23:05:28-05:00",
-   "error": null
+   "ok": false,
+   "scraped": 0,
+   "items": 36,
+   "checked_at": "2026-11-25T09:12:33-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
   },
   {
    "town": "Alford",
@@ -3035,7 +2980,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   },
   {
@@ -3045,7 +2990,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-24T23:05:28-05:00",
+   "checked_at": "2026-11-25T09:12:33-05:00",
    "error": null
   }
  ]
