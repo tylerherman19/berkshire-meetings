@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:12:33-05:00",
+ "updated": "2026-11-25T18:34:02-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,39 @@
   "General"
  ],
  "items": [
+  {
+   "town": "New Marlborough",
+   "category": "Meeting notices",
+   "topic": null,
+   "headline": "Town Hall Renovation Public Information Session",
+   "summary": "New Marlborough Listening Session December 2026",
+   "posted": "2026-11-25T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.newmarlboroughma.gov/m/newsflash/Home/Detail/144",
+   "first_seen": "2026-11-25T18:34:02-05:00"
+  },
+  {
+   "town": "Tyringham",
+   "category": "General",
+   "topic": null,
+   "headline": "Happy Thanksgiving",
+   "summary": null,
+   "posted": "2026-11-25T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.tyringham-ma.gov/m/newsflash/Home/Detail/42",
+   "first_seen": "2026-11-25T18:34:02-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Let the Season of Giving Begin \u2013 One for Your Shelf, One for Someone Else! We're kicking off the Becket Food Pantry Holiday Donation Drive at Town Hall!",
+   "summary": null,
+   "posted": "2026-11-25T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/let-season-giving-begin-%E2%80%93-one-your-shelf-one-someone-else-were-kicking-becket-food-pantry",
+   "first_seen": "2026-11-25T18:34:02-05:00"
+  },
   {
    "town": "Sheffield",
    "category": "General",
@@ -100,7 +133,7 @@
    "town": "Egremont",
    "category": "General",
    "topic": "Technology Committee",
-   "headline": "Senator Markey Calls for Consumer Protections in Verizon's Copper Telephone Phase-Out",
+   "headline": "UPDATE Senator Markey Calls for Consumer Protections in Verizon's Copper Telephone Phase-Out",
    "summary": "US Senator Edward J. Markey\u2019s office reported that Verizon has committed to no copper telephone disconnections before the fourth quarter of 2027 . That extended the earlier assurance that there would be no disconnections by the end of 2026, giving more time to work through the FCC process and remaining concerns. To\u2026",
    "posted": "2026-11-20T00:00:00-05:00",
    "date_only": true,
@@ -2870,16 +2903,16 @@
   }
  ],
  "towns": {
+  "New Marlborough": 19,
+  "Tyringham": 7,
+  "Becket": 37,
   "Sheffield": 9,
-  "New Marlborough": 18,
   "Sandisfield": 27,
   "Monterey": 12,
-  "Becket": 36,
   "Egremont": 55,
   "Great Barrington": 52,
   "Alford": 6,
   "BHRSD": 20,
-  "Tyringham": 6,
   "Otis": 19
  },
  "sources": [
@@ -2890,7 +2923,7 @@
    "ok": true,
    "scraped": 35,
    "items": 52,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
@@ -2900,7 +2933,7 @@
    "ok": true,
    "scraped": 11,
    "items": 9,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
@@ -2910,7 +2943,7 @@
    "ok": true,
    "scraped": 5,
    "items": 55,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
@@ -2919,29 +2952,29 @@
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
    "ok": true,
    "scraped": 100,
-   "items": 18,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "items": 19,
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 19,
    "items": 12,
-   "checked_at": "2026-11-25T09:12:33-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "checked_at": "2026-11-25T18:34:02-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
    "name": "Sandisfield Town News",
    "url": "https://www.sandisfieldma.gov/node/1/news",
-   "ok": true,
-   "scraped": 20,
+   "ok": false,
+   "scraped": 0,
    "items": 27,
-   "checked_at": "2026-11-25T09:12:33-05:00",
-   "error": null
+   "checked_at": "2026-11-25T18:34:02-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sandisfieldma.gov/node/1/news"
   },
   {
    "town": "Otis",
@@ -2950,28 +2983,28 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": false,
-   "scraped": 0,
-   "items": 6,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "ok": true,
+   "scraped": 1,
+   "items": 7,
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 36,
-   "checked_at": "2026-11-25T09:12:33-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 37,
+   "checked_at": "2026-11-25T18:34:02-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -2980,7 +3013,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   },
   {
@@ -2990,7 +3023,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-25T09:12:33-05:00",
+   "checked_at": "2026-11-25T18:34:02-05:00",
    "error": null
   }
  ]
