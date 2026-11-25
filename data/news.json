@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:36:12-05:00",
+ "updated": "2026-11-24T23:05:28-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -8,6 +8,17 @@
   "General"
  ],
  "items": [
+  {
+   "town": "Sheffield",
+   "category": "General",
+   "topic": null,
+   "headline": "FY27 Proposed Assessed Values and Public Disclosure Period",
+   "summary": "FY 2027 PROPOSED ASSESSED VALUES AND PUBLIC DISCLOSURE PERIOD* (11/25/26 to 12/3/26)",
+   "posted": "2026-11-24T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.sheffieldma.gov/home/news/fy27-proposed-assessed-values-and-public-disclosure-period",
+   "first_seen": "2026-11-24T23:05:28-05:00"
+  },
   {
    "town": "New Marlborough",
    "category": "Public notices",
@@ -29,6 +40,28 @@
    "date_only": true,
    "url": "https://www.sandisfieldma.gov/home/news/town-sandisfield-announces-fire-department-leadership-appointments",
    "first_seen": "2026-11-24T15:36:12-05:00"
+  },
+  {
+   "town": "Monterey",
+   "category": "Public notices",
+   "topic": null,
+   "headline": "Transfer Station Hours",
+   "summary": "The Transfer Station will be open for this coming Wednesday November 25, 2026 with regular hours as well as open Saturday November 28, 2026",
+   "posted": "2026-11-23T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.montereyma.gov/home/news/transfer-station-hours-2",
+   "first_seen": "2026-11-24T23:05:28-05:00"
+  },
+  {
+   "town": "Becket",
+   "category": "General",
+   "topic": null,
+   "headline": "Save on Heating Costs with Free DIY Weatherization Kits!",
+   "summary": "This winter, DOER (Massachusetts Department of Energy Resources) DIY",
+   "posted": "2026-11-23T00:00:00-05:00",
+   "date_only": true,
+   "url": "https://www.townofbecket.org/home/news/save-heating-costs-free-diy-weatherization-kits",
+   "first_seen": "2026-11-24T23:05:28-05:00"
   },
   {
    "town": "Sandisfield",
@@ -2892,16 +2925,16 @@
   }
  ],
  "towns": {
+  "Sheffield": 9,
   "New Marlborough": 20,
   "Sandisfield": 27,
+  "Monterey": 12,
+  "Becket": 37,
   "Egremont": 55,
   "Great Barrington": 54,
   "Alford": 6,
   "BHRSD": 20,
-  "Becket": 36,
   "Tyringham": 6,
-  "Sheffield": 8,
-  "Monterey": 11,
   "Otis": 19
  },
  "sources": [
@@ -2912,7 +2945,7 @@
    "ok": true,
    "scraped": 35,
    "items": 54,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
@@ -2920,9 +2953,9 @@
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
    "ok": true,
-   "scraped": 15,
-   "items": 8,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "scraped": 11,
+   "items": 9,
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
@@ -2932,7 +2965,7 @@
    "ok": true,
    "scraped": 5,
    "items": 55,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
@@ -2942,18 +2975,18 @@
    "ok": true,
    "scraped": 100,
    "items": 20,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 11,
-   "checked_at": "2026-11-24T15:36:12-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
+   "ok": true,
+   "scraped": 19,
+   "items": 12,
+   "checked_at": "2026-11-24T23:05:28-05:00",
+   "error": null
   },
   {
    "town": "Sandisfield",
@@ -2962,7 +2995,7 @@
    "ok": true,
    "scraped": 20,
    "items": 27,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
@@ -2972,7 +3005,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
@@ -2982,18 +3015,18 @@
    "ok": false,
    "scraped": 0,
    "items": 6,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
    "town": "Becket",
    "name": "Becket News & Announcements",
    "url": "https://www.townofbecket.org/node/1/news",
-   "ok": false,
-   "scraped": 0,
-   "items": 36,
-   "checked_at": "2026-11-24T15:36:12-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.townofbecket.org/node/1/news"
+   "ok": true,
+   "scraped": 20,
+   "items": 37,
+   "checked_at": "2026-11-24T23:05:28-05:00",
+   "error": null
   },
   {
    "town": "Alford",
@@ -3002,7 +3035,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   },
   {
@@ -3012,7 +3045,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-24T15:36:12-05:00",
+   "checked_at": "2026-11-24T23:05:28-05:00",
    "error": null
   }
  ]
