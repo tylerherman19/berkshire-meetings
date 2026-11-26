@@ -1,40 +1,13 @@
 {
- "updated": "2026-11-25T14:45:50-05:00",
+ "updated": "2026-11-26T14:25:09-05:00",
  "changes": [
   {
    "type": "added",
-   "at": "2026-11-25T14:45:50-05:00",
-   "town": "Otis",
-   "board": "Revitalization Committee",
-   "title": "Revitalization Committee Meeting",
-   "date": "2026-11-30",
-   "start": "10:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-25T14:45:50-05:00",
-   "town": "Richmond",
-   "board": "Board of Health",
-   "title": "Board of Health Meeting",
-   "date": "2026-12-01",
-   "start": ""
-  },
-  {
-   "type": "added",
-   "at": "2026-11-25T14:45:50-05:00",
-   "town": "Becket",
-   "board": "Board of Health",
-   "title": "Board of Health Agenda",
-   "date": "2026-12-02",
-   "start": "17:00"
-  },
-  {
-   "type": "added",
-   "at": "2026-11-25T14:45:50-05:00",
-   "town": "Egremont",
-   "board": "Council on Aging",
-   "title": "Council on Aging Monthly Meeting (PDF)",
-   "date": "2026-12-02",
+   "at": "2026-11-26T14:25:09-05:00",
+   "town": "Tyringham",
+   "board": "Happy Thanksgiving",
+   "title": "Happy Thanksgiving",
+   "date": "2026-11-26",
    "start": ""
   }
  ]
