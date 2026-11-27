@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:45:44-05:00",
+ "updated": "2026-11-27T07:00:34-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2923,27 +2923,27 @@
    "ok": true,
    "scraped": 35,
    "items": 52,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
    "town": "Sheffield",
    "name": "Sheffield Town News",
    "url": "https://www.sheffieldma.gov/news",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 11,
    "items": 9,
-   "checked_at": "2026-11-26T21:45:44-05:00",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
+   "checked_at": "2026-11-27T07:00:34-05:00",
+   "error": null
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
    "ok": true,
-   "scraped": 5,
+   "scraped": 4,
    "items": 55,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -2953,7 +2953,7 @@
    "ok": true,
    "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -2963,7 +2963,7 @@
    "ok": false,
    "scraped": 0,
    "items": 12,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
@@ -2973,7 +2973,7 @@
    "ok": true,
    "scraped": 20,
    "items": 27,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -2983,7 +2983,7 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -2993,7 +2993,7 @@
    "ok": true,
    "scraped": 1,
    "items": 7,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -3003,7 +3003,7 @@
    "ok": true,
    "scraped": 20,
    "items": 37,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -3013,7 +3013,7 @@
    "ok": true,
    "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   },
   {
@@ -3023,7 +3023,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-26T21:45:44-05:00",
+   "checked_at": "2026-11-27T07:00:34-05:00",
    "error": null
   }
  ]
