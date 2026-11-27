@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:30:52-05:00",
+ "updated": "2026-11-26T21:45:44-05:00",
  "retention_days": 90,
  "categories": [
   "Road closures",
@@ -2920,11 +2920,11 @@
    "town": "Great Barrington",
    "name": "Great Barrington News Flash",
    "url": "https://www.townofgbma.gov/m/newsflash?cat=1",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 35,
    "items": 52,
-   "checked_at": "2026-11-26T14:30:52-05:00",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.townofgbma.gov', port=443): Read timed out. (read timeout=40)"
+   "checked_at": "2026-11-26T21:45:44-05:00",
+   "error": null
   },
   {
    "town": "Sheffield",
@@ -2933,38 +2933,38 @@
    "ok": false,
    "scraped": 0,
    "items": 9,
-   "checked_at": "2026-11-26T14:30:52-05:00",
+   "checked_at": "2026-11-26T21:45:44-05:00",
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sheffieldma.gov/news"
   },
   {
    "town": "Egremont",
    "name": "Egremont News Flash",
    "url": "https://www.egremont-ma.gov/m/newsflash?cat=40,27,44,23,25,42,45,34,35,18,29,24,26,43,41,20,39,32,21,1,36,17,9,37,28,16,30,19,22,33,31,38,6,46",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 5,
    "items": 55,
-   "checked_at": "2026-11-26T14:30:52-05:00",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.egremont-ma.gov', port=443): Read timed out. (read timeout=40)"
+   "checked_at": "2026-11-26T21:45:44-05:00",
+   "error": null
   },
   {
    "town": "New Marlborough",
    "name": "New Marlborough News & Notices",
    "url": "https://www.newmarlboroughma.gov/m/newsflash?cat=1",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 100,
    "items": 19,
-   "checked_at": "2026-11-26T14:30:52-05:00",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.newmarlboroughma.gov', port=443): Read timed out. (read timeout=40)"
+   "checked_at": "2026-11-26T21:45:44-05:00",
+   "error": null
   },
   {
    "town": "Monterey",
    "name": "Monterey Town News",
    "url": "https://www.montereyma.gov/node/1/news",
-   "ok": true,
-   "scraped": 19,
+   "ok": false,
+   "scraped": 0,
    "items": 12,
-   "checked_at": "2026-11-26T14:30:52-05:00",
-   "error": null
+   "checked_at": "2026-11-26T21:45:44-05:00",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.montereyma.gov/node/1/news"
   },
   {
    "town": "Sandisfield",
@@ -2973,7 +2973,7 @@
    "ok": true,
    "scraped": 20,
    "items": 27,
-   "checked_at": "2026-11-26T14:30:52-05:00",
+   "checked_at": "2026-11-26T21:45:44-05:00",
    "error": null
   },
   {
@@ -2983,18 +2983,18 @@
    "ok": true,
    "scraped": 5,
    "items": 19,
-   "checked_at": "2026-11-26T14:30:52-05:00",
+   "checked_at": "2026-11-26T21:45:44-05:00",
    "error": null
   },
   {
    "town": "Tyringham",
    "name": "Tyringham News Flash",
    "url": "https://www.tyringham-ma.gov/m/newsflash?cat=1,7,17,19",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 1,
    "items": 7,
-   "checked_at": "2026-11-26T14:30:52-05:00",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.tyringham-ma.gov', port=443): Read timed out. (read timeout=40)"
+   "checked_at": "2026-11-26T21:45:44-05:00",
+   "error": null
   },
   {
    "town": "Becket",
@@ -3003,18 +3003,18 @@
    "ok": true,
    "scraped": 20,
    "items": 37,
-   "checked_at": "2026-11-26T14:30:52-05:00",
+   "checked_at": "2026-11-26T21:45:44-05:00",
    "error": null
   },
   {
    "town": "Alford",
    "name": "Alford News Flash",
    "url": "https://www.townofalford.org/m/newsflash?cat=1,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-   "ok": false,
-   "scraped": 0,
+   "ok": true,
+   "scraped": 3,
    "items": 6,
-   "checked_at": "2026-11-26T14:30:52-05:00",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.townofalford.org', port=443): Read timed out. (read timeout=40)"
+   "checked_at": "2026-11-26T21:45:44-05:00",
+   "error": null
   },
   {
    "town": "BHRSD",
@@ -3023,7 +3023,7 @@
    "ok": true,
    "scraped": 8,
    "items": 20,
-   "checked_at": "2026-11-26T14:30:52-05:00",
+   "checked_at": "2026-11-26T21:45:44-05:00",
    "error": null
   }
  ]
